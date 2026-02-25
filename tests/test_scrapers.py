@@ -110,6 +110,24 @@ class TestVertexScraper:
             status="deprecated",
         )
 
+    def test_parses_section_based_format(self):
+        html = """<html><body>
+        <div><h3>Claude 3.5 Haiku</h3>
+        <p>Claude 3.5 Haiku is deprecated as of January 5, 2026 and will be
+        shut down on July 5, 2026. Claude 3.5 Haiku is available to existing
+        customers only.</p></div>
+        </body></html>"""
+        entries = scrape_vertex(html)
+        assert len(entries) == 1
+        assert entries[0] == DeprecationEntry(
+            provider="Vertex AI",
+            model_name="Claude 3.5 Haiku",
+            model_id="Claude 3.5 Haiku",
+            deprecated_date=datetime.date(2026, 1, 5),
+            shutdown_date=datetime.date(2026, 7, 5),
+            status="deprecated",
+        )
+
 
 class TestBedrockScraper:
     def test_parses_legacy_entry(self):

@@ -8,6 +8,7 @@ MARKER_START = "<!-- DEPRECATION_TABLE_START -->"
 MARKER_END = "<!-- DEPRECATION_TABLE_END -->"
 
 RETENTION_DAYS = 90
+WARN_DAYS = 30
 
 
 def _sort_key(entry: DeprecationEntry) -> tuple[int, datetime.date]:
@@ -27,6 +28,17 @@ def _format_date(d: datetime.date) -> str:
     if d == UNKNOWN_DATE:
         return "TBD"
     return d.isoformat()
+
+
+def _format_shutdown(d: datetime.date, today: datetime.date) -> str:
+    if d == UNKNOWN_DATE:
+        return "TBD"
+    date_str = d.isoformat()
+    if d <= today:
+        return f"\U0001f534 {date_str}"
+    if (d - today).days <= WARN_DAYS:
+        return f"\U0001f7e1 {date_str}"
+    return date_str
 
 
 def generate_readme(entries: list[DeprecationEntry]) -> str:
@@ -52,7 +64,7 @@ def generate_readme(entries: list[DeprecationEntry]) -> str:
             model_id = entry.model_id
             status = entry.status
             deprecated = _format_date(entry.deprecated_date)
-            shutdown = _format_date(entry.shutdown_date)
+            shutdown = _format_shutdown(entry.shutdown_date, today)
             replacement = " ".join(entry.replacement.split())
             lines.append(
                 f"| {model} | {model_id} | {status} | {deprecated} | {shutdown} | {replacement} |"

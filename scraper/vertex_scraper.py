@@ -9,7 +9,7 @@ from scraper.base import UNKNOWN_DATE, DeprecationEntry, fetch_page
 URL = "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models"
 
 DEPRECATED_AS_OF_RE = re.compile(r"deprecated\s+as\s+of\s+(.+?)(?:\.|,|$)", re.IGNORECASE)
-SHUTDOWN_ON_RE = re.compile(r"shutdown\s+(?:on|date[:\s]+)\s*(.+?)(?:\.|,|$)", re.IGNORECASE)
+SHUTDOWN_ON_RE = re.compile(r"shut\s*down\s+(?:on|date[:\s]+)\s*(.+?)(?:\.|,|$)", re.IGNORECASE)
 DISCONTINUE_RE = re.compile(r"discontinue[ds]?\s+(?:on|as\s+of)\s+(.+?)(?:\.|,|$)", re.IGNORECASE)
 MODEL_ID_RE = re.compile(r"`([^`]+)`")
 

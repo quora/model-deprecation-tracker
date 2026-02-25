@@ -72,3 +72,42 @@ class TestGenerateReadme:
             ),
         ]
         assert "very-old-model" not in generate_readme(entries)
+
+    def test_red_indicator_for_past_dates(self):
+        today = datetime.date.today()
+        entries = [
+            DeprecationEntry(
+                provider="TestProvider",
+                model_name="past-model",
+                shutdown_date=today - datetime.timedelta(days=5),
+                status="retired",
+            ),
+        ]
+        result = generate_readme(entries)
+        assert "\U0001f534" in result
+
+    def test_yellow_indicator_for_upcoming_dates(self):
+        today = datetime.date.today()
+        entries = [
+            DeprecationEntry(
+                provider="TestProvider",
+                model_name="soon-model",
+                shutdown_date=today + datetime.timedelta(days=10),
+                status="deprecated",
+            ),
+        ]
+        result = generate_readme(entries)
+        assert "\U0001f7e1" in result
+
+    def test_no_indicator_for_distant_dates(self):
+        entries = [
+            DeprecationEntry(
+                provider="TestProvider",
+                model_name="distant-model",
+                shutdown_date=datetime.date(2027, 6, 1),
+                status="deprecated",
+            ),
+        ]
+        result = generate_readme(entries)
+        assert "\U0001f534" not in result
+        assert "\U0001f7e1" not in result
