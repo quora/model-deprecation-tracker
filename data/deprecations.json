@@ -855,6 +855,69 @@
     "status": "deprecated"
   },
   {
+    "provider": "Vertex AI",
+    "model_name": "Claude 3.5 Haiku",
+    "model_id": "Claude 3.5 Haiku",
+    "deprecated_date": "2026-01-05",
+    "shutdown_date": "2026-07-05",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Claude 3.7 Sonnet",
+    "model_id": "Claude 3.7 Sonnet",
+    "deprecated_date": "2026-11-11",
+    "shutdown_date": "2026-05-11",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Claude 3.5 Sonnet v2",
+    "model_id": "Claude 3.5 Sonnet v2",
+    "deprecated_date": "2026-08-20",
+    "shutdown_date": "2026-02-19",
+    "replacement": "",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Claude 3.5 Sonnet",
+    "model_id": "Claude 3.5 Sonnet",
+    "deprecated_date": "2026-08-20",
+    "shutdown_date": "2026-02-19",
+    "replacement": "",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Jamba 1.5 Large",
+    "model_id": "Jamba 1.5 Large",
+    "deprecated_date": "2026-08-27",
+    "shutdown_date": "2026-02-27",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Jamba 1.5 Mini",
+    "model_id": "Jamba 1.5 Mini",
+    "deprecated_date": "2026-08-27",
+    "shutdown_date": "2026-02-27",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Claude 3 Opus",
+    "model_id": "Claude 3 Opus",
+    "deprecated_date": "2026-06-30",
+    "shutdown_date": "2026-08-01",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
     "provider": "Bedrock",
     "model_name": "Stable Diffusion XL 1.0",
     "model_id": "",

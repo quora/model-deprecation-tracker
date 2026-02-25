@@ -106,6 +106,13 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
+| Claude 3.5 Sonnet v2 | Claude 3.5 Sonnet v2 | retired | 2026-08-20 | 🔴 2026-02-19 |  |
+| Claude 3.5 Sonnet | Claude 3.5 Sonnet | retired | 2026-08-20 | 🔴 2026-02-19 |  |
+| Jamba 1.5 Large | Jamba 1.5 Large | deprecated | 2026-08-27 | 🟡 2026-02-27 |  |
+| Jamba 1.5 Mini | Jamba 1.5 Mini | deprecated | 2026-08-27 | 🟡 2026-02-27 |  |
+| Claude 3.7 Sonnet | Claude 3.7 Sonnet | deprecated | 2026-11-11 | 2026-05-11 |  |
+| Claude 3.5 Haiku | Claude 3.5 Haiku | deprecated | 2026-01-05 | 2026-07-05 |  |
+| Claude 3 Opus | Claude 3 Opus | deprecated | 2026-06-30 | 2026-08-01 |  |
 | Anthropic's Claude 3 Haiku | Anthropic's Claude 3 Haiku | deprecated | 2026-02-23 | 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->
