@@ -18,7 +18,7 @@ def _sort_key(entry: DeprecationEntry) -> tuple[int, datetime.date]:
 
 def _should_include(entry: DeprecationEntry, today: datetime.date) -> bool:
     if not entry.has_shutdown_date():
-        return True
+        return False
     cutoff = today - datetime.timedelta(days=RETENTION_DAYS)
     return entry.shutdown_date >= cutoff
 

@@ -52,15 +52,15 @@ class TestGenerateReadme:
         openai_section = result.split("### OpenAI")[1].split("###")[0]
         assert openai_section.index("gpt-4-0314") < openai_section.index("gpt-3.5-turbo")
 
-    def test_unknown_date_shows_tbd(self):
+    def test_excludes_entries_without_shutdown_date(self):
         entries = [
             DeprecationEntry(
                 provider="TestProvider",
-                model_name="test-model",
+                model_name="no-shutdown-model",
                 status="active",
             ),
         ]
-        assert "TBD" in generate_readme(entries)
+        assert "no-shutdown-model" not in generate_readme(entries)
 
     def test_excludes_old_entries(self):
         entries = [

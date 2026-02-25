@@ -57,6 +57,10 @@ def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
         if not model_name:
             continue
 
+        non_empty_cells = sum(1 for t in cell_texts if t and t != "-")
+        if non_empty_cells <= 1:
+            continue
+
         shutdown_date = UNKNOWN_DATE
         if shutdown_idx >= 0 and shutdown_idx < len(cell_texts):
             shutdown_date = _parse_date_safe(cell_texts[shutdown_idx])

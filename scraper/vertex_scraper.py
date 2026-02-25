@@ -108,7 +108,7 @@ def _parse_tables(soup: BeautifulSoup) -> list[DeprecationEntry]:
             elif "shutdown" in h or "end of life" in h or "eol" in h or "discontinu" in h:
                 shutdown_idx = i
 
-        if model_idx == -1:
+        if model_idx == -1 or (deprecation_idx == -1 and shutdown_idx == -1):
             continue
 
         for row in rows[1:]:
