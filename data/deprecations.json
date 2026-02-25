@@ -847,144 +847,9 @@
   },
   {
     "provider": "Vertex AI",
-    "model_name": "Launch stage",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Supported inputs & outputs",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Token limits",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Capabilities",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Usage types",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Technical specifications",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Images",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Documents",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Knowledge cutoff date",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Versions",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Supported regions",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Model availability\n(Includes fixed quota & Provisioned Throughput)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "ML processing",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Quota limits",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Pricing",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "deprecated"
-  },
-  {
-    "provider": "Vertex AI",
-    "model_name": "Model availability",
-    "model_id": "",
-    "deprecated_date": "",
+    "model_name": "Anthropic's Claude 3 Haiku",
+    "model_id": "Anthropic's Claude 3 Haiku",
+    "deprecated_date": "2026-02-23",
     "shutdown_date": "",
     "replacement": "",
     "status": "deprecated"
@@ -1029,27 +894,9 @@
     "provider": "Bedrock",
     "model_name": "Claude 3.5 Sonnet v1",
     "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
+    "deprecated_date": "2025-08-25",
+    "shutdown_date": "2026-06-01",
     "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "August 25, 2025 (eu-central-2 Region)",
-    "model_id": "",
-    "deprecated_date": "2025-12-01",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2\n                            Regions)",
-    "model_id": "",
-    "deprecated_date": "2026-04-30",
-    "shutdown_date": "",
-    "replacement": "",
     "status": "legacy"
   },
   {
@@ -1063,29 +910,11 @@
   },
   {
     "provider": "Bedrock",
-    "model_name": "January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2\n                            Regions)",
-    "model_id": "",
-    "deprecated_date": "2026-04-30",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
     "model_name": "Claude 3.7 Sonnet",
     "model_id": "",
     "deprecated_date": "2025-10-28",
     "shutdown_date": "2026-04-28",
     "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "January 30, 2026 (us-gov-east-1 and us-gov-west-1\n                            Regions)",
-    "model_id": "",
-    "deprecated_date": "2026-04-30",
-    "shutdown_date": "",
-    "replacement": "",
     "status": "legacy"
   },
   {
@@ -1306,42 +1135,6 @@
   },
   {
     "provider": "Bedrock",
-    "model_name": "Ai21 J2 Mid-v1",
-    "model_id": "",
-    "deprecated_date": "2024-10-04",
-    "shutdown_date": "2025-03-12",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2 Ultra-v1",
-    "model_id": "",
-    "deprecated_date": "2024-10-04",
-    "shutdown_date": "2025-03-12",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2-Grande-Instruct",
-    "model_id": "",
-    "deprecated_date": "2024-10-04",
-    "shutdown_date": "2025-03-12",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2 Jumbo-Instruct",
-    "model_id": "",
-    "deprecated_date": "2024-10-04",
-    "shutdown_date": "2025-03-12",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
     "model_name": "Stability Image Core v1",
     "model_id": "",
     "deprecated_date": "2025-01-31",
@@ -1405,15 +1198,6 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Gemini",
     "model_name": "gemini-3-pro-preview",
     "model_id": "",
     "deprecated_date": "",
@@ -1447,15 +1231,6 @@
     "shutdown_date": "2026-06-17",
     "replacement": "gemini-3-pro-preview",
     "status": "deprecated"
-  },
-  {
-    "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1510,15 +1285,6 @@
     "shutdown_date": "2026-07-22",
     "replacement": "",
     "status": "deprecated"
-  },
-  {
-    "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1594,15 +1360,6 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Gemini",
     "model_name": "gemini-2.0-flash-preview-image-generation",
     "model_id": "",
     "deprecated_date": "",
@@ -1639,15 +1396,6 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Gemini",
     "model_name": "gemini-live-2.5-flash-preview",
     "model_id": "",
     "deprecated_date": "",
@@ -1672,15 +1420,6 @@
     "shutdown_date": "2026-01-14",
     "replacement": "gemini-embedding-001",
     "status": "retired"
-  },
-  {
-    "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1756,15 +1495,6 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Gemini",
     "model_name": "imagen-4.0-generate-preview-06-06",
     "model_id": "",
     "deprecated_date": "",
@@ -1780,15 +1510,6 @@
     "shutdown_date": "2026-02-17",
     "replacement": "imagen-4.0-ultra-generate-001",
     "status": "retired"
-  },
-  {
-    "provider": "Gemini",
-    "model_name": "Preview models",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
   },
   {
     "provider": "Gemini",
