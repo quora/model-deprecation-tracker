@@ -75,7 +75,7 @@ def _build_row_cells(row, num_columns: int, rowspan_tracker: dict[int, tuple[str
                 rowspan_tracker[col] = (text, remaining - 1)
         elif raw_idx < len(raw_cells):
             cell = raw_cells[raw_idx]
-            text = cell.get_text().strip()
+            text = " ".join(cell.get_text().split())
             result.append(text)
             span = int(cell.get("rowspan", 1))
             if span > 1:

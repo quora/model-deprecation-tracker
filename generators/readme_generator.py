@@ -48,12 +48,12 @@ def generate_readme(entries: list[DeprecationEntry]) -> str:
         lines.append("|-------|----------|--------|------------|----------|-------------|")
 
         for entry in group_entries:
-            model = entry.model_name
+            model = " ".join(entry.model_name.split())
             model_id = entry.model_id
             status = entry.status
             deprecated = _format_date(entry.deprecated_date)
             shutdown = _format_date(entry.shutdown_date)
-            replacement = entry.replacement
+            replacement = " ".join(entry.replacement.split())
             lines.append(
                 f"| {model} | {model_id} | {status} | {deprecated} | {shutdown} | {replacement} |"
             )
