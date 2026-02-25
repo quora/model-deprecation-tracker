@@ -44,29 +44,34 @@ def _extract_dates_from_text(text: str) -> tuple[datetime.date, datetime.date]:
     return deprecated_date, shutdown_date
 
 
-def _parse_sections(soup: BeautifulSoup) -> list[DeprecationEntry]:
+def _collect_text_after_heading(heading) -> str:
+    """Collect text from sibling elements until the next heading of same or higher level."""
+    parts = []
+    tag_name = heading.name
+    for sibling in heading.next_siblings:
+        if sibling.name in ("h1", "h2", "h3", "h4"):
+            break
+        text = sibling.get_text() if sibling.name else str(sibling)
+        parts.append(text)
+    return " ".join(parts)
+
+
+def _parse_headings(soup: BeautifulSoup) -> list[DeprecationEntry]:
     entries: list[DeprecationEntry] = []
 
-    for section in soup.find_all(["section", "div", "article"]):
-        heading = section.find(["h2", "h3", "h4"])
-        if not heading:
-            continue
-
-        section_text = section.get_text()
+    for heading in soup.find_all(["h2", "h3", "h4"]):
         heading_text = heading.get_text().strip()
+        section_text = _collect_text_after_heading(heading)
 
-        if "deprecat" not in section_text.lower() and "shutdown" not in section_text.lower():
+        deprecated_date, shutdown_date = _extract_dates_from_text(section_text)
+
+        if deprecated_date == UNKNOWN_DATE and shutdown_date == UNKNOWN_DATE:
             continue
 
         model_id = heading_text
         code_in_heading = heading.find("code")
         if code_in_heading:
             model_id = code_in_heading.get_text().strip()
-
-        deprecated_date, shutdown_date = _extract_dates_from_text(section_text)
-
-        if deprecated_date == UNKNOWN_DATE and shutdown_date == UNKNOWN_DATE:
-            continue
 
         status = "deprecated"
         if shutdown_date != UNKNOWN_DATE and shutdown_date <= datetime.date.today():
@@ -154,7 +159,7 @@ def scrape(html: str = "") -> list[DeprecationEntry]:
 
     entries = _parse_tables(soup)
     if not entries:
-        entries = _parse_sections(soup)
+        entries = _parse_headings(soup)
 
     seen: set[str] = set()
     deduplicated: list[DeprecationEntry] = []
