@@ -850,7 +850,7 @@
     "model_name": "Anthropic's Claude 3 Haiku",
     "model_id": "Anthropic's Claude 3 Haiku",
     "deprecated_date": "2026-02-23",
-    "shutdown_date": "",
+    "shutdown_date": "2026-08-23",
     "replacement": "",
     "status": "deprecated"
   },

@@ -1587,6 +1587,23 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: Anthropic's Claude 3 Haiku
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260824
+DESCRIPTION:Model: Anthropic's Claude 3 Haiku\nModel ID: Anthropic's Claud
+ e 3 Haiku\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anthropic's Claude 3 Haiku shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anthropic's Claude 3 Haiku shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 1.0
 DTSTART;VALUE=DATE:20250520
 DTEND;VALUE=DATE:20250521

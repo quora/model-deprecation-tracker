@@ -20,8 +20,8 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| claude-3-7-sonnet-20250219 |  | retired | 2025-10-28 | 2026-02-19 | claude-opus-4-6 |
-| claude-3-5-haiku-20241022 |  | retired | 2025-12-19 | 2026-02-19 | claude-haiku-4-5-20251001 |
+| claude-3-7-sonnet-20250219 |  | retired | 2025-10-28 | 🔴 2026-02-19 | claude-opus-4-6 |
+| claude-3-5-haiku-20241022 |  | retired | 2025-12-19 | 🔴 2026-02-19 | claude-haiku-4-5-20251001 |
 | claude-3-haiku-20240307 |  | deprecated | 2026-02-19 | 2026-04-20 | claude-haiku-4-5-20251001 |
 | claude-opus-4-20250514 |  | active | TBD | 2026-05-14 |  |
 | claude-sonnet-4-20250514 |  | active | TBD | 2026-05-14 |  |
@@ -36,9 +36,9 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| Claude 3 Opus |  | retired | 2025-07-15 | 2026-01-15 | Claude Opus 4.1, Claude Sonnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0, anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.5 Sonnet v1 |  | legacy | 2025-08-25 | 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.5 Sonnet v2 |  | legacy | 2025-08-25 | 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
+| Claude 3 Opus |  | retired | 2025-07-15 | 🔴 2026-01-15 | Claude Opus 4.1, Claude Sonnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0, anthropic.claude-sonnet-4-5-20250929-v1:0 |
+| Claude 3.5 Sonnet v1 |  | legacy | 2025-08-25 | 🟡 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
+| Claude 3.5 Sonnet v2 |  | legacy | 2025-08-25 | 🟡 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
 | Claude 3.7 Sonnet |  | legacy | 2025-10-28 | 2026-04-28 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
 | Claude Opus 4 |  | legacy | 2025-10-01 | 2026-05-31 | Claude Opus 4.1 / anthropic.claude-opus-4-1-20250805-v1:0 |
 | Claude 3.5 Haiku |  | legacy | 2025-12-19 | 2026-06-19 | Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0 |
@@ -53,18 +53,18 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-2.5-pro-preview-03-25 |  | retired | TBD | 2025-12-02 | gemini-3-pro-preview |
-| gemini-2.5-pro-preview-05-06 |  | retired | TBD | 2025-12-02 | gemini-3-pro-preview |
-| gemini-2.5-pro-preview-06-05 |  | retired | TBD | 2025-12-02 | gemini-3-pro-preview |
-| gemini-2.0-flash-lite-preview |  | retired | TBD | 2025-12-09 | gemini-2.5-flash-lite |
-| gemini-2.0-flash-lite-preview-02-05 |  | retired | TBD | 2025-12-09 | gemini-2.5-flash-lite |
-| gemini-2.0-flash-live-001 |  | retired | TBD | 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
-| gemini-live-2.5-flash-preview |  | retired | TBD | 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
-| text-embedding-004 |  | retired | TBD | 2026-01-14 | gemini-embedding-001 |
-| gemini-2.5-flash-image-preview |  | retired | TBD | 2026-01-15 | gemini-2.5-flash-image |
-| gemini-2.5-flash-preview-09-25 |  | retired | TBD | 2026-02-17 | gemini-3-flash-preview |
-| imagen-4.0-generate-preview-06-06 |  | retired | TBD | 2026-02-17 | imagen-4.0-generate-001 |
-| imagen-4.0-ultra-generate-preview-06-06 |  | retired | TBD | 2026-02-17 | imagen-4.0-ultra-generate-001 |
+| gemini-2.5-pro-preview-03-25 |  | retired | TBD | 🔴 2025-12-02 | gemini-3-pro-preview |
+| gemini-2.5-pro-preview-05-06 |  | retired | TBD | 🔴 2025-12-02 | gemini-3-pro-preview |
+| gemini-2.5-pro-preview-06-05 |  | retired | TBD | 🔴 2025-12-02 | gemini-3-pro-preview |
+| gemini-2.0-flash-lite-preview |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
+| gemini-2.0-flash-lite-preview-02-05 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
+| gemini-2.0-flash-live-001 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
+| gemini-live-2.5-flash-preview |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
+| text-embedding-004 |  | retired | TBD | 🔴 2026-01-14 | gemini-embedding-001 |
+| gemini-2.5-flash-image-preview |  | retired | TBD | 🔴 2026-01-15 | gemini-2.5-flash-image |
+| gemini-2.5-flash-preview-09-25 |  | retired | TBD | 🔴 2026-02-17 | gemini-3-flash-preview |
+| imagen-4.0-generate-preview-06-06 |  | retired | TBD | 🔴 2026-02-17 | imagen-4.0-generate-001 |
+| imagen-4.0-ultra-generate-preview-06-06 |  | retired | TBD | 🔴 2026-02-17 | imagen-4.0-ultra-generate-001 |
 | gemini-2.0-flash |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash |
 | gemini-2.0-flash-001 |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash |
 | gemini-2.0-flash-lite |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash-lite |
@@ -82,18 +82,18 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| codex-mini-latest |  | deprecated | TBD | 2026-02-12 | gpt-5-codex-mini |
-| chatgpt-4o-latest |  | deprecated | TBD | 2026-02-17 | gpt-5.1-chat-latest |
-| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 2026-03-24 | Realtime API |
-| gpt-4o-realtime-preview |  | deprecated | TBD | 2026-03-24 | gpt-realtime |
-| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 2026-03-24 | gpt-realtime |
-| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 2026-03-24 | gpt-realtime |
-| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 2026-03-24 | gpt-realtime-mini |
-| gpt-4o-audio-preview |  | deprecated | TBD | 2026-03-24 | gpt-audio |
-| gpt-4o-mini-audio-preview |  | deprecated | TBD | 2026-03-24 | gpt-audio-mini |
-| gpt-4-0314 |  | deprecated | TBD | 2026-03-26 | gpt-5 or gpt-4.1* |
-| gpt-4-1106-preview |  | deprecated | TBD | 2026-03-26 | gpt-5 or gpt-4.1* |
-| gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 2026-03-26 | gpt-5 or gpt-4.1* |
+| codex-mini-latest |  | deprecated | TBD | 🔴 2026-02-12 | gpt-5-codex-mini |
+| chatgpt-4o-latest |  | deprecated | TBD | 🔴 2026-02-17 | gpt-5.1-chat-latest |
+| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🟡 2026-03-24 | Realtime API |
+| gpt-4o-realtime-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime |
+| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime |
+| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime |
+| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime-mini |
+| gpt-4o-audio-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-audio |
+| gpt-4o-mini-audio-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-audio-mini |
+| gpt-4-0314 |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
+| gpt-4-1106-preview |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
+| gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
 | dall-e-2 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | dall-e-3 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | Assistants API |  | deprecated | TBD | 2026-08-26 | Responses API and Conversations API |
@@ -101,6 +101,12 @@ Automatically tracks model deprecation schedules from major AI providers.
 | babbage-002 |  | deprecated | TBD | 2026-09-28 | gpt-5-mini or gpt-4.1-mini* |
 | davinci-002 |  | deprecated | TBD | 2026-09-28 | gpt-5-mini or gpt-4.1-mini* |
 | gpt-3.5-turbo-1106 |  | deprecated | TBD | 2026-09-28 | gpt-5-mini or gpt-4.1-mini* |
+
+### Vertex AI
+
+| Model | Model ID | Status | Deprecated | Shutdown | Replacement |
+|-------|----------|--------|------------|----------|-------------|
+| Anthropic's Claude 3 Haiku | Anthropic's Claude 3 Haiku | deprecated | 2026-02-23 | 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->
 
