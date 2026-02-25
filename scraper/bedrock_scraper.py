@@ -59,6 +59,34 @@ def _find_column_indices(headers: list[str]) -> dict[str, int]:
     return indices
 
 
+def _build_row_cells(row, num_columns: int, rowspan_tracker: dict[int, tuple[str, int]]) -> list[str]:
+    """Build a full-width cell list, accounting for active rowspans from previous rows."""
+    raw_cells = row.find_all(["td", "th"])
+    result: list[str] = []
+    raw_idx = 0
+
+    for col in range(num_columns):
+        if col in rowspan_tracker:
+            text, remaining = rowspan_tracker[col]
+            result.append(text)
+            if remaining <= 1:
+                del rowspan_tracker[col]
+            else:
+                rowspan_tracker[col] = (text, remaining - 1)
+        elif raw_idx < len(raw_cells):
+            cell = raw_cells[raw_idx]
+            text = cell.get_text().strip()
+            result.append(text)
+            span = int(cell.get("rowspan", 1))
+            if span > 1:
+                rowspan_tracker[col] = (text, span - 1)
+            raw_idx += 1
+        else:
+            result.append("")
+
+    return result
+
+
 def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
     rows = table.find_all("tr")
     if not rows:
@@ -76,15 +104,14 @@ def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
     if "model" not in indices:
         return []
 
-    entries: list[DeprecationEntry] = []
+    num_columns = len(headers)
+    raw_entries: list[DeprecationEntry] = []
+    rowspan_tracker: dict[int, tuple[str, int]] = {}
 
     for row in rows[1:]:
-        cells = row.find_all(["td", "th"])
-        cell_texts = [c.get_text().strip() for c in cells]
-        if len(cell_texts) <= indices["model"]:
-            continue
+        cell_texts = _build_row_cells(row, num_columns, rowspan_tracker)
 
-        model_name = cell_texts[indices["model"]]
+        model_name = cell_texts[indices["model"]] if indices["model"] < len(cell_texts) else ""
         if not model_name:
             continue
 
@@ -114,7 +141,7 @@ def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
         elif shutdown_date != UNKNOWN_DATE and shutdown_date <= datetime.date.today():
             status = "retired"
 
-        entries.append(
+        raw_entries.append(
             DeprecationEntry(
                 provider="Bedrock",
                 model_name=model_name,
@@ -125,7 +152,18 @@ def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
             )
         )
 
-    return entries
+    # Deduplicate: keep the entry with the earliest shutdown date per model
+    best: dict[str, DeprecationEntry] = {}
+    for entry in raw_entries:
+        existing = best.get(entry.model_name)
+        if existing is None:
+            best[entry.model_name] = entry
+        elif entry.has_shutdown_date() and (
+            not existing.has_shutdown_date() or entry.shutdown_date < existing.shutdown_date
+        ):
+            best[entry.model_name] = entry
+
+    return list(best.values())
 
 
 def scrape(html: str = "") -> list[DeprecationEntry]:

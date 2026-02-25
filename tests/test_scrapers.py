@@ -136,9 +136,21 @@ class TestBedrockScraper:
             status="retired",
         )
 
+    def test_deduplicates_rowspan_entries_keeping_earliest_shutdown(self):
+        entries = scrape_bedrock(_load_fixture("bedrock.html"))
+        sonnet = _by_name(entries)["Claude 3.5 Sonnet v1"]
+        assert sonnet == DeprecationEntry(
+            provider="Bedrock",
+            model_name="Claude 3.5 Sonnet v1",
+            deprecated_date=datetime.date(2025, 8, 25),
+            shutdown_date=datetime.date(2026, 3, 1),
+            replacement="Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+            status="legacy",
+        )
+
     def test_total_count(self):
         entries = scrape_bedrock(_load_fixture("bedrock.html"))
-        assert len(entries) == 3
+        assert len(entries) == 4
 
 
 class TestGeminiScraper:
