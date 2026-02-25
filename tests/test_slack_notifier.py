@@ -46,10 +46,10 @@ def _make_entries() -> list[DeprecationEntry]:
 
 
 class TestFindUpcomingDeprecations:
-    def test_notifies_at_7_1_0_days(self):
+    def test_notifies_at_7_and_1_days(self):
         upcoming = find_upcoming_deprecations(_make_entries())
         names = {e.model_name for e in upcoming}
-        assert names == {"seven-day-model", "one-day-model", "today-model"}
+        assert names == {"seven-day-model", "one-day-model"}
 
     def test_skips_non_matching_days(self):
         upcoming = find_upcoming_deprecations(_make_entries())

@@ -5,7 +5,7 @@ import requests
 from scraper.base import DeprecationEntry
 
 
-NOTIFY_AT_DAYS = {7, 1, 0}
+NOTIFY_AT_DAYS = {7, 1}
 
 
 def find_upcoming_deprecations(
