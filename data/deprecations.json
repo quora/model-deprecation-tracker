@@ -1,0 +1,1811 @@
+[
+  {
+    "provider": "OpenAI",
+    "model_name": "chatgpt-4o-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-02-17",
+    "replacement": "gpt-5.1-chat-latest",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "codex-mini-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-02-12",
+    "replacement": "gpt-5-codex-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "dall-e-2",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-05-12",
+    "replacement": "gpt-image-1 or gpt-image-1-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "dall-e-3",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-05-12",
+    "replacement": "gpt-image-1 or gpt-image-1-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-0314",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-26",
+    "replacement": "gpt-5 or gpt-4.1*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-1106-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-26",
+    "replacement": "gpt-5 or gpt-4.1*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-26",
+    "replacement": "gpt-5 or gpt-4.1*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-instruct",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "babbage-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "davinci-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-1106",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "OpenAI-Beta: realtime=v1",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "Realtime API",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "Assistants API",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-26",
+    "replacement": "Responses API and Conversations API",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-realtime-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "gpt-realtime",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-realtime-preview-2025-06-03",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "gpt-realtime",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-realtime-preview-2024-12-17",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "gpt-realtime",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-mini-realtime-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "gpt-realtime-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-audio-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "gpt-audio",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-mini-audio-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-24",
+    "replacement": "gpt-audio-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-realtime-preview-2024-10-01",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-10",
+    "replacement": "gpt-realtime",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-audio-preview-2024-10-01",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-10",
+    "replacement": "gpt-audio",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-moderation-007",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-27",
+    "replacement": "omni-moderation",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-moderation-stable",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-27",
+    "replacement": "omni-moderation",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-moderation-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-27",
+    "replacement": "omni-moderation",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "o1-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-07-28",
+    "replacement": "o3",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "o1-mini",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-27",
+    "replacement": "o4-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4.5-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-07-14",
+    "replacement": "gpt-4.1",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "OpenAI-Beta: assistants=v1",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-12-18",
+    "replacement": "OpenAI-Beta: assistants=v2",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "New fine-tuning training on babbage-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-10-28",
+    "replacement": "gpt-4o-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "New fine-tuning training on davinci-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-10-28",
+    "replacement": "gpt-4o-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-32k",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-06-06",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-32k-0613",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-06-06",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-32k-0314",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-06-06",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-vision-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-12-06",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-1106-vision-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-12-06",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-0613",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-09-13",
+    "replacement": "gpt-3.5-turbo",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-16k-0613",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-09-13",
+    "replacement": "gpt-3.5-turbo",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "/v1/fine-tunes",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "/v1/fine_tuning/jobs",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-ada-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-babbage-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-curie-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-davinci-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-davinci-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-davinci-003",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "ada",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "babbage-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "babbage",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "babbage-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "curie",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "davinci-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "davinci",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "davinci-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-davinci-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-3.5-turbo-instruct",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-davinci-edit-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-davinci-edit-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "/v1/edits",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "/v1/chat/completions",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "ada",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "babbage-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "babbage",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "babbage-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "curie",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "davinci-002",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "davinci",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "davinci-002, gpt-3.5-turbo, gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-similarity-ada-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-ada-doc-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-ada-query-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-search-ada-code-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-search-ada-text-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-similarity-babbage-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-babbage-doc-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-babbage-query-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-search-babbage-code-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-search-babbage-text-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-similarity-curie-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-curie-doc-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-curie-query-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-similarity-davinci-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-davinci-doc-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "text-search-davinci-query-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-01-04",
+    "replacement": "text-embedding-3-small",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-0314",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-06-13",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-0301",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2024-09-13",
+    "replacement": "gpt-3.5-turbo",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4-32k-0314",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-06-06",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-davinci-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2023-03-23",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-davinci-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2023-03-23",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-cushman-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2023-03-23",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "code-cushman-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2023-03-23",
+    "replacement": "gpt-4o",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "/v1/engines",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2022-12-03",
+    "replacement": "/v1/models",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "/v1/search",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2022-12-03",
+    "replacement": "View transition guide",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "/v1/classifications",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2022-12-03",
+    "replacement": "View transition guide",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "/v1/answers",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2022-12-03",
+    "replacement": "View transition guide",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-opus-4-6",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-05",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-opus-4-5-20251101",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-11-24",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-opus-4-1-20250805",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-05",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-opus-4-20250514",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-05-14",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-sonnet-4-6",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-17",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-sonnet-4-5-20250929",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-29",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-sonnet-4-20250514",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-05-14",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-3-7-sonnet-20250219",
+    "model_id": "",
+    "deprecated_date": "2025-10-28",
+    "shutdown_date": "2026-02-19",
+    "replacement": "claude-opus-4-6",
+    "status": "retired"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-haiku-4-5-20251001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-10-15",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-3-5-haiku-20241022",
+    "model_id": "",
+    "deprecated_date": "2025-12-19",
+    "shutdown_date": "2026-02-19",
+    "replacement": "claude-haiku-4-5-20251001",
+    "status": "retired"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-3-haiku-20240307",
+    "model_id": "",
+    "deprecated_date": "2026-02-19",
+    "shutdown_date": "2026-04-20",
+    "replacement": "claude-haiku-4-5-20251001",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Launch stage",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Supported inputs & outputs",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Token limits",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Capabilities",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Usage types",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Technical specifications",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Images",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Documents",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Knowledge cutoff date",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Versions",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Supported regions",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Model availability\n(Includes fixed quota & Provisioned Throughput)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "ML processing",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Quota limits",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Pricing",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "Model availability",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Stable Diffusion XL 1.0",
+    "model_id": "",
+    "deprecated_date": "2024-10-16",
+    "shutdown_date": "2025-05-20",
+    "replacement": "Stable Image Core / stability.stable-image-core-v1:0, stability.stable-image-ultra-v1:0,\n                            and stability.sd3-large-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3 Opus",
+    "model_id": "",
+    "deprecated_date": "2025-07-15",
+    "shutdown_date": "2026-01-15",
+    "replacement": "Claude Opus 4.1, Claude Sonnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0,\n                            anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude Opus 4",
+    "model_id": "",
+    "deprecated_date": "2025-10-01",
+    "shutdown_date": "2026-05-31",
+    "replacement": "Claude Opus 4.1 / anthropic.claude-opus-4-1-20250805-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3.5 Haiku",
+    "model_id": "",
+    "deprecated_date": "2025-12-19",
+    "shutdown_date": "2026-06-19",
+    "replacement": "Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3.5 Sonnet v1",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "August 25, 2025 (eu-central-2 Region)",
+    "model_id": "",
+    "deprecated_date": "2025-12-01",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "January 30, 2026 (us-gov-east-1, us-gov-west-1, ap-northeast-1, ap-south-1, and ap-southeast-2\n                            Regions)",
+    "model_id": "",
+    "deprecated_date": "2026-04-30",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3.5 Sonnet v2",
+    "model_id": "",
+    "deprecated_date": "2025-08-25",
+    "shutdown_date": "2026-03-01",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "January 30, 2026 (ap-northeast-1, ap-northeast-3, ap-south-1, ap-south-2, and ap-southeast-2\n                            Regions)",
+    "model_id": "",
+    "deprecated_date": "2026-04-30",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3.7 Sonnet",
+    "model_id": "",
+    "deprecated_date": "2025-10-28",
+    "shutdown_date": "2026-04-28",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "January 30, 2026 (us-gov-east-1 and us-gov-west-1\n                            Regions)",
+    "model_id": "",
+    "deprecated_date": "2026-04-30",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Titan Image Generator G1 v2",
+    "model_id": "",
+    "deprecated_date": "2025-12-30",
+    "shutdown_date": "2026-06-30",
+    "replacement": "Nova Canvas or Nova 2 Omni / amazon.nova-canvas-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Llama 3.1 405B Instruct",
+    "model_id": "",
+    "deprecated_date": "2026-01-07",
+    "shutdown_date": "2026-07-07",
+    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Llama 3.2 1B Instruct",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Llama 3.2 3B Instruct",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Llama 3.2 11B Instruct",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Llama 3.2 90B Instruct",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Stable Diffusion XL 0.8",
+    "model_id": "",
+    "deprecated_date": "2024-02-02",
+    "shutdown_date": "2024-04-30",
+    "replacement": "Stable Diffusion XL 1.x / stability.stable-diffusion-xl-v1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Cohere Command",
+    "model_id": "",
+    "deprecated_date": "2024-10-04",
+    "shutdown_date": "2025-08-12",
+    "replacement": "Cohere Command R, Cohere Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Cohere Command Light",
+    "model_id": "",
+    "deprecated_date": "2024-10-04",
+    "shutdown_date": "2025-08-12",
+    "replacement": "Cohere Command R, Cohere Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude v1.3",
+    "model_id": "",
+    "deprecated_date": "2023-11-28",
+    "shutdown_date": "2024-02-28",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude v2",
+    "model_id": "",
+    "deprecated_date": "2025-01-21",
+    "shutdown_date": "2025-07-21",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude v2.1",
+    "model_id": "",
+    "deprecated_date": "2025-01-21",
+    "shutdown_date": "2025-07-21",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude Instant",
+    "model_id": "",
+    "deprecated_date": "2025-01-21",
+    "shutdown_date": "2025-07-21",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3 Sonnet",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Titan Embeddings - Text v1.1",
+    "model_id": "",
+    "deprecated_date": "2023-11-07",
+    "shutdown_date": "2024-02-15",
+    "replacement": "Titan Embeddings - Text v1.2 / amazon.titan-embed-text-v1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Meta Llama 2 13b-chat-v1",
+    "model_id": "",
+    "deprecated_date": "2024-05-12",
+    "shutdown_date": "2024-10-30",
+    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-1-8b-instruct-v1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Meta Llama 2 70b-chat-v1",
+    "model_id": "",
+    "deprecated_date": "2024-05-12",
+    "shutdown_date": "2024-10-30",
+    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-1-70b-instruct-v1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Meta Llama 2-13b",
+    "model_id": "",
+    "deprecated_date": "2024-05-12",
+    "shutdown_date": "2024-10-30",
+    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-8b-instruct-v1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Meta Llama 2-70b",
+    "model_id": "",
+    "deprecated_date": "2024-05-12",
+    "shutdown_date": "2024-10-30",
+    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-70b-instruct-v1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2 Mid-v1",
+    "model_id": "",
+    "deprecated_date": "2024-04-30",
+    "shutdown_date": "2024-10-04",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2 Ultra-v1",
+    "model_id": "",
+    "deprecated_date": "2024-04-30",
+    "shutdown_date": "2024-10-04",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2-Grande-Instruct",
+    "model_id": "",
+    "deprecated_date": "2024-04-30",
+    "shutdown_date": "2024-10-04",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2 Jumbo-Instruct",
+    "model_id": "",
+    "deprecated_date": "2024-04-30",
+    "shutdown_date": "2024-10-04",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "AI21 Jamba-Instruct",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-08-01",
+    "replacement": "AI21 Jamba 1.5 Mini or AI21 Jamba 1.5 Large / ai21.jamba-1-5-mini-v1:0 or ai21.jamba-1-5-large-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2 Mid-v1",
+    "model_id": "",
+    "deprecated_date": "2024-10-04",
+    "shutdown_date": "2025-03-12",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2 Ultra-v1",
+    "model_id": "",
+    "deprecated_date": "2024-10-04",
+    "shutdown_date": "2025-03-12",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2-Grande-Instruct",
+    "model_id": "",
+    "deprecated_date": "2024-10-04",
+    "shutdown_date": "2025-03-12",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Ai21 J2 Jumbo-Instruct",
+    "model_id": "",
+    "deprecated_date": "2024-10-04",
+    "shutdown_date": "2025-03-12",
+    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Stability Image Core v1",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-09-04",
+    "replacement": "Stability Image Core v1.1 / stability.stable-image-core-v1:1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Stability 3 Large",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-09-04",
+    "replacement": "Stability 3.5 Large / stability.sd3-5-large-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Stability Image Ultra v1",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-09-04",
+    "replacement": "Stable Image Ultra v1.1 / stability.stable-image-ultra-v1:1",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Amazon Titan Text G1 - Premier",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-08-15",
+    "replacement": "Amazon Nova Pro / amazon.nova-pro-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Amazon Titan Text G1 - Express",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-08-15",
+    "replacement": "Amazon Nova Micro / amazon.nova-micro-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Amazon Titan Text G1 - Lite",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-08-15",
+    "replacement": "Amazon Nova Lite / amazon.nova-lite-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Amazon Titan Image Generator G1 V1",
+    "model_id": "",
+    "deprecated_date": "2025-01-31",
+    "shutdown_date": "2025-08-15",
+    "replacement": "Amazon Nova Canvas / amazon.nova-canvas-v1:0",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3-pro-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3-pro-image-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3-flash-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-pro",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-17",
+    "replacement": "gemini-3-pro-preview",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-pro-preview-03-25",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-02",
+    "replacement": "gemini-3-pro-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-pro-preview-05-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-02",
+    "replacement": "gemini-3-pro-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-pro-preview-06-05",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-02",
+    "replacement": "gemini-3-pro-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-17",
+    "replacement": "gemini-3-flash-preview",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-image",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-10-02",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-lite",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-07-22",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-lite-preview-09-25",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-preview-05-20",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-11-18",
+    "replacement": "gemini-3-flash-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-image-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-01-15",
+    "replacement": "gemini-2.5-flash-image",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-preview-09-25",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-02-17",
+    "replacement": "gemini-3-flash-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-01",
+    "replacement": "gemini-2.5-flash",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-01",
+    "replacement": "gemini-2.5-flash",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-lite",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-01",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-lite-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-01",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-preview-image-generation",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-11-14",
+    "replacement": "gemini-2.5-flash-image",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-lite-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-09",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-lite-preview-02-05",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-09",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.0-flash-live-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-09",
+    "replacement": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-live-2.5-flash-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-12-09",
+    "replacement": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-embedding-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-07-14",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "text-embedding-004",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-01-14",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "embedding-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-30",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "embedding-gecko-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-30",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-embedding-exp",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-30",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-embedding-exp-03-07",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-10-30",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "imagen-4.0-generate-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-24",
+    "replacement": "gemini-3-pro-image-preview orgemini-2.5-flash-image",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "imagen-4.0-ultra-generate-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-24",
+    "replacement": "gemini-3-pro-image-preview orgemini-2.5-flash-image",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "imagen-4.0-fast-generate-001",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-24",
+    "replacement": "gemini-3-pro-image-preview orgemini-2.5-flash-image",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "imagen-3.0-generate-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-11-10",
+    "replacement": "imagen-4.0-generate-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "imagen-4.0-generate-preview-06-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-02-17",
+    "replacement": "imagen-4.0-generate-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "imagen-4.0-ultra-generate-preview-06-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-02-17",
+    "replacement": "imagen-4.0-ultra-generate-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "Preview models",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "veo-3.0-generate-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-11-12",
+    "replacement": "veo-3.1-generate-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "veo-3.0-fast-generate-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2025-11-12",
+    "replacement": "veo-3.1-fast-generate-preview",
+    "status": "retired"
+  }
+]

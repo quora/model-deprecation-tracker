@@ -1,0 +1,2767 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ModelDeprecationTracker//EN
+X-WR-CALNAME:Model Deprecations
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: chatgpt-4o-latest
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DESCRIPTION:Model: chatgpt-4o-latest\nReplacement: gpt-5.1-chat-latest\nSt
+ atus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:chatgpt-4o-latest shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:chatgpt-4o-latest shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: codex-mini-latest
+DTSTART;VALUE=DATE:20260212
+DTEND;VALUE=DATE:20260213
+DESCRIPTION:Model: codex-mini-latest\nReplacement: gpt-5-codex-mini\nStatu
+ s: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:codex-mini-latest shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:codex-mini-latest shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: dall-e-2
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+DESCRIPTION:Model: dall-e-2\nReplacement: gpt-image-1 or gpt-image-1-mini\
+ nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:dall-e-2 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:dall-e-2 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: dall-e-3
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
+DESCRIPTION:Model: dall-e-3\nReplacement: gpt-image-1 or gpt-image-1-mini\
+ nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:dall-e-3 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:dall-e-3 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-0314
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+DESCRIPTION:Model: gpt-4-0314\nReplacement: gpt-5 or gpt-4.1*\nStatus: dep
+ recated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-0314 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-0314 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-1106-preview
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+DESCRIPTION:Model: gpt-4-1106-preview\nReplacement: gpt-5 or gpt-4.1*\nSta
+ tus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-1106-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-1106-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-0125-preview (including gpt-4-tu
+ rbo-preview and gpt-4-turbo-preview-completions\, which point to this snap
+ shot)
+DTSTART;VALUE=DATE:20260326
+DTEND;VALUE=DATE:20260327
+DESCRIPTION:Model: gpt-4-0125-preview (including gpt-4-turbo-preview and g
+ pt-4-turbo-preview-completions\, which point to this snapshot)\nReplacemen
+ t: gpt-5 or gpt-4.1*\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-tu
+ rbo-preview-completions\, which point to this snapshot) shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-tu
+ rbo-preview-completions\, which point to this snapshot) shutdown in 30 day
+ s
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-instruct
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Model: gpt-3.5-turbo-instruct\nReplacement: gpt-5-mini or gpt-
+ 4.1-mini*\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: babbage-002
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Model: babbage-002\nReplacement: gpt-5-mini or gpt-4.1-mini*\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:babbage-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:babbage-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: davinci-002
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Model: davinci-002\nReplacement: gpt-5-mini or gpt-4.1-mini*\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:davinci-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:davinci-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-1106
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+DESCRIPTION:Model: gpt-3.5-turbo-1106\nReplacement: gpt-5-mini or gpt-4.1-
+ mini*\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-1106 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-1106 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: OpenAI-Beta: realtime=v1
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: OpenAI-Beta: realtime=v1\nReplacement: Realtime API\nSt
+ atus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenAI-Beta: realtime=v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenAI-Beta: realtime=v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: Assistants API
+DTSTART;VALUE=DATE:20260826
+DTEND;VALUE=DATE:20260827
+DESCRIPTION:Model: Assistants API\nReplacement: Responses API and Conversa
+ tions API\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Assistants API shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Assistants API shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: gpt-4o-realtime-preview\nReplacement: gpt-realtime\nSta
+ tus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview-2025-06-03
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: gpt-4o-realtime-preview-2025-06-03\nReplacement: gpt-re
+ altime\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview-2025-06-03 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview-2025-06-03 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview-2024-12-17
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: gpt-4o-realtime-preview-2024-12-17\nReplacement: gpt-re
+ altime\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview-2024-12-17 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview-2024-12-17 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-realtime-preview
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: gpt-4o-mini-realtime-preview\nReplacement: gpt-realtime
+ -mini\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-realtime-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-realtime-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-audio-preview
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: gpt-4o-audio-preview\nReplacement: gpt-audio\nStatus: d
+ eprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-audio-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-audio-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-audio-preview
+DTSTART;VALUE=DATE:20260324
+DTEND;VALUE=DATE:20260325
+DESCRIPTION:Model: gpt-4o-mini-audio-preview\nReplacement: gpt-audio-mini\
+ nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-audio-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-audio-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview-2024-10-01
+DTSTART;VALUE=DATE:20251010
+DTEND;VALUE=DATE:20251011
+DESCRIPTION:Model: gpt-4o-realtime-preview-2024-10-01\nReplacement: gpt-re
+ altime\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview-2024-10-01 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime-preview-2024-10-01 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-audio-preview-2024-10-01
+DTSTART;VALUE=DATE:20251010
+DTEND;VALUE=DATE:20251011
+DESCRIPTION:Model: gpt-4o-audio-preview-2024-10-01\nReplacement: gpt-audio
+ \nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-audio-preview-2024-10-01 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-audio-preview-2024-10-01 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-moderation-007
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251028
+DESCRIPTION:Model: text-moderation-007\nReplacement: omni-moderation\nStat
+ us: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-moderation-007 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-moderation-007 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-moderation-stable
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251028
+DESCRIPTION:Model: text-moderation-stable\nReplacement: omni-moderation\nS
+ tatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-moderation-stable shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-moderation-stable shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-moderation-latest
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251028
+DESCRIPTION:Model: text-moderation-latest\nReplacement: omni-moderation\nS
+ tatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-moderation-latest shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-moderation-latest shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: o1-preview
+DTSTART;VALUE=DATE:20250728
+DTEND;VALUE=DATE:20250729
+DESCRIPTION:Model: o1-preview\nReplacement: o3\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:o1-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:o1-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: o1-mini
+DTSTART;VALUE=DATE:20251027
+DTEND;VALUE=DATE:20251028
+DESCRIPTION:Model: o1-mini\nReplacement: o4-mini\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:o1-mini shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:o1-mini shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4.5-preview
+DTSTART;VALUE=DATE:20250714
+DTEND;VALUE=DATE:20250715
+DESCRIPTION:Model: gpt-4.5-preview\nReplacement: gpt-4.1\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4.5-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4.5-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: OpenAI-Beta: assistants=v1
+DTSTART;VALUE=DATE:20241218
+DTEND;VALUE=DATE:20241219
+DESCRIPTION:Model: OpenAI-Beta: assistants=v1\nReplacement: OpenAI-Beta: a
+ ssistants=v2\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenAI-Beta: assistants=v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:OpenAI-Beta: assistants=v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: New fine-tuning training on babbage-00
+ 2
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241029
+DESCRIPTION:Model: New fine-tuning training on babbage-002\nReplacement: g
+ pt-4o-mini\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New fine-tuning training on babbage-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New fine-tuning training on babbage-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: New fine-tuning training on davinci-00
+ 2
+DTSTART;VALUE=DATE:20241028
+DTEND;VALUE=DATE:20241029
+DESCRIPTION:Model: New fine-tuning training on davinci-002\nReplacement: g
+ pt-4o-mini\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New fine-tuning training on davinci-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:New fine-tuning training on davinci-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-32k
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250607
+DESCRIPTION:Model: gpt-4-32k\nReplacement: gpt-4o\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-32k-0613
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250607
+DESCRIPTION:Model: gpt-4-32k-0613\nReplacement: gpt-4o\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k-0613 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k-0613 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-32k-0314
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250607
+DESCRIPTION:Model: gpt-4-32k-0314\nReplacement: gpt-4o\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k-0314 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k-0314 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-vision-preview
+DTSTART;VALUE=DATE:20241206
+DTEND;VALUE=DATE:20241207
+DESCRIPTION:Model: gpt-4-vision-preview\nReplacement: gpt-4o\nStatus: depr
+ ecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-vision-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-vision-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-1106-vision-preview
+DTSTART;VALUE=DATE:20241206
+DTEND;VALUE=DATE:20241207
+DESCRIPTION:Model: gpt-4-1106-vision-preview\nReplacement: gpt-4o\nStatus:
+  deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-1106-vision-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-1106-vision-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-0613
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240914
+DESCRIPTION:Model: gpt-3.5-turbo-0613\nReplacement: gpt-3.5-turbo\nStatus:
+  deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-0613 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-0613 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-16k-0613
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240914
+DESCRIPTION:Model: gpt-3.5-turbo-16k-0613\nReplacement: gpt-3.5-turbo\nSta
+ tus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-16k-0613 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-16k-0613 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/fine-tunes
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: /v1/fine-tunes\nReplacement: /v1/fine_tuning/jobs\nStat
+ us: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/fine-tunes shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/fine-tunes shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-ada-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-ada-001\nReplacement: gpt-3.5-turbo-instruct\nStat
+ us: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-ada-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-ada-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-babbage-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-babbage-001\nReplacement: gpt-3.5-turbo-instruct\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-babbage-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-babbage-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-curie-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-curie-001\nReplacement: gpt-3.5-turbo-instruct\nSt
+ atus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-curie-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-curie-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-davinci-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-davinci-001\nReplacement: gpt-3.5-turbo-instruct\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-davinci-002
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-davinci-002\nReplacement: gpt-3.5-turbo-instruct\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-davinci-003
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-davinci-003\nReplacement: gpt-3.5-turbo-instruct\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-003 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-003 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: ada
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: ada\nReplacement: babbage-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ada shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ada shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: babbage
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: babbage\nReplacement: babbage-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:babbage shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:babbage shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: curie
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: curie\nReplacement: davinci-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:curie shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:curie shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: davinci
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: davinci\nReplacement: davinci-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:davinci shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:davinci shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-davinci-002
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: code-davinci-002\nReplacement: gpt-3.5-turbo-instruct\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-davinci-edit-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-davinci-edit-001\nReplacement: gpt-4o\nStatus: dep
+ recated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-edit-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-davinci-edit-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-davinci-edit-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: code-davinci-edit-001\nReplacement: gpt-4o\nStatus: dep
+ recated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-edit-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-edit-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/edits
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: /v1/edits\nReplacement: /v1/chat/completions\nStatus: d
+ eprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/edits shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/edits shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: ada
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: ada\nReplacement: babbage-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ada shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:ada shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: babbage
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: babbage\nReplacement: babbage-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:babbage shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:babbage shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: curie
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: curie\nReplacement: davinci-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:curie shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:curie shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: davinci
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: davinci\nReplacement: davinci-002\, gpt-3.5-turbo\, gpt
+ -4o\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:davinci shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:davinci shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-similarity-ada-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-similarity-ada-001\nReplacement: text-embedding-3-
+ small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-ada-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-ada-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-ada-doc-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-ada-doc-001\nReplacement: text-embedding-3-
+ small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-ada-doc-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-ada-doc-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-ada-query-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-ada-query-001\nReplacement: text-embedding-
+ 3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-ada-query-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-ada-query-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-search-ada-code-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: code-search-ada-code-001\nReplacement: text-embedding-3
+ -small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-ada-code-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-ada-code-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-search-ada-text-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: code-search-ada-text-001\nReplacement: text-embedding-3
+ -small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-ada-text-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-ada-text-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-similarity-babbage-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-similarity-babbage-001\nReplacement: text-embeddin
+ g-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-babbage-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-babbage-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-babbage-doc-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-babbage-doc-001\nReplacement: text-embeddin
+ g-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-babbage-doc-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-babbage-doc-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-babbage-query-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-babbage-query-001\nReplacement: text-embedd
+ ing-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-babbage-query-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-babbage-query-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-search-babbage-code-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: code-search-babbage-code-001\nReplacement: text-embeddi
+ ng-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-babbage-code-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-babbage-code-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-search-babbage-text-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: code-search-babbage-text-001\nReplacement: text-embeddi
+ ng-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-babbage-text-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-search-babbage-text-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-similarity-curie-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-similarity-curie-001\nReplacement: text-embedding-
+ 3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-curie-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-curie-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-curie-doc-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-curie-doc-001\nReplacement: text-embedding-
+ 3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-curie-doc-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-curie-doc-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-curie-query-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-curie-query-001\nReplacement: text-embeddin
+ g-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-curie-query-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-curie-query-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-similarity-davinci-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-similarity-davinci-001\nReplacement: text-embeddin
+ g-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-davinci-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-similarity-davinci-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-davinci-doc-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-davinci-doc-001\nReplacement: text-embeddin
+ g-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-davinci-doc-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-davinci-doc-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: text-search-davinci-query-001
+DTSTART;VALUE=DATE:20240104
+DTEND;VALUE=DATE:20240105
+DESCRIPTION:Model: text-search-davinci-query-001\nReplacement: text-embedd
+ ing-3-small\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-davinci-query-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-search-davinci-query-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-0314
+DTSTART;VALUE=DATE:20240613
+DTEND;VALUE=DATE:20240614
+DESCRIPTION:Model: gpt-4-0314\nReplacement: gpt-4o\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-0314 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-0314 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-0301
+DTSTART;VALUE=DATE:20240913
+DTEND;VALUE=DATE:20240914
+DESCRIPTION:Model: gpt-3.5-turbo-0301\nReplacement: gpt-3.5-turbo\nStatus:
+  deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-0301 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-3.5-turbo-0301 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4-32k-0314
+DTSTART;VALUE=DATE:20250606
+DTEND;VALUE=DATE:20250607
+DESCRIPTION:Model: gpt-4-32k-0314\nReplacement: gpt-4o\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k-0314 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4-32k-0314 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-davinci-002
+DTSTART;VALUE=DATE:20230323
+DTEND;VALUE=DATE:20230324
+DESCRIPTION:Model: code-davinci-002\nReplacement: gpt-4o\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-davinci-001
+DTSTART;VALUE=DATE:20230323
+DTEND;VALUE=DATE:20230324
+DESCRIPTION:Model: code-davinci-001\nReplacement: gpt-4o\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-davinci-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-cushman-002
+DTSTART;VALUE=DATE:20230323
+DTEND;VALUE=DATE:20230324
+DESCRIPTION:Model: code-cushman-002\nReplacement: gpt-4o\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-cushman-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-cushman-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: code-cushman-001
+DTSTART;VALUE=DATE:20230323
+DTEND;VALUE=DATE:20230324
+DESCRIPTION:Model: code-cushman-001\nReplacement: gpt-4o\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-cushman-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-cushman-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/engines
+DTSTART;VALUE=DATE:20221203
+DTEND;VALUE=DATE:20221204
+DESCRIPTION:Model: /v1/engines\nReplacement: /v1/models\nStatus: deprecate
+ d
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/engines shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/engines shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/search
+DTSTART;VALUE=DATE:20221203
+DTEND;VALUE=DATE:20221204
+DESCRIPTION:Model: /v1/search\nReplacement: View transition guide\nStatus:
+  deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/search shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/search shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/classifications
+DTSTART;VALUE=DATE:20221203
+DTEND;VALUE=DATE:20221204
+DESCRIPTION:Model: /v1/classifications\nReplacement: View transition guide
+ \nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/classifications shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/classifications shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/answers
+DTSTART;VALUE=DATE:20221203
+DTEND;VALUE=DATE:20221204
+DESCRIPTION:Model: /v1/answers\nReplacement: View transition guide\nStatus
+ : deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/answers shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/answers shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-opus-4-6
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+DESCRIPTION:Model: claude-opus-4-6\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-6 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-6 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-opus-4-5-20251101
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+DESCRIPTION:Model: claude-opus-4-5-20251101\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-5-20251101 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-5-20251101 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-opus-4-1-20250805
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+DESCRIPTION:Model: claude-opus-4-1-20250805\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-1-20250805 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-1-20250805 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-opus-4-20250514
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+DESCRIPTION:Model: claude-opus-4-20250514\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-20250514 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-20250514 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-sonnet-4-6
+DTSTART;VALUE=DATE:20270217
+DTEND;VALUE=DATE:20270218
+DESCRIPTION:Model: claude-sonnet-4-6\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-6 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-6 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-sonnet-4-5-20250929
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+DESCRIPTION:Model: claude-sonnet-4-5-20250929\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-5-20250929 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-5-20250929 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-sonnet-4-20250514
+DTSTART;VALUE=DATE:20260514
+DTEND;VALUE=DATE:20260515
+DESCRIPTION:Model: claude-sonnet-4-20250514\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-20250514 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-20250514 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-3-7-sonnet-20250219
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DESCRIPTION:Model: claude-3-7-sonnet-20250219\nReplacement: claude-opus-4-
+ 6\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-3-7-sonnet-20250219 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-3-7-sonnet-20250219 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-haiku-4-5-20251001
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+DESCRIPTION:Model: claude-haiku-4-5-20251001\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-haiku-4-5-20251001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-haiku-4-5-20251001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-3-5-haiku-20241022
+DTSTART;VALUE=DATE:20260219
+DTEND;VALUE=DATE:20260220
+DESCRIPTION:Model: claude-3-5-haiku-20241022\nReplacement: claude-haiku-4-
+ 5-20251001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-3-5-haiku-20241022 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-3-5-haiku-20241022 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-3-haiku-20240307
+DTSTART;VALUE=DATE:20260420
+DTEND;VALUE=DATE:20260421
+DESCRIPTION:Model: claude-3-haiku-20240307\nReplacement: claude-haiku-4-5-
+ 20251001\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-3-haiku-20240307 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-3-haiku-20240307 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 1.0
+DTSTART;VALUE=DATE:20250520
+DTEND;VALUE=DATE:20250521
+DESCRIPTION:Model: Stable Diffusion XL 1.0\nReplacement: Stable Image Core
+  / stability.stable-image-core-v1:0\, stability.stable-image-ultra-v1:0\,\
+ n                            and stability.sd3-large-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stable Diffusion XL 1.0 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stable Diffusion XL 1.0 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude 3 Opus
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Model: Claude 3 Opus\nReplacement: Claude Opus 4.1\, Claude So
+ nnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0\,\n                    
+         anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3 Opus shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3 Opus shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude Opus 4
+DTSTART;VALUE=DATE:20260531
+DTEND;VALUE=DATE:20260601
+DESCRIPTION:Model: Claude Opus 4\nReplacement: Claude Opus 4.1 / anthropic
+ .claude-opus-4-1-20250805-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude Opus 4 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude Opus 4 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Haiku
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+DESCRIPTION:Model: Claude 3.5 Haiku\nReplacement: Claude Haiku 4.5 / anthr
+ opic.claude-haiku-4-5-20251001-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3.5 Haiku shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3.5 Haiku shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Sonnet v2
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
+DESCRIPTION:Model: Claude 3.5 Sonnet v2\nReplacement: Claude Sonnet 4.5 / 
+ anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3.5 Sonnet v2 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3.5 Sonnet v2 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude 3.7 Sonnet
+DTSTART;VALUE=DATE:20260428
+DTEND;VALUE=DATE:20260429
+DESCRIPTION:Model: Claude 3.7 Sonnet\nReplacement: Claude Sonnet 4.5 / ant
+ hropic.claude-sonnet-4-5-20250929-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3.7 Sonnet shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3.7 Sonnet shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Titan Image Generator G1 v2
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+DESCRIPTION:Model: Titan Image Generator G1 v2\nReplacement: Nova Canvas o
+ r Nova 2 Omni / amazon.nova-canvas-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Titan Image Generator G1 v2 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Titan Image Generator G1 v2 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Llama 3.1 405B Instruct
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:Model: Llama 3.1 405B Instruct\nReplacement: Llama 4 Maverick 
+ 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-inst
+ ruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.1 405B Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.1 405B Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 0.8
+DTSTART;VALUE=DATE:20240430
+DTEND;VALUE=DATE:20240501
+DESCRIPTION:Model: Stable Diffusion XL 0.8\nReplacement: Stable Diffusion 
+ XL 1.x / stability.stable-diffusion-xl-v1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stable Diffusion XL 0.8 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stable Diffusion XL 0.8 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Cohere Command
+DTSTART;VALUE=DATE:20250812
+DTEND;VALUE=DATE:20250813
+DESCRIPTION:Model: Cohere Command\nReplacement: Cohere Command R\, Cohere 
+ Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0\nStatus:
+  retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cohere Command shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cohere Command shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Cohere Command Light
+DTSTART;VALUE=DATE:20250812
+DTEND;VALUE=DATE:20250813
+DESCRIPTION:Model: Cohere Command Light\nReplacement: Cohere Command R\, C
+ ohere Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0\nS
+ tatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cohere Command Light shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Cohere Command Light shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude v1.3
+DTSTART;VALUE=DATE:20240228
+DTEND;VALUE=DATE:20240229
+DESCRIPTION:Model: Claude v1.3\nReplacement: Claude Sonnet 4.5 / anthropic
+ .claude-sonnet-4-5-20250929-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude v1.3 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude v1.3 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude v2
+DTSTART;VALUE=DATE:20250721
+DTEND;VALUE=DATE:20250722
+DESCRIPTION:Model: Claude v2\nReplacement: Claude Sonnet 4.5 / anthropic.c
+ laude-sonnet-4-5-20250929-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude v2 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude v2 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude v2.1
+DTSTART;VALUE=DATE:20250721
+DTEND;VALUE=DATE:20250722
+DESCRIPTION:Model: Claude v2.1\nReplacement: Claude Sonnet 4.5 / anthropic
+ .claude-sonnet-4-5-20250929-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude v2.1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude v2.1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude Instant
+DTSTART;VALUE=DATE:20250721
+DTEND;VALUE=DATE:20250722
+DESCRIPTION:Model: Claude Instant\nReplacement: Claude Sonnet 4.5 / anthro
+ pic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude Instant shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude Instant shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Titan Embeddings - Text v1.1
+DTSTART;VALUE=DATE:20240215
+DTEND;VALUE=DATE:20240216
+DESCRIPTION:Model: Titan Embeddings - Text v1.1\nReplacement: Titan Embedd
+ ings - Text v1.2 / amazon.titan-embed-text-v1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Titan Embeddings - Text v1.1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Titan Embeddings - Text v1.1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Meta Llama 2 13b-chat-v1
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241031
+DESCRIPTION:Model: Meta Llama 2 13b-chat-v1\nReplacement: Meta Llama3 and 
+ Meta Llama3.1 / meta.llama3-1-8b-instruct-v1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2 13b-chat-v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2 13b-chat-v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Meta Llama 2 70b-chat-v1
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241031
+DESCRIPTION:Model: Meta Llama 2 70b-chat-v1\nReplacement: Meta Llama3 and 
+ Meta Llama3.1 / meta.llama3-1-70b-instruct-v1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2 70b-chat-v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2 70b-chat-v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Meta Llama 2-13b
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241031
+DESCRIPTION:Model: Meta Llama 2-13b\nReplacement: Meta Llama3 and Meta Lla
+ ma3.1 / meta.llama3-8b-instruct-v1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2-13b shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2-13b shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Meta Llama 2-70b
+DTSTART;VALUE=DATE:20241030
+DTEND;VALUE=DATE:20241031
+DESCRIPTION:Model: Meta Llama 2-70b\nReplacement: Meta Llama3 and Meta Lla
+ ma3.1 / meta.llama3-70b-instruct-v1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2-70b shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Meta Llama 2-70b shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Mid-v1
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241005
+DESCRIPTION:Model: Ai21 J2 Mid-v1\nReplacement: Jamba-Instruct v1 / ai21.j
+ amba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Mid-v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Mid-v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Ultra-v1
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241005
+DESCRIPTION:Model: Ai21 J2 Ultra-v1\nReplacement: Jamba-Instruct v1 / ai21
+ .jamba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Ultra-v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Ultra-v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2-Grande-Instruct
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241005
+DESCRIPTION:Model: Ai21 J2-Grande-Instruct\nReplacement: Jamba-Instruct v1
+  / ai21.jamba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2-Grande-Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2-Grande-Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Jumbo-Instruct
+DTSTART;VALUE=DATE:20241004
+DTEND;VALUE=DATE:20241005
+DESCRIPTION:Model: Ai21 J2 Jumbo-Instruct\nReplacement: Jamba-Instruct v1 
+ / ai21.jamba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Jumbo-Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Jumbo-Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: AI21 Jamba-Instruct
+DTSTART;VALUE=DATE:20250801
+DTEND;VALUE=DATE:20250802
+DESCRIPTION:Model: AI21 Jamba-Instruct\nReplacement: AI21 Jamba 1.5 Mini o
+ r AI21 Jamba 1.5 Large / ai21.jamba-1-5-mini-v1:0 or ai21.jamba-1-5-large-
+ v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI21 Jamba-Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:AI21 Jamba-Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Mid-v1
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250313
+DESCRIPTION:Model: Ai21 J2 Mid-v1\nReplacement: Jamba-Instruct v1 / ai21.j
+ amba-instruct-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Mid-v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Mid-v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Ultra-v1
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250313
+DESCRIPTION:Model: Ai21 J2 Ultra-v1\nReplacement: Jamba-Instruct v1 / ai21
+ .jamba-instruct-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Ultra-v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Ultra-v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2-Grande-Instruct
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250313
+DESCRIPTION:Model: Ai21 J2-Grande-Instruct\nReplacement: Jamba-Instruct v1
+  / ai21.jamba-instruct-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2-Grande-Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2-Grande-Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Jumbo-Instruct
+DTSTART;VALUE=DATE:20250312
+DTEND;VALUE=DATE:20250313
+DESCRIPTION:Model: Ai21 J2 Jumbo-Instruct\nReplacement: Jamba-Instruct v1 
+ / ai21.jamba-instruct-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Jumbo-Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ai21 J2 Jumbo-Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Stability Image Core v1
+DTSTART;VALUE=DATE:20250904
+DTEND;VALUE=DATE:20250905
+DESCRIPTION:Model: Stability Image Core v1\nReplacement: Stability Image C
+ ore v1.1 / stability.stable-image-core-v1:1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stability Image Core v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stability Image Core v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Stability 3 Large
+DTSTART;VALUE=DATE:20250904
+DTEND;VALUE=DATE:20250905
+DESCRIPTION:Model: Stability 3 Large\nReplacement: Stability 3.5 Large / s
+ tability.sd3-5-large-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stability 3 Large shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stability 3 Large shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Stability Image Ultra v1
+DTSTART;VALUE=DATE:20250904
+DTEND;VALUE=DATE:20250905
+DESCRIPTION:Model: Stability Image Ultra v1\nReplacement: Stable Image Ult
+ ra v1.1 / stability.stable-image-ultra-v1:1\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stability Image Ultra v1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Stability Image Ultra v1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Amazon Titan Text G1 - Premier
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250816
+DESCRIPTION:Model: Amazon Titan Text G1 - Premier\nReplacement: Amazon Nov
+ a Pro / amazon.nova-pro-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Text G1 - Premier shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Text G1 - Premier shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Amazon Titan Text G1 - Express
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250816
+DESCRIPTION:Model: Amazon Titan Text G1 - Express\nReplacement: Amazon Nov
+ a Micro / amazon.nova-micro-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Text G1 - Express shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Text G1 - Express shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Amazon Titan Text G1 - Lite
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250816
+DESCRIPTION:Model: Amazon Titan Text G1 - Lite\nReplacement: Amazon Nova L
+ ite / amazon.nova-lite-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Text G1 - Lite shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Text G1 - Lite shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Amazon Titan Image Generator G1 V1
+DTSTART;VALUE=DATE:20250815
+DTEND;VALUE=DATE:20250816
+DESCRIPTION:Model: Amazon Titan Image Generator G1 V1\nReplacement: Amazon
+  Nova Canvas / amazon.nova-canvas-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Image Generator G1 V1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Titan Image Generator G1 V1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+DESCRIPTION:Model: gemini-2.5-pro\nReplacement: gemini-3-pro-preview\nStat
+ us: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-03-25
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+DESCRIPTION:Model: gemini-2.5-pro-preview-03-25\nReplacement: gemini-3-pro
+ -preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro-preview-03-25 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro-preview-03-25 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-05-06
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+DESCRIPTION:Model: gemini-2.5-pro-preview-05-06\nReplacement: gemini-3-pro
+ -preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro-preview-05-06 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro-preview-05-06 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-06-05
+DTSTART;VALUE=DATE:20251202
+DTEND;VALUE=DATE:20251203
+DESCRIPTION:Model: gemini-2.5-pro-preview-06-05\nReplacement: gemini-3-pro
+ -preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro-preview-06-05 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro-preview-06-05 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash
+DTSTART;VALUE=DATE:20260617
+DTEND;VALUE=DATE:20260618
+DESCRIPTION:Model: gemini-2.5-flash\nReplacement: gemini-3-flash-preview\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-image
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+DESCRIPTION:Model: gemini-2.5-flash-image\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-image shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-image shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-lite
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+DESCRIPTION:Model: gemini-2.5-flash-lite\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-lite shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-lite shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-preview-05-20
+DTSTART;VALUE=DATE:20251118
+DTEND;VALUE=DATE:20251119
+DESCRIPTION:Model: gemini-2.5-flash-preview-05-20\nReplacement: gemini-3-f
+ lash-preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-preview-05-20 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-preview-05-20 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-image-preview
+DTSTART;VALUE=DATE:20260115
+DTEND;VALUE=DATE:20260116
+DESCRIPTION:Model: gemini-2.5-flash-image-preview\nReplacement: gemini-2.5
+ -flash-image\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-image-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-image-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-preview-09-25
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DESCRIPTION:Model: gemini-2.5-flash-preview-09-25\nReplacement: gemini-3-f
+ lash-preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-preview-09-25 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-preview-09-25 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Model: gemini-2.0-flash\nReplacement: gemini-2.5-flash\nStatus
+ : deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-001
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Model: gemini-2.0-flash-001\nReplacement: gemini-2.5-flash\nSt
+ atus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-lite
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Model: gemini-2.0-flash-lite\nReplacement: gemini-2.5-flash-li
+ te\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-lite-001
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Model: gemini-2.0-flash-lite-001\nReplacement: gemini-2.5-flas
+ h-lite\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-preview-image-generat
+ ion
+DTSTART;VALUE=DATE:20251114
+DTEND;VALUE=DATE:20251115
+DESCRIPTION:Model: gemini-2.0-flash-preview-image-generation\nReplacement:
+  gemini-2.5-flash-image\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-preview-image-generation shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-preview-image-generation shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-lite-preview
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+DESCRIPTION:Model: gemini-2.0-flash-lite-preview\nReplacement: gemini-2.5-
+ flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-lite-preview-02-05
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+DESCRIPTION:Model: gemini-2.0-flash-lite-preview-02-05\nReplacement: gemin
+ i-2.5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite-preview-02-05 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite-preview-02-05 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-live-001
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+DESCRIPTION:Model: gemini-2.0-flash-live-001\nReplacement: gemini-2.5-flas
+ h-native-audio-preview-12-2025\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-live-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-live-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-live-2.5-flash-preview
+DTSTART;VALUE=DATE:20251209
+DTEND;VALUE=DATE:20251210
+DESCRIPTION:Model: gemini-live-2.5-flash-preview\nReplacement: gemini-2.5-
+ flash-native-audio-preview-12-2025\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-live-2.5-flash-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-live-2.5-flash-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-embedding-001
+DTSTART;VALUE=DATE:20260714
+DTEND;VALUE=DATE:20260715
+DESCRIPTION:Model: gemini-embedding-001\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-embedding-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-embedding-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: text-embedding-004
+DTSTART;VALUE=DATE:20260114
+DTEND;VALUE=DATE:20260115
+DESCRIPTION:Model: text-embedding-004\nReplacement: gemini-embedding-001\n
+ Status: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-embedding-004 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-embedding-004 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: embedding-001
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20251031
+DESCRIPTION:Model: embedding-001\nReplacement: gemini-embedding-001\nStatu
+ s: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:embedding-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:embedding-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: embedding-gecko-001
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20251031
+DESCRIPTION:Model: embedding-gecko-001\nReplacement: gemini-embedding-001\
+ nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:embedding-gecko-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:embedding-gecko-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-embedding-exp
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20251031
+DESCRIPTION:Model: gemini-embedding-exp\nReplacement: gemini-embedding-001
+ \nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-embedding-exp shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-embedding-exp shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-embedding-exp-03-07
+DTSTART;VALUE=DATE:20251030
+DTEND;VALUE=DATE:20251031
+DESCRIPTION:Model: gemini-embedding-exp-03-07\nReplacement: gemini-embeddi
+ ng-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-embedding-exp-03-07 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-embedding-exp-03-07 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: imagen-4.0-generate-001
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+DESCRIPTION:Model: imagen-4.0-generate-001\nReplacement: gemini-3-pro-imag
+ e-preview orgemini-2.5-flash-image\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-generate-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-generate-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: imagen-4.0-ultra-generate-001
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+DESCRIPTION:Model: imagen-4.0-ultra-generate-001\nReplacement: gemini-3-pr
+ o-image-preview orgemini-2.5-flash-image\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-ultra-generate-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-ultra-generate-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: imagen-4.0-fast-generate-001
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
+DESCRIPTION:Model: imagen-4.0-fast-generate-001\nReplacement: gemini-3-pro
+ -image-preview orgemini-2.5-flash-image\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-fast-generate-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-fast-generate-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: imagen-3.0-generate-002
+DTSTART;VALUE=DATE:20251110
+DTEND;VALUE=DATE:20251111
+DESCRIPTION:Model: imagen-3.0-generate-002\nReplacement: imagen-4.0-genera
+ te-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-3.0-generate-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-3.0-generate-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: imagen-4.0-generate-preview-06-06
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DESCRIPTION:Model: imagen-4.0-generate-preview-06-06\nReplacement: imagen-
+ 4.0-generate-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-generate-preview-06-06 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-generate-preview-06-06 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: imagen-4.0-ultra-generate-preview-06-0
+ 6
+DTSTART;VALUE=DATE:20260217
+DTEND;VALUE=DATE:20260218
+DESCRIPTION:Model: imagen-4.0-ultra-generate-preview-06-06\nReplacement: i
+ magen-4.0-ultra-generate-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-ultra-generate-preview-06-06 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagen-4.0-ultra-generate-preview-06-06 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: veo-3.0-generate-preview
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+DESCRIPTION:Model: veo-3.0-generate-preview\nReplacement: veo-3.1-generate
+ -preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-generate-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-generate-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: veo-3.0-fast-generate-preview
+DTSTART;VALUE=DATE:20251112
+DTEND;VALUE=DATE:20251113
+DESCRIPTION:Model: veo-3.0-fast-generate-preview\nReplacement: veo-3.1-fas
+ t-generate-preview\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-fast-generate-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-fast-generate-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+END:VCALENDAR
