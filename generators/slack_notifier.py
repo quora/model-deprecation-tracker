@@ -5,15 +5,17 @@ import requests
 from scraper.base import DeprecationEntry
 
 
+NOTIFY_AT_DAYS = {7, 1, 0}
+
+
 def find_upcoming_deprecations(
-    entries: list[DeprecationEntry], days: int = 7
+    entries: list[DeprecationEntry], notify_at_days: set[int] = NOTIFY_AT_DAYS
 ) -> list[DeprecationEntry]:
     today = datetime.date.today()
-    cutoff = today + datetime.timedelta(days=days)
     return [
         e
         for e in entries
-        if e.has_shutdown_date() and today <= e.shutdown_date <= cutoff
+        if e.has_shutdown_date() and (e.shutdown_date - today).days in notify_at_days
     ]
 
 

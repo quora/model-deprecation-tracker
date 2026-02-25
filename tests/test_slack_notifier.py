@@ -14,22 +14,28 @@ def _make_entries() -> list[DeprecationEntry]:
     return [
         DeprecationEntry(
             provider="OpenAI",
-            model_name="soon-model",
-            shutdown_date=today + datetime.timedelta(days=3),
+            model_name="seven-day-model",
+            shutdown_date=today + datetime.timedelta(days=7),
             replacement="new-model",
             status="deprecated",
         ),
         DeprecationEntry(
             provider="Anthropic",
-            model_name="later-model",
-            shutdown_date=today + datetime.timedelta(days=30),
+            model_name="one-day-model",
+            shutdown_date=today + datetime.timedelta(days=1),
             status="deprecated",
         ),
         DeprecationEntry(
             provider="Gemini",
-            model_name="past-model",
-            shutdown_date=today - datetime.timedelta(days=5),
-            status="retired",
+            model_name="today-model",
+            shutdown_date=today,
+            status="deprecated",
+        ),
+        DeprecationEntry(
+            provider="Bedrock",
+            model_name="three-day-model",
+            shutdown_date=today + datetime.timedelta(days=3),
+            status="deprecated",
         ),
         DeprecationEntry(
             provider="Bedrock",
@@ -40,19 +46,20 @@ def _make_entries() -> list[DeprecationEntry]:
 
 
 class TestFindUpcomingDeprecations:
-    def test_finds_only_within_window(self):
-        upcoming = find_upcoming_deprecations(_make_entries(), days=7)
-        assert len(upcoming) == 1
-        assert upcoming[0].model_name == "soon-model"
-
-    def test_wider_window_includes_more(self):
-        upcoming = find_upcoming_deprecations(_make_entries(), days=31)
+    def test_notifies_at_7_1_0_days(self):
+        upcoming = find_upcoming_deprecations(_make_entries())
         names = {e.model_name for e in upcoming}
-        assert names == {"soon-model", "later-model"}
+        assert names == {"seven-day-model", "one-day-model", "today-model"}
 
-    def test_empty_when_no_matches(self):
-        upcoming = find_upcoming_deprecations(_make_entries(), days=1)
-        assert upcoming == []
+    def test_skips_non_matching_days(self):
+        upcoming = find_upcoming_deprecations(_make_entries())
+        names = {e.model_name for e in upcoming}
+        assert "three-day-model" not in names
+
+    def test_custom_notify_days(self):
+        upcoming = find_upcoming_deprecations(_make_entries(), notify_at_days={3})
+        assert len(upcoming) == 1
+        assert upcoming[0].model_name == "three-day-model"
 
 
 class TestFormatSlackMessage:
@@ -63,7 +70,7 @@ class TestFormatSlackMessage:
         assert blocks[0]["type"] == "header"
         assert blocks[1]["type"] == "section"
         text = blocks[1]["text"]["text"]
-        expected_parts = ["OpenAI", "soon-model", "new-model"]
+        expected_parts = ["OpenAI", "seven-day-model", "new-model"]
         for part in expected_parts:
             assert part in text, f"Expected {part!r} in Slack message text"
 
@@ -75,7 +82,7 @@ class TestSendNotification:
             mock_post.assert_called_once()
 
     def test_skips_when_no_upcoming(self):
-        entries = [_make_entries()[1]]
+        entries = [_make_entries()[3]]
         with patch("generators.slack_notifier.requests.post") as mock_post:
             send_notification(entries, "https://hooks.slack.com/test")
             mock_post.assert_not_called()
