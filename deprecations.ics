@@ -1591,8 +1591,8 @@ SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 1.0
 DTSTART;VALUE=DATE:20250520
 DTEND;VALUE=DATE:20250521
 DESCRIPTION:Model: Stable Diffusion XL 1.0\nReplacement: Stable Image Core
-  / stability.stable-image-core-v1:0\, stability.stable-image-ultra-v1:0\,\
- n                            and stability.sd3-large-v1:0\nStatus: retired
+  / stability.stable-image-core-v1:0\, stability.stable-image-ultra-v1:0\, 
+ and stability.sd3-large-v1:0\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Stable Diffusion XL 1.0 shutdown in 7 days
@@ -1609,8 +1609,8 @@ SUMMARY:[Bedrock] Model deprecation: Claude 3 Opus
 DTSTART;VALUE=DATE:20260115
 DTEND;VALUE=DATE:20260116
 DESCRIPTION:Model: Claude 3 Opus\nReplacement: Claude Opus 4.1\, Claude So
- nnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0\,\n                    
-         anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
+ nnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0\, anthropic.claude-sonn
+ et-4-5-20250929-v1:0\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3 Opus shutdown in 7 days
@@ -1658,8 +1658,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Sonnet v1
-DTSTART;VALUE=DATE:20260601
-DTEND;VALUE=DATE:20260602
+DTSTART;VALUE=DATE:20260301
+DTEND;VALUE=DATE:20260302
 DESCRIPTION:Model: Claude 3.5 Sonnet v1\nReplacement: Claude Sonnet 4.5 / 
  anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: legacy
 BEGIN:VALARM
@@ -1739,6 +1739,78 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Llama 3.1 405B Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Llama 3.2 1B Instruct
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:Model: Llama 3.2 1B Instruct\nReplacement: Llama 4 Maverick 17
+ B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instru
+ ct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 1B Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 1B Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Llama 3.2 3B Instruct
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:Model: Llama 3.2 3B Instruct\nReplacement: Llama 4 Maverick 17
+ B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instru
+ ct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 3B Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 3B Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Llama 3.2 11B Instruct
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:Model: Llama 3.2 11B Instruct\nReplacement: Llama 4 Maverick 1
+ 7B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instr
+ uct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 11B Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 11B Instruct shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Llama 3.2 90B Instruct
+DTSTART;VALUE=DATE:20260707
+DTEND;VALUE=DATE:20260708
+DESCRIPTION:Model: Llama 3.2 90B Instruct\nReplacement: Llama 4 Maverick 1
+ 7B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instr
+ uct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 90B Instruct shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Llama 3.2 90B Instruct shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
@@ -1860,6 +1932,23 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude Instant shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude 3 Sonnet
+DTSTART;VALUE=DATE:20250721
+DTEND;VALUE=DATE:20250722
+DESCRIPTION:Model: Claude 3 Sonnet\nReplacement: Claude Sonnet 4.5 / anthr
+ opic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3 Sonnet shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude 3 Sonnet shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
