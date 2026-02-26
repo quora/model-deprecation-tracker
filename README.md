@@ -14,7 +14,7 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-02-25*
+*Last updated: 2026-02-26*
 
 ### Anthropic
 
