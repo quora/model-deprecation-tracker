@@ -10,6 +10,10 @@ Automatically tracks model deprecation schedules from major AI providers.
 - **AWS Bedrock** — [Model lifecycle](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 - **Gemini** — [API deprecations](https://ai.google.dev/gemini-api/docs/deprecations)
 
+## Calendar
+
+Download [deprecations.ics](deprecations.ics) and import it into your calendar app to get reminders 7 and 30 days before model shutdowns.
+
 ## Deprecation Schedule
 
 <!-- DEPRECATION_TABLE_START -->
@@ -117,10 +121,6 @@ Automatically tracks model deprecation schedules from major AI providers.
 | Anthropic's Claude 3 Haiku | Anthropic's Claude 3 Haiku | deprecated | 2026-02-23 | 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->
-
-## Calendar
-
-Download [deprecations.ics](deprecations.ics) and import it into your calendar app to get reminders 7 and 30 days before model shutdowns.
 
 ## Slack Alerts
 
