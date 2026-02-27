@@ -14,7 +14,7 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-02-26*
+*Last updated: 2026-02-27*
 
 ### Anthropic
 
@@ -53,9 +53,9 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-2.5-pro-preview-03-25 |  | retired | TBD | 🔴 2025-12-02 | gemini-3-pro-preview |
-| gemini-2.5-pro-preview-05-06 |  | retired | TBD | 🔴 2025-12-02 | gemini-3-pro-preview |
-| gemini-2.5-pro-preview-06-05 |  | retired | TBD | 🔴 2025-12-02 | gemini-3-pro-preview |
+| gemini-2.5-pro-preview-03-25 |  | retired | TBD | 🔴 2025-12-02 | gemini-3.1-pro-preview |
+| gemini-2.5-pro-preview-05-06 |  | retired | TBD | 🔴 2025-12-02 | gemini-3.1-pro-preview |
+| gemini-2.5-pro-preview-06-05 |  | retired | TBD | 🔴 2025-12-02 | gemini-3.1-pro-preview |
 | gemini-2.0-flash-lite-preview |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
 | gemini-2.0-flash-lite-preview-02-05 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
 | gemini-2.0-flash-live-001 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
@@ -65,11 +65,12 @@ Automatically tracks model deprecation schedules from major AI providers.
 | gemini-2.5-flash-preview-09-25 |  | retired | TBD | 🔴 2026-02-17 | gemini-3-flash-preview |
 | imagen-4.0-generate-preview-06-06 |  | retired | TBD | 🔴 2026-02-17 | imagen-4.0-generate-001 |
 | imagen-4.0-ultra-generate-preview-06-06 |  | retired | TBD | 🔴 2026-02-17 | imagen-4.0-ultra-generate-001 |
+| gemini-3-pro-preview |  | deprecated | TBD | 🟡 2026-03-09 | gemini-3.1-pro-preview |
 | gemini-2.0-flash |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash |
 | gemini-2.0-flash-001 |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash |
 | gemini-2.0-flash-lite |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash-lite |
 | gemini-2.0-flash-lite-001 |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash-lite |
-| gemini-2.5-pro |  | deprecated | TBD | 2026-06-17 | gemini-3-pro-preview |
+| gemini-2.5-pro |  | deprecated | TBD | 2026-06-17 | gemini-3.1-pro-preview |
 | gemini-2.5-flash |  | deprecated | TBD | 2026-06-17 | gemini-3-flash-preview |
 | imagen-4.0-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
@@ -108,8 +109,8 @@ Automatically tracks model deprecation schedules from major AI providers.
 |-------|----------|--------|------------|----------|-------------|
 | Claude 3.5 Sonnet v2 | Claude 3.5 Sonnet v2 | retired | 2026-08-20 | 🔴 2026-02-19 |  |
 | Claude 3.5 Sonnet | Claude 3.5 Sonnet | retired | 2026-08-20 | 🔴 2026-02-19 |  |
-| Jamba 1.5 Large | Jamba 1.5 Large | deprecated | 2026-08-27 | 🟡 2026-02-27 |  |
-| Jamba 1.5 Mini | Jamba 1.5 Mini | deprecated | 2026-08-27 | 🟡 2026-02-27 |  |
+| Jamba 1.5 Large | Jamba 1.5 Large | retired | 2026-08-27 | 🔴 2026-02-27 |  |
+| Jamba 1.5 Mini | Jamba 1.5 Mini | retired | 2026-08-27 | 🔴 2026-02-27 |  |
 | Claude 3.7 Sonnet | Claude 3.7 Sonnet | deprecated | 2026-11-11 | 2026-05-11 |  |
 | Claude 3.5 Haiku | Claude 3.5 Haiku | deprecated | 2026-01-05 | 2026-07-05 |  |
 | Claude 3 Opus | Claude 3 Opus | deprecated | 2026-06-30 | 2026-08-01 |  |

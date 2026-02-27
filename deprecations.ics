@@ -1675,8 +1675,8 @@ BEGIN:VEVENT
 SUMMARY:[Vertex AI] Model deprecation: Jamba 1.5 Large
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
-DESCRIPTION:Model: Jamba 1.5 Large\nModel ID: Jamba 1.5 Large\nStatus: dep
- recated
+DESCRIPTION:Model: Jamba 1.5 Large\nModel ID: Jamba 1.5 Large\nStatus: ret
+ ired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Jamba 1.5 Large shutdown in 7 days
@@ -1692,8 +1692,8 @@ BEGIN:VEVENT
 SUMMARY:[Vertex AI] Model deprecation: Jamba 1.5 Mini
 DTSTART;VALUE=DATE:20260227
 DTEND;VALUE=DATE:20260228
-DESCRIPTION:Model: Jamba 1.5 Mini\nModel ID: Jamba 1.5 Mini\nStatus: depre
- cated
+DESCRIPTION:Model: Jamba 1.5 Mini\nModel ID: Jamba 1.5 Mini\nStatus: retir
+ ed
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Jamba 1.5 Mini shutdown in 7 days
@@ -2379,11 +2379,28 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-3-pro-preview
+DTSTART;VALUE=DATE:20260309
+DTEND;VALUE=DATE:20260310
+DESCRIPTION:Model: gemini-3-pro-preview\nReplacement: gemini-3.1-pro-previ
+ ew\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3-pro-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3-pro-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro
 DTSTART;VALUE=DATE:20260617
 DTEND;VALUE=DATE:20260618
-DESCRIPTION:Model: gemini-2.5-pro\nReplacement: gemini-3-pro-preview\nStat
- us: deprecated
+DESCRIPTION:Model: gemini-2.5-pro\nReplacement: gemini-3.1-pro-preview\nSt
+ atus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-pro shutdown in 7 days
@@ -2399,8 +2416,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-03-25
 DTSTART;VALUE=DATE:20251202
 DTEND;VALUE=DATE:20251203
-DESCRIPTION:Model: gemini-2.5-pro-preview-03-25\nReplacement: gemini-3-pro
- -preview\nStatus: retired
+DESCRIPTION:Model: gemini-2.5-pro-preview-03-25\nReplacement: gemini-3.1-p
+ ro-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-pro-preview-03-25 shutdown in 7 days
@@ -2416,8 +2433,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-05-06
 DTSTART;VALUE=DATE:20251202
 DTEND;VALUE=DATE:20251203
-DESCRIPTION:Model: gemini-2.5-pro-preview-05-06\nReplacement: gemini-3-pro
- -preview\nStatus: retired
+DESCRIPTION:Model: gemini-2.5-pro-preview-05-06\nReplacement: gemini-3.1-p
+ ro-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-pro-preview-05-06 shutdown in 7 days
@@ -2433,8 +2450,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-06-05
 DTSTART;VALUE=DATE:20251202
 DTEND;VALUE=DATE:20251203
-DESCRIPTION:Model: gemini-2.5-pro-preview-06-05\nReplacement: gemini-3-pro
- -preview\nStatus: retired
+DESCRIPTION:Model: gemini-2.5-pro-preview-06-05\nReplacement: gemini-3.1-p
+ ro-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-pro-preview-06-05 shutdown in 7 days

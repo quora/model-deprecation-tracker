@@ -897,7 +897,7 @@
     "deprecated_date": "2026-08-27",
     "shutdown_date": "2026-02-27",
     "replacement": "",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Vertex AI",
@@ -906,7 +906,7 @@
     "deprecated_date": "2026-08-27",
     "shutdown_date": "2026-02-27",
     "replacement": "",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Vertex AI",
@@ -1261,7 +1261,7 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "gemini-3-pro-preview",
+    "model_name": "gemini-3.1-pro-preview",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
@@ -1288,11 +1288,20 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-3-pro-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-03-09",
+    "replacement": "gemini-3.1-pro-preview",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-2.5-pro",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-06-17",
-    "replacement": "gemini-3-pro-preview",
+    "replacement": "gemini-3.1-pro-preview",
     "status": "deprecated"
   },
   {
@@ -1301,7 +1310,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-02",
-    "replacement": "gemini-3-pro-preview",
+    "replacement": "gemini-3.1-pro-preview",
     "status": "retired"
   },
   {
@@ -1310,7 +1319,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-02",
-    "replacement": "gemini-3-pro-preview",
+    "replacement": "gemini-3.1-pro-preview",
     "status": "retired"
   },
   {
@@ -1319,7 +1328,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-02",
-    "replacement": "gemini-3-pro-preview",
+    "replacement": "gemini-3.1-pro-preview",
     "status": "retired"
   },
   {
