@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-02-27*
+*Last updated: 2026-03-01*
 
 ### Anthropic
 
@@ -41,8 +41,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | Claude 3 Opus |  | retired | 2025-07-15 | 🔴 2026-01-15 | Claude Opus 4.1, Claude Sonnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0, anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.5 Sonnet v1 |  | legacy | 2025-08-25 | 🟡 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.5 Sonnet v2 |  | legacy | 2025-08-25 | 🟡 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
+| Claude 3.5 Sonnet v1 |  | retired | 2025-08-25 | 🔴 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
+| Claude 3.5 Sonnet v2 |  | retired | 2025-08-25 | 🔴 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
 | Claude 3.7 Sonnet |  | legacy | 2025-10-28 | 2026-04-28 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
 | Claude Opus 4 |  | legacy | 2025-10-01 | 2026-05-31 | Claude Opus 4.1 / anthropic.claude-opus-4-1-20250805-v1:0 |
 | Claude 3.5 Haiku |  | legacy | 2025-12-19 | 2026-06-19 | Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0 |

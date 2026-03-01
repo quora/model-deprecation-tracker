@@ -1797,7 +1797,7 @@ SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Sonnet v1
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 DESCRIPTION:Model: Claude 3.5 Sonnet v1\nReplacement: Claude Sonnet 4.5 / 
- anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: legacy
+ anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3.5 Sonnet v1 shutdown in 7 days
@@ -1814,7 +1814,7 @@ SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Sonnet v2
 DTSTART;VALUE=DATE:20260301
 DTEND;VALUE=DATE:20260302
 DESCRIPTION:Model: Claude 3.5 Sonnet v2\nReplacement: Claude Sonnet 4.5 / 
- anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: legacy
+ anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3.5 Sonnet v2 shutdown in 7 days

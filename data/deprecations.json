@@ -960,7 +960,7 @@
     "deprecated_date": "2025-08-25",
     "shutdown_date": "2026-03-01",
     "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "legacy"
+    "status": "retired"
   },
   {
     "provider": "Bedrock",
@@ -969,7 +969,7 @@
     "deprecated_date": "2025-08-25",
     "shutdown_date": "2026-03-01",
     "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "legacy"
+    "status": "retired"
   },
   {
     "provider": "Bedrock",
