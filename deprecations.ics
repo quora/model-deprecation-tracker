@@ -2484,7 +2484,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-image
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
-DESCRIPTION:Model: gemini-2.5-flash-image\nStatus: deprecated
+DESCRIPTION:Model: gemini-2.5-flash-image\nReplacement: gemini-3.1-flash-i
+ mage-preview\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-flash-image shutdown in 7 days
@@ -2500,7 +2501,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-lite
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-DESCRIPTION:Model: gemini-2.5-flash-lite\nStatus: deprecated
+DESCRIPTION:Model: gemini-2.5-flash-lite\nReplacement: gemini-3.1-flash-li
+ te-preview\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-flash-lite shutdown in 7 days

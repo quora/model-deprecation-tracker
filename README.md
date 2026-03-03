@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-03-02*
+*Last updated: 2026-03-03*
 
 ### Anthropic
 
@@ -57,9 +57,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-2.5-pro-preview-03-25 |  | retired | TBD | 🔴 2025-12-02 | gemini-3.1-pro-preview |
-| gemini-2.5-pro-preview-05-06 |  | retired | TBD | 🔴 2025-12-02 | gemini-3.1-pro-preview |
-| gemini-2.5-pro-preview-06-05 |  | retired | TBD | 🔴 2025-12-02 | gemini-3.1-pro-preview |
 | gemini-2.0-flash-lite-preview |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
 | gemini-2.0-flash-lite-preview-02-05 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
 | gemini-2.0-flash-live-001 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
@@ -80,8 +77,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | gemini-embedding-001 |  | deprecated | TBD | 2026-07-14 |  |
-| gemini-2.5-flash-lite |  | deprecated | TBD | 2026-07-22 |  |
-| gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 |  |
+| gemini-2.5-flash-lite |  | deprecated | TBD | 2026-07-22 | gemini-3.1-flash-lite-preview |
+| gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
 
 ### OpenAI
 
