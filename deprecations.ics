@@ -2383,7 +2383,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-3-pro-preview
 DTSTART;VALUE=DATE:20260309
 DTEND;VALUE=DATE:20260310
 DESCRIPTION:Model: gemini-3-pro-preview\nReplacement: gemini-3.1-pro-previ
- ew\nStatus: deprecated
+ ew\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3-pro-preview shutdown in 7 days
