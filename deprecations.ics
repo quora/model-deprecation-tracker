@@ -197,8 +197,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: OpenAI-Beta: realtime=v1
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
 DESCRIPTION:Model: OpenAI-Beta: realtime=v1\nReplacement: Realtime API\nSt
  atus: deprecated
 BEGIN:VALARM
@@ -231,10 +231,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
-DESCRIPTION:Model: gpt-4o-realtime-preview\nReplacement: gpt-realtime\nSta
- tus: deprecated
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+DESCRIPTION:Model: gpt-4o-realtime-preview\nReplacement: gpt-realtime-1.5\
+ nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-realtime-preview shutdown in 7 days
@@ -248,10 +248,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview-2025-06-03
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
 DESCRIPTION:Model: gpt-4o-realtime-preview-2025-06-03\nReplacement: gpt-re
- altime\nStatus: deprecated
+ altime-1.5\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-realtime-preview-2025-06-03 shutdown in 7 days
@@ -265,10 +265,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview-2024-12-17
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
 DESCRIPTION:Model: gpt-4o-realtime-preview-2024-12-17\nReplacement: gpt-re
- altime\nStatus: deprecated
+ altime-1.5\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-realtime-preview-2024-12-17 shutdown in 7 days
@@ -282,8 +282,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-realtime-preview
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
 DESCRIPTION:Model: gpt-4o-mini-realtime-preview\nReplacement: gpt-realtime
  -mini\nStatus: deprecated
 BEGIN:VALARM
@@ -299,10 +299,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-audio-preview
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
-DESCRIPTION:Model: gpt-4o-audio-preview\nReplacement: gpt-audio\nStatus: d
- eprecated
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
+DESCRIPTION:Model: gpt-4o-audio-preview\nReplacement: gpt-audio-1.5\nStatu
+ s: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-audio-preview shutdown in 7 days
@@ -316,8 +316,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-audio-preview
-DTSTART;VALUE=DATE:20260324
-DTEND;VALUE=DATE:20260325
+DTSTART;VALUE=DATE:20260507
+DTEND;VALUE=DATE:20260508
 DESCRIPTION:Model: gpt-4o-mini-audio-preview\nReplacement: gpt-audio-mini\
  nStatus: deprecated
 BEGIN:VALARM
@@ -336,7 +336,7 @@ SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview-2024-10-01
 DTSTART;VALUE=DATE:20251010
 DTEND;VALUE=DATE:20251011
 DESCRIPTION:Model: gpt-4o-realtime-preview-2024-10-01\nReplacement: gpt-re
- altime\nStatus: deprecated
+ altime-1.5\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-realtime-preview-2024-10-01 shutdown in 7 days
@@ -353,7 +353,7 @@ SUMMARY:[OpenAI] Model deprecation: gpt-4o-audio-preview-2024-10-01
 DTSTART;VALUE=DATE:20251010
 DTEND;VALUE=DATE:20251011
 DESCRIPTION:Model: gpt-4o-audio-preview-2024-10-01\nReplacement: gpt-audio
- \nStatus: deprecated
+ -1.5\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-audio-preview-2024-10-01 shutdown in 7 days

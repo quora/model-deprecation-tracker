@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-03-09*
+*Last updated: 2026-03-10*
 
 ### Anthropic
 
@@ -57,10 +57,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-2.0-flash-lite-preview |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
-| gemini-2.0-flash-lite-preview-02-05 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-lite |
-| gemini-2.0-flash-live-001 |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
-| gemini-live-2.5-flash-preview |  | retired | TBD | 🔴 2025-12-09 | gemini-2.5-flash-native-audio-preview-12-2025 |
 | text-embedding-004 |  | retired | TBD | 🔴 2026-01-14 | gemini-embedding-001 |
 | gemini-2.5-flash-image-preview |  | retired | TBD | 🔴 2026-01-15 | gemini-2.5-flash-image |
 | gemini-2.5-flash-preview-09-25 |  | retired | TBD | 🔴 2026-02-17 | gemini-3-flash-preview |
@@ -86,16 +82,16 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | codex-mini-latest |  | deprecated | TBD | 🔴 2026-02-12 | gpt-5-codex-mini |
 | chatgpt-4o-latest |  | deprecated | TBD | 🔴 2026-02-17 | gpt-5.1-chat-latest |
-| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🟡 2026-03-24 | Realtime API |
-| gpt-4o-realtime-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime |
-| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime |
-| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime |
-| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-realtime-mini |
-| gpt-4o-audio-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-audio |
-| gpt-4o-mini-audio-preview |  | deprecated | TBD | 🟡 2026-03-24 | gpt-audio-mini |
 | gpt-4-0314 |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-1106-preview |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
+| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 2026-05-07 | Realtime API |
+| gpt-4o-realtime-preview |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 2026-05-07 | gpt-realtime-mini |
+| gpt-4o-audio-preview |  | deprecated | TBD | 2026-05-07 | gpt-audio-1.5 |
+| gpt-4o-mini-audio-preview |  | deprecated | TBD | 2026-05-07 | gpt-audio-mini |
 | dall-e-2 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | dall-e-3 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | Assistants API |  | deprecated | TBD | 2026-08-26 | Responses API and Conversations API |

@@ -103,7 +103,7 @@
     "model_name": "OpenAI-Beta: realtime=v1",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
+    "shutdown_date": "2026-05-07",
     "replacement": "Realtime API",
     "status": "deprecated"
   },
@@ -121,8 +121,8 @@
     "model_name": "gpt-4o-realtime-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
-    "replacement": "gpt-realtime",
+    "shutdown_date": "2026-05-07",
+    "replacement": "gpt-realtime-1.5",
     "status": "deprecated"
   },
   {
@@ -130,8 +130,8 @@
     "model_name": "gpt-4o-realtime-preview-2025-06-03",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
-    "replacement": "gpt-realtime",
+    "shutdown_date": "2026-05-07",
+    "replacement": "gpt-realtime-1.5",
     "status": "deprecated"
   },
   {
@@ -139,8 +139,8 @@
     "model_name": "gpt-4o-realtime-preview-2024-12-17",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
-    "replacement": "gpt-realtime",
+    "shutdown_date": "2026-05-07",
+    "replacement": "gpt-realtime-1.5",
     "status": "deprecated"
   },
   {
@@ -148,7 +148,7 @@
     "model_name": "gpt-4o-mini-realtime-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
+    "shutdown_date": "2026-05-07",
     "replacement": "gpt-realtime-mini",
     "status": "deprecated"
   },
@@ -157,8 +157,8 @@
     "model_name": "gpt-4o-audio-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
-    "replacement": "gpt-audio",
+    "shutdown_date": "2026-05-07",
+    "replacement": "gpt-audio-1.5",
     "status": "deprecated"
   },
   {
@@ -166,7 +166,7 @@
     "model_name": "gpt-4o-mini-audio-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-03-24",
+    "shutdown_date": "2026-05-07",
     "replacement": "gpt-audio-mini",
     "status": "deprecated"
   },
@@ -176,7 +176,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-10-10",
-    "replacement": "gpt-realtime",
+    "replacement": "gpt-realtime-1.5",
     "status": "deprecated"
   },
   {
@@ -185,7 +185,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-10-10",
-    "replacement": "gpt-audio",
+    "replacement": "gpt-audio-1.5",
     "status": "deprecated"
   },
   {
