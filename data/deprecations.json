@@ -1378,12 +1378,12 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "gemini-2.5-flash-lite-preview-09-25",
+    "model_name": "gemini-2.5-flash-lite-preview-09-2025",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-03-31",
+    "replacement": "gemini-3.1-flash-lite-preview",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",

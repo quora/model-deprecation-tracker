@@ -2515,6 +2515,23 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-lite-preview-09-2025
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+DESCRIPTION:Model: gemini-2.5-flash-lite-preview-09-2025\nReplacement: gem
+ ini-3.1-flash-lite-preview\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-lite-preview-09-2025 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-lite-preview-09-2025 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-preview-05-20
 DTSTART;VALUE=DATE:20251118
 DTEND;VALUE=DATE:20251119
