@@ -68,7 +68,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "replacement": "gpt-5.4-mini or gpt-5-mini",
     "status": "deprecated"
   },
   {
@@ -77,7 +77,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "replacement": "gpt-5.4-mini or gpt-5-mini",
     "status": "deprecated"
   },
   {
@@ -86,7 +86,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "replacement": "gpt-5.4-mini or gpt-5-mini",
     "status": "deprecated"
   },
   {
@@ -95,7 +95,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5-mini or gpt-4.1-mini*",
+    "replacement": "gpt-5.4-mini or gpt-5-mini",
     "status": "deprecated"
   },
   {
@@ -787,63 +787,9 @@
     "model_name": "claude-sonnet-4-6",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-02-17",
+    "shutdown_date": "",
     "replacement": "",
     "status": "active"
-  },
-  {
-    "provider": "Anthropic",
-    "model_name": "claude-sonnet-4-5-20250929",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-29",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Anthropic",
-    "model_name": "claude-sonnet-4-20250514",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-05-14",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Anthropic",
-    "model_name": "claude-3-7-sonnet-20250219",
-    "model_id": "",
-    "deprecated_date": "2025-10-28",
-    "shutdown_date": "2026-02-19",
-    "replacement": "claude-opus-4-6",
-    "status": "retired"
-  },
-  {
-    "provider": "Anthropic",
-    "model_name": "claude-haiku-4-5-20251001",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-10-15",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Anthropic",
-    "model_name": "claude-3-5-haiku-20241022",
-    "model_id": "",
-    "deprecated_date": "2025-12-19",
-    "shutdown_date": "2026-02-19",
-    "replacement": "claude-haiku-4-5-20251001",
-    "status": "retired"
-  },
-  {
-    "provider": "Anthropic",
-    "model_name": "claude-3-haiku-20240307",
-    "model_id": "",
-    "deprecated_date": "2026-02-19",
-    "shutdown_date": "2026-04-20",
-    "replacement": "claude-haiku-4-5-20251001",
-    "status": "deprecated"
   },
   {
     "provider": "Vertex AI",
