@@ -1,5 +1,8 @@
+import logging
 import os
 from pathlib import Path
+
+logging.basicConfig(level=logging.INFO, format="%(levelname)s: %(message)s")
 
 import orjson
 
@@ -32,9 +35,13 @@ def main() -> None:
     update_readme(str(README_PATH), all_entries)
     write_ics(all_entries, str(ICS_PATH))
 
-    slack_webhook = os.environ.get("SLACK_WEBHOOK_URL", "")
-    if slack_webhook:
-        send_notification(all_entries, slack_webhook)
+    slack_webhooks = [
+        url.strip()
+        for url in os.environ.get("SLACK_WEBHOOK_URL", "").split(",")
+        if url.strip()
+    ]
+    if slack_webhooks:
+        send_notification(all_entries, slack_webhooks)
 
 
 main()

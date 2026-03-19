@@ -1,6 +1,9 @@
 import datetime
+import logging
 
 import requests
+
+log = logging.getLogger(__name__)
 
 from scraper.base import DeprecationEntry
 
@@ -53,11 +56,13 @@ def format_slack_message(entries: list[DeprecationEntry]) -> dict:
 
 
 def send_notification(
-    entries: list[DeprecationEntry], webhook_url: str
+    entries: list[DeprecationEntry], webhook_urls: list[str]
 ) -> None:
     upcoming = find_upcoming_deprecations(entries)
     if not upcoming:
         return
 
     payload = format_slack_message(upcoming)
-    requests.post(webhook_url, json=payload, timeout=10)
+    log.info("Sending Slack notification:\n%s", payload)
+    for url in webhook_urls:
+        requests.post(url, json=payload, timeout=10)

@@ -111,7 +111,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 ## Slack Alerts
 
-Set the `SLACK_WEBHOOK_URL` environment variable (or GitHub Actions secret) to receive Slack notifications when a model shutdown is within 7 days.
+Set the `SLACK_WEBHOOK_URL` environment variable (or GitHub Actions secret) to receive Slack notifications when a model shutdown is within 7 days. Multiple webhook URLs can be provided as a comma-separated list to notify multiple channels.
 
 ## Setup
 

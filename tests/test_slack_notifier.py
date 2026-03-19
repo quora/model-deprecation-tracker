@@ -78,11 +78,22 @@ class TestFormatSlackMessage:
 class TestSendNotification:
     def test_sends_when_upcoming_exists(self):
         with patch("generators.slack_notifier.requests.post") as mock_post:
-            send_notification(_make_entries(), "https://hooks.slack.com/test")
+            send_notification(_make_entries(), ["https://hooks.slack.com/test"])
             mock_post.assert_called_once()
+
+    def test_sends_to_multiple_webhooks(self):
+        urls = [
+            "https://hooks.slack.com/first",
+            "https://hooks.slack.com/second",
+        ]
+        with patch("generators.slack_notifier.requests.post") as mock_post:
+            send_notification(_make_entries(), urls)
+            assert mock_post.call_count == 2
+            called_urls = [call.args[0] for call in mock_post.call_args_list]
+            assert called_urls == urls
 
     def test_skips_when_no_upcoming(self):
         entries = [_make_entries()[3]]
         with patch("generators.slack_notifier.requests.post") as mock_post:
-            send_notification(entries, "https://hooks.slack.com/test")
+            send_notification(entries, ["https://hooks.slack.com/test"])
             mock_post.assert_not_called()
