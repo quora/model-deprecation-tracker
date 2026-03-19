@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-03-18*
+*Last updated: 2026-03-19*
 
 ### Anthropic
 
@@ -45,6 +45,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Llama 3.2 3B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
 | Llama 3.2 11B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
 | Llama 3.2 90B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
+| Amazon Nova Premier |  | legacy | 2026-03-13 | 2026-09-14 | Nova 2 Lite / amazon.nova-2-lite-v1:0 |
+| Amazon Nova Sonic |  | legacy | 2026-03-13 | 2026-09-14 | Amazon Nova 2 Sonic / amazon.nova-2-sonic-v1:0 |
 
 ### Gemini
 

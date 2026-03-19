@@ -982,6 +982,24 @@
   },
   {
     "provider": "Bedrock",
+    "model_name": "Amazon Nova Premier",
+    "model_id": "",
+    "deprecated_date": "2026-03-13",
+    "shutdown_date": "2026-09-14",
+    "replacement": "Nova 2 Lite / amazon.nova-2-lite-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Amazon Nova Sonic",
+    "model_id": "",
+    "deprecated_date": "2026-03-13",
+    "shutdown_date": "2026-09-14",
+    "replacement": "Amazon Nova 2 Sonic / amazon.nova-2-sonic-v1:0",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
     "model_name": "Stable Diffusion XL 0.8",
     "model_id": "",
     "deprecated_date": "2024-02-02",

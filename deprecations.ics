@@ -1836,6 +1836,40 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Amazon Nova Premier
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+DESCRIPTION:Model: Amazon Nova Premier\nReplacement: Nova 2 Lite / amazon.
+ nova-2-lite-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Nova Premier shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Nova Premier shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Amazon Nova Sonic
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+DESCRIPTION:Model: Amazon Nova Sonic\nReplacement: Amazon Nova 2 Sonic / a
+ mazon.nova-2-sonic-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Nova Sonic shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Amazon Nova Sonic shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 0.8
 DTSTART;VALUE=DATE:20240430
 DTEND;VALUE=DATE:20240501
