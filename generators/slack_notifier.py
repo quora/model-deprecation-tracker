@@ -52,7 +52,19 @@ def format_slack_message(entries: list[DeprecationEntry]) -> dict:
             }
         )
 
-    return {"blocks": blocks}
+    # Build plain-text fallback for Slack event ingestion
+    lines = ["Upcoming Model Deprecations"]
+    for entry in entries:
+        days_until = (entry.shutdown_date - datetime.date.today()).days
+        line = f"{entry.provider} - {entry.model_name}"
+        if entry.model_id:
+            line += f" ({entry.model_id})"
+        line += f" | Shutdown: {entry.shutdown_date.isoformat()} ({days_until} days)"
+        if entry.replacement:
+            line += f" | Replacement: {entry.replacement}"
+        lines.append(line)
+
+    return {"text": "\n".join(lines), "blocks": blocks}
 
 
 def send_notification(
