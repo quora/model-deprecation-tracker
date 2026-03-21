@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-03-20*
+*Last updated: 2026-03-21*
 
 ### Anthropic
 
@@ -26,7 +26,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | claude-3-7-sonnet-20250219 |  | retired | 2025-10-28 | 🔴 2026-02-19 | claude-opus-4-6 |
 | claude-3-5-haiku-20241022 |  | retired | 2025-12-19 | 🔴 2026-02-19 | claude-haiku-4-5-20251001 |
-| claude-3-haiku-20240307 |  | deprecated | 2026-02-19 | 2026-04-20 | claude-haiku-4-5-20251001 |
+| claude-3-haiku-20240307 |  | deprecated | 2026-02-19 | 🟡 2026-04-20 | claude-haiku-4-5-20251001 |
 | claude-opus-4-20250514 |  | active | TBD | 2026-05-14 |  |
 | claude-sonnet-4-20250514 |  | active | TBD | 2026-05-14 |  |
 | claude-opus-4-1-20250805 |  | active | TBD | 2026-08-05 |  |
