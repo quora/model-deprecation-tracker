@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-03-25*
+*Last updated: 2026-03-26*
 
 ### Anthropic
 
@@ -85,9 +85,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | codex-mini-latest |  | deprecated | TBD | 🔴 2026-02-12 | gpt-5-codex-mini |
 | chatgpt-4o-latest |  | deprecated | TBD | 🔴 2026-02-17 | gpt-5.1-chat-latest |
-| gpt-4-0314 |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
-| gpt-4-1106-preview |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
-| gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🟡 2026-03-26 | gpt-5 or gpt-4.1* |
+| gpt-4-0314 |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
+| gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
+| gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 2026-05-07 | Realtime API |
 | gpt-4o-realtime-preview |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
 | gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |

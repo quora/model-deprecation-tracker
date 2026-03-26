@@ -1499,8 +1499,26 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-09",
-    "replacement": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "replacement": "gemini-3.1-flash-live-preview",
     "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3.1-flash-live-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "gemini-3.1-flash-live-preview",
+    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1508,7 +1526,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-09",
-    "replacement": "gemini-2.5-flash-native-audio-preview-12-2025",
+    "replacement": "gemini-3.1-flash-live-preview",
     "status": "retired"
   },
   {
