@@ -3,6 +3,103 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: Videos API
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Model: Videos API\nReplacement: ---\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Videos API shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Videos API shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: sora-2
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Model: sora-2\nReplacement: ---\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: sora-2-pro
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Model: sora-2-pro\nReplacement: ---\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-pro shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-pro shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: sora-2-2025-10-06
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Model: sora-2-2025-10-06\nReplacement: ---\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-2025-10-06 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-2025-10-06 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: sora-2-2025-12-08
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Model: sora-2-2025-12-08\nReplacement: ---\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-2025-12-08 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-2025-12-08 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: sora-2-pro-2025-10-06
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+DESCRIPTION:Model: sora-2-pro-2025-10-06\nReplacement: ---\nStatus: deprec
+ ated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-pro-2025-10-06 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:sora-2-pro-2025-10-06 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: chatgpt-4o-latest
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20260218
@@ -1719,696 +1816,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3 Opus shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 1.0
-DTSTART;VALUE=DATE:20250520
-DTEND;VALUE=DATE:20250521
-DESCRIPTION:Model: Stable Diffusion XL 1.0\nReplacement: Stable Image Core
-  / stability.stable-image-core-v1:0\, stability.stable-image-ultra-v1:0\, 
- and stability.sd3-large-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stable Diffusion XL 1.0 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stable Diffusion XL 1.0 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude 3 Opus
-DTSTART;VALUE=DATE:20260115
-DTEND;VALUE=DATE:20260116
-DESCRIPTION:Model: Claude 3 Opus\nReplacement: Claude Opus 4.1\, Claude So
- nnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0\, anthropic.claude-sonn
- et-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3 Opus shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3 Opus shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude Opus 4
-DTSTART;VALUE=DATE:20260531
-DTEND;VALUE=DATE:20260601
-DESCRIPTION:Model: Claude Opus 4\nReplacement: Claude Opus 4.1 / anthropic
- .claude-opus-4-1-20250805-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude Opus 4 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude Opus 4 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Haiku
-DTSTART;VALUE=DATE:20260619
-DTEND;VALUE=DATE:20260620
-DESCRIPTION:Model: Claude 3.5 Haiku\nReplacement: Claude Haiku 4.5 / anthr
- opic.claude-haiku-4-5-20251001-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.5 Haiku shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.5 Haiku shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Sonnet v1
-DTSTART;VALUE=DATE:20260301
-DTEND;VALUE=DATE:20260302
-DESCRIPTION:Model: Claude 3.5 Sonnet v1\nReplacement: Claude Sonnet 4.5 / 
- anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.5 Sonnet v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.5 Sonnet v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude 3.5 Sonnet v2
-DTSTART;VALUE=DATE:20260301
-DTEND;VALUE=DATE:20260302
-DESCRIPTION:Model: Claude 3.5 Sonnet v2\nReplacement: Claude Sonnet 4.5 / 
- anthropic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.5 Sonnet v2 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.5 Sonnet v2 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude 3.7 Sonnet
-DTSTART;VALUE=DATE:20260428
-DTEND;VALUE=DATE:20260429
-DESCRIPTION:Model: Claude 3.7 Sonnet\nReplacement: Claude Sonnet 4.5 / ant
- hropic.claude-sonnet-4-5-20250929-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.7 Sonnet shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3.7 Sonnet shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Titan Image Generator G1 v2
-DTSTART;VALUE=DATE:20260630
-DTEND;VALUE=DATE:20260701
-DESCRIPTION:Model: Titan Image Generator G1 v2\nReplacement: Nova Canvas o
- r Nova 2 Omni / amazon.nova-canvas-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Titan Image Generator G1 v2 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Titan Image Generator G1 v2 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Llama 3.1 405B Instruct
-DTSTART;VALUE=DATE:20260707
-DTEND;VALUE=DATE:20260708
-DESCRIPTION:Model: Llama 3.1 405B Instruct\nReplacement: Llama 4 Maverick 
- 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-inst
- ruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.1 405B Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.1 405B Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Llama 3.2 1B Instruct
-DTSTART;VALUE=DATE:20260707
-DTEND;VALUE=DATE:20260708
-DESCRIPTION:Model: Llama 3.2 1B Instruct\nReplacement: Llama 4 Maverick 17
- B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instru
- ct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 1B Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 1B Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Llama 3.2 3B Instruct
-DTSTART;VALUE=DATE:20260707
-DTEND;VALUE=DATE:20260708
-DESCRIPTION:Model: Llama 3.2 3B Instruct\nReplacement: Llama 4 Maverick 17
- B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instru
- ct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 3B Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 3B Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Llama 3.2 11B Instruct
-DTSTART;VALUE=DATE:20260707
-DTEND;VALUE=DATE:20260708
-DESCRIPTION:Model: Llama 3.2 11B Instruct\nReplacement: Llama 4 Maverick 1
- 7B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instr
- uct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 11B Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 11B Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Llama 3.2 90B Instruct
-DTSTART;VALUE=DATE:20260707
-DTEND;VALUE=DATE:20260708
-DESCRIPTION:Model: Llama 3.2 90B Instruct\nReplacement: Llama 4 Maverick 1
- 7B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instr
- uct-v1:0 or meta.llama4-scout-17b-instruct-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 90B Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Llama 3.2 90B Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Amazon Nova Premier
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-DESCRIPTION:Model: Amazon Nova Premier\nReplacement: Nova 2 Lite / amazon.
- nova-2-lite-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Nova Premier shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Nova Premier shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Amazon Nova Sonic
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-DESCRIPTION:Model: Amazon Nova Sonic\nReplacement: Amazon Nova 2 Sonic / a
- mazon.nova-2-sonic-v1:0\nStatus: legacy
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Nova Sonic shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Nova Sonic shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Stable Diffusion XL 0.8
-DTSTART;VALUE=DATE:20240430
-DTEND;VALUE=DATE:20240501
-DESCRIPTION:Model: Stable Diffusion XL 0.8\nReplacement: Stable Diffusion 
- XL 1.x / stability.stable-diffusion-xl-v1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stable Diffusion XL 0.8 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stable Diffusion XL 0.8 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Cohere Command
-DTSTART;VALUE=DATE:20250812
-DTEND;VALUE=DATE:20250813
-DESCRIPTION:Model: Cohere Command\nReplacement: Cohere Command R\, Cohere 
- Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0\nStatus:
-  retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Cohere Command shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Cohere Command shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Cohere Command Light
-DTSTART;VALUE=DATE:20250812
-DTEND;VALUE=DATE:20250813
-DESCRIPTION:Model: Cohere Command Light\nReplacement: Cohere Command R\, C
- ohere Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0\nS
- tatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Cohere Command Light shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Cohere Command Light shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude v1.3
-DTSTART;VALUE=DATE:20240228
-DTEND;VALUE=DATE:20240229
-DESCRIPTION:Model: Claude v1.3\nReplacement: Claude Sonnet 4.5 / anthropic
- .claude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude v1.3 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude v1.3 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude v2
-DTSTART;VALUE=DATE:20250721
-DTEND;VALUE=DATE:20250722
-DESCRIPTION:Model: Claude v2\nReplacement: Claude Sonnet 4.5 / anthropic.c
- laude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude v2 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude v2 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude v2.1
-DTSTART;VALUE=DATE:20250721
-DTEND;VALUE=DATE:20250722
-DESCRIPTION:Model: Claude v2.1\nReplacement: Claude Sonnet 4.5 / anthropic
- .claude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude v2.1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude v2.1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude Instant
-DTSTART;VALUE=DATE:20250721
-DTEND;VALUE=DATE:20250722
-DESCRIPTION:Model: Claude Instant\nReplacement: Claude Sonnet 4.5 / anthro
- pic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude Instant shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude Instant shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Claude 3 Sonnet
-DTSTART;VALUE=DATE:20250721
-DTEND;VALUE=DATE:20250722
-DESCRIPTION:Model: Claude 3 Sonnet\nReplacement: Claude Sonnet 4.5 / anthr
- opic.claude-sonnet-4-5-20250929-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3 Sonnet shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Claude 3 Sonnet shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Titan Embeddings - Text v1.1
-DTSTART;VALUE=DATE:20240215
-DTEND;VALUE=DATE:20240216
-DESCRIPTION:Model: Titan Embeddings - Text v1.1\nReplacement: Titan Embedd
- ings - Text v1.2 / amazon.titan-embed-text-v1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Titan Embeddings - Text v1.1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Titan Embeddings - Text v1.1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Meta Llama 2 13b-chat-v1
-DTSTART;VALUE=DATE:20241030
-DTEND;VALUE=DATE:20241031
-DESCRIPTION:Model: Meta Llama 2 13b-chat-v1\nReplacement: Meta Llama3 and 
- Meta Llama3.1 / meta.llama3-1-8b-instruct-v1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2 13b-chat-v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2 13b-chat-v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Meta Llama 2 70b-chat-v1
-DTSTART;VALUE=DATE:20241030
-DTEND;VALUE=DATE:20241031
-DESCRIPTION:Model: Meta Llama 2 70b-chat-v1\nReplacement: Meta Llama3 and 
- Meta Llama3.1 / meta.llama3-1-70b-instruct-v1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2 70b-chat-v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2 70b-chat-v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Meta Llama 2-13b
-DTSTART;VALUE=DATE:20241030
-DTEND;VALUE=DATE:20241031
-DESCRIPTION:Model: Meta Llama 2-13b\nReplacement: Meta Llama3 and Meta Lla
- ma3.1 / meta.llama3-8b-instruct-v1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2-13b shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2-13b shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Meta Llama 2-70b
-DTSTART;VALUE=DATE:20241030
-DTEND;VALUE=DATE:20241031
-DESCRIPTION:Model: Meta Llama 2-70b\nReplacement: Meta Llama3 and Meta Lla
- ma3.1 / meta.llama3-70b-instruct-v1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2-70b shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Meta Llama 2-70b shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Mid-v1
-DTSTART;VALUE=DATE:20241004
-DTEND;VALUE=DATE:20241005
-DESCRIPTION:Model: Ai21 J2 Mid-v1\nReplacement: Jamba-Instruct v1 / ai21.j
- amba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2 Mid-v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2 Mid-v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Ultra-v1
-DTSTART;VALUE=DATE:20241004
-DTEND;VALUE=DATE:20241005
-DESCRIPTION:Model: Ai21 J2 Ultra-v1\nReplacement: Jamba-Instruct v1 / ai21
- .jamba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2 Ultra-v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2 Ultra-v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Ai21 J2-Grande-Instruct
-DTSTART;VALUE=DATE:20241004
-DTEND;VALUE=DATE:20241005
-DESCRIPTION:Model: Ai21 J2-Grande-Instruct\nReplacement: Jamba-Instruct v1
-  / ai21.jamba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2-Grande-Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2-Grande-Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Ai21 J2 Jumbo-Instruct
-DTSTART;VALUE=DATE:20241004
-DTEND;VALUE=DATE:20241005
-DESCRIPTION:Model: Ai21 J2 Jumbo-Instruct\nReplacement: Jamba-Instruct v1 
- / ai21.jamba-instruct-v1:0 in US East (N. Virginia)\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2 Jumbo-Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Ai21 J2 Jumbo-Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: AI21 Jamba-Instruct
-DTSTART;VALUE=DATE:20250801
-DTEND;VALUE=DATE:20250802
-DESCRIPTION:Model: AI21 Jamba-Instruct\nReplacement: AI21 Jamba 1.5 Mini o
- r AI21 Jamba 1.5 Large / ai21.jamba-1-5-mini-v1:0 or ai21.jamba-1-5-large-
- v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:AI21 Jamba-Instruct shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:AI21 Jamba-Instruct shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Stability Image Core v1
-DTSTART;VALUE=DATE:20250904
-DTEND;VALUE=DATE:20250905
-DESCRIPTION:Model: Stability Image Core v1\nReplacement: Stability Image C
- ore v1.1 / stability.stable-image-core-v1:1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stability Image Core v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stability Image Core v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Stability 3 Large
-DTSTART;VALUE=DATE:20250904
-DTEND;VALUE=DATE:20250905
-DESCRIPTION:Model: Stability 3 Large\nReplacement: Stability 3.5 Large / s
- tability.sd3-5-large-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stability 3 Large shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stability 3 Large shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Stability Image Ultra v1
-DTSTART;VALUE=DATE:20250904
-DTEND;VALUE=DATE:20250905
-DESCRIPTION:Model: Stability Image Ultra v1\nReplacement: Stable Image Ult
- ra v1.1 / stability.stable-image-ultra-v1:1\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stability Image Ultra v1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Stability Image Ultra v1 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Amazon Titan Text G1 - Premier
-DTSTART;VALUE=DATE:20250815
-DTEND;VALUE=DATE:20250816
-DESCRIPTION:Model: Amazon Titan Text G1 - Premier\nReplacement: Amazon Nov
- a Pro / amazon.nova-pro-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Text G1 - Premier shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Text G1 - Premier shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Amazon Titan Text G1 - Express
-DTSTART;VALUE=DATE:20250815
-DTEND;VALUE=DATE:20250816
-DESCRIPTION:Model: Amazon Titan Text G1 - Express\nReplacement: Amazon Nov
- a Micro / amazon.nova-micro-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Text G1 - Express shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Text G1 - Express shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Amazon Titan Text G1 - Lite
-DTSTART;VALUE=DATE:20250815
-DTEND;VALUE=DATE:20250816
-DESCRIPTION:Model: Amazon Titan Text G1 - Lite\nReplacement: Amazon Nova L
- ite / amazon.nova-lite-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Text G1 - Lite shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Text G1 - Lite shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Bedrock] Model deprecation: Amazon Titan Image Generator G1 V1
-DTSTART;VALUE=DATE:20250815
-DTEND;VALUE=DATE:20250816
-DESCRIPTION:Model: Amazon Titan Image Generator G1 V1\nReplacement: Amazon
-  Nova Canvas / amazon.nova-canvas-v1:0\nStatus: retired
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Image Generator G1 V1 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Amazon Titan Image Generator G1 V1 shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT

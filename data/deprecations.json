@@ -1,6 +1,60 @@
 [
   {
     "provider": "OpenAI",
+    "model_name": "Videos API",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "---",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "---",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-pro",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "---",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-2025-10-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "---",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-2025-12-08",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "---",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-pro-2025-10-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "---",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "chatgpt-4o-latest",
     "model_id": "",
     "deprecated_date": "",
@@ -916,366 +970,6 @@
     "shutdown_date": "2026-08-01",
     "replacement": "",
     "status": "deprecated"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Stable Diffusion XL 1.0",
-    "model_id": "",
-    "deprecated_date": "2024-10-16",
-    "shutdown_date": "2025-05-20",
-    "replacement": "Stable Image Core / stability.stable-image-core-v1:0, stability.stable-image-ultra-v1:0, and stability.sd3-large-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude 3 Opus",
-    "model_id": "",
-    "deprecated_date": "2025-07-15",
-    "shutdown_date": "2026-01-15",
-    "replacement": "Claude Opus 4.1, Claude Sonnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0, anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude Opus 4",
-    "model_id": "",
-    "deprecated_date": "2025-10-01",
-    "shutdown_date": "2026-05-31",
-    "replacement": "Claude Opus 4.1 / anthropic.claude-opus-4-1-20250805-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude 3.5 Haiku",
-    "model_id": "",
-    "deprecated_date": "2025-12-19",
-    "shutdown_date": "2026-06-19",
-    "replacement": "Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude 3.5 Sonnet v1",
-    "model_id": "",
-    "deprecated_date": "2025-08-25",
-    "shutdown_date": "2026-03-01",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude 3.5 Sonnet v2",
-    "model_id": "",
-    "deprecated_date": "2025-08-25",
-    "shutdown_date": "2026-03-01",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude 3.7 Sonnet",
-    "model_id": "",
-    "deprecated_date": "2025-10-28",
-    "shutdown_date": "2026-04-28",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Titan Image Generator G1 v2",
-    "model_id": "",
-    "deprecated_date": "2025-12-30",
-    "shutdown_date": "2026-06-30",
-    "replacement": "Nova Canvas or Nova 2 Omni / amazon.nova-canvas-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Llama 3.1 405B Instruct",
-    "model_id": "",
-    "deprecated_date": "2026-01-07",
-    "shutdown_date": "2026-07-07",
-    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Llama 3.2 1B Instruct",
-    "model_id": "",
-    "deprecated_date": "2026-01-07",
-    "shutdown_date": "2026-07-07",
-    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Llama 3.2 3B Instruct",
-    "model_id": "",
-    "deprecated_date": "2026-01-07",
-    "shutdown_date": "2026-07-07",
-    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Llama 3.2 11B Instruct",
-    "model_id": "",
-    "deprecated_date": "2026-01-07",
-    "shutdown_date": "2026-07-07",
-    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Llama 3.2 90B Instruct",
-    "model_id": "",
-    "deprecated_date": "2026-01-07",
-    "shutdown_date": "2026-07-07",
-    "replacement": "Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Amazon Nova Premier",
-    "model_id": "",
-    "deprecated_date": "2026-03-13",
-    "shutdown_date": "2026-09-14",
-    "replacement": "Nova 2 Lite / amazon.nova-2-lite-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Amazon Nova Sonic",
-    "model_id": "",
-    "deprecated_date": "2026-03-13",
-    "shutdown_date": "2026-09-14",
-    "replacement": "Amazon Nova 2 Sonic / amazon.nova-2-sonic-v1:0",
-    "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Stable Diffusion XL 0.8",
-    "model_id": "",
-    "deprecated_date": "2024-02-02",
-    "shutdown_date": "2024-04-30",
-    "replacement": "Stable Diffusion XL 1.x / stability.stable-diffusion-xl-v1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Cohere Command",
-    "model_id": "",
-    "deprecated_date": "2024-10-04",
-    "shutdown_date": "2025-08-12",
-    "replacement": "Cohere Command R, Cohere Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Cohere Command Light",
-    "model_id": "",
-    "deprecated_date": "2024-10-04",
-    "shutdown_date": "2025-08-12",
-    "replacement": "Cohere Command R, Cohere Command R+ / cohere.command-r-v1:0 and cohere.command-r-plus-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude v1.3",
-    "model_id": "",
-    "deprecated_date": "2023-11-28",
-    "shutdown_date": "2024-02-28",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude v2",
-    "model_id": "",
-    "deprecated_date": "2025-01-21",
-    "shutdown_date": "2025-07-21",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude v2.1",
-    "model_id": "",
-    "deprecated_date": "2025-01-21",
-    "shutdown_date": "2025-07-21",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude Instant",
-    "model_id": "",
-    "deprecated_date": "2025-01-21",
-    "shutdown_date": "2025-07-21",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude 3 Sonnet",
-    "model_id": "",
-    "deprecated_date": "2025-01-21",
-    "shutdown_date": "2025-07-21",
-    "replacement": "Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Titan Embeddings - Text v1.1",
-    "model_id": "",
-    "deprecated_date": "2023-11-07",
-    "shutdown_date": "2024-02-15",
-    "replacement": "Titan Embeddings - Text v1.2 / amazon.titan-embed-text-v1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Meta Llama 2 13b-chat-v1",
-    "model_id": "",
-    "deprecated_date": "2024-05-12",
-    "shutdown_date": "2024-10-30",
-    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-1-8b-instruct-v1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Meta Llama 2 70b-chat-v1",
-    "model_id": "",
-    "deprecated_date": "2024-05-12",
-    "shutdown_date": "2024-10-30",
-    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-1-70b-instruct-v1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Meta Llama 2-13b",
-    "model_id": "",
-    "deprecated_date": "2024-05-12",
-    "shutdown_date": "2024-10-30",
-    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-8b-instruct-v1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Meta Llama 2-70b",
-    "model_id": "",
-    "deprecated_date": "2024-05-12",
-    "shutdown_date": "2024-10-30",
-    "replacement": "Meta Llama3 and Meta Llama3.1 / meta.llama3-70b-instruct-v1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2 Mid-v1",
-    "model_id": "",
-    "deprecated_date": "2024-04-30",
-    "shutdown_date": "2024-10-04",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2 Ultra-v1",
-    "model_id": "",
-    "deprecated_date": "2024-04-30",
-    "shutdown_date": "2024-10-04",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2-Grande-Instruct",
-    "model_id": "",
-    "deprecated_date": "2024-04-30",
-    "shutdown_date": "2024-10-04",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Ai21 J2 Jumbo-Instruct",
-    "model_id": "",
-    "deprecated_date": "2024-04-30",
-    "shutdown_date": "2024-10-04",
-    "replacement": "Jamba-Instruct v1 / ai21.jamba-instruct-v1:0 in US East (N. Virginia)",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "AI21 Jamba-Instruct",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-08-01",
-    "replacement": "AI21 Jamba 1.5 Mini or AI21 Jamba 1.5 Large / ai21.jamba-1-5-mini-v1:0 or ai21.jamba-1-5-large-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Stability Image Core v1",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-09-04",
-    "replacement": "Stability Image Core v1.1 / stability.stable-image-core-v1:1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Stability 3 Large",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-09-04",
-    "replacement": "Stability 3.5 Large / stability.sd3-5-large-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Stability Image Ultra v1",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-09-04",
-    "replacement": "Stable Image Ultra v1.1 / stability.stable-image-ultra-v1:1",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Amazon Titan Text G1 - Premier",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-08-15",
-    "replacement": "Amazon Nova Pro / amazon.nova-pro-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Amazon Titan Text G1 - Express",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-08-15",
-    "replacement": "Amazon Nova Micro / amazon.nova-micro-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Amazon Titan Text G1 - Lite",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-08-15",
-    "replacement": "Amazon Nova Lite / amazon.nova-lite-v1:0",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Amazon Titan Image Generator G1 V1",
-    "model_id": "",
-    "deprecated_date": "2025-01-31",
-    "shutdown_date": "2025-08-15",
-    "replacement": "Amazon Nova Canvas / amazon.nova-canvas-v1:0",
-    "status": "retired"
   },
   {
     "provider": "Gemini",

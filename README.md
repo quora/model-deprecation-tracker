@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-03-26*
+*Last updated: 2026-03-27*
 
 ### Anthropic
 
@@ -35,25 +35,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-opus-4-5-20251101 |  | active | TBD | 2026-11-24 |  |
 | claude-opus-4-6 |  | active | TBD | 2027-02-05 |  |
 | claude-sonnet-4-6 |  | active | TBD | 2027-02-17 |  |
-
-### Bedrock
-
-| Model | Model ID | Status | Deprecated | Shutdown | Replacement |
-|-------|----------|--------|------------|----------|-------------|
-| Claude 3 Opus |  | retired | 2025-07-15 | 🔴 2026-01-15 | Claude Opus 4.1, Claude Sonnet 4.5 / anthropic.claude-opus-4-1-20250805-v1:0, anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.5 Sonnet v1 |  | retired | 2025-08-25 | 🔴 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.5 Sonnet v2 |  | retired | 2025-08-25 | 🔴 2026-03-01 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude 3.7 Sonnet |  | legacy | 2025-10-28 | 2026-04-28 | Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0 |
-| Claude Opus 4 |  | legacy | 2025-10-01 | 2026-05-31 | Claude Opus 4.1 / anthropic.claude-opus-4-1-20250805-v1:0 |
-| Claude 3.5 Haiku |  | legacy | 2025-12-19 | 2026-06-19 | Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0 |
-| Titan Image Generator G1 v2 |  | legacy | 2025-12-30 | 2026-06-30 | Nova Canvas or Nova 2 Omni / amazon.nova-canvas-v1:0 |
-| Llama 3.1 405B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
-| Llama 3.2 1B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
-| Llama 3.2 3B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
-| Llama 3.2 11B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
-| Llama 3.2 90B Instruct |  | legacy | 2026-01-07 | 2026-07-07 | Llama 4 Maverick 17B Instruct or Llama 4 Scout 17B Instruct / meta.llama4-maverick-17b-instruct-v1:0 or meta.llama4-scout-17b-instruct-v1:0 |
-| Amazon Nova Premier |  | legacy | 2026-03-13 | 2026-09-14 | Nova 2 Lite / amazon.nova-2-lite-v1:0 |
-| Amazon Nova Sonic |  | legacy | 2026-03-13 | 2026-09-14 | Amazon Nova 2 Sonic / amazon.nova-2-sonic-v1:0 |
 
 ### Gemini
 
@@ -98,6 +79,12 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | dall-e-2 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | dall-e-3 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | Assistants API |  | deprecated | TBD | 2026-08-26 | Responses API and Conversations API |
+| Videos API |  | deprecated | TBD | 2026-09-24 | --- |
+| sora-2 |  | deprecated | TBD | 2026-09-24 | --- |
+| sora-2-pro |  | deprecated | TBD | 2026-09-24 | --- |
+| sora-2-2025-10-06 |  | deprecated | TBD | 2026-09-24 | --- |
+| sora-2-2025-12-08 |  | deprecated | TBD | 2026-09-24 | --- |
+| sora-2-pro-2025-10-06 |  | deprecated | TBD | 2026-09-24 | --- |
 | gpt-3.5-turbo-instruct |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
 | babbage-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
 | davinci-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
