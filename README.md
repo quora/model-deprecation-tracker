@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-04-06*
+*Last updated: 2026-04-07*
 
 ### Anthropic
 
@@ -69,13 +69,13 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4-0314 |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
-| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 2026-05-07 | Realtime API |
-| gpt-4o-realtime-preview |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
-| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
-| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 2026-05-07 | gpt-realtime-1.5 |
-| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 2026-05-07 | gpt-realtime-mini |
-| gpt-4o-audio-preview |  | deprecated | TBD | 2026-05-07 | gpt-audio-1.5 |
-| gpt-4o-mini-audio-preview |  | deprecated | TBD | 2026-05-07 | gpt-audio-mini |
+| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🟡 2026-05-07 | Realtime API |
+| gpt-4o-realtime-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-mini |
+| gpt-4o-audio-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-audio-1.5 |
+| gpt-4o-mini-audio-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-audio-mini |
 | dall-e-2 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | dall-e-3 |  | deprecated | TBD | 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | Assistants API |  | deprecated | TBD | 2026-08-26 | Responses API and Conversations API |
