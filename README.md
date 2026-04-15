@@ -18,13 +18,13 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-04-14*
+*Last updated: 2026-04-15*
 
 ### Anthropic
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| claude-opus-4-20250514 |  | active | TBD | 🟡 2026-05-14 |  |
+| claude-opus-4-20250514 |  | deprecated | 2026-04-14 | 2026-06-15 | claude-opus-4-6 |
 | claude-opus-4-1-20250805 |  | active | TBD | 2026-08-05 |  |
 | claude-opus-4-5-20251101 |  | active | TBD | 2026-11-24 |  |
 | claude-opus-4-6 |  | active | TBD | 2027-02-05 |  |
@@ -33,7 +33,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| text-embedding-004 |  | retired | TBD | 🔴 2026-01-14 | gemini-embedding-001 |
 | gemini-2.5-flash-image-preview |  | retired | TBD | 🔴 2026-01-15 | gemini-2.5-flash-image |
 | gemini-2.5-flash-preview-09-25 |  | retired | TBD | 🔴 2026-02-17 | gemini-3-flash-preview |
 | imagen-4.0-generate-preview-06-06 |  | retired | TBD | 🔴 2026-02-17 | imagen-4.0-generate-001 |

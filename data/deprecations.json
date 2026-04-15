@@ -831,10 +831,10 @@
     "provider": "Anthropic",
     "model_name": "claude-opus-4-20250514",
     "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-05-14",
-    "replacement": "",
-    "status": "active"
+    "deprecated_date": "2026-04-14",
+    "shutdown_date": "2026-06-15",
+    "replacement": "claude-opus-4-6",
+    "status": "deprecated"
   },
   {
     "provider": "Anthropic",
@@ -1168,6 +1168,33 @@
     "shutdown_date": "2025-12-09",
     "replacement": "gemini-3.1-flash-live-preview",
     "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3.1-flash-tts-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-flash-preview-tts",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "gemini-3.1-flash-tts-preview",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-2.5-pro-preview-tts",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "gemini-3.1-flash-tts-preview",
+    "status": "active"
   },
   {
     "provider": "Gemini",
