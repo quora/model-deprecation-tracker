@@ -18,15 +18,23 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-04-24*
+*Last updated: 2026-04-25*
 
 ### Anthropic
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
+| claude-3-7-sonnet-20250219 |  | retired | 2025-10-28 | 🔴 2026-02-19 | claude-sonnet-4-6 |
+| claude-3-5-haiku-20241022 |  | retired | 2025-12-19 | 🔴 2026-02-19 | claude-haiku-4-5-20251001 |
+| claude-3-haiku-20240307 |  | retired | 2026-02-19 | 🔴 2026-04-20 | claude-haiku-4-5-20251001 |
+| claude-opus-4-20250514 |  | deprecated | 2026-04-14 | 2026-06-15 | claude-opus-4-7 |
+| claude-sonnet-4-20250514 |  | deprecated | 2026-04-14 | 2026-06-15 | claude-sonnet-4-6 |
 | claude-opus-4-1-20250805 |  | active | TBD | 2026-08-05 |  |
+| claude-sonnet-4-5-20250929 |  | active | TBD | 2026-09-29 |  |
+| claude-haiku-4-5-20251001 |  | active | TBD | 2026-10-15 |  |
 | claude-opus-4-5-20251101 |  | active | TBD | 2026-11-24 |  |
 | claude-opus-4-6 |  | active | TBD | 2027-02-05 |  |
+| claude-sonnet-4-6 |  | active | TBD | 2027-02-17 |  |
 | claude-opus-4-7 |  | active | TBD | 2027-04-16 |  |
 
 ### Gemini
