@@ -3047,7 +3047,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-robotics-er-1.5-preview
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 DESCRIPTION:Model: gemini-robotics-er-1.5-preview\nReplacement: gemini-rob
- otics-er-1.6-preview\nStatus: deprecated
+ otics-er-1.6-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-robotics-er-1.5-preview shutdown in 7 days

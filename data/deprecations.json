@@ -1797,6 +1797,6 @@
     "deprecated_date": "",
     "shutdown_date": "2026-04-30",
     "replacement": "gemini-robotics-er-1.6-preview",
-    "status": "deprecated"
+    "status": "retired"
   }
 ]
