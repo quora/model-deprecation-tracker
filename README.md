@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-05-01*
+*Last updated: 2026-05-02*
 
 ### Anthropic
 
@@ -47,10 +47,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gemini-3-pro-preview |  | retired | TBD | 🔴 2026-03-09 | gemini-3.1-pro-preview |
 | gemini-2.5-flash-lite-preview-09-2025 |  | retired | TBD | 🔴 2026-03-31 | gemini-3.1-flash-lite-preview |
 | gemini-robotics-er-1.5-preview |  | retired | TBD | 🔴 2026-04-30 | gemini-robotics-er-1.6-preview |
-| gemini-2.0-flash |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash |
-| gemini-2.0-flash-001 |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash |
-| gemini-2.0-flash-lite |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash-lite |
-| gemini-2.0-flash-lite-001 |  | deprecated | TBD | 2026-06-01 | gemini-2.5-flash-lite |
+| gemini-2.0-flash |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash |
+| gemini-2.0-flash-001 |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash |
+| gemini-2.0-flash-lite |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash-lite |
+| gemini-2.0-flash-lite-001 |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash-lite |
 | gemini-2.5-pro |  | deprecated | TBD | 2026-06-17 | gemini-3.1-pro-preview |
 | gemini-2.5-flash |  | deprecated | TBD | 2026-06-17 | gemini-3-flash-preview |
 | imagen-4.0-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
