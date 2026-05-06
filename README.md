@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-05-05*
+*Last updated: 2026-05-06*
 
 ### Anthropic
 
@@ -85,9 +85,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4o-mini-search-preview-2025-03-11 |  | deprecated | TBD | 2026-07-23 | 4.1-mini |
 | gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 2026-07-23 | gpt-realtime |
 | gpt-4o-search-preview-2025-03-11 |  | deprecated | TBD | 2026-07-23 | gpt-4.1-mini |
-| gpt-5-chat-latest |  | deprecated | TBD | 2026-07-23 | gpt-5.3-chat-latest |
+| gpt-5-chat-latest |  | deprecated | TBD | 2026-07-23 | gpt-5.5 |
 | gpt-5-codex |  | deprecated | TBD | 2026-07-23 | gpt-5.4 |
-| gpt-5.1-chat-latest |  | deprecated | TBD | 2026-07-23 | gpt-5.3-chat-latest |
+| gpt-5.1-chat-latest |  | deprecated | TBD | 2026-07-23 | gpt-5.5 |
 | gpt-5.1-codex |  | deprecated | TBD | 2026-07-23 | gpt-5 |
 | gpt-5.1-codex-max |  | deprecated | TBD | 2026-07-23 | gpt-5.4 |
 | gpt-5.1-codex-mini |  | deprecated | TBD | 2026-07-23 | gpt-5.4-mini |

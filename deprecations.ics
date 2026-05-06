@@ -129,8 +129,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5-chat-latest
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-DESCRIPTION:Model: gpt-5-chat-latest\nReplacement: gpt-5.3-chat-latest\nSt
- atus: deprecated
+DESCRIPTION:Model: gpt-5-chat-latest\nReplacement: gpt-5.5\nStatus: deprec
+ ated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5-chat-latest shutdown in 7 days
@@ -162,8 +162,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5.1-chat-latest
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-DESCRIPTION:Model: gpt-5.1-chat-latest\nReplacement: gpt-5.3-chat-latest\n
- Status: deprecated
+DESCRIPTION:Model: gpt-5.1-chat-latest\nReplacement: gpt-5.5\nStatus: depr
+ ecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5.1-chat-latest shutdown in 7 days

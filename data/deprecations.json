@@ -68,7 +68,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-07-23",
-    "replacement": "gpt-5.3-chat-latest",
+    "replacement": "gpt-5.5",
     "status": "deprecated"
   },
   {
@@ -86,7 +86,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-07-23",
-    "replacement": "gpt-5.3-chat-latest",
+    "replacement": "gpt-5.5",
     "status": "deprecated"
   },
   {
