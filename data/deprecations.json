@@ -1297,12 +1297,21 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-3.1-flash-lite",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-05-07",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-3.1-flash-lite-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-05-25",
+    "replacement": "gemini-3.1-flash-lite",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
@@ -1354,7 +1363,7 @@
     "model_name": "gemini-2.5-pro",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-06-17",
+    "shutdown_date": "2026-10-16",
     "replacement": "gemini-3.1-pro-preview",
     "status": "deprecated"
   },
@@ -1390,7 +1399,7 @@
     "model_name": "gemini-2.5-flash",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-06-17",
+    "shutdown_date": "2026-10-16",
     "replacement": "gemini-3-flash-preview",
     "status": "deprecated"
   },
@@ -1408,7 +1417,7 @@
     "model_name": "gemini-2.5-flash-lite",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-07-22",
+    "shutdown_date": "2026-10-16",
     "replacement": "gemini-3.1-flash-lite-preview",
     "status": "deprecated"
   },

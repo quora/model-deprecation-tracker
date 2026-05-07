@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-05-06*
+*Last updated: 2026-05-07*
 
 ### Anthropic
 
@@ -47,18 +47,20 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gemini-3-pro-preview |  | retired | TBD | 🔴 2026-03-09 | gemini-3.1-pro-preview |
 | gemini-2.5-flash-lite-preview-09-2025 |  | retired | TBD | 🔴 2026-03-31 | gemini-3.1-flash-lite-preview |
 | gemini-robotics-er-1.5-preview |  | retired | TBD | 🔴 2026-04-30 | gemini-robotics-er-1.6-preview |
+| gemini-3.1-flash-lite-preview |  | deprecated | TBD | 🟡 2026-05-25 | gemini-3.1-flash-lite |
 | gemini-2.0-flash |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash |
 | gemini-2.0-flash-001 |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash |
 | gemini-2.0-flash-lite |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash-lite |
 | gemini-2.0-flash-lite-001 |  | deprecated | TBD | 🟡 2026-06-01 | gemini-2.5-flash-lite |
-| gemini-2.5-pro |  | deprecated | TBD | 2026-06-17 | gemini-3.1-pro-preview |
-| gemini-2.5-flash |  | deprecated | TBD | 2026-06-17 | gemini-3-flash-preview |
 | imagen-4.0-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | gemini-embedding-001 |  | deprecated | TBD | 2026-07-14 |  |
-| gemini-2.5-flash-lite |  | deprecated | TBD | 2026-07-22 | gemini-3.1-flash-lite-preview |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
+| gemini-2.5-pro |  | deprecated | TBD | 2026-10-16 | gemini-3.1-pro-preview |
+| gemini-2.5-flash |  | deprecated | TBD | 2026-10-16 | gemini-3-flash-preview |
+| gemini-2.5-flash-lite |  | deprecated | TBD | 2026-10-16 | gemini-3.1-flash-lite-preview |
+| gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 |  |
 
 ### OpenAI
 
@@ -69,13 +71,13 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4-0314 |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
-| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🟡 2026-05-07 | Realtime API |
-| gpt-4o-realtime-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-1.5 |
-| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-1.5 |
-| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-1.5 |
-| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-realtime-mini |
-| gpt-4o-audio-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-audio-1.5 |
-| gpt-4o-mini-audio-preview |  | deprecated | TBD | 🟡 2026-05-07 | gpt-audio-mini |
+| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🔴 2026-05-07 | Realtime API |
+| gpt-4o-realtime-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
+| gpt-4o-mini-realtime-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-mini |
+| gpt-4o-audio-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-audio-1.5 |
+| gpt-4o-mini-audio-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-audio-mini |
 | dall-e-2 |  | deprecated | TBD | 🟡 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | dall-e-3 |  | deprecated | TBD | 🟡 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
 | computer-use-preview-2025-03-11 | computer-use-preview |  | deprecated | TBD | 2026-07-23 | 5.4-mini |
