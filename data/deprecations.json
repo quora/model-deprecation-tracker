@@ -1248,7 +1248,7 @@
     "deprecated_date": "2026-11-11",
     "shutdown_date": "2026-05-11",
     "replacement": "",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Vertex AI",
