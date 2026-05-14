@@ -392,7 +392,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-05-12",
-    "replacement": "gpt-image-1 or gpt-image-1-mini",
+    "replacement": "gpt-image-2, gpt-image-1, or gpt-image-1-mini",
     "status": "deprecated"
   },
   {
@@ -401,7 +401,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-05-12",
-    "replacement": "gpt-image-1 or gpt-image-1-mini",
+    "replacement": "gpt-image-2, gpt-image-1, or gpt-image-1-mini",
     "status": "deprecated"
   },
   {
@@ -472,7 +472,7 @@
     "model_name": "OpenAI-Beta: realtime=v1",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-05-07",
+    "shutdown_date": "2026-05-12",
     "replacement": "Realtime API",
     "status": "deprecated"
   },

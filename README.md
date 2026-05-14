@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-05-13*
+*Last updated: 2026-05-14*
 
 ### Anthropic
 
@@ -66,20 +66,19 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| codex-mini-latest |  | deprecated | TBD | 🔴 2026-02-12 | gpt-5-codex-mini |
 | chatgpt-4o-latest |  | deprecated | TBD | 🔴 2026-02-17 | gpt-5.1-chat-latest |
 | gpt-4-0314 |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
-| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🔴 2026-05-07 | Realtime API |
 | gpt-4o-realtime-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
 | gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
 | gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
 | gpt-4o-mini-realtime-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-mini |
 | gpt-4o-audio-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-audio-1.5 |
 | gpt-4o-mini-audio-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-audio-mini |
-| dall-e-2 |  | deprecated | TBD | 🔴 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
-| dall-e-3 |  | deprecated | TBD | 🔴 2026-05-12 | gpt-image-1 or gpt-image-1-mini |
+| dall-e-2 |  | deprecated | TBD | 🔴 2026-05-12 | gpt-image-2, gpt-image-1, or gpt-image-1-mini |
+| dall-e-3 |  | deprecated | TBD | 🔴 2026-05-12 | gpt-image-2, gpt-image-1, or gpt-image-1-mini |
+| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🔴 2026-05-12 | Realtime API |
 | computer-use-preview-2025-03-11 | computer-use-preview |  | deprecated | TBD | 2026-07-23 | gpt-5.4-mini |
 | gpt-4o-audio-preview-2024-12-17 |  | deprecated | TBD | 2026-07-23 | gpt-audio-1.5 |
 | gpt-4o-mini-audio-preview-2024-12-17 |  | deprecated | TBD | 2026-07-23 | gpt-audio-mini |

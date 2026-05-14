@@ -747,8 +747,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: dall-e-2
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
-DESCRIPTION:Model: dall-e-2\nReplacement: gpt-image-1 or gpt-image-1-mini\
- nStatus: deprecated
+DESCRIPTION:Model: dall-e-2\nReplacement: gpt-image-2\, gpt-image-1\, or g
+ pt-image-1-mini\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:dall-e-2 shutdown in 7 days
@@ -764,8 +764,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: dall-e-3
 DTSTART;VALUE=DATE:20260512
 DTEND;VALUE=DATE:20260513
-DESCRIPTION:Model: dall-e-3\nReplacement: gpt-image-1 or gpt-image-1-mini\
- nStatus: deprecated
+DESCRIPTION:Model: dall-e-3\nReplacement: gpt-image-2\, gpt-image-1\, or g
+ pt-image-1-mini\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:dall-e-3 shutdown in 7 days
@@ -904,8 +904,8 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: OpenAI-Beta: realtime=v1
-DTSTART;VALUE=DATE:20260507
-DTEND;VALUE=DATE:20260508
+DTSTART;VALUE=DATE:20260512
+DTEND;VALUE=DATE:20260513
 DESCRIPTION:Model: OpenAI-Beta: realtime=v1\nReplacement: Realtime API\nSt
  atus: deprecated
 BEGIN:VALARM
