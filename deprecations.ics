@@ -126,19 +126,19 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-tts-2025-12-15
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-tts-2025-03-20
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-DESCRIPTION:Model: gpt-4o-mini-tts-2025-12-15\nReplacement: gpt-realtime-2
- \nStatus: deprecated
+DESCRIPTION:Model: gpt-4o-mini-tts-2025-03-20\nReplacement: gpt-4o-mini-tt
+ s-2025-12-15\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:gpt-4o-mini-tts-2025-12-15 shutdown in 7 days
+DESCRIPTION:gpt-4o-mini-tts-2025-03-20 shutdown in 7 days
 TRIGGER:-P7D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:gpt-4o-mini-tts-2025-12-15 shutdown in 30 days
+DESCRIPTION:gpt-4o-mini-tts-2025-03-20 shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT

@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-05-15*
+*Last updated: 2026-05-16*
 
 ### Anthropic
 
@@ -27,8 +27,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-3-7-sonnet-20250219 |  | retired | 2025-10-28 | 🔴 2026-02-19 | claude-sonnet-4-6 |
 | claude-3-5-haiku-20241022 |  | retired | 2025-12-19 | 🔴 2026-02-19 | claude-haiku-4-5-20251001 |
 | claude-3-haiku-20240307 |  | retired | 2026-02-19 | 🔴 2026-04-20 | claude-haiku-4-5-20251001 |
-| claude-opus-4-20250514 |  | deprecated | 2026-04-14 | 2026-06-15 | claude-opus-4-7 |
-| claude-sonnet-4-20250514 |  | deprecated | 2026-04-14 | 2026-06-15 | claude-sonnet-4-6 |
+| claude-opus-4-20250514 |  | deprecated | 2026-04-14 | 🟡 2026-06-15 | claude-opus-4-7 |
+| claude-sonnet-4-20250514 |  | deprecated | 2026-04-14 | 🟡 2026-06-15 | claude-sonnet-4-6 |
 | claude-opus-4-1-20250805 |  | active | TBD | 2026-08-05 |  |
 | claude-sonnet-4-5-20250929 |  | active | TBD | 2026-09-29 |  |
 | claude-haiku-4-5-20251001 |  | active | TBD | 2026-10-15 |  |
@@ -84,7 +84,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4o-mini-audio-preview-2024-12-17 |  | deprecated | TBD | 2026-07-23 | gpt-audio-mini |
 | gpt-4o-mini-realtime-preview-2024-12-17 |  | deprecated | TBD | 2026-07-23 | gpt-realtime-mini |
 | gpt-4o-mini-search-preview-2025-03-11 |  | deprecated | TBD | 2026-07-23 | gpt-5.4-mini |
-| gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2026-07-23 | gpt-realtime-2 |
+| gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 2026-07-23 | gpt-4o-mini-tts-2025-12-15 |
 | gpt-4o-search-preview-2025-03-11 |  | deprecated | TBD | 2026-07-23 | gpt-5.4-mini |
 | gpt-5-chat-latest |  | deprecated | TBD | 2026-07-23 | gpt-5.5 |
 | gpt-5-codex |  | deprecated | TBD | 2026-07-23 | gpt-5.5 |

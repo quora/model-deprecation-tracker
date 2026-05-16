@@ -64,11 +64,11 @@
   },
   {
     "provider": "OpenAI",
-    "model_name": "gpt-4o-mini-tts-2025-12-15",
+    "model_name": "gpt-4o-mini-tts-2025-03-20",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-07-23",
-    "replacement": "gpt-realtime-2",
+    "replacement": "gpt-4o-mini-tts-2025-12-15",
     "status": "deprecated"
   },
   {
