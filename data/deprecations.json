@@ -1311,7 +1311,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-05-25",
     "replacement": "gemini-3.1-flash-lite",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Gemini",

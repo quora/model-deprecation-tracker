@@ -2450,7 +2450,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-3.1-flash-lite-preview
 DTSTART;VALUE=DATE:20260525
 DTEND;VALUE=DATE:20260526
 DESCRIPTION:Model: gemini-3.1-flash-lite-preview\nReplacement: gemini-3.1-
- flash-lite\nStatus: deprecated
+ flash-lite\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3.1-flash-lite-preview shutdown in 7 days
