@@ -18,14 +18,14 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-05-27*
+*Last updated: 2026-05-28*
 
 ### Anthropic
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | claude-3-haiku-20240307 |  | retired | 2026-02-19 | 🔴 2026-04-20 | claude-haiku-4-5-20251001 |
-| claude-opus-4-20250514 |  | deprecated | 2026-04-14 | 🟡 2026-06-15 | claude-opus-4-7 |
+| claude-opus-4-20250514 |  | deprecated | 2026-04-14 | 🟡 2026-06-15 | claude-opus-4-8 |
 | claude-sonnet-4-20250514 |  | deprecated | 2026-04-14 | 🟡 2026-06-15 | claude-sonnet-4-6 |
 | claude-opus-4-1-20250805 |  | active | TBD | 2026-08-05 |  |
 | claude-sonnet-4-5-20250929 |  | active | TBD | 2026-09-29 |  |
@@ -34,6 +34,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-opus-4-6 |  | active | TBD | 2027-02-05 |  |
 | claude-sonnet-4-6 |  | active | TBD | 2027-02-17 |  |
 | claude-opus-4-7 |  | active | TBD | 2027-04-16 |  |
+| claude-opus-4-8 |  | active | TBD | 2027-05-28 |  |
 
 ### Gemini
 
@@ -50,6 +51,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-generate-001 |  | deprecated | TBD | 🟡 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 🟡 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 🟡 2026-06-24 | gemini-3-pro-image-preview orgemini-2.5-flash-image |
+| gemini-3.1-flash-image-preview |  | deprecated | TBD | 🟡 2026-06-25 | gemini-3.1-flash-image |
+| gemini-3-pro-image-preview |  | deprecated | TBD | 🟡 2026-06-25 | gemini-3-pro-image |
 | gemini-embedding-001 |  | deprecated | TBD | 2026-07-14 |  |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
 | gemini-2.5-pro |  | deprecated | TBD | 2026-10-16 | gemini-3.1-pro-preview |

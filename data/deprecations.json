@@ -1108,6 +1108,15 @@
   },
   {
     "provider": "Anthropic",
+    "model_name": "claude-opus-4-8",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-05-28",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
     "model_name": "claude-opus-4-7",
     "model_id": "",
     "deprecated_date": "",
@@ -1148,7 +1157,7 @@
     "model_id": "",
     "deprecated_date": "2026-04-14",
     "shutdown_date": "2026-06-15",
-    "replacement": "claude-opus-4-7",
+    "replacement": "claude-opus-4-8",
     "status": "deprecated"
   },
   {
@@ -1297,6 +1306,24 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-3.1-flash-image",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3-pro-image",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-3.1-flash-lite",
     "model_id": "",
     "deprecated_date": "",
@@ -1306,21 +1333,12 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "gemini-3.1-flash-lite-preview",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-05-25",
-    "replacement": "gemini-3.1-flash-lite",
-    "status": "retired"
-  },
-  {
-    "provider": "Gemini",
     "model_name": "gemini-3.1-flash-image-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-06-25",
+    "replacement": "gemini-3.1-flash-image",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
@@ -1336,9 +1354,9 @@
     "model_name": "gemini-3-pro-image-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-06-25",
+    "replacement": "gemini-3-pro-image",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
@@ -1356,6 +1374,15 @@
     "deprecated_date": "",
     "shutdown_date": "2026-03-09",
     "replacement": "gemini-3.1-pro-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3.1-flash-lite-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-05-25",
+    "replacement": "gemini-3.1-flash-lite",
     "status": "retired"
   },
   {

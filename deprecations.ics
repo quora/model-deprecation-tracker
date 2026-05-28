@@ -2097,6 +2097,22 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-opus-4-8
+DTSTART;VALUE=DATE:20270528
+DTEND;VALUE=DATE:20270529
+DESCRIPTION:Model: claude-opus-4-8\nStatus: active
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-8 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-opus-4-8 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-opus-4-7
 DTSTART;VALUE=DATE:20270416
 DTEND;VALUE=DATE:20270417
@@ -2164,7 +2180,7 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-opus-4-20250514
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
-DESCRIPTION:Model: claude-opus-4-20250514\nReplacement: claude-opus-4-7\nS
+DESCRIPTION:Model: claude-opus-4-20250514\nReplacement: claude-opus-4-8\nS
  tatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2446,19 +2462,36 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Gemini] Model deprecation: gemini-3.1-flash-lite-preview
-DTSTART;VALUE=DATE:20260525
-DTEND;VALUE=DATE:20260526
-DESCRIPTION:Model: gemini-3.1-flash-lite-preview\nReplacement: gemini-3.1-
- flash-lite\nStatus: retired
+SUMMARY:[Gemini] Model deprecation: gemini-3.1-flash-image-preview
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+DESCRIPTION:Model: gemini-3.1-flash-image-preview\nReplacement: gemini-3.1
+ -flash-image\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:gemini-3.1-flash-lite-preview shutdown in 7 days
+DESCRIPTION:gemini-3.1-flash-image-preview shutdown in 7 days
 TRIGGER:-P7D
 END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
-DESCRIPTION:gemini-3.1-flash-lite-preview shutdown in 30 days
+DESCRIPTION:gemini-3.1-flash-image-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-3-pro-image-preview
+DTSTART;VALUE=DATE:20260625
+DTEND;VALUE=DATE:20260626
+DESCRIPTION:Model: gemini-3-pro-image-preview\nReplacement: gemini-3-pro-i
+ mage\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3-pro-image-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3-pro-image-preview shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
@@ -2476,6 +2509,23 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3-pro-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-3.1-flash-lite-preview
+DTSTART;VALUE=DATE:20260525
+DTEND;VALUE=DATE:20260526
+DESCRIPTION:Model: gemini-3.1-flash-lite-preview\nReplacement: gemini-3.1-
+ flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3.1-flash-lite-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3.1-flash-lite-preview shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
