@@ -3,6 +3,57 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-image-1-mini
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DESCRIPTION:Model: gpt-image-1-mini\nReplacement: gpt-image-2\nStatus: dep
+ recated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-1-mini shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-1-mini shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-image-1.5
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DESCRIPTION:Model: gpt-image-1.5\nReplacement: gpt-image-2\nStatus: deprec
+ ated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-1.5 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-1.5 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: chatgpt-image-latest
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+DESCRIPTION:Model: chatgpt-image-latest\nReplacement: gpt-image-2\nStatus:
+  deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:chatgpt-image-latest shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:chatgpt-image-latest shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5.2-chat-latest
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811

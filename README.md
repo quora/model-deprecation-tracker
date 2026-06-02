@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-06-01*
+*Last updated: 2026-06-02*
 
 ### Anthropic
 
@@ -121,6 +121,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 2026-10-23 | gpt-5.4-nano |
 | ft-babbage-002 |  | deprecated | TBD | 2026-10-23 | gpt-5.4-mini |
 | ft-davinci-002 |  | deprecated | TBD | 2026-10-23 | gpt-5.4-mini |
+| gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
+| gpt-image-1.5 |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
+| chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
 
 ### Vertex AI
 
