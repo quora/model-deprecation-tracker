@@ -2215,7 +2215,8 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-opus-4-1-20250805
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-DESCRIPTION:Model: claude-opus-4-1-20250805\nStatus: active
+DESCRIPTION:Model: claude-opus-4-1-20250805\nReplacement: claude-opus-4-8\
+ nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-opus-4-1-20250805 shutdown in 7 days

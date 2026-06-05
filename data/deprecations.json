@@ -1173,10 +1173,10 @@
     "provider": "Anthropic",
     "model_name": "claude-opus-4-1-20250805",
     "model_id": "",
-    "deprecated_date": "",
+    "deprecated_date": "2026-06-05",
     "shutdown_date": "2026-08-05",
-    "replacement": "",
-    "status": "active"
+    "replacement": "claude-opus-4-8",
+    "status": "deprecated"
   },
   {
     "provider": "Anthropic",
