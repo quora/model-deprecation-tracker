@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-06-07*
+*Last updated: 2026-06-08*
 
 ### Anthropic
 
@@ -40,7 +40,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-3-pro-preview |  | retired | TBD | 🔴 2026-03-09 | gemini-3.1-pro-preview |
 | gemini-2.5-flash-lite-preview-09-2025 |  | retired | TBD | 🔴 2026-03-31 | gemini-3.1-flash-lite |
 | gemini-robotics-er-1.5-preview |  | retired | TBD | 🔴 2026-04-30 | gemini-robotics-er-1.6-preview |
 | gemini-3.1-flash-lite-preview |  | retired | TBD | 🔴 2026-05-25 | gemini-3.1-flash-lite |
