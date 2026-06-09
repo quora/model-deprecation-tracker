@@ -9,6 +9,7 @@ Automatically tracks model deprecation schedules from major AI providers.
 - **Vertex AI** — [Partner model deprecations](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models)
 - **AWS Bedrock** — [Model lifecycle](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 - **Gemini** — [API deprecations](https://ai.google.dev/gemini-api/docs/deprecations)
+- **Azure Foundry** — [Model retirement schedule](https://learn.microsoft.com/en-us/azure/foundry/openai/concepts/model-retirement-schedule)
 
 ## Calendar
 
