@@ -7,6 +7,7 @@ from scraper.anthropic_scraper import scrape as scrape_anthropic
 from scraper.vertex_scraper import scrape as scrape_vertex
 from scraper.bedrock_scraper import scrape as scrape_bedrock
 from scraper.gemini_scraper import scrape as scrape_gemini
+from scraper.azure_foundry_scraper import scrape as scrape_azure_foundry
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 
@@ -196,4 +197,113 @@ class TestGeminiScraper:
             shutdown_date=datetime.date(2025, 10, 30),
             replacement="gemini-embedding-001",
             status="retired",
+        )
+
+
+from scraper.azure_foundry_scraper import _is_empty_value
+
+
+class TestIsEmptyValue:
+    """Unit tests for the _is_empty_value() helper that guards against encoding artefacts."""
+
+    def test_empty_string(self):
+        assert _is_empty_value("") is True
+
+    def test_whitespace_only(self):
+        assert _is_empty_value("   ") is True
+
+    def test_ascii_hyphen(self):
+        assert _is_empty_value("-") is True
+
+    def test_em_dash_unicode(self):
+        assert _is_empty_value("\u2014") is True  # U+2014 em dash
+
+    def test_en_dash_unicode(self):
+        assert _is_empty_value("\u2013") is True  # U+2013 en dash
+
+    def test_garbled_em_dash_artefact(self):
+        # UTF-8 em dash bytes (E2 80 94) mis-decoded as Latin-1 → 'â' + ctrl chars
+        garbled = "\xe2\x80\x94"  # raw Latin-1 bytes
+        assert _is_empty_value(garbled) is True
+
+    def test_real_value_not_empty(self):
+        assert _is_empty_value("claude-haiku-4-5") is False
+
+    def test_real_date_not_empty(self):
+        assert _is_empty_value("2026-10-19") is False
+
+    def test_real_version_not_empty(self):
+        assert _is_empty_value("2025-04-14") is False
+
+
+class TestAzureFoundryScraper:
+    def test_only_openai_and_anthropic_sections_are_scraped(self):
+        """The Cohere section (and any other non-target section) must be ignored."""
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        providers = {e.provider for e in entries}
+        assert providers == {"Azure Foundry (OpenAI)", "Azure Foundry (Anthropic)"}
+
+    def test_fine_tuned_models_table_is_excluded(self):
+        """The fine-tuned models table (different headers) must not produce entries."""
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        # Fine-tuned rows have version '2024-08-06'; if the table were parsed they
+        # would appear as 'gpt-4o (2024-08-06)' — verify they are absent.
+        fine_tuned_model_names = {
+            e.model_name for e in entries if "2024-08-06" in e.model_name
+        }
+        assert fine_tuned_model_names == set()
+
+    def test_parses_openai_deprecated_model(self):
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        entry = _by_name(entries)["gpt-4o (2024-05-13)"]
+        assert entry == DeprecationEntry(
+            provider="Azure Foundry (OpenAI)",
+            model_name="gpt-4o (2024-05-13)",
+            shutdown_date=datetime.date(2026, 10, 1),
+            replacement="gpt-5.1",
+            status="deprecated",
+        )
+
+    def test_parses_openai_active_model_no_replacement(self):
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        entry = _by_name(entries)["gpt-5 (2025-08-07)"]
+        assert entry == DeprecationEntry(
+            provider="Azure Foundry (OpenAI)",
+            model_name="gpt-5 (2025-08-07)",
+            shutdown_date=datetime.date(2027, 2, 6),
+            replacement="",
+            status="active",
+        )
+
+    def test_past_retirement_date_becomes_retired(self):
+        """An entry whose retirement date is in the past must have status='retired'."""
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        entry = _by_name(entries)["o1 (2024-12-17)"]
+        assert entry.status == "retired"
+        assert entry.shutdown_date == datetime.date(2025, 1, 1)
+
+    def test_parses_openai_model_with_replacement(self):
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        entry = _by_name(entries)["gpt-4o-mini (2024-07-18)"]
+        assert entry.replacement == "gpt-4.1-mini"
+        assert entry.provider == "Azure Foundry (OpenAI)"
+
+    def test_parses_anthropic_models(self):
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        anthropic_entries = [
+            e for e in entries if e.provider == "Azure Foundry (Anthropic)"
+        ]
+        assert len(anthropic_entries) == 3
+        names = {e.model_name for e in anthropic_entries}
+        assert names == {"claude-haiku-4-5", "claude-sonnet-4-5", "claude-opus-4-1"}
+
+    def test_anthropic_model_has_correct_date_and_provider(self):
+        entries = scrape_azure_foundry(_load_fixture("azure_foundry.html"))
+        entry = _by_name(entries)["claude-haiku-4-5"]
+        assert entry == DeprecationEntry(
+            provider="Azure Foundry (Anthropic)",
+            model_name="claude-haiku-4-5",
+            shutdown_date=datetime.date(2026, 10, 19),
+            replacement="",
+            status="active",
         )
