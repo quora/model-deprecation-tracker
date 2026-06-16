@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-06-15*
+*Last updated: 2026-06-16*
 
 ### Anthropic
 
@@ -212,6 +212,12 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
 | gpt-image-1.5 |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
 | chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
+| gpt-5-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.5 |
+| gpt-5-mini-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.4-mini |
+| gpt-5-nano-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.4-nano |
+| gpt-5-pro-2025-10-06 |  | deprecated | TBD | 2026-12-11 | gpt-5.5-pro |
+| o3-2025-04-16 |  | deprecated | TBD | 2026-12-11 | gpt-5.5 |
+| o3-pro-2025-06-10 |  | deprecated | TBD | 2026-12-11 | gpt-5.5-pro |
 
 ### Vertex AI
 
