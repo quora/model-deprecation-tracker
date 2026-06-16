@@ -1,6 +1,60 @@
 [
   {
     "provider": "OpenAI",
+    "model_name": "gpt-5-2025-08-07",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-11",
+    "replacement": "gpt-5.5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5-mini-2025-08-07",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-11",
+    "replacement": "gpt-5.4-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5-nano-2025-08-07",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-11",
+    "replacement": "gpt-5.4-nano",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5-pro-2025-10-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-11",
+    "replacement": "gpt-5.5-pro",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "o3-2025-04-16",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-11",
+    "replacement": "gpt-5.5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "o3-pro-2025-06-10",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-11",
+    "replacement": "gpt-5.5-pro",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "gpt-image-1-mini",
     "model_id": "",
     "deprecated_date": "",
