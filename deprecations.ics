@@ -2619,7 +2619,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-3.1-flash-image-preview
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 DESCRIPTION:Model: gemini-3.1-flash-image-preview\nReplacement: gemini-3.1
- -flash-image\nStatus: deprecated
+ -flash-image\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3.1-flash-image-preview shutdown in 7 days
@@ -2636,7 +2636,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-3-pro-image-preview
 DTSTART;VALUE=DATE:20260625
 DTEND;VALUE=DATE:20260626
 DESCRIPTION:Model: gemini-3-pro-image-preview\nReplacement: gemini-3-pro-i
- mage\nStatus: deprecated
+ mage\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3-pro-image-preview shutdown in 7 days

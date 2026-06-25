@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-06-24*
+*Last updated: 2026-06-25*
 
 ### Anthropic
 
@@ -134,8 +134,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gemini-2.0-flash-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.5-flash |
 | gemini-2.0-flash-lite |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
 | gemini-2.0-flash-lite-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
-| gemini-3.1-flash-image-preview |  | deprecated | TBD | 🟡 2026-06-25 | gemini-3.1-flash-image |
-| gemini-3-pro-image-preview |  | deprecated | TBD | 🟡 2026-06-25 | gemini-3-pro-image |
+| gemini-3.1-flash-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3.1-flash-image |
+| gemini-3-pro-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3-pro-image |
 | veo-3.0-generate-001 |  | deprecated | TBD | 🟡 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | veo-3.0-fast-generate-001 |  | deprecated | TBD | 🟡 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | veo-2.0-generate-001 |  | deprecated | TBD | 🟡 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
@@ -153,9 +153,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gpt-4-0314 |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
-| gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
-| gpt-4-0125-preview (including gpt-4-turbo-preview and gpt-4-turbo-preview-completions, which point to this snapshot) |  | deprecated | TBD | 🔴 2026-03-26 | gpt-5 or gpt-4.1* |
 | gpt-4o-realtime-preview |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
 | gpt-4o-realtime-preview-2025-06-03 |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
 | gpt-4o-realtime-preview-2024-12-17 |  | deprecated | TBD | 🔴 2026-05-07 | gpt-realtime-1.5 |
