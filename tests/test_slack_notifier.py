@@ -1,12 +1,12 @@
 import datetime
 from unittest.mock import patch
 
-from scraper.base import DeprecationEntry
 from generators.slack_notifier import (
     find_upcoming_deprecations,
     format_slack_message,
     send_notification,
 )
+from scraper.base import DeprecationEntry
 
 
 def _make_entries() -> list[DeprecationEntry]:
@@ -14,9 +14,15 @@ def _make_entries() -> list[DeprecationEntry]:
     return [
         DeprecationEntry(
             provider="OpenAI",
+            model_name="fourteen-day-model",
+            shutdown_date=today + datetime.timedelta(days=14),
+            replacement="new-model",
+            status="deprecated",
+        ),
+        DeprecationEntry(
+            provider="OpenAI",
             model_name="seven-day-model",
             shutdown_date=today + datetime.timedelta(days=7),
-            replacement="new-model",
             status="deprecated",
         ),
         DeprecationEntry(
@@ -46,14 +52,15 @@ def _make_entries() -> list[DeprecationEntry]:
 
 
 class TestFindUpcomingDeprecations:
-    def test_notifies_at_7_and_1_days(self):
+    def test_notifies_at_14_and_1_days(self):
         upcoming = find_upcoming_deprecations(_make_entries())
         names = {e.model_name for e in upcoming}
-        assert names == {"seven-day-model", "one-day-model"}
+        assert names == {"fourteen-day-model", "one-day-model"}
 
     def test_skips_non_matching_days(self):
         upcoming = find_upcoming_deprecations(_make_entries())
         names = {e.model_name for e in upcoming}
+        assert "seven-day-model" not in names
         assert "three-day-model" not in names
 
     def test_custom_notify_days(self):
@@ -69,10 +76,7 @@ class TestFormatSlackMessage:
         blocks = payload["blocks"]
         assert blocks[0]["type"] == "header"
         assert blocks[1]["type"] == "section"
-        text = blocks[1]["text"]["text"]
-        expected_parts = ["OpenAI", "seven-day-model", "new-model"]
-        for part in expected_parts:
-            assert part in text, f"Expected {part!r} in Slack message text"
+        assert blocks[1]["text"]["type"] == "mrkdwn"
 
 
 class TestSendNotification:

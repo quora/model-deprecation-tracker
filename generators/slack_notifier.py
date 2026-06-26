@@ -7,8 +7,7 @@ log = logging.getLogger(__name__)
 
 from scraper.base import DeprecationEntry
 
-
-NOTIFY_AT_DAYS = {7, 1}
+NOTIFY_AT_DAYS = {14, 1}
 
 
 def find_upcoming_deprecations(
@@ -67,9 +66,8 @@ def format_slack_message(entries: list[DeprecationEntry]) -> dict:
     return {"text": "\n".join(lines), "blocks": blocks}
 
 
-def send_notification(
-    entries: list[DeprecationEntry], webhook_urls: list[str]
-) -> None:
+def send_notification(entries: list[DeprecationEntry], webhook_urls: list[str]) -> None:
+    """Send Slack notifications for deprecations at configured day thresholds."""
     upcoming = find_upcoming_deprecations(entries)
     if not upcoming:
         return
