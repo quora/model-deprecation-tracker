@@ -3611,7 +3611,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: gpt-5-chat (2025-08-07
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 DESCRIPTION:Model: gpt-5-chat (2025-08-07)\nReplacement: gpt-chat-latest\n
- Status: active
+ Status: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5-chat (2025-08-07) shutdown in 7 days
@@ -3730,7 +3730,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: gpt-5.1-chat (2025-11-
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 DESCRIPTION:Model: gpt-5.1-chat (2025-11-13)\nReplacement: gpt-chat-latest
- \nStatus: active
+ \nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5.1-chat (2025-11-13) shutdown in 7 days
@@ -3833,7 +3833,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: gpt-5.2-chat (2026-02-
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 DESCRIPTION:Model: gpt-5.2-chat (2026-02-10)\nReplacement: gpt-chat-latest
- \nStatus: active
+ \nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5.2-chat (2026-02-10) shutdown in 7 days
@@ -3868,7 +3868,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: gpt-5.3-chat (2026-03-
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
 DESCRIPTION:Model: gpt-5.3-chat (2026-03-03)\nReplacement: gpt-chat-latest
- \nStatus: active
+ \nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5.3-chat (2026-03-03) shutdown in 7 days

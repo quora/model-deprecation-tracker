@@ -2067,7 +2067,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-29",
     "replacement": "gpt-chat-latest",
-    "status": "active"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2130,7 +2130,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-29",
     "replacement": "gpt-chat-latest",
-    "status": "active"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2184,7 +2184,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-29",
     "replacement": "gpt-chat-latest",
-    "status": "active"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2202,7 +2202,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-29",
     "replacement": "gpt-chat-latest",
-    "status": "active"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
