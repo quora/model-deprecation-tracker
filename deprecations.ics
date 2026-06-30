@@ -3233,8 +3233,8 @@ SUMMARY:[Gemini] Model deprecation: veo-3.0-generate-001
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 DESCRIPTION:Model: veo-3.0-generate-001\nReplacement: veo-3.1-generate-pre
- viewor the GA models on the Gemini Enterprise Agent Platform\nStatus: depr
- ecated
+ viewor the GA models on the Gemini Enterprise Agent Platform\nStatus: reti
+ red
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-generate-001 shutdown in 7 days
@@ -3252,7 +3252,7 @@ DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 DESCRIPTION:Model: veo-3.0-fast-generate-001\nReplacement: veo-3.1-fast-ge
  nerate-previewor the GA models on the Gemini Enterprise Agent Platform\nSt
- atus: deprecated
+ atus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-fast-generate-001 shutdown in 7 days
@@ -3269,8 +3269,8 @@ SUMMARY:[Gemini] Model deprecation: veo-2.0-generate-001
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
 DESCRIPTION:Model: veo-2.0-generate-001\nReplacement: veo-3.1-generate-pre
- viewor the GA models on the Gemini Enterprise Agent Platform\nStatus: depr
- ecated
+ viewor the GA models on the Gemini Enterprise Agent Platform\nStatus: reti
+ red
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-2.0-generate-001 shutdown in 7 days

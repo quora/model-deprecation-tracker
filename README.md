@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-06-29*
+*Last updated: 2026-06-30*
 
 ### Anthropic
 
@@ -40,7 +40,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-2.5-flash-lite-preview-09-2025 |  | retired | TBD | 🔴 2026-03-31 | gemini-3.1-flash-lite |
 | gemini-robotics-er-1.5-preview |  | retired | TBD | 🔴 2026-04-30 | gemini-robotics-er-1.6-preview |
 | gemini-3.1-flash-lite-preview |  | retired | TBD | 🔴 2026-05-25 | gemini-3.1-flash-lite |
 | gemini-2.0-flash |  | retired | TBD | 🔴 2026-06-01 | gemini-3.5-flash |
@@ -49,9 +48,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gemini-2.0-flash-lite-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
 | gemini-3.1-flash-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3.1-flash-image |
 | gemini-3-pro-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3-pro-image |
-| veo-3.0-generate-001 |  | deprecated | TBD | 🟡 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
-| veo-3.0-fast-generate-001 |  | deprecated | TBD | 🟡 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
-| veo-2.0-generate-001 |  | deprecated | TBD | 🟡 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
+| veo-3.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
+| veo-3.0-fast-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
+| veo-2.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | gemini-embedding-001 |  | deprecated | TBD | 🟡 2026-07-14 | gemini-embedding-2 |
 | imagen-4.0-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
