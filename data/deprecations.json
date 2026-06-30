@@ -1806,7 +1806,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-30",
     "replacement": "veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Gemini",
@@ -1815,7 +1815,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-30",
     "replacement": "veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Gemini",
@@ -1824,7 +1824,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-06-30",
     "replacement": "veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Gemini",
@@ -1986,7 +1986,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-10-01",
     "replacement": "gpt-5.1",
-    "status": "active"
+    "status": "deprecated"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -1995,7 +1995,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-10-01",
     "replacement": "gpt-4.1-mini",
-    "status": "active"
+    "status": "deprecated"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
