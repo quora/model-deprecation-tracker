@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-01*
+*Last updated: 2026-07-02*
 
 ### Anthropic
 
@@ -138,6 +138,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | veo-3.0-fast-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | veo-2.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | gemini-embedding-001 |  | deprecated | TBD | 🟡 2026-07-14 | gemini-embedding-2 |
+| embedding-2-preview |  | deprecated | TBD | 2026-08-10 | gemini-embedding-2 |
 | imagen-4.0-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
@@ -221,7 +222,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | Claude 3.7 Sonnet | Claude 3.7 Sonnet | retired | 2026-11-11 | 🔴 2026-05-11 |  |
 | Claude 3.5 Haiku | Claude 3.5 Haiku | deprecated | 2026-01-05 | 🟡 2026-07-05 |  |
-| Claude 3 Opus | Claude 3 Opus | deprecated | 2026-06-30 | 2026-08-01 |  |
+| Claude 3 Opus | Claude 3 Opus | deprecated | 2026-06-30 | 🟡 2026-08-01 |  |
 | Anthropic's Claude 3 Haiku | Anthropic's Claude 3 Haiku | deprecated | 2026-02-23 | 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->

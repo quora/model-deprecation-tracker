@@ -3058,6 +3058,23 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: embedding-2-preview
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+DESCRIPTION:Model: embedding-2-preview\nReplacement: gemini-embedding-2\nS
+ tatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:embedding-2-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:embedding-2-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: embedding-001
 DTSTART;VALUE=DATE:20251030
 DTEND;VALUE=DATE:20251031

@@ -1693,6 +1693,15 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-embedding-2",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-embedding-001",
     "model_id": "",
     "deprecated_date": "",
@@ -1708,6 +1717,15 @@
     "shutdown_date": "2026-01-14",
     "replacement": "gemini-embedding-2",
     "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "embedding-2-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-10",
+    "replacement": "gemini-embedding-2",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
