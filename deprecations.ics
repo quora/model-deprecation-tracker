@@ -2483,8 +2483,8 @@ BEGIN:VEVENT
 SUMMARY:[Vertex AI] Model deprecation: Claude 3.5 Haiku
 DTSTART;VALUE=DATE:20260705
 DTEND;VALUE=DATE:20260706
-DESCRIPTION:Model: Claude 3.5 Haiku\nModel ID: Claude 3.5 Haiku\nStatus: d
- eprecated
+DESCRIPTION:Model: Claude 3.5 Haiku\nModel ID: Claude 3.5 Haiku\nStatus: r
+ etired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3.5 Haiku shutdown in 7 days
