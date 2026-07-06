@@ -7,6 +7,7 @@ from scraper.anthropic_scraper import scrape as scrape_anthropic
 from scraper.vertex_scraper import scrape as scrape_vertex
 from scraper.bedrock_scraper import scrape as scrape_bedrock
 from scraper.gemini_scraper import scrape as scrape_gemini
+from scraper.fireworks_scraper import scrape as scrape_fireworks
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 
@@ -17,6 +18,12 @@ def _load_fixture(name: str) -> str:
 
 def _by_name(entries: list[DeprecationEntry]) -> dict[str, DeprecationEntry]:
     return {e.model_name: e for e in entries}
+
+
+def _status(default: str, shutdown_date: datetime.date) -> str:
+    if shutdown_date <= datetime.date.today():
+        return "retired"
+    return default
 
 
 class TestOpenAIScraper:
@@ -125,7 +132,7 @@ class TestVertexScraper:
             model_id="Claude 3.5 Haiku",
             deprecated_date=datetime.date(2026, 1, 5),
             shutdown_date=datetime.date(2026, 7, 5),
-            status="deprecated",
+            status=_status("deprecated", datetime.date(2026, 7, 5)),
         )
 
 
@@ -139,7 +146,7 @@ class TestBedrockScraper:
             deprecated_date=datetime.date(2025, 12, 19),
             shutdown_date=datetime.date(2026, 6, 19),
             replacement="Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0",
-            status="legacy",
+            status=_status("legacy", datetime.date(2026, 6, 19)),
         )
 
     def test_parses_eol_entry(self):
@@ -163,7 +170,7 @@ class TestBedrockScraper:
             deprecated_date=datetime.date(2025, 8, 25),
             shutdown_date=datetime.date(2026, 3, 1),
             replacement="Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-            status="legacy",
+            status=_status("legacy", datetime.date(2026, 3, 1)),
         )
 
     def test_total_count(self):
@@ -184,7 +191,7 @@ class TestGeminiScraper:
             model_name="gemini-2.5-pro",
             shutdown_date=datetime.date(2026, 6, 17),
             replacement="gemini-3-pro-preview",
-            status="deprecated",
+            status=_status("deprecated", datetime.date(2026, 6, 17)),
         )
 
     def test_retired_entry(self):
@@ -197,3 +204,46 @@ class TestGeminiScraper:
             replacement="gemini-embedding-001",
             status="retired",
         )
+
+
+class TestFireworksScraper:
+    def test_parses_serverless_deprecation_with_recommended_migrations(self):
+        entries = scrape_fireworks(_load_fixture("fireworks.md"))
+        kimi = _by_name(entries)["Kimi K2.5"]
+        assert kimi == DeprecationEntry(
+            provider="Fireworks",
+            model_name="Kimi K2.5",
+            model_id="fireworks/kimi-k2p5",
+            deprecated_date=datetime.date(2026, 6, 26),
+            replacement="Kimi K2.6",
+            status="deprecated",
+        )
+
+    def test_parses_single_sentence_deprecation(self):
+        entries = scrape_fireworks(_load_fixture("fireworks.md"))
+        minimax = _by_name(entries)["MiniMax M2.5"]
+        assert minimax == DeprecationEntry(
+            provider="Fireworks",
+            model_name="MiniMax M2.5",
+            deprecated_date=datetime.date(2026, 6, 17),
+            replacement="MiniMax M2.7",
+            status="deprecated",
+        )
+
+    def test_parses_legacy_decommission_date(self):
+        entries = scrape_fireworks(_load_fixture("fireworks.md"))
+        deepseek = _by_name(entries)["DeepSeek V3.1"]
+        assert deepseek == DeprecationEntry(
+            provider="Fireworks",
+            model_name="DeepSeek V3.1",
+            deprecated_date=datetime.date(2026, 5, 14),
+            shutdown_date=datetime.date(2026, 5, 14),
+            replacement="Kimi K2.6 or GLM 5.1",
+            status=_status("deprecated", datetime.date(2026, 5, 14)),
+        )
+
+    def test_skips_non_model_deprecation(self):
+        entries = scrape_fireworks(_load_fixture("fireworks.md"))
+        names = {e.model_name for e in entries}
+        assert "Audio inference" not in names
+        assert "image generation" not in names

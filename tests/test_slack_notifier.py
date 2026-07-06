@@ -2,6 +2,8 @@ import datetime
 from unittest.mock import patch
 
 from generators.slack_notifier import (
+    find_new_deprecations,
+    find_notifiable_deprecations,
     find_upcoming_deprecations,
     format_slack_message,
     send_notification,
@@ -69,6 +71,39 @@ class TestFindUpcomingDeprecations:
         assert upcoming[0].model_name == "three-day-model"
 
 
+class TestFindNewDeprecations:
+    def test_notifies_on_deprecation_date(self):
+        today = datetime.date.today()
+        entries = [
+            DeprecationEntry(
+                provider="Fireworks",
+                model_name="newly-deprecated-model",
+                deprecated_date=today,
+                status="deprecated",
+            ),
+            DeprecationEntry(
+                provider="Fireworks",
+                model_name="old-deprecated-model",
+                deprecated_date=today - datetime.timedelta(days=1),
+                status="deprecated",
+            ),
+        ]
+        announced = find_new_deprecations(entries)
+        assert [e.model_name for e in announced] == ["newly-deprecated-model"]
+
+    def test_combines_new_and_upcoming_without_duplicates(self):
+        today = datetime.date.today()
+        entry = DeprecationEntry(
+            provider="Fireworks",
+            model_name="same-entry",
+            deprecated_date=today,
+            shutdown_date=today + datetime.timedelta(days=14),
+            status="deprecated",
+        )
+        notifiable = find_notifiable_deprecations([entry])
+        assert notifiable == [entry]
+
+
 class TestFormatSlackMessage:
     def test_message_structure(self):
         entries = [_make_entries()[0]]
@@ -77,6 +112,22 @@ class TestFormatSlackMessage:
         assert blocks[0]["type"] == "header"
         assert blocks[1]["type"] == "section"
         assert blocks[1]["text"]["type"] == "mrkdwn"
+
+    def test_formats_deprecation_without_shutdown_date(self):
+        today = datetime.date.today()
+        payload = format_slack_message(
+            [
+                DeprecationEntry(
+                    provider="Fireworks",
+                    model_name="newly-deprecated-model",
+                    deprecated_date=today,
+                    replacement="replacement-model",
+                    status="deprecated",
+                )
+            ]
+        )
+        assert f"Deprecated: {today.isoformat()}" in payload["text"]
+        assert "Shutdown:" not in payload["text"]
 
 
 class TestSendNotification:

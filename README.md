@@ -9,6 +9,7 @@ Automatically tracks model deprecation schedules from major AI providers.
 - **Vertex AI** — [Partner model deprecations](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models)
 - **AWS Bedrock** — [Model lifecycle](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 - **Gemini** — [API deprecations](https://ai.google.dev/gemini-api/docs/deprecations)
+- **Fireworks AI** — [Changelog](https://docs.fireworks.ai/updates/changelog)
 
 ## Calendar
 
@@ -143,7 +144,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 ## Slack Alerts
 
-Set the `SLACK_WEBHOOK_URL` environment variable (or GitHub Actions secret) to receive Slack notifications 14 days and 1 day before a model shutdown. Multiple webhook URLs can be provided as a comma-separated list to notify multiple channels.
+Set the `SLACK_WEBHOOK_URL` environment variable (or GitHub Actions secret) to receive Slack notifications 14 days and 1 day before a model shutdown, plus same-day alerts when a provider announces a model deprecation date. Multiple webhook URLs can be provided as a comma-separated list to notify multiple channels.
 
 ## Setup
 

@@ -5,26 +5,27 @@ from generators.readme_generator import generate_readme, MARKER_START, MARKER_EN
 
 
 def _make_entries() -> list[DeprecationEntry]:
+    today = datetime.date.today()
     return [
         DeprecationEntry(
             provider="OpenAI",
             model_name="gpt-4-0314",
-            shutdown_date=datetime.date(2026, 3, 26),
+            shutdown_date=today + datetime.timedelta(days=15),
             replacement="gpt-5",
             status="deprecated",
         ),
         DeprecationEntry(
             provider="Anthropic",
             model_name="claude-3-haiku",
-            deprecated_date=datetime.date(2026, 2, 19),
-            shutdown_date=datetime.date(2026, 4, 20),
+            deprecated_date=today - datetime.timedelta(days=15),
+            shutdown_date=today + datetime.timedelta(days=30),
             replacement="claude-haiku-4-5",
             status="deprecated",
         ),
         DeprecationEntry(
             provider="OpenAI",
             model_name="gpt-3.5-turbo",
-            shutdown_date=datetime.date(2026, 9, 28),
+            shutdown_date=today + datetime.timedelta(days=90),
             status="deprecated",
         ),
     ]
@@ -100,11 +101,12 @@ class TestGenerateReadme:
         assert "\U0001f7e1" in result
 
     def test_no_indicator_for_distant_dates(self):
+        today = datetime.date.today()
         entries = [
             DeprecationEntry(
                 provider="TestProvider",
                 model_name="distant-model",
-                shutdown_date=datetime.date(2027, 6, 1),
+                shutdown_date=today + datetime.timedelta(days=120),
                 status="deprecated",
             ),
         ]

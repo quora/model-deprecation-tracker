@@ -3,6 +3,7 @@ from scraper.anthropic_scraper import scrape as scrape_anthropic
 from scraper.vertex_scraper import scrape as scrape_vertex
 from scraper.bedrock_scraper import scrape as scrape_bedrock
 from scraper.gemini_scraper import scrape as scrape_gemini
+from scraper.fireworks_scraper import scrape as scrape_fireworks
 
 ALL_SCRAPERS = [
     ("OpenAI", scrape_openai),
@@ -10,4 +11,5 @@ ALL_SCRAPERS = [
     ("Vertex AI", scrape_vertex),
     ("Bedrock", scrape_bedrock),
     ("Gemini", scrape_gemini),
+    ("Fireworks", scrape_fireworks),
 ]
