@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-08*
+*Last updated: 2026-07-09*
 
 ### Anthropic
 
@@ -125,6 +125,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.1-codex-mini (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-realtime-2.1 (2026-07-07) |  | active | TBD | 2027-06-25 |  |
 | gpt-realtime-2.1-mini (2026-07-07) |  | active | TBD | 2027-06-25 |  |
+| gpt-5.6-luna (2026-07-09) |  | active | TBD | 2027-07-09 |  |
+| gpt-5.6-sol (2026-07-09) |  | active | TBD | 2027-07-09 |  |
+| gpt-5.6-terra (2026-07-09) |  | active | TBD | 2027-07-09 |  |
 
 ### Gemini
 

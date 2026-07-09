@@ -2278,6 +2278,33 @@
   },
   {
     "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-5.6-luna (2026-07-09)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-07-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-5.6-sol (2026-07-09)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-07-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-5.6-terra (2026-07-09)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-07-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
     "model_name": "gpt-audio (2025-08-28)",
     "model_id": "",
     "deprecated_date": "",
