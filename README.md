@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-10*
+*Last updated: 2026-07-11*
 
 ### Anthropic
 
@@ -52,7 +52,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | veo-3.0-fast-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | veo-2.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | gemini-embedding-001 |  | deprecated | TBD | 🟡 2026-07-14 | gemini-embedding-2 |
-| embedding-2-preview |  | deprecated | TBD | 2026-08-10 | gemini-embedding-2 |
+| embedding-2-preview |  | deprecated | TBD | 🟡 2026-08-10 | gemini-embedding-2 |
 | imagen-4.0-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 2026-08-17 | gemini-3.1-flash-image |
@@ -90,8 +90,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | o3-deep-research-2025-06-26 | o3-deep-research |  | deprecated | TBD | 🟡 2026-07-23 | gpt-5.5-pro |
 | o4-mini-deep-research-2025-06-26 | o4-mini-deep-research |  | deprecated | TBD | 🟡 2026-07-23 | gpt-5.5-pro |
 | gpt-5.2-codex |  | deprecated | TBD | 🟡 2026-07-23 | gpt-5.5 |
-| gpt-5.2-chat-latest |  | deprecated | TBD | 2026-08-10 | gpt-5.5 |
-| gpt-5.3-chat-latest |  | deprecated | TBD | 2026-08-10 | gpt-5.5 |
+| gpt-5.2-chat-latest |  | deprecated | TBD | 🟡 2026-08-10 | gpt-5.5 |
+| gpt-5.3-chat-latest |  | deprecated | TBD | 🟡 2026-08-10 | gpt-5.5 |
 | Assistants API |  | deprecated | TBD | 2026-08-26 | Responses API and Conversations API |
 | Videos API |  | deprecated | TBD | 2026-09-24 | --- |
 | sora-2 |  | deprecated | TBD | 2026-09-24 | --- |
