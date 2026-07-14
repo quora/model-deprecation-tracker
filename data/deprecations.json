@@ -1707,7 +1707,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-07-14",
     "replacement": "gemini-embedding-2",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Gemini",

@@ -3030,7 +3030,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-embedding-001
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
 DESCRIPTION:Model: gemini-embedding-001\nReplacement: gemini-embedding-2\n
- Status: deprecated
+ Status: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-embedding-001 shutdown in 7 days
