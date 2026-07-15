@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-14*
+*Last updated: 2026-07-15*
 
 ### Anthropic
 
@@ -36,6 +36,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-sonnet-4-6 |  | active | TBD | 2027-02-17 |  |
 | claude-opus-4-7 |  | active | TBD | 2027-04-16 |  |
 | claude-opus-4-8 |  | active | TBD | 2027-05-28 |  |
+| claude-fable-5 |  | active | TBD | 2027-06-09 |  |
+| claude-sonnet-5 |  | active | TBD | 2027-06-30 |  |
 
 ### Azure Foundry (Anthropic)
 
@@ -60,7 +62,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.1-chat (2025-11-13) |  | retired | TBD | 🔴 2026-06-29 | gpt-chat-latest |
 | gpt-5.2-chat (2026-02-10) |  | retired | TBD | 🔴 2026-06-29 | gpt-chat-latest |
 | gpt-5.3-chat (2026-03-03) |  | retired | TBD | 🔴 2026-06-29 | gpt-chat-latest |
-| sora-2 (2025-10-06) |  | active | TBD | 🟡 2026-07-15 | sora-2 (2025-12-08) |
+| sora-2 (2025-10-06) |  | retired | TBD | 🔴 2026-07-15 | sora-2 (2025-12-08) |
 | gpt-realtime-mini (2025-10-06) |  | active | TBD | 🟡 2026-07-23 |  |
 | gpt-chat-latest (2026-05-05) |  | active | TBD | 🟡 2026-08-05 |  |
 | gpt-chat-latest (2026-05-28) |  | active | TBD | 2026-08-28 |  |
