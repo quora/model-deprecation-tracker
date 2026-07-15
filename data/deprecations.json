@@ -1189,6 +1189,15 @@
   },
   {
     "provider": "Anthropic",
+    "model_name": "claude-fable-5",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-06-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
     "model_name": "claude-opus-4-8",
     "model_id": "",
     "deprecated_date": "",
@@ -1240,6 +1249,15 @@
     "shutdown_date": "2026-06-15",
     "replacement": "claude-opus-4-8",
     "status": "retired"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-sonnet-5",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-06-30",
+    "replacement": "",
+    "status": "active"
   },
   {
     "provider": "Anthropic",
