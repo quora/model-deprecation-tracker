@@ -3,6 +3,159 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-realtime
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-realtime\nReplacement: gpt-realtime-2.1\nStatus: de
+ precated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-realtime shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-realtime shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-audio
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-audio\nReplacement: gpt-audio-1.5\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-audio shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-audio shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-audio
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-4o-audio\nReplacement: gpt-audio-1.5\nStatus: depre
+ cated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-audio shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-audio shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-4o-realtime\nReplacement: gpt-realtime-2.1\nStatus:
+  deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-realtime shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-realtime-mini
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-realtime-mini\nReplacement: gpt-realtime-2.1-mini\n
+ Status: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-realtime-mini shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-realtime-mini shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-audio-mini
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-audio-mini\nReplacement: gpt-audio-1.5\nStatus: dep
+ recated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-audio-mini shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-audio-mini shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-realtime
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-4o-mini-realtime\nReplacement: gpt-realtime-2.1-min
+ i\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-realtime shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-realtime shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-audio
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-4o-mini-audio\nReplacement: gpt-audio-1.5\nStatus: 
+ deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-audio shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-audio shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-transcribe-2025-03-20
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+DESCRIPTION:Model: gpt-4o-mini-transcribe-2025-03-20\nReplacement: gpt-4o-
+ mini-transcribe-2025-12-15\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-transcribe-2025-03-20 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-transcribe-2025-03-20 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5-2025-08-07
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
@@ -2636,7 +2789,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-3.1-flash-lite
 DTSTART;VALUE=DATE:20270507
 DTEND;VALUE=DATE:20270508
-DESCRIPTION:Model: gemini-3.1-flash-lite\nStatus: deprecated
+DESCRIPTION:Model: gemini-3.1-flash-lite\nReplacement: gemini-3.5-flash-li
+ te\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3.1-flash-lite shutdown in 7 days
@@ -2788,7 +2942,7 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash
 DTSTART;VALUE=DATE:20261016
 DTEND;VALUE=DATE:20261017
-DESCRIPTION:Model: gemini-2.5-flash\nReplacement: gemini-3.5-flash\nStatus
+DESCRIPTION:Model: gemini-2.5-flash\nReplacement: gemini-3.6-flash\nStatus
  : deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2856,7 +3010,7 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-preview-05-20
 DTSTART;VALUE=DATE:20251118
 DTEND;VALUE=DATE:20251119
-DESCRIPTION:Model: gemini-2.5-flash-preview-05-20\nReplacement: gemini-3.5
+DESCRIPTION:Model: gemini-2.5-flash-preview-05-20\nReplacement: gemini-3.6
  -flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2890,7 +3044,7 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-preview-09-25
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20260218
-DESCRIPTION:Model: gemini-2.5-flash-preview-09-25\nReplacement: gemini-3.5
+DESCRIPTION:Model: gemini-2.5-flash-preview-09-25\nReplacement: gemini-3.6
  -flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2907,7 +3061,7 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
-DESCRIPTION:Model: gemini-2.0-flash\nReplacement: gemini-3.5-flash\nStatus
+DESCRIPTION:Model: gemini-2.0-flash\nReplacement: gemini-3.6-flash\nStatus
  : retired
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -2924,7 +3078,7 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-001
 DTSTART;VALUE=DATE:20260601
 DTEND;VALUE=DATE:20260602
-DESCRIPTION:Model: gemini-2.0-flash-001\nReplacement: gemini-3.5-flash\nSt
+DESCRIPTION:Model: gemini-2.0-flash-001\nReplacement: gemini-3.6-flash\nSt
  atus: retired
 BEGIN:VALARM
 ACTION:DISPLAY

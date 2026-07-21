@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-20*
+*Last updated: 2026-07-21*
 
 ### Anthropic
 
@@ -43,8 +43,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | gemini-robotics-er-1.5-preview |  | retired | TBD | 🔴 2026-04-30 | gemini-robotics-er-1.6-preview |
 | gemini-3.1-flash-lite-preview |  | retired | TBD | 🔴 2026-05-25 | gemini-3.1-flash-lite |
-| gemini-2.0-flash |  | retired | TBD | 🔴 2026-06-01 | gemini-3.5-flash |
-| gemini-2.0-flash-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.5-flash |
+| gemini-2.0-flash |  | retired | TBD | 🔴 2026-06-01 | gemini-3.6-flash |
+| gemini-2.0-flash-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.6-flash |
 | gemini-2.0-flash-lite |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
 | gemini-2.0-flash-lite-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
 | gemini-3.1-flash-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3.1-flash-image |
@@ -59,9 +59,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
 | gemini-2.5-pro |  | deprecated | TBD | 2026-10-16 | gemini-3.1-pro-preview |
-| gemini-2.5-flash |  | deprecated | TBD | 2026-10-16 | gemini-3.5-flash |
+| gemini-2.5-flash |  | deprecated | TBD | 2026-10-16 | gemini-3.6-flash |
 | gemini-2.5-flash-lite |  | deprecated | TBD | 2026-10-16 | gemini-3.1-flash-lite |
-| gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 |  |
+| gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
 
 ### OpenAI
 
@@ -130,6 +130,15 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5-pro-2025-10-06 |  | deprecated | TBD | 2026-12-11 | gpt-5.5-pro |
 | o3-2025-04-16 |  | deprecated | TBD | 2026-12-11 | gpt-5.5 |
 | o3-pro-2025-06-10 |  | deprecated | TBD | 2026-12-11 | gpt-5.5-pro |
+| gpt-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1 |
+| gpt-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
+| gpt-4o-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
+| gpt-4o-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1 |
+| gpt-realtime-mini |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1-mini |
+| gpt-audio-mini |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
+| gpt-4o-mini-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1-mini |
+| gpt-4o-mini-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
+| gpt-4o-mini-transcribe-2025-03-20 |  | deprecated | TBD | 2027-01-20 | gpt-4o-mini-transcribe-2025-12-15 |
 
 ### Vertex AI
 

@@ -1,6 +1,87 @@
 [
   {
     "provider": "OpenAI",
+    "model_name": "gpt-realtime",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-realtime-2.1",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-audio",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-audio-1.5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-audio",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-audio-1.5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-realtime",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-realtime-2.1",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-realtime-mini",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-realtime-2.1-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-audio-mini",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-audio-1.5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-mini-realtime",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-realtime-2.1-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-mini-audio",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-audio-1.5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-mini-transcribe-2025-03-20",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-20",
+    "replacement": "gpt-4o-mini-transcribe-2025-12-15",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "gpt-5-2025-08-07",
     "model_id": "",
     "deprecated_date": "",
@@ -1396,6 +1477,24 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-3.6-flash",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3.5-flash-lite",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-3.5-flash",
     "model_id": "",
     "deprecated_date": "",
@@ -1427,7 +1526,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2027-05-07",
-    "replacement": "",
+    "replacement": "gemini-3.5-flash-lite",
     "status": "deprecated"
   },
   {
@@ -1463,7 +1562,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "gemini-3.5-flash",
+    "replacement": "gemini-3.6-flash",
     "status": "active"
   },
   {
@@ -1526,7 +1625,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-10-16",
-    "replacement": "gemini-3.5-flash",
+    "replacement": "gemini-3.6-flash",
     "status": "deprecated"
   },
   {
@@ -1562,7 +1661,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-11-18",
-    "replacement": "gemini-3.5-flash",
+    "replacement": "gemini-3.6-flash",
     "status": "retired"
   },
   {
@@ -1580,7 +1679,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-02-17",
-    "replacement": "gemini-3.5-flash",
+    "replacement": "gemini-3.6-flash",
     "status": "retired"
   },
   {
@@ -1589,7 +1688,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-06-01",
-    "replacement": "gemini-3.5-flash",
+    "replacement": "gemini-3.6-flash",
     "status": "retired"
   },
   {
@@ -1598,7 +1697,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-06-01",
-    "replacement": "gemini-3.5-flash",
+    "replacement": "gemini-3.6-flash",
     "status": "retired"
   },
   {
