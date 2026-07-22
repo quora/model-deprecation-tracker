@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-21*
+*Last updated: 2026-07-22*
 
 ### Anthropic
 
@@ -72,6 +72,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-chat-latest (2026-05-05) |  | active | TBD | 🟡 2026-08-05 |  |
 | gpt-chat-latest (2026-05-28) |  | active | TBD | 2026-08-28 |  |
 | gpt-chat-latest (2026-06-24) |  | active | TBD | 2026-08-28 |  |
+| gpt-realtime-2 (2026-05-06) |  | active | TBD | 2026-08-31 |  |
 | sora-2 (2025-12-08) |  | active | TBD | 2026-09-15 |  |
 | o1 (2024-12-17) |  | deprecated | TBD | 2026-09-16 |  |
 | o1-pro (2025-03-19) |  | active | TBD | 2026-09-18 |  |
@@ -132,7 +133,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | text-embedding-ada-002 (2) |  | active | TBD | 2027-04-15 |  |
 | gpt-image-2 (2026-04-21) |  | active | TBD | 2027-04-21 |  |
 | gpt-5.5 (2026-04-24) |  | active | TBD | 2027-04-23 |  |
-| gpt-realtime-2 (2026-05-06) |  | active | TBD | 2027-05-06 |  |
 | gpt-5.1 (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex-mini (2025-11-13) |  | active | TBD | 2027-05-15 |  |
