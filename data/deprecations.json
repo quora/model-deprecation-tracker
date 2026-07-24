@@ -1279,6 +1279,15 @@
   },
   {
     "provider": "Anthropic",
+    "model_name": "claude-opus-5",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-07-24",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
     "model_name": "claude-opus-4-8",
     "model_id": "",
     "deprecated_date": "",

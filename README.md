@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-23*
+*Last updated: 2026-07-24*
 
 ### Anthropic
 
@@ -36,6 +36,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-opus-4-8 |  | active | TBD | 2027-05-28 |  |
 | claude-fable-5 |  | active | TBD | 2027-06-09 |  |
 | claude-sonnet-5 |  | active | TBD | 2027-06-30 |  |
+| claude-opus-5 |  | active | TBD | 2027-07-24 |  |
 
 ### Gemini
 
@@ -147,7 +148,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Claude 3.7 Sonnet on Google Cloud | Claude 3.7 Sonnet on Google Cloud | retired | 2026-11-11 | 🔴 2026-05-11 |  |
 | Claude 3.5 Haiku on Google Cloud | Claude 3.5 Haiku on Google Cloud | retired | 2026-01-05 | 🔴 2026-07-05 |  |
 | Claude 3 Opus on Google Cloud | Claude 3 Opus on Google Cloud | deprecated | 2026-06-30 | 🟡 2026-08-01 |  |
-| Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | deprecated | 2026-02-23 | 2026-08-23 |  |
+| Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | deprecated | 2026-02-23 | 🟡 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->
 
