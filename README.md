@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-26*
+*Last updated: 2026-07-27*
 
 ### Anthropic
 
@@ -94,7 +94,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.2-codex |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
 | gpt-5.2-chat-latest |  | deprecated | TBD | 🟡 2026-08-10 | gpt-5.6-sol |
 | gpt-5.3-chat-latest |  | deprecated | TBD | 🟡 2026-08-10 | gpt-5.6-sol |
-| Assistants API |  | deprecated | TBD | 2026-08-26 | Responses API and Conversations API |
+| Assistants API |  | deprecated | TBD | 🟡 2026-08-26 | Responses API and Conversations API |
 | Videos API |  | deprecated | TBD | 2026-09-24 | --- |
 | sora-2 |  | deprecated | TBD | 2026-09-24 | --- |
 | sora-2-pro |  | deprecated | TBD | 2026-09-24 | --- |
