@@ -3542,6 +3542,23 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: gemini-robotics-er-1.6-preview
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260901
+DESCRIPTION:Model: gemini-robotics-er-1.6-preview\nReplacement: gemini-rob
+ otics-er-2-preview\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-robotics-er-1.6-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-robotics-er-1.6-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-robotics-er-1.5-preview
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501

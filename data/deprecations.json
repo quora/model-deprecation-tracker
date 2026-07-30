@@ -2047,9 +2047,9 @@
     "model_name": "gemini-robotics-er-1.6-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-08-31",
+    "replacement": "gemini-robotics-er-2-preview",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
