@@ -2793,7 +2793,7 @@ SUMMARY:[Vertex AI] Model deprecation: Claude 3 Opus on Google Cloud
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260802
 DESCRIPTION:Model: Claude 3 Opus on Google Cloud\nModel ID: Claude 3 Opus 
- on Google Cloud\nStatus: deprecated
+ on Google Cloud\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3 Opus on Google Cloud shutdown in 7 days

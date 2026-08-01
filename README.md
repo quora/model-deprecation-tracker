@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-07-31*
+*Last updated: 2026-08-01*
 
 ### Anthropic
 
@@ -56,7 +56,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-fast-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
-| gemini-robotics-er-1.6-preview |  | deprecated | TBD | 2026-08-31 | gemini-robotics-er-2-preview |
+| gemini-robotics-er-1.6-preview |  | deprecated | TBD | 🟡 2026-08-31 | gemini-robotics-er-2-preview |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
 | gemini-2.5-pro |  | deprecated | TBD | 2026-10-16 | gemini-3.1-pro-preview |
 | gemini-2.5-flash |  | deprecated | TBD | 2026-10-16 | gemini-3.6-flash |
@@ -147,7 +147,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | Claude 3.7 Sonnet on Google Cloud | Claude 3.7 Sonnet on Google Cloud | retired | 2026-11-11 | 🔴 2026-05-11 |  |
 | Claude 3.5 Haiku on Google Cloud | Claude 3.5 Haiku on Google Cloud | retired | 2026-01-05 | 🔴 2026-07-05 |  |
-| Claude 3 Opus on Google Cloud | Claude 3 Opus on Google Cloud | deprecated | 2026-06-30 | 🟡 2026-08-01 |  |
+| Claude 3 Opus on Google Cloud | Claude 3 Opus on Google Cloud | retired | 2026-06-30 | 🔴 2026-08-01 |  |
 | Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | deprecated | 2026-02-23 | 🟡 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->
