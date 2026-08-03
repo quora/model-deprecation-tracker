@@ -1597,9 +1597,9 @@
     "model_name": "gemini-2.5-pro",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-16",
-    "replacement": "gemini-3.1-pro-preview",
-    "status": "deprecated"
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1633,9 +1633,9 @@
     "model_name": "gemini-2.5-flash",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-16",
-    "replacement": "gemini-3.6-flash",
-    "status": "deprecated"
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1651,9 +1651,9 @@
     "model_name": "gemini-2.5-flash-lite",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-16",
-    "replacement": "gemini-3.1-flash-lite",
-    "status": "deprecated"
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
   },
   {
     "provider": "Gemini",

@@ -2891,23 +2891,6 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-DESCRIPTION:Model: gemini-2.5-pro\nReplacement: gemini-3.1-pro-preview\nSt
- atus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-2.5-pro shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-2.5-pro shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-pro-preview-03-25
 DTSTART;VALUE=DATE:20251202
 DTEND;VALUE=DATE:20251203
@@ -2959,23 +2942,6 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-DESCRIPTION:Model: gemini-2.5-flash\nReplacement: gemini-3.6-flash\nStatus
- : deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-2.5-flash shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-2.5-flash shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-image
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
@@ -2989,23 +2955,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-flash-image shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-lite
-DTSTART;VALUE=DATE:20261016
-DTEND;VALUE=DATE:20261017
-DESCRIPTION:Model: gemini-2.5-flash-lite\nReplacement: gemini-3.1-flash-li
- te\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-2.5-flash-lite shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-2.5-flash-lite shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
