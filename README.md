@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-08-04*
+*Last updated: 2026-08-05*
 
 ### Anthropic
 
@@ -26,7 +26,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | claude-opus-4-20250514 |  | retired | 2026-04-14 | 🔴 2026-06-15 | claude-opus-4-8 |
 | claude-sonnet-4-20250514 |  | retired | 2026-04-14 | 🔴 2026-06-15 | claude-sonnet-4-6 |
-| claude-opus-4-1-20250805 |  | deprecated | 2026-06-05 | 🟡 2026-08-05 | claude-opus-4-8 |
+| claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
 | claude-sonnet-4-5-20250929 |  | active | TBD | 2026-09-29 |  |
 | claude-haiku-4-5-20251001 |  | active | TBD | 2026-10-15 |  |
 | claude-opus-4-5-20251101 |  | active | TBD | 2026-11-24 |  |
@@ -76,7 +76,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🔴 2026-05-12 | Realtime API |
 | computer-use-preview-2025-03-11 | computer-use-preview |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-4o-mini-search-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
-| gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-4o-mini-tts-2025-12-15 |
 | gpt-4o-search-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-5-chat-latest |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
 | gpt-5-codex |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
@@ -98,10 +97,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | sora-2-2025-10-06 |  | deprecated | TBD | 2026-09-24 | --- |
 | sora-2-2025-12-08 |  | deprecated | TBD | 2026-09-24 | --- |
 | sora-2-pro-2025-10-06 |  | deprecated | TBD | 2026-09-24 | --- |
-| gpt-3.5-turbo-instruct |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
-| babbage-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
-| davinci-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
-| gpt-3.5-turbo-1106 |  | deprecated | TBD | 2026-09-28 | gpt-5.4-mini or gpt-5-mini |
+| gpt-3.5-turbo-instruct |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
+| babbage-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
+| davinci-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
+| gpt-3.5-turbo-1106 |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
 | gpt-3.5-turbo-0125 | gpt-3.5-turbo, gpt-3.5-turbo-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
 | gpt-4-0613 | gpt-4, gpt-4-0613-completions, gpt-4-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | gpt-4-1106-preview |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
@@ -114,11 +113,11 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | o3-mini-2025-01-31 | o3-mini |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | ft-o4-mini-2025-04-16 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
 | o4-mini-2025-04-16 | o4-mini |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
-| ft-gpt-3.5-turbo |  | deprecated | TBD | 2026-10-23 | gpt-5.4-mini |
-| ft-gpt-4 |  | deprecated | TBD | 2026-10-23 | gpt-5.5 |
-| ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 2026-10-23 | gpt-5.4-nano |
-| ft-babbage-002 |  | deprecated | TBD | 2026-10-23 | gpt-5.4-mini |
-| ft-davinci-002 |  | deprecated | TBD | 2026-10-23 | gpt-5.4-mini |
+| ft-gpt-3.5-turbo |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| ft-gpt-4 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-luna |
+| ft-babbage-002 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| ft-davinci-002 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
 | gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
 | gpt-image-1.5 |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
 | chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |

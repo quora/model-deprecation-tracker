@@ -559,8 +559,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: ft-gpt-3.5-turbo
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DESCRIPTION:Model: ft-gpt-3.5-turbo\nReplacement: gpt-5.4-mini\nStatus: de
- precated
+DESCRIPTION:Model: ft-gpt-3.5-turbo\nReplacement: gpt-5.6-terra\nStatus: d
+ eprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ft-gpt-3.5-turbo shutdown in 7 days
@@ -576,7 +576,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: ft-gpt-4
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DESCRIPTION:Model: ft-gpt-4\nReplacement: gpt-5.5\nStatus: deprecated
+DESCRIPTION:Model: ft-gpt-4\nReplacement: gpt-5.6-sol\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ft-gpt-4 shutdown in 7 days
@@ -592,7 +592,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: ft-gpt-4.1-nano-2025-04-14
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DESCRIPTION:Model: ft-gpt-4.1-nano-2025-04-14\nReplacement: gpt-5.4-nano\n
+DESCRIPTION:Model: ft-gpt-4.1-nano-2025-04-14\nReplacement: gpt-5.6-luna\n
  Status: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -609,8 +609,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: ft-babbage-002
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DESCRIPTION:Model: ft-babbage-002\nReplacement: gpt-5.4-mini\nStatus: depr
- ecated
+DESCRIPTION:Model: ft-babbage-002\nReplacement: gpt-5.6-terra\nStatus: dep
+ recated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ft-babbage-002 shutdown in 7 days
@@ -626,8 +626,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: ft-davinci-002
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DESCRIPTION:Model: ft-davinci-002\nReplacement: gpt-5.4-mini\nStatus: depr
- ecated
+DESCRIPTION:Model: ft-davinci-002\nReplacement: gpt-5.6-terra\nStatus: dep
+ recated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ft-davinci-002 shutdown in 7 days
@@ -740,8 +740,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-instruct
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-DESCRIPTION:Model: gpt-3.5-turbo-instruct\nReplacement: gpt-5.4-mini or gp
- t-5-mini\nStatus: deprecated
+DESCRIPTION:Model: gpt-3.5-turbo-instruct\nReplacement: gpt-5.6-terra\nSta
+ tus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-3.5-turbo-instruct shutdown in 7 days
@@ -757,8 +757,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: babbage-002
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-DESCRIPTION:Model: babbage-002\nReplacement: gpt-5.4-mini or gpt-5-mini\nS
- tatus: deprecated
+DESCRIPTION:Model: babbage-002\nReplacement: gpt-5.6-terra\nStatus: deprec
+ ated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:babbage-002 shutdown in 7 days
@@ -774,8 +774,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: davinci-002
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-DESCRIPTION:Model: davinci-002\nReplacement: gpt-5.4-mini or gpt-5-mini\nS
- tatus: deprecated
+DESCRIPTION:Model: davinci-002\nReplacement: gpt-5.6-terra\nStatus: deprec
+ ated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:davinci-002 shutdown in 7 days
@@ -791,8 +791,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-1106
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
-DESCRIPTION:Model: gpt-3.5-turbo-1106\nReplacement: gpt-5.4-mini or gpt-5-
- mini\nStatus: deprecated
+DESCRIPTION:Model: gpt-3.5-turbo-1106\nReplacement: gpt-5.6-terra\nStatus:
+  deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-3.5-turbo-1106 shutdown in 7 days
@@ -855,23 +855,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-mini-search-preview-2025-03-11 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-tts-2025-03-20
-DTSTART;VALUE=DATE:20260723
-DTEND;VALUE=DATE:20260724
-DESCRIPTION:Model: gpt-4o-mini-tts-2025-03-20\nReplacement: gpt-4o-mini-tt
- s-2025-12-15\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-4o-mini-tts-2025-03-20 shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-4o-mini-tts-2025-03-20 shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
@@ -2506,7 +2489,7 @@ SUMMARY:[Anthropic] Model deprecation: claude-opus-4-1-20250805
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
 DESCRIPTION:Model: claude-opus-4-1-20250805\nReplacement: claude-opus-4-8\
- nStatus: deprecated
+ nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-opus-4-1-20250805 shutdown in 7 days
