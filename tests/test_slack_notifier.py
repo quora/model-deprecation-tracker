@@ -83,7 +83,7 @@ class TestSendNotification:
     def test_sends_when_upcoming_exists(self):
         with patch("generators.slack_notifier.requests.post") as mock_post:
             send_notification(_make_entries(), ["https://hooks.slack.com/test"])
-            mock_post.assert_called_once()
+            assert mock_post.call_count == 2
 
     def test_sends_to_multiple_webhooks(self):
         urls = [
@@ -92,9 +92,23 @@ class TestSendNotification:
         ]
         with patch("generators.slack_notifier.requests.post") as mock_post:
             send_notification(_make_entries(), urls)
-            assert mock_post.call_count == 2
+            assert mock_post.call_count == 4
             called_urls = [call.args[0] for call in mock_post.call_args_list]
-            assert called_urls == urls
+            assert all(called_urls.count(url) == 2 for url in urls)
+
+    def test_posts_each_shutdown_horizon_separately(self):
+        with patch("generators.slack_notifier.requests.post") as mock_post:
+            send_notification(_make_entries(), ["https://hooks.slack.com/test"])
+
+        payloads = [call.kwargs["json"] for call in mock_post.call_args_list]
+        section_texts = [
+            "\n".join(block["text"]["text"] for block in payload["blocks"][1:])
+            for payload in payloads
+        ]
+        assert "one-day-model" in section_texts[0]
+        assert "fourteen-day-model" not in section_texts[0]
+        assert "fourteen-day-model" in section_texts[1]
+        assert "one-day-model" not in section_texts[1]
 
     def test_skips_when_no_upcoming(self):
         entries = [_make_entries()[3]]

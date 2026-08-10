@@ -67,12 +67,24 @@ def format_slack_message(entries: list[DeprecationEntry]) -> dict:
 
 
 def send_notification(entries: list[DeprecationEntry], webhook_urls: list[str]) -> None:
-    """Send Slack notifications for deprecations at configured day thresholds."""
+    """Send a separate Slack notification per shutdown horizon.
+
+    Entries are grouped by days-until-shutdown so each deadline (e.g. the
+    1-day final reminder and the 14-day heads-up) posts as its own message
+    instead of being collapsed into one mixed notification.
+    """
     upcoming = find_upcoming_deprecations(entries)
     if not upcoming:
         return
 
-    payload = format_slack_message(upcoming)
-    log.info("Sending Slack notification:\n%s", payload)
-    for url in webhook_urls:
-        requests.post(url, json=payload, timeout=10)
+    today = datetime.date.today()
+    groups: dict[int, list[DeprecationEntry]] = {}
+    for entry in upcoming:
+        days_until = (entry.shutdown_date - today).days
+        groups.setdefault(days_until, []).append(entry)
+
+    for days_until in sorted(groups):  # most urgent first
+        payload = format_slack_message(groups[days_until])
+        log.info("Sending Slack notification (%s days):\n%s", days_until, payload)
+        for url in webhook_urls:
+            requests.post(url, json=payload, timeout=10)
