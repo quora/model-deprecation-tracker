@@ -3202,7 +3202,7 @@ SUMMARY:[Gemini] Model deprecation: embedding-2-preview
 DTSTART;VALUE=DATE:20260810
 DTEND;VALUE=DATE:20260811
 DESCRIPTION:Model: embedding-2-preview\nReplacement: gemini-embedding-2\nS
- tatus: deprecated
+ tatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:embedding-2-preview shutdown in 7 days
