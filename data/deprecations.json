@@ -163,24 +163,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_name": "gpt-5.2-chat-latest",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-08-10",
-    "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "gpt-5.3-chat-latest",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-08-10",
-    "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
     "model_name": "gpt-3.5-turbo-0125 | gpt-3.5-turbo, gpt-3.5-turbo-completions",
     "model_id": "",
     "deprecated_date": "",
@@ -429,6 +411,24 @@
     "deprecated_date": "",
     "shutdown_date": "2026-08-26",
     "replacement": "Responses API and Conversations API",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5.2-chat-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-10",
+    "replacement": "gpt-5.6-sol",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5.3-chat-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-10",
+    "replacement": "gpt-5.6-sol",
     "status": "deprecated"
   },
   {

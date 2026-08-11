@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-08-10*
+*Last updated: 2026-08-11*
 
 ### Anthropic
 
@@ -65,9 +65,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| dall-e-2 |  | deprecated | TBD | 🔴 2026-05-12 | gpt-image-2, gpt-image-1, or gpt-image-1-mini |
-| dall-e-3 |  | deprecated | TBD | 🔴 2026-05-12 | gpt-image-2, gpt-image-1, or gpt-image-1-mini |
-| OpenAI-Beta: realtime=v1 |  | deprecated | TBD | 🔴 2026-05-12 | Realtime API |
 | computer-use-preview-2025-03-11 | computer-use-preview |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-4o-mini-search-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-4o-search-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
