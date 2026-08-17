@@ -3287,7 +3287,7 @@ SUMMARY:[Gemini] Model deprecation: imagen-4.0-generate-001
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 DESCRIPTION:Model: imagen-4.0-generate-001\nReplacement: gemini-3.1-flash-
- image\nStatus: deprecated
+ image\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:imagen-4.0-generate-001 shutdown in 7 days
@@ -3304,7 +3304,7 @@ SUMMARY:[Gemini] Model deprecation: imagen-4.0-ultra-generate-001
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 DESCRIPTION:Model: imagen-4.0-ultra-generate-001\nReplacement: gemini-3.1-
- flash-image\nStatus: deprecated
+ flash-image\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:imagen-4.0-ultra-generate-001 shutdown in 7 days
@@ -3321,7 +3321,7 @@ SUMMARY:[Gemini] Model deprecation: imagen-4.0-fast-generate-001
 DTSTART;VALUE=DATE:20260817
 DTEND;VALUE=DATE:20260818
 DESCRIPTION:Model: imagen-4.0-fast-generate-001\nReplacement: gemini-3.1-f
- lash-image\nStatus: deprecated
+ lash-image\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:imagen-4.0-fast-generate-001 shutdown in 7 days

@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-08-16*
+*Last updated: 2026-08-17*
 
 ### Anthropic
 
@@ -53,9 +53,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | veo-3.0-fast-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | veo-2.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | embedding-2-preview |  | retired | TBD | 🔴 2026-08-10 | gemini-embedding-2 |
-| imagen-4.0-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
-| imagen-4.0-ultra-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
-| imagen-4.0-fast-generate-001 |  | deprecated | TBD | 🟡 2026-08-17 | gemini-3.1-flash-image |
+| imagen-4.0-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
+| imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
+| imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | gemini-robotics-er-1.6-preview |  | deprecated | TBD | 🟡 2026-08-31 | gemini-robotics-er-2-preview |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
 | gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
