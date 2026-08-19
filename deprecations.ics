@@ -474,8 +474,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: o3-mini-2025-01-31 | o3-mini
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
-DESCRIPTION:Model: o3-mini-2025-01-31 | o3-mini\nReplacement: gpt-5.6-sol\
- nStatus: deprecated
+DESCRIPTION:Model: o3-mini-2025-01-31 | o3-mini\nReplacement: gpt-5.6-sol
+ \nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o3-mini-2025-01-31 | o3-mini shutdown in 7 days
@@ -826,8 +826,8 @@ SUMMARY:[OpenAI] Model deprecation: computer-use-preview-2025-03-11 | comp
  uter-use-preview
 DTSTART;VALUE=DATE:20260723
 DTEND;VALUE=DATE:20260724
-DESCRIPTION:Model: computer-use-preview-2025-03-11 | computer-use-preview\
- nReplacement: gpt-5.6-terra\nStatus: deprecated
+DESCRIPTION:Model: computer-use-preview-2025-03-11 | computer-use-preview
+ \nReplacement: gpt-5.6-terra\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:computer-use-preview-2025-03-11 | computer-use-preview shutdow
@@ -1214,8 +1214,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-realtime-preview
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
-DESCRIPTION:Model: gpt-4o-realtime-preview\nReplacement: gpt-realtime-1.5\
- nStatus: deprecated
+DESCRIPTION:Model: gpt-4o-realtime-preview\nReplacement: gpt-realtime-1.5
+ \nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-realtime-preview shutdown in 7 days
@@ -1299,8 +1299,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-audio-preview
 DTSTART;VALUE=DATE:20260507
 DTEND;VALUE=DATE:20260508
-DESCRIPTION:Model: gpt-4o-mini-audio-preview\nReplacement: gpt-audio-mini\
- nStatus: deprecated
+DESCRIPTION:Model: gpt-4o-mini-audio-preview\nReplacement: gpt-audio-mini
+ \nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-mini-audio-preview shutdown in 7 days
@@ -2488,8 +2488,8 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-opus-4-1-20250805
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-DESCRIPTION:Model: claude-opus-4-1-20250805\nReplacement: claude-opus-4-8\
- nStatus: retired
+DESCRIPTION:Model: claude-opus-4-1-20250805\nReplacement: claude-opus-4-8
+ \nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-opus-4-1-20250805 shutdown in 7 days
