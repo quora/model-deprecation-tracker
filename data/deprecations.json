@@ -1410,7 +1410,7 @@
     "deprecated_date": "2026-02-23",
     "shutdown_date": "2026-08-23",
     "replacement": "",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Vertex AI",
