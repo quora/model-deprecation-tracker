@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-08-24*
+*Last updated: 2026-08-25*
 
 ### Anthropic
 
@@ -81,12 +81,12 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.2-chat-latest |  | deprecated | TBD | 🔴 2026-08-10 | gpt-5.6-sol |
 | gpt-5.3-chat-latest |  | deprecated | TBD | 🔴 2026-08-10 | gpt-5.6-sol |
 | Assistants API |  | deprecated | TBD | 🟡 2026-08-26 | Responses API and Conversations API |
-| Videos API |  | deprecated | TBD | 2026-09-24 | --- |
-| sora-2 |  | deprecated | TBD | 2026-09-24 | --- |
-| sora-2-pro |  | deprecated | TBD | 2026-09-24 | --- |
-| sora-2-2025-10-06 |  | deprecated | TBD | 2026-09-24 | --- |
-| sora-2-2025-12-08 |  | deprecated | TBD | 2026-09-24 | --- |
-| sora-2-pro-2025-10-06 |  | deprecated | TBD | 2026-09-24 | --- |
+| Videos API |  | deprecated | TBD | 🟡 2026-09-24 | --- |
+| sora-2 |  | deprecated | TBD | 🟡 2026-09-24 | --- |
+| sora-2-pro |  | deprecated | TBD | 🟡 2026-09-24 | --- |
+| sora-2-2025-10-06 |  | deprecated | TBD | 🟡 2026-09-24 | --- |
+| sora-2-2025-12-08 |  | deprecated | TBD | 🟡 2026-09-24 | --- |
+| sora-2-pro-2025-10-06 |  | deprecated | TBD | 🟡 2026-09-24 | --- |
 | gpt-3.5-turbo-instruct |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
 | babbage-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
 | davinci-002 |  | deprecated | TBD | 2026-09-28 | gpt-5.6-terra |
