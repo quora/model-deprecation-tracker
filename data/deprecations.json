@@ -1756,12 +1756,30 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-3.5-transcribe-live",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-2.0-flash-live-001",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-09",
     "replacement": "gemini-3.1-flash-live-preview",
     "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3.5-live-translate-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -1789,6 +1807,15 @@
     "shutdown_date": "2025-12-09",
     "replacement": "gemini-3.1-flash-live-preview",
     "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-3.5-transcribe",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
   },
   {
     "provider": "Gemini",
