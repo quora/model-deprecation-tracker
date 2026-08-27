@@ -406,15 +406,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_name": "Assistants API",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-08-26",
-    "replacement": "Responses API and Conversations API",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
     "model_name": "gpt-5.2-chat-latest",
     "model_id": "",
     "deprecated_date": "",
@@ -681,6 +672,15 @@
     "deprecated_date": "",
     "shutdown_date": "2026-05-07",
     "replacement": "gpt-audio-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "Assistants API",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-26",
+    "replacement": "Responses API and Conversations API",
     "status": "deprecated"
   },
   {
@@ -2041,6 +2041,24 @@
     "shutdown_date": "2025-11-12",
     "replacement": "veo-3.1-fast-generate-preview",
     "status": "retired"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-omni-1.1-flash",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-omni-flash-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-30",
+    "replacement": "gemini-omni-1.1-flash",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
