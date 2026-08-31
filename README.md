@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-08-30*
+*Last updated: 2026-08-31*
 
 ### Anthropic
 
@@ -42,10 +42,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gemini-2.0-flash |  | retired | TBD | 🔴 2026-06-01 | gemini-3.6-flash |
-| gemini-2.0-flash-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.6-flash |
-| gemini-2.0-flash-lite |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
-| gemini-2.0-flash-lite-001 |  | retired | TBD | 🔴 2026-06-01 | gemini-3.1-flash-lite |
 | gemini-3.1-flash-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3.1-flash-image |
 | gemini-3-pro-image-preview |  | retired | TBD | 🔴 2026-06-25 | gemini-3-pro-image |
 | veo-3.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
@@ -55,8 +51,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
-| gemini-robotics-er-1.6-preview |  | deprecated | TBD | 🟡 2026-08-31 | gemini-robotics-er-2-preview |
-| gemini-omni-flash-preview |  | deprecated | TBD | 2026-09-30 | gemini-omni-1.1-flash |
+| gemini-robotics-er-1.6-preview |  | retired | TBD | 🔴 2026-08-31 | gemini-robotics-er-2-preview |
+| gemini-omni-flash-preview |  | deprecated | TBD | 🟡 2026-09-30 | gemini-omni-1.1-flash |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
 | gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
 | gemini-embedding-001 |  | deprecated | TBD | 2028-05-14 | gemini-embedding-2 |
@@ -127,6 +123,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4o-mini-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1-mini |
 | gpt-4o-mini-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
 | gpt-4o-mini-transcribe-2025-03-20 |  | deprecated | TBD | 2027-01-20 | gpt-4o-mini-transcribe-2025-12-15 |
+| whisper-1 |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
+| gpt-4o-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
+| gpt-4o-mini-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
+| gpt-4o-transcribe-diarize |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 
 ### Vertex AI
 

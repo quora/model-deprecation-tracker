@@ -1,6 +1,42 @@
 [
   {
     "provider": "OpenAI",
+    "model_name": "whisper-1",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-26",
+    "replacement": "gpt-live-transcribe or gpt-transcribe",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-transcribe",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-26",
+    "replacement": "gpt-live-transcribe or gpt-transcribe",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-mini-transcribe",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-26",
+    "replacement": "gpt-live-transcribe or gpt-transcribe",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-4o-transcribe-diarize",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-26",
+    "replacement": "gpt-live-transcribe or gpt-transcribe",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "gpt-realtime",
     "model_id": "",
     "deprecated_date": "",
@@ -2094,7 +2130,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-08-31",
     "replacement": "gemini-robotics-er-2-preview",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Gemini",

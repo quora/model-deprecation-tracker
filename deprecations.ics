@@ -3,6 +3,74 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: whisper-1
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:Model: whisper-1\nReplacement: gpt-live-transcribe or gpt-tran
+ scribe\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:whisper-1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:whisper-1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-transcribe
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:Model: gpt-4o-transcribe\nReplacement: gpt-live-transcribe or 
+ gpt-transcribe\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-transcribe shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-transcribe shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-transcribe
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:Model: gpt-4o-mini-transcribe\nReplacement: gpt-live-transcrib
+ e or gpt-transcribe\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-transcribe shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-transcribe shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-transcribe-diarize
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:Model: gpt-4o-transcribe-diarize\nReplacement: gpt-live-transc
+ ribe or gpt-transcribe\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-transcribe-diarize shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-transcribe-diarize shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-realtime
 DTSTART;VALUE=DATE:20270120
 DTEND;VALUE=DATE:20270121
@@ -3495,7 +3563,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-robotics-er-1.6-preview
 DTSTART;VALUE=DATE:20260831
 DTEND;VALUE=DATE:20260901
 DESCRIPTION:Model: gemini-robotics-er-1.6-preview\nReplacement: gemini-rob
- otics-er-2-preview\nStatus: deprecated
+ otics-er-2-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-robotics-er-1.6-preview shutdown in 7 days
