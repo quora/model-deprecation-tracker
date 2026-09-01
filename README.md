@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-08-31*
+*Last updated: 2026-09-01*
 
 ### Anthropic
 
@@ -37,6 +37,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-fable-5 |  | active | TBD | 2027-06-09 |  |
 | claude-sonnet-5 |  | active | TBD | 2027-06-30 |  |
 | claude-opus-5 |  | active | TBD | 2027-07-24 |  |
+| claude-fable-5-1 |  | active | TBD | 2027-09-01 |  |
 
 ### Gemini
 

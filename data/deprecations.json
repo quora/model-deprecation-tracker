@@ -1297,6 +1297,15 @@
   },
   {
     "provider": "Anthropic",
+    "model_name": "claude-fable-5-1",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-09-01",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
     "model_name": "claude-fable-5",
     "model_id": "",
     "deprecated_date": "",
