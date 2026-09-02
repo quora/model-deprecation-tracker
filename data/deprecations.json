@@ -1522,6 +1522,15 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-3.8-flash",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-3.7-flash",
     "model_id": "",
     "deprecated_date": "",

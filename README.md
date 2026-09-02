@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-09-01*
+*Last updated: 2026-09-02*
 
 ### Anthropic
 
@@ -54,7 +54,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | gemini-robotics-er-1.6-preview |  | retired | TBD | 🔴 2026-08-31 | gemini-robotics-er-2-preview |
 | gemini-omni-flash-preview |  | deprecated | TBD | 🟡 2026-09-30 | gemini-omni-1.1-flash |
-| gemini-2.5-flash-image |  | deprecated | TBD | 2026-10-02 | gemini-3.1-flash-image-preview |
+| gemini-2.5-flash-image |  | deprecated | TBD | 🟡 2026-10-02 | gemini-3.1-flash-image-preview |
 | gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
 | gemini-embedding-001 |  | deprecated | TBD | 2028-05-14 | gemini-embedding-2 |
 
