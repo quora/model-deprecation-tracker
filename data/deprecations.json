@@ -2116,16 +2116,7 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "lyria-3.5-clip-preview",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Gemini",
-    "model_name": "lyria-3.5-pro-preview",
+    "model_name": "lyria-3.5",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
@@ -2138,7 +2129,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "lyria-3.5-clip-preview",
+    "replacement": "",
     "status": "active"
   },
   {
@@ -2147,7 +2138,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "lyria-3.5-pro-preview",
+    "replacement": "lyria-3.5",
     "status": "active"
   },
   {
