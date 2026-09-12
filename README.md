@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-09-11*
+*Last updated: 2026-09-12*
 
 ### Anthropic
 
@@ -89,6 +89,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | babbage-002 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
 | davinci-002 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
 | gpt-3.5-turbo-1106 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
+| gpt-5.4-cyber |  | deprecated | TBD | 🟡 2026-10-01 | gpt-5.6-cyber |
 | gpt-3.5-turbo-0125 | gpt-3.5-turbo, gpt-3.5-turbo-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
 | gpt-4-0613 | gpt-4, gpt-4-0613-completions, gpt-4-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | gpt-4-1106-preview |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |

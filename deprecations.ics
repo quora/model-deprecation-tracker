@@ -3,6 +3,23 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.4-cyber
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:Model: gpt-5.4-cyber\nReplacement: gpt-5.6-cyber\nStatus: depr
+ ecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.4-cyber shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.4-cyber shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: whisper-1
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
