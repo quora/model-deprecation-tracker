@@ -3234,8 +3234,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-live-001
 DTSTART;VALUE=DATE:20251209
 DTEND;VALUE=DATE:20251210
-DESCRIPTION:Model: gemini-2.0-flash-live-001\nReplacement: gemini-3.1-flas
- h-live-preview\nStatus: retired
+DESCRIPTION:Model: gemini-2.0-flash-live-001\nReplacement: gemini-3.8-live
+ \nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.0-flash-live-001 shutdown in 7 days
@@ -3251,8 +3251,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-live-2.5-flash-preview
 DTSTART;VALUE=DATE:20251209
 DTEND;VALUE=DATE:20251210
-DESCRIPTION:Model: gemini-live-2.5-flash-preview\nReplacement: gemini-3.1-
- flash-live-preview\nStatus: retired
+DESCRIPTION:Model: gemini-live-2.5-flash-preview\nReplacement: gemini-3.8-
+ live\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-live-2.5-flash-preview shutdown in 7 days
