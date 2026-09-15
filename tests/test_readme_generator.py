@@ -5,11 +5,12 @@ from generators.readme_generator import generate_readme, MARKER_START, MARKER_EN
 
 
 def _make_entries() -> list[DeprecationEntry]:
+    today = datetime.date.today()
     return [
         DeprecationEntry(
             provider="OpenAI",
             model_name="gpt-4-0314",
-            shutdown_date=datetime.date(2026, 3, 26),
+            shutdown_date=today + datetime.timedelta(days=30),
             replacement="gpt-5",
             status="deprecated",
         ),
@@ -17,14 +18,14 @@ def _make_entries() -> list[DeprecationEntry]:
             provider="Anthropic",
             model_name="claude-3-haiku",
             deprecated_date=datetime.date(2026, 2, 19),
-            shutdown_date=datetime.date(2026, 4, 20),
+            shutdown_date=today + datetime.timedelta(days=60),
             replacement="claude-haiku-4-5",
             status="deprecated",
         ),
         DeprecationEntry(
             provider="OpenAI",
             model_name="gpt-3.5-turbo",
-            shutdown_date=datetime.date(2026, 9, 28),
+            shutdown_date=today + datetime.timedelta(days=180),
             status="deprecated",
         ),
     ]
@@ -50,7 +51,9 @@ class TestGenerateReadme:
     def test_sorts_by_shutdown_date_within_provider(self):
         result = generate_readme(_make_entries())
         openai_section = result.split("### OpenAI")[1].split("###")[0]
-        assert openai_section.index("gpt-4-0314") < openai_section.index("gpt-3.5-turbo")
+        assert openai_section.index("gpt-4-0314") < openai_section.index(
+            "gpt-3.5-turbo"
+        )
 
     def test_excludes_entries_without_shutdown_date(self):
         entries = [
@@ -100,11 +103,12 @@ class TestGenerateReadme:
         assert "\U0001f7e1" in result
 
     def test_no_indicator_for_distant_dates(self):
+        today = datetime.date.today()
         entries = [
             DeprecationEntry(
                 provider="TestProvider",
                 model_name="distant-model",
-                shutdown_date=datetime.date(2027, 6, 1),
+                shutdown_date=today + datetime.timedelta(days=90),
                 status="deprecated",
             ),
         ]

@@ -1,6 +1,8 @@
 import datetime
 from pathlib import Path
 
+import pytest
+
 from scraper.base import UNKNOWN_DATE, DeprecationEntry
 from scraper.openai_scraper import scrape as scrape_openai
 from scraper.anthropic_scraper import scrape as scrape_anthropic
@@ -17,6 +19,12 @@ def _load_fixture(name: str) -> str:
 
 def _by_name(entries: list[DeprecationEntry]) -> dict[str, DeprecationEntry]:
     return {e.model_name: e for e in entries}
+
+
+def _status_at(shutdown_date: datetime.date, before_retirement: str) -> str:
+    if shutdown_date <= datetime.date.today():
+        return "retired"
+    return before_retirement
 
 
 class TestOpenAIScraper:
@@ -54,15 +62,42 @@ class TestOpenAIScraper:
 
 
 class TestAnthropicScraper:
-    def test_parses_active_model(self):
+    def test_ignores_status_table(self):
         entries = scrape_anthropic(_load_fixture("anthropic.html"))
-        entry = _by_name(entries)["claude-opus-4-6"]
-        assert entry == DeprecationEntry(
-            provider="Anthropic",
-            model_name="claude-opus-4-6",
-            shutdown_date=datetime.date(2027, 2, 5),
-            status="active",
-        )
+        assert "claude-opus-4-6" not in _by_name(entries)
+
+    def test_fails_closed_when_only_unconfirmed_status_exists(self):
+        html = """<table>
+        <tr><th>API Model Name</th><th>Current State</th>
+        <th>Deprecated</th><th>Tentative Retirement Date</th></tr>
+        <tr><td>claude-example</td><td>Deprecated</td>
+        <td>September 1, 2026</td><td>Not before December 1, 2026</td></tr>
+        </table>"""
+        with pytest.raises(ValueError, match="history tables not found"):
+            scrape_anthropic(html)
+
+    def test_fails_closed_for_bare_date_in_tentative_column(self):
+        today = datetime.date.today()
+        tentative_date = today + datetime.timedelta(days=14)
+        html = f"""<table>
+        <tr><th>API Model Name</th><th>Current State</th>
+        <th>Deprecated</th><th>Tentative Retirement Date</th></tr>
+        <tr><td>claude-tentative</td><td>Deprecated</td>
+        <td>September 1, 2026</td><td>{tentative_date.isoformat()}</td></tr>
+        </table>"""
+        with pytest.raises(ValueError, match="history tables not found"):
+            scrape_anthropic(html)
+
+    def test_fails_closed_for_unparseable_confirmed_date(self):
+        html = """<h3>2026-09-01: Claude example</h3><table>
+        <tr><th>Retirement Date</th><th>Deprecated Model</th>
+        <th>Recommended Replacement</th></tr>
+        <tr><td>date pending</td><td>claude-example</td><td>claude-new</td></tr>
+        </table>"""
+        with pytest.raises(
+            ValueError, match="Could not parse Anthropic retirement date"
+        ):
+            scrape_anthropic(html)
 
     def test_parses_retired_model_with_replacement(self):
         entries = scrape_anthropic(_load_fixture("anthropic.html"))
@@ -85,7 +120,7 @@ class TestAnthropicScraper:
             deprecated_date=datetime.date(2026, 2, 19),
             shutdown_date=datetime.date(2026, 4, 20),
             replacement="claude-haiku-4-5-20251001",
-            status="deprecated",
+            status=_status_at(datetime.date(2026, 4, 20), "deprecated"),
         )
 
 
@@ -107,7 +142,7 @@ class TestVertexScraper:
             model_name="claude-3-haiku",
             deprecated_date=datetime.date(2026, 2, 23),
             shutdown_date=datetime.date(2026, 8, 23),
-            status="deprecated",
+            status=_status_at(datetime.date(2026, 8, 23), "deprecated"),
         )
 
     def test_parses_section_based_format(self):
@@ -125,7 +160,7 @@ class TestVertexScraper:
             model_id="Claude 3.5 Haiku",
             deprecated_date=datetime.date(2026, 1, 5),
             shutdown_date=datetime.date(2026, 7, 5),
-            status="deprecated",
+            status=_status_at(datetime.date(2026, 7, 5), "deprecated"),
         )
 
 
@@ -139,7 +174,7 @@ class TestBedrockScraper:
             deprecated_date=datetime.date(2025, 12, 19),
             shutdown_date=datetime.date(2026, 6, 19),
             replacement="Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0",
-            status="legacy",
+            status=_status_at(datetime.date(2026, 6, 19), "legacy"),
         )
 
     def test_parses_eol_entry(self):
@@ -163,7 +198,7 @@ class TestBedrockScraper:
             deprecated_date=datetime.date(2025, 8, 25),
             shutdown_date=datetime.date(2026, 3, 1),
             replacement="Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-            status="legacy",
+            status=_status_at(datetime.date(2026, 3, 1), "legacy"),
         )
 
     def test_total_count(self):
@@ -184,7 +219,7 @@ class TestGeminiScraper:
             model_name="gemini-2.5-pro",
             shutdown_date=datetime.date(2026, 6, 17),
             replacement="gemini-3-pro-preview",
-            status="deprecated",
+            status=_status_at(datetime.date(2026, 6, 17), "deprecated"),
         )
 
     def test_retired_entry(self):

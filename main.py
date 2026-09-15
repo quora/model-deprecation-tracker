@@ -19,18 +19,47 @@ README_PATH = PROJECT_DIR / "README.md"
 ICS_PATH = PROJECT_DIR / "deprecations.ics"
 
 
+def _load_previous_entries() -> list[DeprecationEntry]:
+    if not DEPRECATIONS_FILE.exists():
+        return []
+    return [
+        DeprecationEntry.from_dict(item)
+        for item in orjson.loads(DEPRECATIONS_FILE.read_bytes())
+    ]
+
+
+def _validate_anthropic_history(
+    entries: list[DeprecationEntry], previous_entries: list[DeprecationEntry]
+) -> None:
+    previous_models = {
+        entry.model_name
+        for entry in previous_entries
+        if entry.provider == "Anthropic" and entry.has_shutdown_date()
+    }
+    current_models = {
+        entry.model_name
+        for entry in entries
+        if entry.provider == "Anthropic" and entry.has_shutdown_date()
+    }
+    missing_models = previous_models - current_models
+    if missing_models:
+        missing = ", ".join(sorted(missing_models))
+        raise ValueError(f"Anthropic deprecation history dropped models: {missing}")
+
+
 def main() -> None:
+    previous_entries = _load_previous_entries()
     all_entries: list[DeprecationEntry] = []
 
     for _name, scrape_fn in ALL_SCRAPERS:
         entries = scrape_fn()
         all_entries.extend(entries)
 
+    _validate_anthropic_history(all_entries, previous_entries)
+
     DATA_DIR.mkdir(parents=True, exist_ok=True)
     serialized = [entry.to_dict() for entry in all_entries]
-    DEPRECATIONS_FILE.write_bytes(
-        orjson.dumps(serialized, option=orjson.OPT_INDENT_2)
-    )
+    DEPRECATIONS_FILE.write_bytes(orjson.dumps(serialized, option=orjson.OPT_INDENT_2))
 
     update_readme(str(README_PATH), all_entries)
     write_ics(all_entries, str(ICS_PATH))
@@ -44,4 +73,5 @@ def main() -> None:
         send_notification(all_entries, slack_webhooks)
 
 
-main()
+if __name__ == "__main__":
+    main()

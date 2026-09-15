@@ -25,17 +25,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
-| claude-sonnet-4-5-20250929 |  | active | TBD | 🟡 2026-09-29 |  |
-| claude-haiku-4-5-20251001 |  | active | TBD | 🟡 2026-10-15 |  |
-| claude-opus-4-5-20251101 |  | active | TBD | 2026-11-24 |  |
-| claude-opus-4-6 |  | active | TBD | 2027-02-05 |  |
-| claude-sonnet-4-6 |  | active | TBD | 2027-02-17 |  |
-| claude-opus-4-7 |  | active | TBD | 2027-04-16 |  |
-| claude-opus-4-8 |  | active | TBD | 2027-05-28 |  |
-| claude-fable-5 |  | active | TBD | 2027-06-09 |  |
-| claude-sonnet-5 |  | active | TBD | 2027-06-30 |  |
-| claude-opus-5 |  | active | TBD | 2027-07-24 |  |
-| claude-fable-5-1 |  | active | TBD | 2027-09-01 |  |
 
 ### Gemini
 
