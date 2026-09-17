@@ -25,6 +25,26 @@ def _parse_date_safe(text: str) -> datetime.date:
         return UNKNOWN_DATE
 
 
+def _extract_model_names(cell: BeautifulSoup) -> list[str]:
+    model_name = _normalize_text(cell.get_text())
+    code_tags = cell.find_all("code")
+    code_names = [_normalize_text(code.get_text()) for code in code_tags]
+    separator_text = "".join(
+        str(text)
+        for text in cell.find_all(string=True)
+        if text.find_parent("code") is None
+    )
+    is_separator_list = not re.sub(r"[\s|,]+", "", separator_text)
+    is_snapshot_alias_group = (
+        "including" in model_name.lower()
+        and "which point to this snapshot" in model_name.lower()
+    )
+    if len(code_names) > 1 and (is_separator_list or is_snapshot_alias_group):
+        return list(dict.fromkeys(name for name in code_names if name))
+
+    return [model_name] if model_name else []
+
+
 def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
     rows = table.find_all("tr")
     if not rows:
@@ -42,25 +62,23 @@ def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
         cell_texts = [_normalize_text(cell.get_text()) for cell in cells]
 
         if num_cols == 3:
-            shutdown_text, model_name, replacement = cell_texts[0], cell_texts[1], cell_texts[2]
+            shutdown_text, replacement = cell_texts[0], cell_texts[2]
         elif num_cols >= 4:
-            shutdown_text, model_name = cell_texts[0], cell_texts[1]
+            shutdown_text = cell_texts[0]
             replacement = cell_texts[-1]
         else:
             continue
 
-        if not model_name:
-            continue
-
-        entries.append(
-            DeprecationEntry(
-                provider="OpenAI",
-                model_name=model_name,
-                shutdown_date=_parse_date_safe(shutdown_text),
-                replacement=replacement,
-                status="deprecated",
+        for model_name in _extract_model_names(cells[1]):
+            entries.append(
+                DeprecationEntry(
+                    provider="OpenAI",
+                    model_name=model_name,
+                    shutdown_date=_parse_date_safe(shutdown_text),
+                    replacement=replacement,
+                    status="deprecated",
+                )
             )
-        )
 
     return entries
 

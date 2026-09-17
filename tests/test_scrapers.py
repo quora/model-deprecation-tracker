@@ -65,6 +65,80 @@ class TestOpenAIScraper:
             status="deprecated",
         )
 
+    def test_splits_snapshot_and_aliases_into_separate_entries(self):
+        html = """<table>
+        <tr><th>Shutdown date</th><th>Model snapshot</th><th>Substitute model</th></tr>
+        <tr><td>October 23, 2026</td><td>
+        <code>gpt-3.5-turbo-0125</code> | <code>gpt-3.5-turbo</code>,
+        <code>gpt-3.5-turbo-completions</code></td><td><code>gpt-5.6-terra</code></td></tr>
+        <tr><td>October 23, 2026</td><td>
+        <code>gpt-4-0613</code> | <code>gpt-4</code>,
+        <code>gpt-4-0613-completions</code>, <code>gpt-4-completions</code></td>
+        <td><code>gpt-5.6-sol</code></td></tr>
+        </table>"""
+        entries = scrape_openai(html)
+
+        assert [entry.model_name for entry in entries] == [
+            "gpt-3.5-turbo-0125",
+            "gpt-3.5-turbo",
+            "gpt-3.5-turbo-completions",
+            "gpt-4-0613",
+            "gpt-4",
+            "gpt-4-0613-completions",
+            "gpt-4-completions",
+        ]
+        assert {entry.shutdown_date for entry in entries} == {
+            datetime.date(2026, 10, 23)
+        }
+        assert {entry.replacement for entry in entries[:3]} == {"gpt-5.6-terra"}
+        assert {entry.replacement for entry in entries[3:]} == {"gpt-5.6-sol"}
+
+    def test_preserves_qualified_single_model_description(self):
+        html = """<table>
+        <tr><th>Shutdown date</th><th>Model / system</th><th>Substitute</th></tr>
+        <tr><td>October 28, 2024</td>
+        <td>New fine-tuning training on <code>babbage-002</code></td>
+        <td><code>gpt-4o-mini</code></td></tr>
+        </table>"""
+
+        assert scrape_openai(html) == [
+            DeprecationEntry(
+                provider="OpenAI",
+                model_name="New fine-tuning training on babbage-002",
+                shutdown_date=datetime.date(2024, 10, 28),
+                replacement="gpt-4o-mini",
+                status="deprecated",
+            )
+        ]
+
+    def test_splits_comma_separated_model_identifiers(self):
+        html = """<table>
+        <tr><th>Shutdown date</th><th>Model snapshot</th><th>Substitute</th></tr>
+        <tr><td>October 23, 2026</td>
+        <td><code>model-a</code>, <code>model-b</code></td>
+        <td><code>replacement</code></td></tr>
+        </table>"""
+
+        assert [entry.model_name for entry in scrape_openai(html)] == [
+            "model-a",
+            "model-b",
+        ]
+
+    def test_splits_explicit_snapshot_alias_prose(self):
+        html = """<table>
+        <tr><th>Shutdown date</th><th>Model snapshot</th><th>Substitute</th></tr>
+        <tr><td>March 26, 2026</td><td><code>gpt-4-0125-preview</code> (including
+        <code>gpt-4-turbo-preview</code> and <code>gpt-4-turbo-preview-completions</code>,
+        which point to this snapshot)</td>
+        <td><code>gpt-5 or gpt-4.1*</code></td></tr>
+        </table>"""
+
+        assert [entry.model_name for entry in scrape_openai(html)] == [
+            "gpt-4-0125-preview",
+            "gpt-4-turbo-preview",
+            "gpt-4-turbo-preview-completions",
+        ]
+
 
 class TestAnthropicScraper:
     def test_ignores_status_table(self):

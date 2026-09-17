@@ -58,7 +58,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| computer-use-preview-2025-03-11 \| computer-use-preview |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
+| computer-use-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
+| computer-use-preview |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-4o-mini-search-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-4o-search-preview-2025-03-11 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-5-chat-latest |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
@@ -69,8 +70,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.1-codex-mini |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-terra |
 | gpt-audio-mini-2025-10-06 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-audio-1.5 |
 | gpt-realtime-mini-2025-10-06 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-realtime-2.1-mini |
-| o3-deep-research-2025-06-26 \| o3-deep-research |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
-| o4-mini-deep-research-2025-06-26 \| o4-mini-deep-research |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
+| o3-deep-research-2025-06-26 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
+| o3-deep-research |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
+| o4-mini-deep-research-2025-06-26 |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
+| o4-mini-deep-research |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
 | gpt-5.2-codex |  | deprecated | TBD | 🔴 2026-07-23 | gpt-5.6-sol |
 | gpt-5.2-chat-latest |  | deprecated | TBD | 🔴 2026-08-10 | gpt-5.6-sol |
 | gpt-5.3-chat-latest |  | deprecated | TBD | 🔴 2026-08-10 | gpt-5.6-sol |
@@ -86,18 +89,30 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | davinci-002 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
 | gpt-3.5-turbo-1106 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
 | gpt-5.4-cyber |  | deprecated | TBD | 🟡 2026-10-01 | gpt-5.6-cyber |
-| gpt-3.5-turbo-0125 \| gpt-3.5-turbo, gpt-3.5-turbo-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
-| gpt-4-0613 \| gpt-4, gpt-4-0613-completions, gpt-4-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-3.5-turbo-0125 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| gpt-3.5-turbo |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| gpt-3.5-turbo-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| gpt-4-0613 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-4 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-4-0613-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-4-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | gpt-4-1106-preview |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
-| gpt-4-turbo \| gpt-4-turbo-2024-04-09, gpt-4-turbo-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
-| gpt-4.1-nano \| gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-luna |
+| gpt-4-turbo |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-4-turbo-2024-04-09 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-4-turbo-completions |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| gpt-4.1-nano |  | deprecated | TBD | 2026-10-23 | gpt-5.6-luna |
+| gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-luna |
 | gpt-4o-2024-05-13 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | gpt-image-1 |  | deprecated | TBD | 2026-10-23 | gpt-image-2 |
-| o1-2024-12-17 \| o1 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
-| o1-pro-2025-03-19 \| o1-pro |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
-| o3-mini-2025-01-31 \| o3-mini |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| o1-2024-12-17 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| o1 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| o1-pro-2025-03-19 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
+| o1-pro |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
+| o3-mini-2025-01-31 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
+| o3-mini |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | ft-o4-mini-2025-04-16 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
-| o4-mini-2025-04-16 \| o4-mini |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| o4-mini-2025-04-16 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
+| o4-mini |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
 | ft-gpt-3.5-turbo |  | deprecated | TBD | 2026-10-23 | gpt-5.6-terra |
 | ft-gpt-4 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-sol |
 | ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 2026-10-23 | gpt-5.6-luna |

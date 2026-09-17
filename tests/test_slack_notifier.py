@@ -110,6 +110,29 @@ class TestSendNotification:
         assert "fourteen-day-model" in section_texts[1]
         assert "one-day-model" not in section_texts[1]
 
+    def test_consolidates_same_date_entries_into_one_payload(self):
+        shutdown_date = datetime.date.today() + datetime.timedelta(days=14)
+        entries = [
+            DeprecationEntry(
+                provider="OpenAI",
+                model_name=model_name,
+                shutdown_date=shutdown_date,
+                status="deprecated",
+            )
+            for model_name in ("snapshot", "alias", "alias-completions")
+        ]
+
+        with patch("generators.slack_notifier.requests.post") as mock_post:
+            send_notification(entries, ["https://hooks.slack.com/test"])
+
+        mock_post.assert_called_once()
+        payload = mock_post.call_args.kwargs["json"]
+        assert len(payload["blocks"]) == 4
+        section_text = "\n".join(
+            block["text"]["text"] for block in payload["blocks"][1:]
+        )
+        assert all(entry.model_name in section_text for entry in entries)
+
     def test_skips_when_no_upcoming(self):
         entries = [_make_entries()[3]]
         with patch("generators.slack_notifier.requests.post") as mock_post:
