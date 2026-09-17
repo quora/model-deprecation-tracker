@@ -8,9 +8,16 @@ from scraper.base import UNKNOWN_DATE, DeprecationEntry, fetch_page
 
 URL = "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models"
 
-DEPRECATED_AS_OF_RE = re.compile(r"deprecated\s+as\s+of\s+(.+?)(?:\.|,|$)", re.IGNORECASE)
-SHUTDOWN_ON_RE = re.compile(r"shut\s*down\s+(?:on|date[:\s]+)\s*(.+?)(?:\.|,|$)", re.IGNORECASE)
-DISCONTINUE_RE = re.compile(r"discontinue[ds]?\s+(?:on|as\s+of)\s+(.+?)(?:\.|,|$)", re.IGNORECASE)
+FULL_DATE_PATTERN = r"([a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,\s+\d{4}|\d{4}-\d{2}-\d{2})"
+DEPRECATED_AS_OF_RE = re.compile(
+    rf"deprecated\s+as\s+of\s+{FULL_DATE_PATTERN}", re.IGNORECASE
+)
+SHUTDOWN_ON_RE = re.compile(
+    rf"shut\s*down\s+(?:on|date[:\s]+)\s*{FULL_DATE_PATTERN}", re.IGNORECASE
+)
+DISCONTINUE_RE = re.compile(
+    rf"discontinue[ds]?\s+(?:on|as\s+of)\s+{FULL_DATE_PATTERN}", re.IGNORECASE
+)
 MODEL_ID_RE = re.compile(r"`([^`]+)`")
 
 
@@ -99,7 +106,9 @@ def _parse_tables(soup: BeautifulSoup) -> list[DeprecationEntry]:
         if not rows:
             continue
 
-        headers = [th.get_text().strip().lower() for th in rows[0].find_all(["th", "td"])]
+        headers = [
+            th.get_text().strip().lower() for th in rows[0].find_all(["th", "td"])
+        ]
 
         model_idx = -1
         deprecation_idx = -1
@@ -110,7 +119,9 @@ def _parse_tables(soup: BeautifulSoup) -> list[DeprecationEntry]:
                 model_idx = i
             elif "deprecat" in h:
                 deprecation_idx = i
-            elif "shutdown" in h or "end of life" in h or "eol" in h or "discontinu" in h:
+            elif (
+                "shutdown" in h or "end of life" in h or "eol" in h or "discontinu" in h
+            ):
                 shutdown_idx = i
 
         if model_idx == -1 or (deprecation_idx == -1 and shutdown_idx == -1):

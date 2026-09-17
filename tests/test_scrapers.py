@@ -7,7 +7,12 @@ from scraper.base import UNKNOWN_DATE, DeprecationEntry
 from scraper.openai_scraper import scrape as scrape_openai
 from scraper.anthropic_scraper import scrape as scrape_anthropic
 from scraper.vertex_scraper import scrape as scrape_vertex
-from scraper.bedrock_scraper import scrape as scrape_bedrock
+from scraper.bedrock_scraper import (
+    _deduplicate,
+    _find_tracked_model_card_urls,
+    _parse_model_card,
+    scrape as scrape_bedrock,
+)
 from scraper.gemini_scraper import scrape as scrape_gemini
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
@@ -163,47 +168,166 @@ class TestVertexScraper:
             status=_status_at(datetime.date(2026, 7, 5), "deprecated"),
         )
 
+    def test_preserves_explicit_year_after_comma(self):
+        html = """<html><body>
+        <div><h3>Claude 3 Opus</h3>
+        <p>Claude 3 Opus was deprecated as of February 14, 2025 and was
+        shut down on August 1, 2025.</p></div>
+        </body></html>"""
+        entries = scrape_vertex(html)
+        assert len(entries) == 1
+        assert entries[0].deprecated_date == datetime.date(2025, 2, 14)
+        assert entries[0].shutdown_date == datetime.date(2025, 8, 1)
+
+    def test_does_not_infer_year_for_incomplete_shutdown_date(self):
+        html = """<html><body>
+        <div><h3>Example model</h3>
+        <p>Example model will be shut down on August 1.</p></div>
+        </body></html>"""
+        assert scrape_vertex(html) == []
+
 
 class TestBedrockScraper:
     def test_parses_legacy_entry(self):
         entries = scrape_bedrock(_load_fixture("bedrock.html"))
-        haiku = _by_name(entries)["Claude 3.5 Haiku"]
-        assert haiku == DeprecationEntry(
+        opus = _by_name(entries)["Claude Opus 4.1"]
+        assert opus == DeprecationEntry(
             provider="Bedrock",
-            model_name="Claude 3.5 Haiku",
-            deprecated_date=datetime.date(2025, 12, 19),
-            shutdown_date=datetime.date(2026, 6, 19),
-            replacement="Claude Haiku 4.5 / anthropic.claude-haiku-4-5-20251001-v1:0",
-            status=_status_at(datetime.date(2026, 6, 19), "legacy"),
+            model_name="Claude Opus 4.1",
+            model_id="anthropic.claude-opus-4-1-20250805-v1:0",
+            deprecated_date=datetime.date(2026, 7, 8),
+            shutdown_date=datetime.date(2027, 1, 8),
+            status=_status_at(datetime.date(2027, 1, 8), "legacy"),
         )
 
-    def test_parses_eol_entry(self):
+    def test_ignores_non_shutdown_lifecycle_dates(self):
         entries = scrape_bedrock(_load_fixture("bedrock.html"))
-        v2 = _by_name(entries)["Claude v2"]
-        assert v2 == DeprecationEntry(
-            provider="Bedrock",
-            model_name="Claude v2",
-            deprecated_date=datetime.date(2025, 1, 21),
-            shutdown_date=datetime.date(2025, 7, 21),
-            replacement="Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-            status="retired",
-        )
+        gemma = _by_name(entries)["Gemma example"]
+        assert gemma.deprecated_date == datetime.date(2026, 8, 1)
+        assert gemma.shutdown_date == UNKNOWN_DATE
 
-    def test_deduplicates_rowspan_entries_keeping_earliest_shutdown(self):
+    def test_deduplicates_rowspan_entries(self):
         entries = scrape_bedrock(_load_fixture("bedrock.html"))
-        sonnet = _by_name(entries)["Claude 3.5 Sonnet v1"]
+        sonnet = _by_name(entries)["Claude Sonnet 4"]
         assert sonnet == DeprecationEntry(
             provider="Bedrock",
-            model_name="Claude 3.5 Sonnet v1",
-            deprecated_date=datetime.date(2025, 8, 25),
-            shutdown_date=datetime.date(2026, 3, 1),
-            replacement="Claude Sonnet 4.5 / anthropic.claude-sonnet-4-5-20250929-v1:0",
-            status=_status_at(datetime.date(2026, 3, 1), "legacy"),
+            model_name="Claude Sonnet 4",
+            model_id="anthropic.claude-sonnet-4-20250514-v1:0",
+            deprecated_date=datetime.date(2026, 4, 14),
+            shutdown_date=datetime.date(2026, 10, 14),
+            status=_status_at(datetime.date(2026, 10, 14), "legacy"),
         )
+
+    def test_preserves_distinct_model_ids_with_same_name(self):
+        html = """<table>
+        <tr><th>Model provider</th><th>Model name</th><th>Model ID</th>
+        <th>Legacy date</th><th>EOL date</th></tr>
+        <tr><td>OpenAI</td><td>GPT Same</td><td>openai.gpt-v1</td>
+        <td>January 1, 2027</td><td>July 1, 2027</td></tr>
+        <tr><td>OpenAI</td><td>GPT Same</td><td>openai.gpt-v2</td>
+        <td>February 1, 2027</td><td>August 1, 2027</td></tr>
+        </table>"""
+        entries = scrape_bedrock(html)
+        assert {entry.model_id for entry in entries} == {
+            "openai.gpt-v1",
+            "openai.gpt-v2",
+        }
+
+    def test_only_tracks_requested_model_providers(self):
+        entries = scrape_bedrock(_load_fixture("bedrock.html"))
+        assert "Nova Canvas" not in _by_name(entries)
+        assert "Command R+" not in _by_name(entries)
+
+    def test_tracks_openai_model_with_confirmed_eol(self):
+        html = """<table>
+        <tr><th>Model provider</th><th>Model name</th><th>Model ID</th>
+        <th>Legacy date</th><th>EOL date</th>
+        <th>Public extended access start date</th></tr>
+        <tr><td>OpenAI</td><td>GPT example</td><td>openai.gpt-example</td>
+        <td>January 1, 2027</td><td>July 1, 2027</td>
+        <td>April 1, 2027</td></tr>
+        </table>"""
+        entry = scrape_bedrock(html)[0]
+        assert entry.model_id == "openai.gpt-example"
+        assert entry.shutdown_date == datetime.date(2027, 7, 1)
+
+    def test_does_not_substitute_other_lifecycle_dates_for_missing_eol(self):
+        html = """<table>
+        <tr><th>Model provider</th><th>Model name</th><th>Model ID</th>
+        <th>Legacy date</th><th>EOL date</th>
+        <th>Public extended access start date</th></tr>
+        <tr><td>Google</td><td>Gemma example</td><td>google.gemma-example</td>
+        <td>January 1, 2027</td><td>N/A</td><td>April 1, 2027</td></tr>
+        </table>"""
+        entry = scrape_bedrock(html)[0]
+        assert entry.deprecated_date == datetime.date(2027, 1, 1)
+        assert entry.shutdown_date == UNKNOWN_DATE
+
+    def test_rejects_qualifier_in_eol_header(self):
+        html = """<table>
+        <tr><th>Model provider</th><th>Model name</th><th>Model ID</th>
+        <th>Legacy date</th><th>EOL date (no sooner than)</th></tr>
+        <tr><td>OpenAI</td><td>GPT example</td><td>openai.gpt-example</td>
+        <td>January 1, 2027</td><td>July 1, 2027</td></tr>
+        </table>"""
+        assert scrape_bedrock(html)[0].shutdown_date == UNKNOWN_DATE
+
+    def test_parses_only_explicit_model_card_eol(self):
+        confirmed = """<html><h1>GPT example</h1>
+        <p><b>EOL no sooner than:</b> January 1, 2027</p>
+        <p><b>Model EOL date:</b> July 1, 2027</p>
+        <table><tr><th>Endpoint</th><th>Model ID</th></tr>
+        <tr><td>bedrock-runtime</td><td>openai.gpt-example</td></tr></table></html>"""
+        unconfirmed = confirmed.replace("July 1, 2027", "N/A")
+
+        entry = _parse_model_card(confirmed)
+        assert entry is not None
+        assert entry.shutdown_date == datetime.date(2027, 7, 1)
+        assert _parse_model_card(unconfirmed) is None
+
+    def test_model_cards_skip_placeholder_ids_without_colliding(self):
+        card_template = """<html><h1>{name}</h1>
+        <p><b>Model EOL date:</b> {eol}</p>
+        <table><tr><th>Endpoint</th><th>Model ID</th></tr>
+        <tr><td>bedrock-runtime</td><td>N/A</td></tr>
+        <tr><td>bedrock-mantle</td><td>{model_id}</td></tr></table></html>"""
+        first = _parse_model_card(
+            card_template.format(
+                name="Claude First",
+                eol="July 1, 2027",
+                model_id="anthropic.claude-first",
+            )
+        )
+        second = _parse_model_card(
+            card_template.format(
+                name="Claude Second",
+                eol="August 1, 2027",
+                model_id="anthropic.claude-second",
+            )
+        )
+
+        assert first is not None and second is not None
+        assert first.model_id == "anthropic.claude-first"
+        assert second.model_id == "anthropic.claude-second"
+        assert len(_deduplicate([first, second])) == 2
+
+    def test_model_card_index_only_returns_tracked_providers(self):
+        html = """<table>
+        <tr><th>Logo</th><th>Provider</th><th>Supported models</th></tr>
+        <tr><td></td><td>OpenAI</td><td><a href="openai.html">GPT</a></td></tr>
+        <tr><td></td><td>Cohere</td><td><a href="cohere.html">Command</a></td></tr>
+        </table>"""
+        assert _find_tracked_model_card_urls(html) == [
+            "https://docs.aws.amazon.com/bedrock/latest/userguide/openai.html"
+        ]
+
+    def test_fails_closed_when_eol_table_disappears(self):
+        with pytest.raises(ValueError, match="Bedrock EOL table not found"):
+            scrape_bedrock("<html><body><p>No lifecycle table</p></body></html>")
 
     def test_total_count(self):
         entries = scrape_bedrock(_load_fixture("bedrock.html"))
-        assert len(entries) == 4
+        assert len(entries) == 3
 
 
 class TestGeminiScraper:

@@ -26,6 +26,15 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
 
+### Bedrock
+
+| Model | Model ID | Status | Deprecated | Shutdown | Replacement |
+|-------|----------|--------|------------|----------|-------------|
+| Claude 3.5 Haiku | anthropic.claude-3-5-haiku-20241022-v1:0 | retired | TBD | 🔴 2026-06-19 |  |
+| Claude 3 Haiku | anthropic.claude-3-haiku-20240307-v1:0 | retired | 2026-03-10 | 🔴 2026-09-10 |  |
+| Claude Sonnet 4 | anthropic.claude-sonnet-4-20250514-v1:0 | legacy | 2026-04-14 | 🟡 2026-10-14 |  |
+| Claude Opus 4.1 | anthropic.claude-opus-4-1-20250805-v1:0 | legacy | 2026-07-08 | 2027-01-08 |  |
+
 ### Gemini
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
@@ -122,7 +131,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | Claude 3.5 Haiku on Google Cloud | Claude 3.5 Haiku on Google Cloud | retired | 2026-01-05 | 🔴 2026-07-05 |  |
-| Claude 3 Opus on Google Cloud | Claude 3 Opus on Google Cloud | retired | 2026-06-30 | 🔴 2026-08-01 |  |
 | Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | retired | 2026-02-23 | 🔴 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->

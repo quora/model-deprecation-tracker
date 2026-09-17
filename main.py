@@ -17,6 +17,7 @@ DATA_DIR = PROJECT_DIR / "data"
 DEPRECATIONS_FILE = DATA_DIR / "deprecations.json"
 README_PATH = PROJECT_DIR / "README.md"
 ICS_PATH = PROJECT_DIR / "deprecations.ics"
+HISTORY_PRESERVED_PROVIDERS = {"Bedrock", "Vertex AI"}
 
 
 def _load_previous_entries() -> list[DeprecationEntry]:
@@ -47,6 +48,28 @@ def _validate_anthropic_history(
         raise ValueError(f"Anthropic deprecation history dropped models: {missing}")
 
 
+def _entry_identity(entry: DeprecationEntry) -> tuple[str, str]:
+    return entry.provider, entry.model_id or entry.model_name.casefold()
+
+
+def _preserve_confirmed_history(
+    entries: list[DeprecationEntry], previous_entries: list[DeprecationEntry]
+) -> list[DeprecationEntry]:
+    """Keep confirmed records after source pages remove completed shutdowns."""
+    identities = {_entry_identity(entry) for entry in entries}
+    preserved = list(entries)
+    for entry in previous_entries:
+        identity = _entry_identity(entry)
+        if (
+            entry.provider in HISTORY_PRESERVED_PROVIDERS
+            and entry.has_shutdown_date()
+            and identity not in identities
+        ):
+            preserved.append(entry)
+            identities.add(identity)
+    return preserved
+
+
 def main() -> None:
     previous_entries = _load_previous_entries()
     all_entries: list[DeprecationEntry] = []
@@ -55,6 +78,7 @@ def main() -> None:
         entries = scrape_fn()
         all_entries.extend(entries)
 
+    all_entries = _preserve_confirmed_history(all_entries, previous_entries)
     _validate_anthropic_history(all_entries, previous_entries)
 
     DATA_DIR.mkdir(parents=True, exist_ok=True)
