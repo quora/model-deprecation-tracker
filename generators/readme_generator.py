@@ -41,6 +41,10 @@ def _format_shutdown(d: datetime.date, today: datetime.date) -> str:
     return date_str
 
 
+def _format_table_cell(value: str) -> str:
+    return " ".join(value.split()).replace("|", r"\|")
+
+
 def generate_readme(entries: list[DeprecationEntry]) -> str:
     today = datetime.date.today()
     relevant = [e for e in entries if _should_include(e, today)]
@@ -56,16 +60,20 @@ def generate_readme(entries: list[DeprecationEntry]) -> str:
         group_entries = sorted(group, key=_sort_key)
         lines.append(f"### {provider}")
         lines.append("")
-        lines.append("| Model | Model ID | Status | Deprecated | Shutdown | Replacement |")
-        lines.append("|-------|----------|--------|------------|----------|-------------|")
+        lines.append(
+            "| Model | Model ID | Status | Deprecated | Shutdown | Replacement |"
+        )
+        lines.append(
+            "|-------|----------|--------|------------|----------|-------------|"
+        )
 
         for entry in group_entries:
-            model = " ".join(entry.model_name.split())
-            model_id = entry.model_id
-            status = entry.status
+            model = _format_table_cell(entry.model_name)
+            model_id = _format_table_cell(entry.model_id)
+            status = _format_table_cell(entry.status)
             deprecated = _format_date(entry.deprecated_date)
             shutdown = _format_shutdown(entry.shutdown_date, today)
-            replacement = " ".join(entry.replacement.split())
+            replacement = _format_table_cell(entry.replacement)
             lines.append(
                 f"| {model} | {model_id} | {status} | {deprecated} | {shutdown} | {replacement} |"
             )

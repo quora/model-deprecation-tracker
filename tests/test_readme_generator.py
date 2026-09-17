@@ -115,3 +115,23 @@ class TestGenerateReadme:
         result = generate_readme(entries)
         assert "\U0001f534" not in result
         assert "\U0001f7e1" not in result
+
+    def test_escapes_markdown_delimiters_inside_table_cells(self):
+        entries = [
+            DeprecationEntry(
+                provider="OpenAI",
+                model_name="gpt-old | gpt-alias",
+                model_id="openai.old | openai.alias",
+                shutdown_date=datetime.date.today() + datetime.timedelta(days=60),
+                replacement="gpt-new | gpt-newest",
+                status="deprecated",
+            )
+        ]
+
+        row = next(
+            line for line in generate_readme(entries).splitlines() if "gpt-old" in line
+        )
+        assert r"gpt-old \| gpt-alias" in row
+        assert r"openai.old \| openai.alias" in row
+        assert r"gpt-new \| gpt-newest" in row
+        assert len(row.split(" | ")) == 6
