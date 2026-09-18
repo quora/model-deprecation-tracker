@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-09-17*
+*Last updated: 2026-09-18*
 
 ### Anthropic
 
@@ -30,7 +30,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| Claude 3.5 Haiku | anthropic.claude-3-5-haiku-20241022-v1:0 | retired | TBD | 🔴 2026-06-19 |  |
 | Claude 3 Haiku | anthropic.claude-3-haiku-20240307-v1:0 | retired | 2026-03-10 | 🔴 2026-09-10 |  |
 | Claude Sonnet 4 | anthropic.claude-sonnet-4-20250514-v1:0 | legacy | 2026-04-14 | 🟡 2026-10-14 |  |
 | Claude Opus 4.1 | anthropic.claude-opus-4-1-20250805-v1:0 | legacy | 2026-07-08 | 2027-01-08 |  |
