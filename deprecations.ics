@@ -885,7 +885,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: Videos API
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DESCRIPTION:Model: Videos API\nReplacement: ---\nStatus: deprecated
+DESCRIPTION:Model: Videos API\nReplacement: —\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Videos API shutdown in 7 days
@@ -901,7 +901,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: sora-2
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DESCRIPTION:Model: sora-2\nReplacement: ---\nStatus: deprecated
+DESCRIPTION:Model: sora-2\nReplacement: —\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:sora-2 shutdown in 7 days
@@ -917,7 +917,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: sora-2-pro
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DESCRIPTION:Model: sora-2-pro\nReplacement: ---\nStatus: deprecated
+DESCRIPTION:Model: sora-2-pro\nReplacement: —\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:sora-2-pro shutdown in 7 days
@@ -933,7 +933,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: sora-2-2025-10-06
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DESCRIPTION:Model: sora-2-2025-10-06\nReplacement: ---\nStatus: deprecated
+DESCRIPTION:Model: sora-2-2025-10-06\nReplacement: —\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:sora-2-2025-10-06 shutdown in 7 days
@@ -949,7 +949,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: sora-2-2025-12-08
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DESCRIPTION:Model: sora-2-2025-12-08\nReplacement: ---\nStatus: deprecated
+DESCRIPTION:Model: sora-2-2025-12-08\nReplacement: —\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:sora-2-2025-12-08 shutdown in 7 days
@@ -965,7 +965,7 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: sora-2-pro-2025-10-06
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
-DESCRIPTION:Model: sora-2-pro-2025-10-06\nReplacement: ---\nStatus: deprec
+DESCRIPTION:Model: sora-2-pro-2025-10-06\nReplacement: —\nStatus: deprec
  ated
 BEGIN:VALARM
 ACTION:DISPLAY
