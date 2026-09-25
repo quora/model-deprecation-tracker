@@ -2152,20 +2152,11 @@
   },
   {
     "provider": "Gemini",
-    "model_name": "gemini-3.1-flash-tts-preview",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
-  },
-  {
-    "provider": "Gemini",
     "model_name": "gemini-2.5-flash-preview-tts",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "gemini-3.1-flash-tts-preview",
+    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
     "status": "active"
   },
   {
@@ -2174,7 +2165,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "gemini-3.1-flash-tts-preview",
+    "replacement": "gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts",
     "status": "active"
   },
   {
