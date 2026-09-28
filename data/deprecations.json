@@ -185,7 +185,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
-    "replacement": "gpt-image-2",
+    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
     "status": "deprecated"
   },
   {
@@ -194,7 +194,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
-    "replacement": "gpt-image-2",
+    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
     "status": "deprecated"
   },
   {
@@ -203,7 +203,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
-    "replacement": "gpt-image-2",
+    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
     "status": "deprecated"
   },
   {
@@ -338,7 +338,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-10-23",
-    "replacement": "gpt-image-2",
+    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
     "status": "deprecated"
   },
   {

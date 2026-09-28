@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-09-27*
+*Last updated: 2026-09-28*
 
 ### Anthropic
 
@@ -81,10 +81,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | sora-2-2025-10-06 |  | deprecated | TBD | 🔴 2026-09-24 | — |
 | sora-2-2025-12-08 |  | deprecated | TBD | 🔴 2026-09-24 | — |
 | sora-2-pro-2025-10-06 |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| gpt-3.5-turbo-instruct |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
-| babbage-002 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
-| davinci-002 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
-| gpt-3.5-turbo-1106 |  | deprecated | TBD | 🟡 2026-09-28 | gpt-5.6-terra |
+| gpt-3.5-turbo-instruct |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
+| babbage-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
+| davinci-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
+| gpt-3.5-turbo-1106 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
 | gpt-5.4-cyber |  | deprecated | TBD | 🟡 2026-10-01 | gpt-5.6-cyber |
 | gpt-3.5-turbo-0125 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
 | gpt-3.5-turbo |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
@@ -100,7 +100,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4.1-nano |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-luna |
 | gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-luna |
 | gpt-4o-2024-05-13 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-image-1 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-image-2 |
+| gpt-image-1 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
 | o1-2024-12-17 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
 | o1 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
 | o1-pro-2025-03-19 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
@@ -115,9 +115,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-luna |
 | ft-babbage-002 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
 | ft-davinci-002 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
-| gpt-image-1.5 |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
-| chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2 |
+| gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| gpt-image-1.5 |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
 | gpt-5-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
 | gpt-5-mini-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-terra |
 | gpt-5-nano-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-luna |
