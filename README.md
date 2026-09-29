@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-09-28*
+*Last updated: 2026-09-29*
 
 ### Anthropic
 
@@ -38,9 +38,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| veo-3.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
-| veo-3.0-fast-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
-| veo-2.0-generate-001 |  | retired | TBD | 🔴 2026-06-30 | veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform |
 | embedding-2-preview |  | retired | TBD | 🔴 2026-08-10 | gemini-embedding-2 |
 | imagen-4.0-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
@@ -85,7 +82,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | babbage-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
 | davinci-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
 | gpt-3.5-turbo-1106 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
-| gpt-5.4-cyber |  | deprecated | TBD | 🟡 2026-10-01 | gpt-5.6-cyber |
+| gpt-5.4-cyber |  | deprecated | TBD | 🟡 2026-10-01 | The most capable cyber model available to you. |
 | gpt-3.5-turbo-0125 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
 | gpt-3.5-turbo |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
 | gpt-3.5-turbo-completions |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |

@@ -5,7 +5,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-10-01",
-    "replacement": "gpt-5.6-cyber",
+    "replacement": "The most capable cyber model available to you.",
     "status": "deprecated"
   },
   {
@@ -204,6 +204,24 @@
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
     "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5.2-chat-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-10",
+    "replacement": "gpt-5.6-sol",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5.3-chat-latest",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-08-10",
+    "replacement": "gpt-5.6-sol",
     "status": "deprecated"
   },
   {
@@ -469,114 +487,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_name": "Videos API",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-24",
-    "replacement": "—",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "sora-2",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-24",
-    "replacement": "—",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "sora-2-pro",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-24",
-    "replacement": "—",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "sora-2-2025-10-06",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-24",
-    "replacement": "—",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "sora-2-2025-12-08",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-24",
-    "replacement": "—",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "sora-2-pro-2025-10-06",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-24",
-    "replacement": "—",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "gpt-3.5-turbo-instruct",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5.6-terra",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "babbage-002",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5.6-terra",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "davinci-002",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5.6-terra",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "gpt-3.5-turbo-1106",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-28",
-    "replacement": "gpt-5.6-terra",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "gpt-5.2-chat-latest",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-08-10",
-    "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
-    "model_name": "gpt-5.3-chat-latest",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-08-10",
-    "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
     "model_name": "computer-use-preview-2025-03-11",
     "model_id": "",
     "deprecated_date": "",
@@ -730,6 +640,60 @@
   },
   {
     "provider": "OpenAI",
+    "model_name": "Videos API",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "—",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "—",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-pro",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "—",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-2025-10-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "—",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-2025-12-08",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "—",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "sora-2-pro-2025-10-06",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-24",
+    "replacement": "—",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "chatgpt-4o-latest",
     "model_id": "",
     "deprecated_date": "",
@@ -762,6 +726,42 @@
     "deprecated_date": "",
     "shutdown_date": "2026-05-12",
     "replacement": "gpt-image-2, gpt-image-1, or gpt-image-1-mini",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-instruct",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5.6-terra",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "babbage-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5.6-terra",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "davinci-002",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5.6-terra",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-3.5-turbo-1106",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-09-28",
+    "replacement": "gpt-5.6-terra",
     "status": "deprecated"
   },
   {
