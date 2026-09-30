@@ -18,13 +18,14 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-09-29*
+*Last updated: 2026-09-30*
 
 ### Anthropic
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
+| claude-sonnet-4-5-20250929 |  | deprecated | 2026-09-30 | 2026-11-30 | claude-sonnet-5-5 |
 
 ### Bedrock
 
@@ -43,8 +44,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | gemini-robotics-er-1.6-preview |  | retired | TBD | 🔴 2026-08-31 | gemini-robotics-er-2-preview |
-| gemini-omni-flash-preview |  | deprecated | TBD | 🟡 2026-09-30 | gemini-omni-1.1-flash |
 | gemini-2.5-flash-image |  | deprecated | TBD | 🟡 2026-10-02 | gemini-3.1-flash-image-preview |
+| veo-3.1-lite-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
+| veo-3.1-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
+| veo-3.1-fast-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
 | gemini-embedding-001 |  | deprecated | TBD | 2028-05-14 | gemini-embedding-2 |
 

@@ -1459,6 +1459,15 @@
   },
   {
     "provider": "Anthropic",
+    "model_name": "claude-sonnet-4-5-20250929",
+    "model_id": "",
+    "deprecated_date": "2026-09-30",
+    "shutdown_date": "2026-11-30",
+    "replacement": "claude-sonnet-5-5",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Anthropic",
     "model_name": "claude-opus-4-1-20250805",
     "model_id": "",
     "deprecated_date": "2026-06-05",
@@ -2326,27 +2335,27 @@
     "model_name": "veo-3.1-lite-generate-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-10-22",
+    "replacement": "gemini-omni-1.1-flash",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
     "model_name": "veo-3.1-generate-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-10-22",
+    "replacement": "gemini-omni-1.1-flash",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
     "model_name": "veo-3.1-fast-generate-preview",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "",
-    "replacement": "",
-    "status": "active"
+    "shutdown_date": "2026-10-22",
+    "replacement": "gemini-omni-1.1-flash",
+    "status": "deprecated"
   },
   {
     "provider": "Gemini",
@@ -2374,15 +2383,6 @@
     "shutdown_date": "",
     "replacement": "",
     "status": "active"
-  },
-  {
-    "provider": "Gemini",
-    "model_name": "gemini-omni-flash-preview",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-09-30",
-    "replacement": "gemini-omni-1.1-flash",
-    "status": "deprecated"
   },
   {
     "provider": "Gemini",

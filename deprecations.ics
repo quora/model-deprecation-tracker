@@ -2735,6 +2735,23 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Anthropic] Model deprecation: claude-sonnet-4-5-20250929
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Model: claude-sonnet-4-5-20250929\nReplacement: claude-sonnet-
+ 5-5\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-5-20250929 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:claude-sonnet-4-5-20250929 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-opus-4-1-20250805
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
@@ -3915,6 +3932,57 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: veo-3.1-lite-generate-preview
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Model: veo-3.1-lite-generate-preview\nReplacement: gemini-omni
+ -1.1-flash\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.1-lite-generate-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.1-lite-generate-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: veo-3.1-generate-preview
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Model: veo-3.1-generate-preview\nReplacement: gemini-omni-1.1-
+ flash\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.1-generate-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.1-generate-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Gemini] Model deprecation: veo-3.1-fast-generate-preview
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+DESCRIPTION:Model: veo-3.1-fast-generate-preview\nReplacement: gemini-omni
+ -1.1-flash\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.1-fast-generate-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.1-fast-generate-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: veo-3.0-generate-preview
 DTSTART;VALUE=DATE:20251112
 DTEND;VALUE=DATE:20251113
@@ -3945,23 +4013,6 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-fast-generate-preview shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[Gemini] Model deprecation: gemini-omni-flash-preview
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
-DESCRIPTION:Model: gemini-omni-flash-preview\nReplacement: gemini-omni-1.1
- -flash\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-omni-flash-preview shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gemini-omni-flash-preview shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
