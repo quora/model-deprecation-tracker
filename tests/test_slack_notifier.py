@@ -52,15 +52,15 @@ def _make_entries() -> list[DeprecationEntry]:
 
 
 class TestFindUpcomingDeprecations:
-    def test_notifies_at_14_and_1_days(self):
+    def test_notifies_at_7_and_1_days(self):
         upcoming = find_upcoming_deprecations(_make_entries())
         names = {e.model_name for e in upcoming}
-        assert names == {"fourteen-day-model", "one-day-model"}
+        assert names == {"seven-day-model", "one-day-model"}
 
     def test_skips_non_matching_days(self):
         upcoming = find_upcoming_deprecations(_make_entries())
         names = {e.model_name for e in upcoming}
-        assert "seven-day-model" not in names
+        assert "fourteen-day-model" not in names
         assert "three-day-model" not in names
 
     def test_custom_notify_days(self):
@@ -106,12 +106,12 @@ class TestSendNotification:
             for payload in payloads
         ]
         assert "one-day-model" in section_texts[0]
-        assert "fourteen-day-model" not in section_texts[0]
-        assert "fourteen-day-model" in section_texts[1]
+        assert "seven-day-model" not in section_texts[0]
+        assert "seven-day-model" in section_texts[1]
         assert "one-day-model" not in section_texts[1]
 
     def test_consolidates_same_date_entries_into_one_payload(self):
-        shutdown_date = datetime.date.today() + datetime.timedelta(days=14)
+        shutdown_date = datetime.date.today() + datetime.timedelta(days=7)
         entries = [
             DeprecationEntry(
                 provider="OpenAI",

@@ -7,7 +7,7 @@ log = logging.getLogger(__name__)
 
 from scraper.base import DeprecationEntry
 
-NOTIFY_AT_DAYS = {14, 1}
+NOTIFY_AT_DAYS = {7, 1}
 
 
 def find_upcoming_deprecations(
@@ -70,7 +70,7 @@ def send_notification(entries: list[DeprecationEntry], webhook_urls: list[str]) 
     """Send a separate Slack notification per shutdown horizon.
 
     Entries are grouped by days-until-shutdown so each deadline (e.g. the
-    1-day final reminder and the 14-day heads-up) posts as its own message
+    1-day final reminder and the 7-day heads-up) posts as its own message
     instead of being collapsed into one mixed notification.
     """
     upcoming = find_upcoming_deprecations(entries)
