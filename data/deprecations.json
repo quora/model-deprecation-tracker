@@ -1927,6 +1927,15 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-2.5-computer-use-preview-10-2025",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-07-28",
+    "replacement": "gemini-3.8-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-2.5-pro-preview-03-25",
     "model_id": "",
     "deprecated_date": "",
