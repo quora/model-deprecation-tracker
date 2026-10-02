@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-01*
+*Last updated: 2026-10-02*
 
 ### Anthropic
 
@@ -45,7 +45,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
 | gemini-robotics-er-1.6-preview |  | retired | TBD | 🔴 2026-08-31 | gemini-robotics-er-2-preview |
-| gemini-2.5-flash-image |  | deprecated | TBD | 🟡 2026-10-02 | gemini-3.1-flash-image-preview |
+| gemini-2.5-flash-image |  | retired | TBD | 🔴 2026-10-02 | gemini-3.1-flash-image-preview |
 | veo-3.1-lite-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | veo-3.1-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | veo-3.1-fast-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
@@ -125,6 +125,10 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5-pro-2025-10-06 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
 | o3-2025-04-16 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
 | o3-pro-2025-06-10 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
+| tts-1 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
+| tts-1-hd |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
+| gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
+| gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
 | gpt-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1 |
 | gpt-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
 | gpt-4o-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
@@ -138,6 +142,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4o-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 | gpt-4o-mini-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 | gpt-4o-transcribe-diarize |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
+| gpt-5.3-codex |  | deprecated | TBD | 2027-04-01 | gpt-6-sol |
+| gpt-5.4-nano |  | deprecated | TBD | 2027-04-01 | gpt-6-luna |
+| gpt-5.1 |  | deprecated | TBD | 2027-04-01 | gpt-6-sol |
 
 ### Vertex AI
 

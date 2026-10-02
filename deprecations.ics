@@ -3,6 +3,124 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.3-codex
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: gpt-5.3-codex\nReplacement: gpt-6-sol\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.3-codex shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.3-codex shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.4-nano
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: gpt-5.4-nano\nReplacement: gpt-6-luna\nStatus: deprecat
+ ed
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.4-nano shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.4-nano shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.1
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: gpt-5.1\nReplacement: gpt-6-sol\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: tts-1
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Model: tts-1\nReplacement: gpt-realtime-2.1-mini\nStatus: depr
+ ecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:tts-1 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:tts-1 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: tts-1-hd
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Model: tts-1-hd\nReplacement: gpt-realtime-2.1-mini\nStatus: d
+ eprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:tts-1-hd shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:tts-1-hd shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-tts-2025-03-20
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Model: gpt-4o-mini-tts-2025-03-20\nReplacement: gpt-realtime-2
+ .1-mini\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-tts-2025-03-20 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-tts-2025-03-20 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-4o-mini-tts-2025-12-15
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Model: gpt-4o-mini-tts-2025-12-15\nReplacement: gpt-realtime-2
+ .1-mini\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-tts-2025-12-15 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-4o-mini-tts-2025-12-15 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5.4-cyber
 DTSTART;VALUE=DATE:20261001
 DTEND;VALUE=DATE:20261002
@@ -3439,7 +3557,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-2.5-flash-image
 DTSTART;VALUE=DATE:20261002
 DTEND;VALUE=DATE:20261003
 DESCRIPTION:Model: gemini-2.5-flash-image\nReplacement: gemini-3.1-flash-i
- mage-preview\nStatus: deprecated
+ mage-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.5-flash-image shutdown in 7 days
