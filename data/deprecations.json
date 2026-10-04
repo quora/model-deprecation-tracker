@@ -1809,6 +1809,33 @@
     "status": "retired"
   },
   {
+    "provider": "Bedrock",
+    "model_name": "Gemma 3 12B IT",
+    "model_id": "google.gemma-3-12b-it",
+    "deprecated_date": "",
+    "shutdown_date": "2027-03-30",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Gemma 3 27B PT",
+    "model_id": "google.gemma-3-27b-it",
+    "deprecated_date": "",
+    "shutdown_date": "2027-03-30",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Gemma 3 4B IT",
+    "model_id": "google.gemma-3-4b-it",
+    "deprecated_date": "",
+    "shutdown_date": "2027-03-30",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
     "provider": "Gemini",
     "model_name": "gemini-3.8-flash-tts",
     "model_id": "",

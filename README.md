@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-03*
+*Last updated: 2026-10-04*
 
 ### Anthropic
 
@@ -34,6 +34,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Claude 3 Haiku | anthropic.claude-3-haiku-20240307-v1:0 | retired | 2026-03-10 | 🔴 2026-09-10 |  |
 | Claude Sonnet 4 | anthropic.claude-sonnet-4-20250514-v1:0 | legacy | 2026-04-14 | 🟡 2026-10-14 |  |
 | Claude Opus 4.1 | anthropic.claude-opus-4-1-20250805-v1:0 | legacy | 2026-07-08 | 2027-01-08 |  |
+| Gemma 3 12B IT | google.gemma-3-12b-it | legacy | TBD | 2027-03-30 |  |
+| Gemma 3 27B PT | google.gemma-3-27b-it | legacy | TBD | 2027-03-30 |  |
+| Gemma 3 4B IT | google.gemma-3-4b-it | legacy | TBD | 2027-03-30 |  |
 
 ### Gemini
 
@@ -150,7 +153,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| Claude 3.5 Haiku on Google Cloud | Claude 3.5 Haiku on Google Cloud | retired | 2026-01-05 | 🔴 2026-07-05 |  |
 | Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | retired | 2026-02-23 | 🔴 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->
