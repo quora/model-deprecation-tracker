@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-05*
+*Last updated: 2026-10-06*
 
 ### Anthropic
 
@@ -44,14 +44,21 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 |-------|----------|--------|------------|----------|-------------|
 | gemini-2.5-computer-use-preview-10-2025 |  | retired | TBD | 🔴 2026-07-28 | gemini-3.8-flash |
 | embedding-2-preview |  | retired | TBD | 🔴 2026-08-10 | gemini-embedding-2 |
-| imagen-4.0-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
-| imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
-| imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-3.1-flash-image |
+| imagen-4.0-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-nano-banana-2.1 |
+| imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-nano-banana-2.1 |
+| imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-nano-banana-2.1 |
 | gemini-robotics-er-1.6-preview |  | retired | TBD | 🔴 2026-08-31 | gemini-robotics-er-2-preview |
-| gemini-2.5-flash-image |  | retired | TBD | 🔴 2026-10-02 | gemini-3.1-flash-image-preview |
 | veo-3.1-lite-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | veo-3.1-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | veo-3.1-fast-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
+| gemini-omni-flash-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
+| gemini-3.1-flash-image |  | deprecated | TBD | 🟡 2026-10-29 | gemini-nano-banana-2.1 |
+| gemini-3.1-flash-tts-preview |  | deprecated | TBD | 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
+| gemini-3.1-flash-live-preview |  | deprecated | TBD | 2026-11-17 | gemini-3.8-live |
+| gemini-2.5-flash-native-audio-preview-12-2025 |  | deprecated | TBD | 2026-11-17 | gemini-3.8-live |
+| gemini-2.5-flash-preview-tts |  | deprecated | TBD | 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
+| gemini-2.5-pro-preview-tts |  | deprecated | TBD | 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
+| gemini-2.5-flash-image |  | deprecated | TBD | 2027-03-15 | gemini-3.1-flash-lite-image |
 | gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
 | gemini-embedding-001 |  | deprecated | TBD | 2028-05-14 | gemini-embedding-2 |
 
