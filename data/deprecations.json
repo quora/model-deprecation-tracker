@@ -64,15 +64,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_name": "gpt-5.4-cyber",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-10-01",
-    "replacement": "The most capable cyber model available to you.",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
     "model_name": "whisper-1",
     "model_id": "",
     "deprecated_date": "",
@@ -267,6 +258,15 @@
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
     "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
+    "model_name": "gpt-5.4-cyber",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2026-10-01",
+    "replacement": "The most capable cyber model available to you.",
     "status": "deprecated"
   },
   {
@@ -1801,15 +1801,6 @@
   },
   {
     "provider": "Bedrock",
-    "model_name": "Claude 3.5 Haiku",
-    "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
-    "deprecated_date": "",
-    "shutdown_date": "2026-06-19",
-    "replacement": "",
-    "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
     "model_name": "Gemma 3 12B IT",
     "model_id": "google.gemma-3-12b-it",
     "deprecated_date": "",
@@ -2308,9 +2299,9 @@
     "model_name": "gemini-3.1-flash-image",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-29",
+    "shutdown_date": "",
     "replacement": "gemini-nano-banana-2.1",
-    "status": "deprecated"
+    "status": "active"
   },
   {
     "provider": "Gemini",
@@ -2562,6 +2553,15 @@
     "deprecated_date": "",
     "shutdown_date": "2026-04-30",
     "replacement": "gemini-robotics-er-1.6-preview",
+    "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude 3.5 Haiku",
+    "model_id": "anthropic.claude-3-5-haiku-20241022-v1:0",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-19",
+    "replacement": "",
     "status": "retired"
   }
 ]
