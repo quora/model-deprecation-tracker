@@ -1544,7 +1544,7 @@
     "model_id": "",
     "deprecated_date": "2026-04-14",
     "shutdown_date": "2026-06-15",
-    "replacement": "claude-sonnet-4-6",
+    "replacement": "claude-sonnet-5-5",
     "status": "retired"
   },
   {
@@ -1580,7 +1580,7 @@
     "model_id": "",
     "deprecated_date": "2025-10-28",
     "shutdown_date": "2026-02-19",
-    "replacement": "claude-sonnet-4-6",
+    "replacement": "claude-sonnet-5-5",
     "status": "retired"
   },
   {
@@ -1589,7 +1589,7 @@
     "model_id": "",
     "deprecated_date": "2025-08-13",
     "shutdown_date": "2025-10-28",
-    "replacement": "claude-sonnet-4-6",
+    "replacement": "claude-sonnet-5-5",
     "status": "retired"
   },
   {
@@ -1598,7 +1598,7 @@
     "model_id": "",
     "deprecated_date": "2025-08-13",
     "shutdown_date": "2025-10-28",
-    "replacement": "claude-sonnet-4-6",
+    "replacement": "claude-sonnet-5-5",
     "status": "retired"
   },
   {
@@ -1634,7 +1634,7 @@
     "model_id": "",
     "deprecated_date": "2025-01-21",
     "shutdown_date": "2025-07-21",
-    "replacement": "claude-sonnet-4-6",
+    "replacement": "claude-sonnet-5-5",
     "status": "retired"
   },
   {
@@ -1798,6 +1798,15 @@
     "shutdown_date": "2026-09-10",
     "replacement": "",
     "status": "retired"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude Sonnet 4.5",
+    "model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "deprecated_date": "",
+    "shutdown_date": "2027-04-08",
+    "replacement": "",
+    "status": "legacy"
   },
   {
     "provider": "Bedrock",

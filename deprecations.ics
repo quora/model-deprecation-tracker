@@ -2890,8 +2890,8 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-sonnet-4-20250514
 DTSTART;VALUE=DATE:20260615
 DTEND;VALUE=DATE:20260616
-DESCRIPTION:Model: claude-sonnet-4-20250514\nReplacement: claude-sonnet-4-
- 6\nStatus: retired
+DESCRIPTION:Model: claude-sonnet-4-20250514\nReplacement: claude-sonnet-5-
+ 5\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-sonnet-4-20250514 shutdown in 7 days
@@ -2959,7 +2959,7 @@ SUMMARY:[Anthropic] Model deprecation: claude-3-7-sonnet-20250219
 DTSTART;VALUE=DATE:20260219
 DTEND;VALUE=DATE:20260220
 DESCRIPTION:Model: claude-3-7-sonnet-20250219\nReplacement: claude-sonnet-
- 4-6\nStatus: retired
+ 5-5\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-3-7-sonnet-20250219 shutdown in 7 days
@@ -2976,7 +2976,7 @@ SUMMARY:[Anthropic] Model deprecation: claude-3-5-sonnet-20240620
 DTSTART;VALUE=DATE:20251028
 DTEND;VALUE=DATE:20251029
 DESCRIPTION:Model: claude-3-5-sonnet-20240620\nReplacement: claude-sonnet-
- 4-6\nStatus: retired
+ 5-5\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-3-5-sonnet-20240620 shutdown in 7 days
@@ -2993,7 +2993,7 @@ SUMMARY:[Anthropic] Model deprecation: claude-3-5-sonnet-20241022
 DTSTART;VALUE=DATE:20251028
 DTEND;VALUE=DATE:20251029
 DESCRIPTION:Model: claude-3-5-sonnet-20241022\nReplacement: claude-sonnet-
- 4-6\nStatus: retired
+ 5-5\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-3-5-sonnet-20241022 shutdown in 7 days
@@ -3060,8 +3060,8 @@ BEGIN:VEVENT
 SUMMARY:[Anthropic] Model deprecation: claude-3-sonnet-20240229
 DTSTART;VALUE=DATE:20250721
 DTEND;VALUE=DATE:20250722
-DESCRIPTION:Model: claude-3-sonnet-20240229\nReplacement: claude-sonnet-4-
- 6\nStatus: retired
+DESCRIPTION:Model: claude-3-sonnet-20240229\nReplacement: claude-sonnet-5-
+ 5\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-3-sonnet-20240229 shutdown in 7 days
@@ -3378,6 +3378,23 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude 3 Haiku shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Bedrock] Model deprecation: Claude Sonnet 4.5
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+DESCRIPTION:Model: Claude Sonnet 4.5\nModel ID: anthropic.claude-sonnet-4-
+ 5-20250929-v1:0\nStatus: legacy
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude Sonnet 4.5 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Claude Sonnet 4.5 shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
