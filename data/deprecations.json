@@ -1774,6 +1774,15 @@
   },
   {
     "provider": "Bedrock",
+    "model_name": "Claude Sonnet 4.5",
+    "model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
+    "deprecated_date": "2026-10-08",
+    "shutdown_date": "2027-04-08",
+    "replacement": "",
+    "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
     "model_name": "Claude Opus 4.1",
     "model_id": "anthropic.claude-opus-4-1-20250805-v1:0",
     "deprecated_date": "2026-07-08",
@@ -1798,15 +1807,6 @@
     "shutdown_date": "2026-09-10",
     "replacement": "",
     "status": "retired"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude Sonnet 4.5",
-    "model_id": "anthropic.claude-sonnet-4-5-20250929-v1:0",
-    "deprecated_date": "",
-    "shutdown_date": "2027-04-08",
-    "replacement": "",
-    "status": "legacy"
   },
   {
     "provider": "Bedrock",
@@ -1886,7 +1886,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "",
+    "replacement": "gemini-3.8-flash (requests to gemini-3.7-flash are automatically routed to gemini-3.8-flash)",
     "status": "active"
   },
   {
@@ -1913,7 +1913,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "",
-    "replacement": "",
+    "replacement": "gemini-3.6-flash (requests to gemini-3.5-flash are automatically routed to gemini-3.6-flash)",
     "status": "active"
   },
   {

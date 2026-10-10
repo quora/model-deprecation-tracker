@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-09*
+*Last updated: 2026-10-10*
 
 ### Anthropic
 
@@ -37,7 +37,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Gemma 3 12B IT | google.gemma-3-12b-it | legacy | TBD | 2027-03-30 |  |
 | Gemma 3 27B PT | google.gemma-3-27b-it | legacy | TBD | 2027-03-30 |  |
 | Gemma 3 4B IT | google.gemma-3-4b-it | legacy | TBD | 2027-03-30 |  |
-| Claude Sonnet 4.5 | anthropic.claude-sonnet-4-5-20250929-v1:0 | legacy | TBD | 2027-04-08 |  |
+| Claude Sonnet 4.5 | anthropic.claude-sonnet-4-5-20250929-v1:0 | legacy | 2026-10-08 | 2027-04-08 |  |
 
 ### Gemini
 
