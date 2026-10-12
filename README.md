@@ -20,7 +20,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 *Last updated: 2026-10-11*
 
-### Anthropic
+### Anthropic (Slack alerts disabled)
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
@@ -167,6 +167,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 ## Slack Alerts
 
 Set the `SLACK_WEBHOOK_URL` environment variable (or GitHub Actions secret) to receive Slack notifications 7 days and 1 day before a model shutdown. Multiple webhook URLs can be provided as a comma-separated list to notify multiple channels.
+
+Use `SLACK_DISABLED_PROVIDERS` for a comma-separated list of tracked providers that should not produce Slack alerts. Anthropic is disabled by default; it remains in the tracker, calendar, and README, where its section is labelled accordingly. Set `SLACK_DISABLED_PROVIDERS` to an empty value to enable alerts for every provider.
 
 ## Setup
 

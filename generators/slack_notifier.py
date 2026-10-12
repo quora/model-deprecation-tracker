@@ -66,14 +66,23 @@ def format_slack_message(entries: list[DeprecationEntry]) -> dict:
     return {"text": "\n".join(lines), "blocks": blocks}
 
 
-def send_notification(entries: list[DeprecationEntry], webhook_urls: list[str]) -> None:
+def send_notification(
+    entries: list[DeprecationEntry],
+    webhook_urls: list[str],
+    disabled_providers: set[str] | None = None,
+) -> None:
     """Send a separate Slack notification per shutdown horizon.
 
     Entries are grouped by days-until-shutdown so each deadline (e.g. the
     1-day final reminder and the 7-day heads-up) posts as its own message
     instead of being collapsed into one mixed notification.
     """
-    upcoming = find_upcoming_deprecations(entries)
+    disabled_providers = {provider.casefold() for provider in disabled_providers or set()}
+    upcoming = [
+        entry
+        for entry in find_upcoming_deprecations(entries)
+        if entry.provider.casefold() not in disabled_providers
+    ]
     if not upcoming:
         return
 

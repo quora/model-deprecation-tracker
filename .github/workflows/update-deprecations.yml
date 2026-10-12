@@ -17,6 +17,7 @@ jobs:
       - run: python main.py
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          SLACK_DISABLED_PROVIDERS: Anthropic
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: 'chore: update model deprecation data'

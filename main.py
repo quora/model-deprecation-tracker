@@ -18,6 +18,19 @@ DEPRECATIONS_FILE = DATA_DIR / "deprecations.json"
 README_PATH = PROJECT_DIR / "README.md"
 ICS_PATH = PROJECT_DIR / "deprecations.ics"
 HISTORY_PRESERVED_PROVIDERS = {"Bedrock", "Vertex AI"}
+DEFAULT_SLACK_DISABLED_PROVIDERS = {"Anthropic"}
+
+
+def _slack_disabled_providers() -> set[str]:
+    """Return the providers omitted from Slack alerts.
+
+    Set SLACK_DISABLED_PROVIDERS to a comma-separated list. An explicitly empty
+    value enables alerts for every provider.
+    """
+    configured = os.environ.get("SLACK_DISABLED_PROVIDERS")
+    if configured is None:
+        return DEFAULT_SLACK_DISABLED_PROVIDERS
+    return {provider.strip() for provider in configured.split(",") if provider.strip()}
 
 
 def _load_previous_entries() -> list[DeprecationEntry]:
@@ -85,7 +98,8 @@ def main() -> None:
     serialized = [entry.to_dict() for entry in all_entries]
     DEPRECATIONS_FILE.write_bytes(orjson.dumps(serialized, option=orjson.OPT_INDENT_2))
 
-    update_readme(str(README_PATH), all_entries)
+    slack_disabled_providers = _slack_disabled_providers()
+    update_readme(str(README_PATH), all_entries, slack_disabled_providers)
     write_ics(all_entries, str(ICS_PATH))
 
     slack_webhooks = [
@@ -94,7 +108,7 @@ def main() -> None:
         if url.strip()
     ]
     if slack_webhooks:
-        send_notification(all_entries, slack_webhooks)
+        send_notification(all_entries, slack_webhooks, slack_disabled_providers)
 
 
 if __name__ == "__main__":

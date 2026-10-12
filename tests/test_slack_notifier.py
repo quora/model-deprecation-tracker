@@ -110,6 +110,22 @@ class TestSendNotification:
         assert "seven-day-model" in section_texts[1]
         assert "one-day-model" not in section_texts[1]
 
+    def test_omits_disabled_provider_without_affecting_other_alerts(self):
+        with patch("generators.slack_notifier.requests.post") as mock_post:
+            send_notification(
+                _make_entries(),
+                ["https://hooks.slack.com/test"],
+                disabled_providers={"Anthropic"},
+            )
+
+        mock_post.assert_called_once()
+        payload = mock_post.call_args.kwargs["json"]
+        section_text = "\n".join(
+            block["text"]["text"] for block in payload["blocks"][1:]
+        )
+        assert "seven-day-model" in section_text
+        assert "one-day-model" not in section_text
+
     def test_consolidates_same_date_entries_into_one_payload(self):
         shutdown_date = datetime.date.today() + datetime.timedelta(days=7)
         entries = [

@@ -45,8 +45,14 @@ def _format_table_cell(value: str) -> str:
     return " ".join(value.split()).replace("|", r"\|")
 
 
-def generate_readme(entries: list[DeprecationEntry]) -> str:
+def generate_readme(
+    entries: list[DeprecationEntry],
+    slack_disabled_providers: set[str] | None = None,
+) -> str:
     today = datetime.date.today()
+    slack_disabled_providers = {
+        provider.casefold() for provider in slack_disabled_providers or set()
+    }
     relevant = [e for e in entries if _should_include(e, today)]
     relevant.sort(key=lambda e: e.provider)
 
@@ -58,7 +64,12 @@ def generate_readme(entries: list[DeprecationEntry]) -> str:
 
     for provider, group in groupby(relevant, key=lambda e: e.provider):
         group_entries = sorted(group, key=_sort_key)
-        lines.append(f"### {provider}")
+        alert_status = (
+            " (Slack alerts disabled)"
+            if provider.casefold() in slack_disabled_providers
+            else ""
+        )
+        lines.append(f"### {provider}{alert_status}")
         lines.append("")
         lines.append(
             "| Model | Model ID | Status | Deprecated | Shutdown | Replacement |"
@@ -84,10 +95,14 @@ def generate_readme(entries: list[DeprecationEntry]) -> str:
     return "\n".join(lines)
 
 
-def update_readme(readme_path: str, entries: list[DeprecationEntry]) -> None:
+def update_readme(
+    readme_path: str,
+    entries: list[DeprecationEntry],
+    slack_disabled_providers: set[str] | None = None,
+) -> None:
     path = Path(readme_path)
     content = path.read_text() if path.exists() else ""
-    new_table = generate_readme(entries)
+    new_table = generate_readme(entries, slack_disabled_providers)
 
     start_idx = content.find(MARKER_START)
     end_idx = content.find(MARKER_END)

@@ -48,6 +48,13 @@ class TestGenerateReadme:
         for substr in expected_substrings:
             assert substr in result, f"Expected {substr!r} in output"
 
+    def test_labels_providers_with_disabled_slack_alerts(self):
+        result = generate_readme(
+            _make_entries(), slack_disabled_providers={"anthropic"}
+        )
+        assert "### Anthropic (Slack alerts disabled)" in result
+        assert "### OpenAI (Slack alerts disabled)" not in result
+
     def test_sorts_by_shutdown_date_within_provider(self):
         result = generate_readme(_make_entries())
         openai_section = result.split("### OpenAI")[1].split("###")[0]
