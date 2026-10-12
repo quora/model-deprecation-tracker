@@ -9,6 +9,7 @@ MARKER_END = "<!-- DEPRECATION_TABLE_END -->"
 
 RETENTION_DAYS = 90
 WARN_DAYS = 30
+SLACK_ALERTS_DISABLED_NOTE = "Note: Slack deprecation alerts disabled since we rely on Bedrock dates."
 
 
 def _sort_key(entry: DeprecationEntry) -> tuple[int, datetime.date]:
@@ -64,12 +65,10 @@ def generate_readme(
 
     for provider, group in groupby(relevant, key=lambda e: e.provider):
         group_entries = sorted(group, key=_sort_key)
-        alert_status = (
-            " (Slack alerts disabled)"
-            if provider.casefold() in slack_disabled_providers
-            else ""
-        )
-        lines.append(f"### {provider}{alert_status}")
+        lines.append(f"### {provider}")
+        if provider.casefold() in slack_disabled_providers:
+            lines.append("")
+            lines.append(SLACK_ALERTS_DISABLED_NOTE)
         lines.append("")
         lines.append(
             "| Model | Model ID | Status | Deprecated | Shutdown | Replacement |"

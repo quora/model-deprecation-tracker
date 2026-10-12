@@ -52,8 +52,9 @@ class TestGenerateReadme:
         result = generate_readme(
             _make_entries(), slack_disabled_providers={"anthropic"}
         )
-        assert "### Anthropic (Slack alerts disabled)" in result
-        assert "### OpenAI (Slack alerts disabled)" not in result
+        anthropic_section = result.split("### Anthropic")[1].split("### OpenAI")[0]
+        assert "Slack deprecation alerts disabled since we rely on Bedrock dates" in anthropic_section
+        assert "Slack deprecation alerts disabled since we rely on Bedrock dates" not in result.split("### OpenAI")[1]
 
     def test_sorts_by_shutdown_date_within_provider(self):
         result = generate_readme(_make_entries())
