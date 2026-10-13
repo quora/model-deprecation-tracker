@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-12*
+*Last updated: 2026-10-13*
 
 ### Anthropic
 
@@ -36,9 +36,9 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | Claude 3 Haiku | anthropic.claude-3-haiku-20240307-v1:0 | retired | 2026-03-10 | 🔴 2026-09-10 |  |
 | Claude Sonnet 4 | anthropic.claude-sonnet-4-20250514-v1:0 | legacy | 2026-04-14 | 🟡 2026-10-14 |  |
 | Claude Opus 4.1 | anthropic.claude-opus-4-1-20250805-v1:0 | legacy | 2026-07-08 | 2027-01-08 |  |
-| Gemma 3 12B IT | google.gemma-3-12b-it | legacy | TBD | 2027-03-30 |  |
-| Gemma 3 27B PT | google.gemma-3-27b-it | legacy | TBD | 2027-03-30 |  |
-| Gemma 3 4B IT | google.gemma-3-4b-it | legacy | TBD | 2027-03-30 |  |
+| Gemma 3 12B IT | google.gemma-3-12b-it | legacy | 2026-09-30 | 2027-03-30 |  |
+| Gemma 3 27B PT | google.gemma-3-27b-it | legacy | 2026-09-30 | 2027-03-30 |  |
+| Gemma 3 4B IT | google.gemma-3-4b-it | legacy | 2026-09-30 | 2027-03-30 |  |
 | Claude Sonnet 4.5 | anthropic.claude-sonnet-4-5-20250929-v1:0 | legacy | 2026-10-08 | 2027-04-08 |  |
 
 ### Gemini
@@ -141,6 +141,10 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | tts-1-hd |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
 | gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
 | gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
+| GPT-4o (gpt-4o-2024-08-06, gpt-4o-2024-11-20) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
+| GPT-4o mini (gpt-4o-mini-2024-07-18) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
+| GPT-4.1 (gpt-4.1-2025-04-14) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
+| GPT-4.1 mini (gpt-4.1-mini-2025-04-14) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
 | gpt-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1 |
 | gpt-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
 | gpt-4o-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
