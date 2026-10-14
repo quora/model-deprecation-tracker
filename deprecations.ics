@@ -566,57 +566,6 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: gpt-5.4-cyber
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-DESCRIPTION:Model: gpt-5.4-cyber\nReplacement: The most capable cyber mode
- l available to you.\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-5.4-cyber shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-5.4-cyber shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: gpt-5.2-chat-latest
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
-DESCRIPTION:Model: gpt-5.2-chat-latest\nReplacement: gpt-5.6-sol\nStatus: 
- deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-5.2-chat-latest shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-5.2-chat-latest shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: gpt-5.3-chat-latest
-DTSTART;VALUE=DATE:20260810
-DTEND;VALUE=DATE:20260811
-DESCRIPTION:Model: gpt-5.3-chat-latest\nReplacement: gpt-5.6-sol\nStatus: 
- deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-5.3-chat-latest shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:gpt-5.3-chat-latest shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-3.5-turbo-0125
 DTSTART;VALUE=DATE:20261023
 DTEND;VALUE=DATE:20261024
@@ -1101,6 +1050,57 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:ft-davinci-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.4-cyber
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+DESCRIPTION:Model: gpt-5.4-cyber\nReplacement: The most capable cyber mode
+ l available to you.\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.4-cyber shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.4-cyber shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.2-chat-latest
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+DESCRIPTION:Model: gpt-5.2-chat-latest\nReplacement: gpt-5.6-sol\nStatus: 
+ deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.2-chat-latest shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.2-chat-latest shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.3-chat-latest
+DTSTART;VALUE=DATE:20260810
+DTEND;VALUE=DATE:20260811
+DESCRIPTION:Model: gpt-5.3-chat-latest\nReplacement: gpt-5.6-sol\nStatus: 
+ deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.3-chat-latest shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.3-chat-latest shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
@@ -3440,7 +3440,7 @@ SUMMARY:[Bedrock] Model deprecation: Claude Sonnet 4
 DTSTART;VALUE=DATE:20261014
 DTEND;VALUE=DATE:20261015
 DESCRIPTION:Model: Claude Sonnet 4\nModel ID: anthropic.claude-sonnet-4-20
- 250514-v1:0\nStatus: legacy
+ 250514-v1:0\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:Claude Sonnet 4 shutdown in 7 days
