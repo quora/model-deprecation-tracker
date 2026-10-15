@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-14*
+*Last updated: 2026-10-15*
 
 ### Anthropic
 
@@ -35,6 +35,10 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 |-------|----------|--------|------------|----------|-------------|
 | Claude 3 Haiku | anthropic.claude-3-haiku-20240307-v1:0 | retired | 2026-03-10 | 🔴 2026-09-10 |  |
 | Claude Sonnet 4 | anthropic.claude-sonnet-4-20250514-v1:0 | retired | 2026-04-14 | 🔴 2026-10-14 |  |
+| Claude 3 Sonnet | anthropic.claude-3-sonnet-20240229-v1:0 | legacy | 2026-10-10 | 🟡 2026-10-17 |  |
+| Claude 3.5 Sonnet | anthropic.claude-3-5-sonnet-20240620-v1:0 | legacy | 2026-10-10 | 🟡 2026-10-17 |  |
+| Claude 3.5 Sonnet v2 | anthropic.claude-3-5-sonnet-20241022-v2:0 | legacy | 2026-10-10 | 🟡 2026-10-17 |  |
+| Claude 3.7 Sonnet | anthropic.claude-3-7-sonnet-20250219-v1:0 | legacy | 2026-10-10 | 🟡 2026-10-17 |  |
 | Claude Opus 4.1 | anthropic.claude-opus-4-1-20250805-v1:0 | legacy | 2026-07-08 | 2027-01-08 |  |
 | Gemma 3 12B IT | google.gemma-3-12b-it | legacy | 2026-09-30 | 2027-03-30 |  |
 | Gemma 3 27B PT | google.gemma-3-27b-it | legacy | 2026-09-30 | 2027-03-30 |  |
@@ -158,6 +162,7 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | gpt-4o-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 | gpt-4o-mini-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 | gpt-4o-transcribe-diarize |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
+| /v1/audio/translations |  | deprecated | TBD | 2027-02-26 | v1/realtime/translations |
 | gpt-5.3-codex |  | deprecated | TBD | 2027-04-01 | gpt-6-sol |
 | gpt-5.4-nano |  | deprecated | TBD | 2027-04-01 | gpt-6-luna |
 | gpt-5.1 |  | deprecated | TBD | 2027-04-01 | gpt-6-sol |
