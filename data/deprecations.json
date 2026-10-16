@@ -1831,7 +1831,7 @@
     "model_name": "Claude 3 Sonnet",
     "model_id": "anthropic.claude-3-sonnet-20240229-v1:0",
     "deprecated_date": "2026-10-10",
-    "shutdown_date": "2026-10-17",
+    "shutdown_date": "2026-11-13",
     "replacement": "",
     "status": "legacy"
   },
@@ -1840,7 +1840,7 @@
     "model_name": "Claude 3.5 Sonnet",
     "model_id": "anthropic.claude-3-5-sonnet-20240620-v1:0",
     "deprecated_date": "2026-10-10",
-    "shutdown_date": "2026-10-17",
+    "shutdown_date": "2026-11-13",
     "replacement": "",
     "status": "legacy"
   },
@@ -1849,7 +1849,7 @@
     "model_name": "Claude 3.5 Sonnet v2",
     "model_id": "anthropic.claude-3-5-sonnet-20241022-v2:0",
     "deprecated_date": "2026-10-10",
-    "shutdown_date": "2026-10-17",
+    "shutdown_date": "2026-11-13",
     "replacement": "",
     "status": "legacy"
   },
@@ -1858,7 +1858,7 @@
     "model_name": "Claude 3.7 Sonnet",
     "model_id": "anthropic.claude-3-7-sonnet-20250219-v1:0",
     "deprecated_date": "2026-10-10",
-    "shutdown_date": "2026-10-17",
+    "shutdown_date": "2026-11-13",
     "replacement": "",
     "status": "legacy"
   },
@@ -1879,15 +1879,6 @@
     "shutdown_date": "2027-01-08",
     "replacement": "",
     "status": "legacy"
-  },
-  {
-    "provider": "Bedrock",
-    "model_name": "Claude Sonnet 4",
-    "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
-    "deprecated_date": "2026-04-14",
-    "shutdown_date": "2026-10-14",
-    "replacement": "",
-    "status": "retired"
   },
   {
     "provider": "Bedrock",
@@ -1915,6 +1906,15 @@
     "shutdown_date": "2027-03-30",
     "replacement": "",
     "status": "legacy"
+  },
+  {
+    "provider": "Bedrock",
+    "model_name": "Claude Sonnet 4",
+    "model_id": "anthropic.claude-sonnet-4-20250514-v1:0",
+    "deprecated_date": "2026-04-14",
+    "shutdown_date": "2026-10-14",
+    "replacement": "",
+    "status": "retired"
   },
   {
     "provider": "Gemini",
