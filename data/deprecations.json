@@ -883,15 +883,6 @@
   },
   {
     "provider": "OpenAI",
-    "model_name": "gpt-4-1106-preview",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-03-26",
-    "replacement": "gpt-5 or gpt-4.1*",
-    "status": "deprecated"
-  },
-  {
-    "provider": "OpenAI",
     "model_name": "gpt-4-0125-preview",
     "model_id": "",
     "deprecated_date": "",
