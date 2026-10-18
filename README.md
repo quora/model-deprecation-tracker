@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-17*
+*Last updated: 2026-10-18*
 
 ### Anthropic
 
@@ -59,11 +59,11 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | veo-3.1-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | veo-3.1-fast-generate-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
 | gemini-omni-flash-preview |  | deprecated | TBD | 🟡 2026-10-22 | gemini-omni-1.1-flash |
-| gemini-3.1-flash-tts-preview |  | deprecated | TBD | 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
-| gemini-3.1-flash-live-preview |  | deprecated | TBD | 2026-11-17 | gemini-3.8-live |
-| gemini-2.5-flash-native-audio-preview-12-2025 |  | deprecated | TBD | 2026-11-17 | gemini-3.8-live |
-| gemini-2.5-flash-preview-tts |  | deprecated | TBD | 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
-| gemini-2.5-pro-preview-tts |  | deprecated | TBD | 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
+| gemini-3.1-flash-tts-preview |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
+| gemini-3.1-flash-live-preview |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-live |
+| gemini-2.5-flash-native-audio-preview-12-2025 |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-live |
+| gemini-2.5-flash-preview-tts |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
+| gemini-2.5-pro-preview-tts |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
 | gemini-2.5-flash-image |  | deprecated | TBD | 2027-03-15 | gemini-3.1-flash-lite-image |
 | gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
 | gemini-embedding-001 |  | deprecated | TBD | 2028-05-14 | gemini-embedding-2 |
