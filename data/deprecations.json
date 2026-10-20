@@ -2174,7 +2174,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-09",
-    "replacement": "gemini-2.5-flash-lite",
+    "replacement": "gemini-3.1-flash-lite",
     "status": "retired"
   },
   {
@@ -2183,7 +2183,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-12-09",
-    "replacement": "gemini-2.5-flash-lite",
+    "replacement": "gemini-3.1-flash-lite",
     "status": "retired"
   },
   {
@@ -2471,7 +2471,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-11-10",
-    "replacement": "imagen-4.0-generate-001",
+    "replacement": "gemini-nano-banana-2.1",
     "status": "retired"
   },
   {
@@ -2480,7 +2480,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-02-17",
-    "replacement": "imagen-4.0-generate-001",
+    "replacement": "gemini-nano-banana-2.1",
     "status": "retired"
   },
   {
@@ -2489,7 +2489,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-02-17",
-    "replacement": "imagen-4.0-ultra-generate-001",
+    "replacement": "gemini-nano-banana-2.1",
     "status": "retired"
   },
   {
@@ -2498,7 +2498,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-06-30",
-    "replacement": "veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform",
+    "replacement": "gemini-omni-1.1-flashor the GA models on the Gemini Enterprise Agent Platform",
     "status": "retired"
   },
   {
@@ -2507,7 +2507,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-06-30",
-    "replacement": "veo-3.1-fast-generate-previewor the GA models on the Gemini Enterprise Agent Platform",
+    "replacement": "gemini-omni-1.1-flashor the GA models on the Gemini Enterprise Agent Platform",
     "status": "retired"
   },
   {
@@ -2516,7 +2516,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-06-30",
-    "replacement": "veo-3.1-generate-previewor the GA models on the Gemini Enterprise Agent Platform",
+    "replacement": "gemini-omni-1.1-flashor the GA models on the Gemini Enterprise Agent Platform",
     "status": "retired"
   },
   {
@@ -2552,7 +2552,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-11-12",
-    "replacement": "veo-3.1-generate-preview",
+    "replacement": "gemini-omni-1.1-flash",
     "status": "retired"
   },
   {
@@ -2561,7 +2561,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2025-11-12",
-    "replacement": "veo-3.1-fast-generate-preview",
+    "replacement": "gemini-omni-1.1-flash",
     "status": "retired"
   },
   {
@@ -2620,6 +2620,24 @@
   },
   {
     "provider": "Gemini",
+    "model_name": "gemini-robotics-er-2-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
+    "model_name": "gemini-robotics-er-2-streaming-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Gemini",
     "model_name": "gemini-robotics-er-1.6-preview",
     "model_id": "",
     "deprecated_date": "",
@@ -2633,7 +2651,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-04-30",
-    "replacement": "gemini-robotics-er-1.6-preview",
+    "replacement": "gemini-robotics-er-2-preview",
     "status": "retired"
   },
   {

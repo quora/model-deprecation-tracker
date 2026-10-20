@@ -3848,7 +3848,7 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-lite-preview
 DTSTART;VALUE=DATE:20251209
 DTEND;VALUE=DATE:20251210
-DESCRIPTION:Model: gemini-2.0-flash-lite-preview\nReplacement: gemini-2.5-
+DESCRIPTION:Model: gemini-2.0-flash-lite-preview\nReplacement: gemini-3.1-
  flash-lite\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -3866,7 +3866,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-2.0-flash-lite-preview-02-05
 DTSTART;VALUE=DATE:20251209
 DTEND;VALUE=DATE:20251210
 DESCRIPTION:Model: gemini-2.0-flash-lite-preview-02-05\nReplacement: gemin
- i-2.5-flash-lite\nStatus: retired
+ i-3.1-flash-lite\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-2.0-flash-lite-preview-02-05 shutdown in 7 days
@@ -4243,8 +4243,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: imagen-3.0-generate-002
 DTSTART;VALUE=DATE:20251110
 DTEND;VALUE=DATE:20251111
-DESCRIPTION:Model: imagen-3.0-generate-002\nReplacement: imagen-4.0-genera
- te-001\nStatus: retired
+DESCRIPTION:Model: imagen-3.0-generate-002\nReplacement: gemini-nano-banan
+ a-2.1\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:imagen-3.0-generate-002 shutdown in 7 days
@@ -4260,8 +4260,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: imagen-4.0-generate-preview-06-06
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20260218
-DESCRIPTION:Model: imagen-4.0-generate-preview-06-06\nReplacement: imagen-
- 4.0-generate-001\nStatus: retired
+DESCRIPTION:Model: imagen-4.0-generate-preview-06-06\nReplacement: gemini-
+ nano-banana-2.1\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:imagen-4.0-generate-preview-06-06 shutdown in 7 days
@@ -4278,8 +4278,8 @@ SUMMARY:[Gemini] Model deprecation: imagen-4.0-ultra-generate-preview-06-0
  6
 DTSTART;VALUE=DATE:20260217
 DTEND;VALUE=DATE:20260218
-DESCRIPTION:Model: imagen-4.0-ultra-generate-preview-06-06\nReplacement: i
- magen-4.0-ultra-generate-001\nStatus: retired
+DESCRIPTION:Model: imagen-4.0-ultra-generate-preview-06-06\nReplacement: g
+ emini-nano-banana-2.1\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:imagen-4.0-ultra-generate-preview-06-06 shutdown in 7 days
@@ -4295,9 +4295,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: veo-3.0-generate-001
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
-DESCRIPTION:Model: veo-3.0-generate-001\nReplacement: veo-3.1-generate-pre
- viewor the GA models on the Gemini Enterprise Agent Platform\nStatus: reti
- red
+DESCRIPTION:Model: veo-3.0-generate-001\nReplacement: gemini-omni-1.1-flas
+ hor the GA models on the Gemini Enterprise Agent Platform\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-generate-001 shutdown in 7 days
@@ -4313,9 +4312,9 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: veo-3.0-fast-generate-001
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
-DESCRIPTION:Model: veo-3.0-fast-generate-001\nReplacement: veo-3.1-fast-ge
- nerate-previewor the GA models on the Gemini Enterprise Agent Platform\nSt
- atus: retired
+DESCRIPTION:Model: veo-3.0-fast-generate-001\nReplacement: gemini-omni-1.1
+ -flashor the GA models on the Gemini Enterprise Agent Platform\nStatus: re
+ tired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-fast-generate-001 shutdown in 7 days
@@ -4331,9 +4330,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: veo-2.0-generate-001
 DTSTART;VALUE=DATE:20260630
 DTEND;VALUE=DATE:20260701
-DESCRIPTION:Model: veo-2.0-generate-001\nReplacement: veo-3.1-generate-pre
- viewor the GA models on the Gemini Enterprise Agent Platform\nStatus: reti
- red
+DESCRIPTION:Model: veo-2.0-generate-001\nReplacement: gemini-omni-1.1-flas
+ hor the GA models on the Gemini Enterprise Agent Platform\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-2.0-generate-001 shutdown in 7 days
@@ -4400,8 +4398,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: veo-3.0-generate-preview
 DTSTART;VALUE=DATE:20251112
 DTEND;VALUE=DATE:20251113
-DESCRIPTION:Model: veo-3.0-generate-preview\nReplacement: veo-3.1-generate
- -preview\nStatus: retired
+DESCRIPTION:Model: veo-3.0-generate-preview\nReplacement: gemini-omni-1.1-
+ flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-generate-preview shutdown in 7 days
@@ -4417,8 +4415,8 @@ BEGIN:VEVENT
 SUMMARY:[Gemini] Model deprecation: veo-3.0-fast-generate-preview
 DTSTART;VALUE=DATE:20251112
 DTEND;VALUE=DATE:20251113
-DESCRIPTION:Model: veo-3.0-fast-generate-preview\nReplacement: veo-3.1-fas
- t-generate-preview\nStatus: retired
+DESCRIPTION:Model: veo-3.0-fast-generate-preview\nReplacement: gemini-omni
+ -1.1-flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.0-fast-generate-preview shutdown in 7 days
@@ -4469,7 +4467,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-robotics-er-1.5-preview
 DTSTART;VALUE=DATE:20260430
 DTEND;VALUE=DATE:20260501
 DESCRIPTION:Model: gemini-robotics-er-1.5-preview\nReplacement: gemini-rob
- otics-er-1.6-preview\nStatus: retired
+ otics-er-2-preview\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-robotics-er-1.5-preview shutdown in 7 days
