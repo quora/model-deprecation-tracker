@@ -1809,6 +1809,285 @@
     "status": "retired"
   },
   {
+    "provider": "Vertex AI",
+    "model_name": "gemini-2.5-pro",
+    "model_id": "gemini-2.5-pro",
+    "deprecated_date": "",
+    "shutdown_date": "2026-10-20",
+    "replacement": "gemini-3.8-flash or gemini-3.5-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-2.5-flash",
+    "model_id": "gemini-2.5-flash",
+    "deprecated_date": "",
+    "shutdown_date": "2026-10-20",
+    "replacement": "gemini-3.8-flash or gemini-3.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-2.5-flash-lite",
+    "model_id": "gemini-2.5-flash-lite",
+    "deprecated_date": "",
+    "shutdown_date": "2026-10-20",
+    "replacement": "gemini-3.8-flash or gemini-3.5-flash-lite or Gemma 4",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-live-2.5-flash-native-audio",
+    "model_id": "gemini-live-2.5-flash-native-audio",
+    "deprecated_date": "",
+    "shutdown_date": "2026-12-13",
+    "replacement": "gemini-3.8-live",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-2.5-flash-image",
+    "model_id": "gemini-2.5-flash-image",
+    "deprecated_date": "",
+    "shutdown_date": "2027-03-15",
+    "replacement": "gemini-3.1-flash-lite-image",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "text-embedding-005",
+    "model_id": "text-embedding-005",
+    "deprecated_date": "",
+    "shutdown_date": "2027-04-01",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "text-embedding-004",
+    "model_id": "text-embedding-004",
+    "deprecated_date": "",
+    "shutdown_date": "2027-04-01",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "text-multilingual-embedding-002",
+    "model_id": "text-multilingual-embedding-002",
+    "deprecated_date": "",
+    "shutdown_date": "2027-04-01",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "multimodalembedding@001",
+    "model_id": "multimodalembedding@001",
+    "deprecated_date": "",
+    "shutdown_date": "2027-04-01",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-3.7-flash",
+    "model_id": "gemini-3.7-flash",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-28",
+    "replacement": "gemini-3.8-flash",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-3.6-flash",
+    "model_id": "gemini-3.6-flash",
+    "deprecated_date": "",
+    "shutdown_date": "2026-11-19",
+    "replacement": "gemini-3.8-flash",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "veo-3.0-generate-001",
+    "model_id": "veo-3.0-generate-001",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-30",
+    "replacement": "veo-3.1-generate-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "veo-3.0-fast-generate-001",
+    "model_id": "veo-3.0-fast-generate-001",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-30",
+    "replacement": "veo-3.1-fast-generate-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "veo-2.0-generate-001",
+    "model_id": "veo-2.0-generate-001",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-30",
+    "replacement": "veo-3.1-generate-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-2.0-flash",
+    "model_id": "gemini-2.0-flash",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-01",
+    "replacement": "gemini-3.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-2.0-flash-lite",
+    "model_id": "gemini-2.0-flash-lite",
+    "deprecated_date": "",
+    "shutdown_date": "2026-06-01",
+    "replacement": "gemini-3.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.5-pro-001",
+    "model_id": "gemini-1.5-pro-001",
+    "deprecated_date": "",
+    "shutdown_date": "2025-05-24",
+    "replacement": "gemini-2.5-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.5-pro-002",
+    "model_id": "gemini-1.5-pro-002",
+    "deprecated_date": "",
+    "shutdown_date": "2025-09-24",
+    "replacement": "gemini-2.5-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.5-flash-001",
+    "model_id": "gemini-1.5-flash-001",
+    "deprecated_date": "",
+    "shutdown_date": "2025-05-24",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.5-flash-002",
+    "model_id": "gemini-1.5-flash-002",
+    "deprecated_date": "",
+    "shutdown_date": "2025-09-24",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "textembedding-gecko@003 *",
+    "model_id": "textembedding-gecko@003 *",
+    "deprecated_date": "",
+    "shutdown_date": "2025-05-24",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "textembedding-gecko-multilingual@001",
+    "model_id": "textembedding-gecko-multilingual@001",
+    "deprecated_date": "",
+    "shutdown_date": "2025-05-24",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.0-pro-001",
+    "model_id": "gemini-1.0-pro-001",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-2.5-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.0-pro-002",
+    "model_id": "gemini-1.0-pro-002",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-2.5-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "gemini-1.0-pro-vision-001",
+    "model_id": "gemini-1.0-pro-vision-001",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-2.5-flash",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "text-bison",
+    "model_id": "text-bison",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "chat-bison",
+    "model_id": "chat-bison",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "code-gecko",
+    "model_id": "code-gecko",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-2.5-flash-lite",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "textembedding-gecko@002",
+    "model_id": "textembedding-gecko@002",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "textembedding-gecko@001",
+    "model_id": "textembedding-gecko@001",
+    "deprecated_date": "",
+    "shutdown_date": "2025-04-21",
+    "replacement": "gemini-embedding-001",
+    "status": "retired"
+  },
+  {
+    "provider": "Vertex AI",
+    "model_name": "imagetext",
+    "model_id": "imagetext",
+    "deprecated_date": "",
+    "shutdown_date": "2025-09-24",
+    "replacement": "gemini-2.5-flash-image",
+    "status": "retired"
+  },
+  {
     "provider": "Bedrock",
     "model_name": "Claude 3 Haiku",
     "model_id": "anthropic.claude-3-haiku-20240307-v1:0",

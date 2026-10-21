@@ -7,6 +7,7 @@ from scraper.base import UNKNOWN_DATE, DeprecationEntry
 from scraper.openai_scraper import scrape as scrape_openai
 from scraper.anthropic_scraper import scrape as scrape_anthropic
 from scraper.vertex_scraper import scrape as scrape_vertex
+from scraper.vertex_scraper import MODEL_VERSIONS_URL, URL as VERTEX_URL, _parse_model_versions
 from scraper.bedrock_scraper import (
     _deduplicate,
     _find_tracked_model_card_urls,
@@ -204,6 +205,34 @@ class TestAnthropicScraper:
 
 
 class TestVertexScraper:
+    def test_reads_google_and_partner_sources(self, monkeypatch):
+        pages = {
+            VERTEX_URL: _load_fixture("vertex.html"),
+            MODEL_VERSIONS_URL: _load_fixture("vertex_model_versions.html"),
+        }
+        monkeypatch.setattr("scraper.vertex_scraper.fetch_page", pages.__getitem__)
+        entries = scrape_vertex()
+        assert len(entries) == 7
+        assert {entry.provider for entry in entries} == {"Vertex AI"}
+
+    def test_google_confirmed_dates_and_replacements(self):
+        entries = _by_name(_parse_model_versions(_load_fixture("vertex_model_versions.html")))
+        assert set(entries) == {
+            "gemini-2.5-pro", "gemini-2.5-flash-image", "gemini-3.6-flash",
+            "textembedding-gecko@003",
+        }
+        assert entries["gemini-2.5-pro"].shutdown_date == datetime.date(2026, 10, 20)
+        assert entries["gemini-2.5-pro"].deprecated_date == UNKNOWN_DATE
+        assert entries["gemini-2.5-pro"].replacement == "gemini-3.8-flash or gemini-3.5-flash"
+        assert entries["gemini-3.6-flash"].shutdown_date == datetime.date(2026, 11, 19)
+        assert entries["gemini-3.6-flash"].status == _status_at(datetime.date(2026, 11, 19), "deprecated")
+        assert entries["textembedding-gecko@003"].model_id == "textembedding-gecko@003"
+        assert entries["textembedding-gecko@003"].replacement == "gemini-embedding-001"
+
+    def test_google_source_format_change_fails_visibly(self):
+        with pytest.raises(ValueError, match="Vertex model lifecycle tables not found"):
+            _parse_model_versions("<html><p>Page unavailable</p></html>")
+
     def test_parses_all_entries(self):
         entries = scrape_vertex(_load_fixture("vertex.html"))
         assert len(entries) == 3

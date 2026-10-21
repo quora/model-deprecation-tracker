@@ -7,6 +7,7 @@ from dateutil.parser import parse as parse_date
 from scraper.base import UNKNOWN_DATE, DeprecationEntry, fetch_page
 
 URL = "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models"
+MODEL_VERSIONS_URL = "https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions"
 
 FULL_DATE_PATTERN = r"([a-z]+\s+\d{1,2}(?:st|nd|rd|th)?,\s+\d{4}|\d{4}-\d{2}-\d{2})"
 DEPRECATED_AS_OF_RE = re.compile(
@@ -162,17 +163,84 @@ def _parse_tables(soup: BeautifulSoup) -> list[DeprecationEntry]:
     return entries
 
 
-def scrape(html: str = "") -> list[DeprecationEntry]:
+def _parse_model_versions(html: str) -> list[DeprecationEntry]:
+    """Read confirmed Google model retirements, excluding availability guarantees."""
+    soup = BeautifulSoup(html, "html.parser")
+    entries: list[DeprecationEntry] = []
+    found_lifecycle_table = False
+    for table in soup.find_all("table"):
+        rows = table.find_all("tr")
+        if not rows:
+            continue
+        headers = [
+            cell.get_text(" ", strip=True).lower()
+            for cell in rows[0].find_all(["th", "td"])
+        ]
+        if "model id" not in headers or "retirement date" not in headers:
+            continue
+        found_lifecycle_table = True
+        model_idx = headers.index("model id")
+        retirement_idx = headers.index("retirement date")
+        replacement_idx = next(
+            (
+                i for i, header in enumerate(headers)
+                if header in {"replacement model id", "recommended upgrade"}
+            ),
+            None,
+        )
+        for row in rows[1:]:
+            cells = row.find_all(["td", "th"], recursive=False)
+            if len(cells) <= max(model_idx, retirement_idx):
+                continue
+            retirement = cells[retirement_idx].get_text(" ", strip=True)
+            # "No sooner than" and "or later" dates are minimum availability
+            # guarantees, not confirmed shutdowns and must never trigger alerts.
+            if not re.fullmatch(FULL_DATE_PATTERN, retirement, re.IGNORECASE):
+                continue
+            shutdown_date = _parse_date_safe(retirement)
+            if shutdown_date == UNKNOWN_DATE:
+                raise ValueError(f"Could not parse Vertex retirement date: {retirement}")
+            model_cell = cells[model_idx]
+            model_code = model_cell.find("code")
+            model_id = (model_code or model_cell).get_text(" ", strip=True)
+            if not model_id:
+                continue
+            replacement = ""
+            if replacement_idx is not None and replacement_idx < len(cells):
+                replacement = cells[replacement_idx].get_text(" ", strip=True)
+            entries.append(
+                DeprecationEntry(
+                    provider="Vertex AI",
+                    model_name=model_id,
+                    model_id=model_id,
+                    shutdown_date=shutdown_date,
+                    replacement=replacement,
+                    status=(
+                        "retired" if shutdown_date <= datetime.date.today()
+                        else "deprecated"
+                    ),
+                )
+            )
+    if not found_lifecycle_table:
+        raise ValueError("Vertex model lifecycle tables not found")
+    return entries
+
+
+def scrape(html: str = "", model_versions_html: str = "") -> list[DeprecationEntry]:
     if not html:
         html = fetch_page(URL)
+        if not model_versions_html:
+            model_versions_html = fetch_page(MODEL_VERSIONS_URL)
 
     soup = BeautifulSoup(html, "html.parser")
 
     entries = _parse_tables(soup)
     if not entries:
         entries = _parse_headings(soup)
+    if model_versions_html:
+        entries.extend(_parse_model_versions(model_versions_html))
 
-    seen: set[str] = set()
+    seen: set[tuple[str, str]] = set()
     deduplicated: list[DeprecationEntry] = []
     for entry in entries:
         key = (entry.model_name, entry.model_id)
