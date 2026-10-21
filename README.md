@@ -6,7 +6,7 @@ Automatically tracks model deprecation schedules from major AI providers.
 
 - **OpenAI** — [Deprecations page](https://developers.openai.com/api/docs/deprecations/)
 - **Anthropic** — [Model deprecations](https://platform.claude.com/docs/en/about-claude/model-deprecations)
-- **Vertex AI** — [Partner model deprecations](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models)
+- **Vertex AI** — [Google model retirements](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/learn/model-versions) and [partner model deprecations](https://docs.cloud.google.com/vertex-ai/generative-ai/docs/deprecations/partner-models). Only confirmed retirement dates are tracked; minimum availability dates such as “or later” or “no sooner than” are excluded.
 - **AWS Bedrock** — [Model lifecycle](https://docs.aws.amazon.com/bedrock/latest/userguide/model-lifecycle.html)
 - **Gemini** — [API deprecations](https://ai.google.dev/gemini-api/docs/deprecations)
 
@@ -172,12 +172,25 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | retired | 2026-02-23 | 🔴 2026-08-23 |  |
+| gemini-2.5-pro | gemini-2.5-pro | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash |
+| gemini-2.5-flash | gemini-2.5-flash | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash-lite |
+| gemini-2.5-flash-lite | gemini-2.5-flash-lite | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash-lite or Gemma 4 |
+| gemini-3.6-flash | gemini-3.6-flash | deprecated | TBD | 🟡 2026-11-19 | gemini-3.8-flash |
+| gemini-live-2.5-flash-native-audio | gemini-live-2.5-flash-native-audio | deprecated | TBD | 2026-12-13 | gemini-3.8-live |
+| gemini-3.7-flash | gemini-3.7-flash | deprecated | TBD | 2027-01-28 | gemini-3.8-flash |
+| gemini-2.5-flash-image | gemini-2.5-flash-image | deprecated | TBD | 2027-03-15 | gemini-3.1-flash-lite-image |
+| text-embedding-005 | text-embedding-005 | deprecated | TBD | 2027-04-01 |  |
+| text-embedding-004 | text-embedding-004 | deprecated | TBD | 2027-04-01 |  |
+| text-multilingual-embedding-002 | text-multilingual-embedding-002 | deprecated | TBD | 2027-04-01 |  |
+| multimodalembedding@001 | multimodalembedding@001 | deprecated | TBD | 2027-04-01 |  |
 
 <!-- DEPRECATION_TABLE_END -->
 
 ## Slack Alerts
 
 Set the `SLACK_WEBHOOK_URL` environment variable (or GitHub Actions secret) to receive Slack notifications 7 days and 1 day before a model shutdown. Multiple webhook URLs can be provided as a comma-separated list to notify multiple channels.
+
+Vertex AI alerts include both Google and partner models. Vertex dates are tracked separately from the Gemini API because their shutdown schedules can differ.
 
 Use `SLACK_DISABLED_PROVIDERS` for a comma-separated list of tracked providers that should not produce Slack alerts. Anthropic is disabled by default because Bedrock lifecycle dates are used for Slack deprecation alerts; Anthropic entries remain in the tracker, calendar, and README. Set `SLACK_DISABLED_PROVIDERS` to an empty value to enable alerts for every provider.
 

@@ -3402,6 +3402,537 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-2.5-pro
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Model: gemini-2.5-pro\nModel ID: gemini-2.5-pro\nReplacement: 
+ gemini-3.8-flash or gemini-3.5-flash\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-pro shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-2.5-flash
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Model: gemini-2.5-flash\nModel ID: gemini-2.5-flash\nReplaceme
+ nt: gemini-3.8-flash or gemini-3.5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-2.5-flash-lite
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+DESCRIPTION:Model: gemini-2.5-flash-lite\nModel ID: gemini-2.5-flash-lite
+ \nReplacement: gemini-3.8-flash or gemini-3.5-flash-lite or Gemma 4\nStatu
+ s: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-lite shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-lite shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-live-2.5-flash-native-audio
+DTSTART;VALUE=DATE:20261213
+DTEND;VALUE=DATE:20261214
+DESCRIPTION:Model: gemini-live-2.5-flash-native-audio\nModel ID: gemini-li
+ ve-2.5-flash-native-audio\nReplacement: gemini-3.8-live\nStatus: deprecate
+ d
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-live-2.5-flash-native-audio shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-live-2.5-flash-native-audio shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-2.5-flash-image
+DTSTART;VALUE=DATE:20270315
+DTEND;VALUE=DATE:20270316
+DESCRIPTION:Model: gemini-2.5-flash-image\nModel ID: gemini-2.5-flash-imag
+ e\nReplacement: gemini-3.1-flash-lite-image\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-image shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.5-flash-image shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: text-embedding-005
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: text-embedding-005\nModel ID: text-embedding-005\nStatu
+ s: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-embedding-005 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-embedding-005 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: text-embedding-004
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: text-embedding-004\nModel ID: text-embedding-004\nStatu
+ s: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-embedding-004 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-embedding-004 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: text-multilingual-embedding-002
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: text-multilingual-embedding-002\nModel ID: text-multili
+ ngual-embedding-002\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-multilingual-embedding-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-multilingual-embedding-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: multimodalembedding@001
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+DESCRIPTION:Model: multimodalembedding@001\nModel ID: multimodalembedding@
+ 001\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:multimodalembedding@001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:multimodalembedding@001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-3.7-flash
+DTSTART;VALUE=DATE:20270128
+DTEND;VALUE=DATE:20270129
+DESCRIPTION:Model: gemini-3.7-flash\nModel ID: gemini-3.7-flash\nReplaceme
+ nt: gemini-3.8-flash\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3.7-flash shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3.7-flash shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-3.6-flash
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+DESCRIPTION:Model: gemini-3.6-flash\nModel ID: gemini-3.6-flash\nReplaceme
+ nt: gemini-3.8-flash\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3.6-flash shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-3.6-flash shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: veo-3.0-generate-001
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+DESCRIPTION:Model: veo-3.0-generate-001\nModel ID: veo-3.0-generate-001\nR
+ eplacement: veo-3.1-generate-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-generate-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-generate-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: veo-3.0-fast-generate-001
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+DESCRIPTION:Model: veo-3.0-fast-generate-001\nModel ID: veo-3.0-fast-gener
+ ate-001\nReplacement: veo-3.1-fast-generate-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-fast-generate-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-3.0-fast-generate-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: veo-2.0-generate-001
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
+DESCRIPTION:Model: veo-2.0-generate-001\nModel ID: veo-2.0-generate-001\nR
+ eplacement: veo-3.1-generate-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-2.0-generate-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:veo-2.0-generate-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-2.0-flash
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Model: gemini-2.0-flash\nModel ID: gemini-2.0-flash\nReplaceme
+ nt: gemini-3.5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-2.0-flash-lite
+DTSTART;VALUE=DATE:20260601
+DTEND;VALUE=DATE:20260602
+DESCRIPTION:Model: gemini-2.0-flash-lite\nModel ID: gemini-2.0-flash-lite
+ \nReplacement: gemini-3.5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-2.0-flash-lite shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.5-pro-001
+DTSTART;VALUE=DATE:20250524
+DTEND;VALUE=DATE:20250525
+DESCRIPTION:Model: gemini-1.5-pro-001\nModel ID: gemini-1.5-pro-001\nRepla
+ cement: gemini-2.5-flash\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-pro-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-pro-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.5-pro-002
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+DESCRIPTION:Model: gemini-1.5-pro-002\nModel ID: gemini-1.5-pro-002\nRepla
+ cement: gemini-2.5-flash\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-pro-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-pro-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.5-flash-001
+DTSTART;VALUE=DATE:20250524
+DTEND;VALUE=DATE:20250525
+DESCRIPTION:Model: gemini-1.5-flash-001\nModel ID: gemini-1.5-flash-001\nR
+ eplacement: gemini-2.5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-flash-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-flash-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.5-flash-002
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+DESCRIPTION:Model: gemini-1.5-flash-002\nModel ID: gemini-1.5-flash-002\nR
+ eplacement: gemini-2.5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-flash-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.5-flash-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: textembedding-gecko@003 *
+DTSTART;VALUE=DATE:20250524
+DTEND;VALUE=DATE:20250525
+DESCRIPTION:Model: textembedding-gecko@003 *\nModel ID: textembedding-geck
+ o@003 *\nReplacement: gemini-embedding-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko@003 * shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko@003 * shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: textembedding-gecko-multilingual@00
+ 1
+DTSTART;VALUE=DATE:20250524
+DTEND;VALUE=DATE:20250525
+DESCRIPTION:Model: textembedding-gecko-multilingual@001\nModel ID: textemb
+ edding-gecko-multilingual@001\nReplacement: gemini-embedding-001\nStatus: 
+ retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko-multilingual@001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko-multilingual@001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.0-pro-001
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: gemini-1.0-pro-001\nModel ID: gemini-1.0-pro-001\nRepla
+ cement: gemini-2.5-flash\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.0-pro-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.0-pro-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.0-pro-002
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: gemini-1.0-pro-002\nModel ID: gemini-1.0-pro-002\nRepla
+ cement: gemini-2.5-flash\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.0-pro-002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.0-pro-002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: gemini-1.0-pro-vision-001
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: gemini-1.0-pro-vision-001\nModel ID: gemini-1.0-pro-vis
+ ion-001\nReplacement: gemini-2.5-flash\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.0-pro-vision-001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gemini-1.0-pro-vision-001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: text-bison
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: text-bison\nModel ID: text-bison\nReplacement: gemini-2
+ .5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-bison shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:text-bison shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: chat-bison
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: chat-bison\nModel ID: chat-bison\nReplacement: gemini-2
+ .5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:chat-bison shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:chat-bison shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: code-gecko
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: code-gecko\nModel ID: code-gecko\nReplacement: gemini-2
+ .5-flash-lite\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-gecko shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:code-gecko shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: textembedding-gecko@002
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: textembedding-gecko@002\nModel ID: textembedding-gecko@
+ 002\nReplacement: gemini-embedding-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko@002 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko@002 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: textembedding-gecko@001
+DTSTART;VALUE=DATE:20250421
+DTEND;VALUE=DATE:20250422
+DESCRIPTION:Model: textembedding-gecko@001\nModel ID: textembedding-gecko@
+ 001\nReplacement: gemini-embedding-001\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko@001 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:textembedding-gecko@001 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: imagetext
+DTSTART;VALUE=DATE:20250924
+DTEND;VALUE=DATE:20250925
+DESCRIPTION:Model: imagetext\nModel ID: imagetext\nReplacement: gemini-2.5
+ -flash-image\nStatus: retired
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagetext shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:imagetext shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Bedrock] Model deprecation: Claude 3 Haiku
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911

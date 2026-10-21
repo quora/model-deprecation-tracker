@@ -80,6 +80,28 @@ class TestFormatSlackMessage:
 
 
 class TestSendNotification:
+    def test_vertex_retirements_alert_at_both_horizons_with_default_config(self):
+        from main import DEFAULT_SLACK_DISABLED_PROVIDERS
+        from scraper.vertex_scraper import _parse_model_versions
+
+        today = datetime.date.today()
+        rows = "".join(
+            f"<tr><td><code>vertex-model-{days}</code></td>"
+            f"<td>{(today + datetime.timedelta(days=days)).isoformat()}</td></tr>"
+            for days in (1, 7, 14)
+        )
+        entries = _parse_model_versions(
+            "<table><tr><th>Model ID</th><th>Retirement date</th></tr>"
+            + rows + "</table>"
+        )
+        with patch("generators.slack_notifier.requests.post") as mock_post:
+            send_notification(entries, ["https://hooks.slack.com/test"], DEFAULT_SLACK_DISABLED_PROVIDERS)
+        assert mock_post.call_count == 2
+        payloads = [call.kwargs["json"]["text"] for call in mock_post.call_args_list]
+        assert "Vertex AI - vertex-model-1" in payloads[0]
+        assert "Vertex AI - vertex-model-7" in payloads[1]
+        assert all("vertex-model-14" not in payload for payload in payloads)
+
     def test_sends_when_upcoming_exists(self):
         with patch("generators.slack_notifier.requests.post") as mock_post:
             send_notification(_make_entries(), ["https://hooks.slack.com/test"])
