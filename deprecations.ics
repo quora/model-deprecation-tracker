@@ -4879,7 +4879,7 @@ SUMMARY:[Gemini] Model deprecation: veo-3.1-lite-generate-preview
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 DESCRIPTION:Model: veo-3.1-lite-generate-preview\nReplacement: gemini-omni
- -1.1-flash\nStatus: deprecated
+ -1.1-flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.1-lite-generate-preview shutdown in 7 days
@@ -4896,7 +4896,7 @@ SUMMARY:[Gemini] Model deprecation: veo-3.1-generate-preview
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 DESCRIPTION:Model: veo-3.1-generate-preview\nReplacement: gemini-omni-1.1-
- flash\nStatus: deprecated
+ flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.1-generate-preview shutdown in 7 days
@@ -4913,7 +4913,7 @@ SUMMARY:[Gemini] Model deprecation: veo-3.1-fast-generate-preview
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 DESCRIPTION:Model: veo-3.1-fast-generate-preview\nReplacement: gemini-omni
- -1.1-flash\nStatus: deprecated
+ -1.1-flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:veo-3.1-fast-generate-preview shutdown in 7 days
@@ -4964,7 +4964,7 @@ SUMMARY:[Gemini] Model deprecation: gemini-omni-flash-preview
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 DESCRIPTION:Model: gemini-omni-flash-preview\nReplacement: gemini-omni-1.1
- -flash\nStatus: deprecated
+ -flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-omni-flash-preview shutdown in 7 days
