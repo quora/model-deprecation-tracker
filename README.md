@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-22*
+*Last updated: 2026-10-23*
 
 ### Anthropic
 
@@ -86,35 +86,35 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | davinci-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
 | gpt-3.5-turbo-1106 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
 | gpt-5.4-cyber |  | deprecated | TBD | 🔴 2026-10-01 | The most capable cyber model available to you. |
-| gpt-3.5-turbo-0125 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| gpt-3.5-turbo |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| gpt-3.5-turbo-completions |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| gpt-4-0613 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4-0613-completions |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4-completions |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4-1106-preview |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4-turbo |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4-turbo-2024-04-09 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4-turbo-completions |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-4.1-nano |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-luna |
-| gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-luna |
-| gpt-4o-2024-05-13 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| gpt-image-1 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
-| o1-2024-12-17 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| o1 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| o1-pro-2025-03-19 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
-| o1-pro |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
-| o3-mini-2025-01-31 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| o3-mini |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| ft-o4-mini-2025-04-16 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| o4-mini-2025-04-16 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| o4-mini |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| ft-gpt-3.5-turbo |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| ft-gpt-4 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-sol |
-| ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-luna |
-| ft-babbage-002 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
-| ft-davinci-002 |  | deprecated | TBD | 🟡 2026-10-23 | gpt-5.6-terra |
+| gpt-3.5-turbo-0125 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| gpt-3.5-turbo |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| gpt-3.5-turbo-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| gpt-4-0613 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4-0613-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4-turbo |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4-turbo-2024-04-09 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4-turbo-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-4.1-nano |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-luna |
+| gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-luna |
+| gpt-4o-2024-05-13 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| gpt-image-1 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| o1-2024-12-17 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| o1 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| o1-pro-2025-03-19 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
+| o1-pro |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
+| o3-mini-2025-01-31 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| o3-mini |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| ft-o4-mini-2025-04-16 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| o4-mini-2025-04-16 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| o4-mini |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| ft-gpt-3.5-turbo |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| ft-gpt-4 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
+| ft-gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-luna |
+| ft-babbage-002 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
+| ft-davinci-002 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
 | gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
 | gpt-image-1.5 |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
 | chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
