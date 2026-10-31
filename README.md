@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-30*
+*Last updated: 2026-10-31*
 
 ### Anthropic
 
@@ -28,7 +28,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
 | claude-haiku-4-5-20251001 |  | active | TBD | 🔴 2026-10-15 |  |
 | claude-opus-4-5-20251101 |  | active | TBD | 🟡 2026-11-24 |  |
-| claude-sonnet-4-5-20250929 |  | deprecated | 2026-09-30 | 2026-11-30 | claude-sonnet-5-5 |
+| claude-sonnet-4-5-20250929 |  | deprecated | 2026-09-30 | 🟡 2026-11-30 | claude-sonnet-5-5 |
 | claude-opus-4-6 |  | active | TBD | 2027-02-05 |  |
 | claude-sonnet-4-6 |  | active | TBD | 2027-02-17 |  |
 | claude-opus-4-7 |  | active | TBD | 2027-04-16 |  |
@@ -51,7 +51,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-haiku-4-5 (1) |  | active | TBD | 🟡 2026-11-15 |  |
 | claude-haiku-4-5 (2) |  | active | TBD | 🟡 2026-11-15 |  |
 | claude-opus-4-5 (1) |  | active | TBD | 🟡 2026-11-24 |  |
-| claude-sonnet-4-5 (1) |  | active | TBD | 2026-11-30 | claude-sonnet-5-5 |
+| claude-sonnet-4-5 (1) |  | active | TBD | 🟡 2026-11-30 | claude-sonnet-5-5 |
 | claude-opus-5-5-fast (2) |  | active | TBD | 2027-01-15 |  |
 | claude-opus-4-6 (1) |  | active | TBD | 2027-02-02 |  |
 | claude-sonnet-4-6 (1) |  | active | TBD | 2027-02-10 |  |
@@ -88,16 +88,15 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | o3-pro (2025-06-10) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-sol |
 | o4-mini (2025-04-16) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-terra |
 | gpt-chat-latest (2026-05-28) |  | active | TBD | 2026-12-08 |  |
-| gpt-4o (2024-05-13) |  | deprecated | TBD | 2026-12-09 | gpt-5.6-sol |
 | gpt-realtime-mini (2025-12-15) |  | active | TBD | 2026-12-15 |  |
 | tts (001) |  | active | TBD | 2026-12-15 |  |
 | tts-hd (001) |  | active | TBD | 2026-12-15 |  |
 | whisper (001) |  | active | TBD | 2026-12-15 |  |
 | gpt-image-1.5 (2025-12-16) |  | active | TBD | 2026-12-16 |  |
 | gpt-chat-latest (2026-08-06) |  | active | TBD | 2027-01-12 |  |
+| gpt-4o (2024-05-13) |  | deprecated | TBD | 2027-01-14 | gpt-5.1 (2025-11-13) |
 | gpt-realtime-2 (2026-05-06) |  | active | TBD | 2027-01-20 | gpt-realtime-2.1 |
 | gpt-5 (2025-08-07) |  | active | TBD | 2027-02-09 |  |
-| gpt-5-mini (2025-08-07) |  | active | TBD | 2027-02-09 |  |
 | gpt-5-nano (2025-08-07) |  | active | TBD | 2027-02-09 |  |
 | gpt-audio (2025-08-28) |  | active | TBD | 2027-03-02 |  |
 | gpt-realtime (2025-08-28) |  | active | TBD | 2027-03-02 |  |
@@ -113,7 +112,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4o (2024-11-20) |  | deprecated | TBD | 2027-04-14 | gpt-5.1 |
 | gpt-4o-mini (2024-07-18) |  | deprecated | TBD | 2027-04-14 |  |
 | gpt-4o-transcribe-diarize (2025-10-15) |  | active | TBD | 2027-04-15 |  |
-| gpt-5.1 (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex-mini (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex-max (2025-12-04) |  | active | TBD | 2027-05-18 |  |
@@ -125,6 +123,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-realtime-mini (2025-12-15) |  | active | TBD | 2027-06-15 |  |
 | gpt-realtime-2.1 (2026-07-07) |  | active | TBD | 2027-06-25 |  |
 | gpt-realtime-2.1-mini (2026-07-07) |  | active | TBD | 2027-06-25 |  |
+| gpt-5-mini (2025-08-07) |  | active | TBD | 2027-07-13 |  |
+| gpt-5.1 (2025-11-13) |  | active | TBD | 2027-07-13 |  |
 | gpt-5.2-codex (2026-01-14) |  | active | TBD | 2027-07-13 |  |
 | gpt-5.3-codex (2026-02-24) |  | active | TBD | 2027-08-24 |  |
 | gpt-audio-1.5 (2026-02-23) |  | active | TBD | 2027-08-24 |  |
@@ -236,7 +236,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| Claude 3 Opus on Google Cloud | Claude 3 Opus on Google Cloud | retired | 2026-06-30 | 🔴 2026-08-01 |  |
 | Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | retired | 2026-02-23 | 🔴 2026-08-23 |  |
 
 <!-- DEPRECATION_TABLE_END -->

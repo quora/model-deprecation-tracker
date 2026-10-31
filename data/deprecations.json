@@ -2425,8 +2425,8 @@
     "model_name": "gpt-4o (2024-05-13)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-12-09",
-    "replacement": "gpt-5.6-sol",
+    "shutdown_date": "2027-01-14",
+    "replacement": "gpt-5.1 (2025-11-13)",
     "status": "deprecated"
   },
   {
@@ -2551,7 +2551,7 @@
     "model_name": "gpt-5-mini (2025-08-07)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-02-09",
+    "shutdown_date": "2027-07-13",
     "replacement": "",
     "status": "active"
   },
@@ -2578,7 +2578,7 @@
     "model_name": "gpt-5.1 (2025-11-13)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-05-15",
+    "shutdown_date": "2027-07-13",
     "replacement": "",
     "status": "active"
   },
