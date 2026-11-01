@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-10-31*
+*Last updated: 2026-11-01*
 
 ### Anthropic
 
@@ -197,9 +197,9 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | o3-mini-2025-01-31 | o3-mini |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
 | ft-o4-mini-2025-04-16 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
 | o4-mini-2025-04-16 | o4-mini |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
-| gpt-image-1-mini |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
-| gpt-image-1.5 | gpt-image-1.5-2025-12-16 |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
-| chatgpt-image-latest |  | deprecated | TBD | 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| gpt-image-1-mini |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| gpt-image-1.5 | gpt-image-1.5-2025-12-16 |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
+| chatgpt-image-latest |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
 | gpt-5 | gpt-5-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
 | gpt-5-mini | gpt-5-mini-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-terra |
 | gpt-5-nano | gpt-5-nano-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-luna |
