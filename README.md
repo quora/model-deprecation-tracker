@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-01*
+*Last updated: 2026-11-02*
 
 ### Anthropic
 
@@ -44,28 +44,6 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | Gemma 3 27B PT | google.gemma-3-27b-it | legacy | 2026-09-30 | 2027-03-30 |  |
 | Gemma 3 4B IT | google.gemma-3-4b-it | legacy | 2026-09-30 | 2027-03-30 |  |
 | Claude Sonnet 4.5 | anthropic.claude-sonnet-4-5-20250929-v1:0 | legacy | 2026-10-08 | 2027-04-08 |  |
-
-### Gemini
-
-| Model | Model ID | Status | Deprecated | Shutdown | Replacement |
-|-------|----------|--------|------------|----------|-------------|
-| embedding-2-preview |  | retired | TBD | 🔴 2026-08-10 | gemini-embedding-2 |
-| imagen-4.0-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-nano-banana-2.1 |
-| imagen-4.0-ultra-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-nano-banana-2.1 |
-| imagen-4.0-fast-generate-001 |  | retired | TBD | 🔴 2026-08-17 | gemini-nano-banana-2.1 |
-| gemini-robotics-er-1.6-preview |  | retired | TBD | 🔴 2026-08-31 | gemini-robotics-er-2-preview |
-| veo-3.1-lite-generate-preview |  | retired | TBD | 🔴 2026-10-22 | gemini-omni-1.1-flash |
-| veo-3.1-generate-preview |  | retired | TBD | 🔴 2026-10-22 | gemini-omni-1.1-flash |
-| veo-3.1-fast-generate-preview |  | retired | TBD | 🔴 2026-10-22 | gemini-omni-1.1-flash |
-| gemini-omni-flash-preview |  | retired | TBD | 🔴 2026-10-22 | gemini-omni-1.1-flash |
-| gemini-3.1-flash-tts-preview |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
-| gemini-3.1-flash-live-preview |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-live |
-| gemini-2.5-flash-native-audio-preview-12-2025 |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-live |
-| gemini-2.5-flash-preview-tts |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
-| gemini-2.5-pro-preview-tts |  | deprecated | TBD | 🟡 2026-11-17 | gemini-3.8-flash-tts or gemini-3.8-flash-lite-tts |
-| gemini-2.5-flash-image |  | deprecated | TBD | 2027-03-15 | gemini-3.1-flash-lite-image |
-| gemini-3.1-flash-lite |  | deprecated | TBD | 2027-05-07 | gemini-3.5-flash-lite |
-| gemini-embedding-001 |  | deprecated | TBD | 2028-05-14 | gemini-embedding-2 |
 
 ### OpenAI
 
