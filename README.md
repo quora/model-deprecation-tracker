@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-03*
+*Last updated: 2026-11-04*
 
 ### Anthropic
 
@@ -26,7 +26,6 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
 | claude-sonnet-4-5-20250929 |  | deprecated | 2026-09-30 | 🟡 2026-11-30 | claude-sonnet-5-5 |
 
 ### Bedrock
