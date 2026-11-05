@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-04*
+*Last updated: 2026-11-05*
 
 ### Anthropic
 
@@ -146,6 +146,7 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | gemini-2.5-flash | gemini-2.5-flash | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash-lite |
 | gemini-2.5-flash-lite | gemini-2.5-flash-lite | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash-lite or Gemma 4 |
 | gemini-3.6-flash | gemini-3.6-flash | deprecated | TBD | 🟡 2026-11-19 | gemini-3.8-flash |
+| Anthropic's Claude Sonnet 4.5 on Google Cloud | Anthropic's Claude Sonnet 4.5 on Google Cloud | deprecated | 2026-09-29 | 🟡 2026-11-30 |  |
 | gemini-live-2.5-flash-native-audio | gemini-live-2.5-flash-native-audio | deprecated | TBD | 2026-12-13 | gemini-3.8-live |
 | gemini-3.7-flash | gemini-3.7-flash | deprecated | TBD | 2027-01-28 | gemini-3.8-flash |
 | gemini-2.5-flash-image | gemini-2.5-flash-image | deprecated | TBD | 2027-03-15 | gemini-3.1-flash-lite-image |

@@ -3450,6 +3450,26 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[Vertex AI] Model deprecation: Anthropic's Claude Sonnet 4.5 on Go
+ ogle Cloud
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Model: Anthropic's Claude Sonnet 4.5 on Google Cloud\nModel ID
+ : Anthropic's Claude Sonnet 4.5 on Google Cloud\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anthropic's Claude Sonnet 4.5 on Google Cloud shutdown in 7 da
+ ys
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Anthropic's Claude Sonnet 4.5 on Google Cloud shutdown in 30 d
+ ays
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[Vertex AI] Model deprecation: Anthropic's Claude 3 Haiku on Googl
  e Cloud
 DTSTART;VALUE=DATE:20260823
