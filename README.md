@@ -19,13 +19,12 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-03*
+*Last updated: 2026-11-05*
 
 ### Anthropic
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| claude-opus-4-1-20250805 |  | retired | 2026-06-05 | 🔴 2026-08-05 | claude-opus-4-8 |
 | claude-haiku-4-5-20251001 |  | active | TBD | 🔴 2026-10-15 |  |
 | claude-opus-4-5-20251101 |  | active | TBD | 🟡 2026-11-24 |  |
 | claude-sonnet-4-5-20250929 |  | deprecated | 2026-09-30 | 🟡 2026-11-30 | claude-sonnet-5-5 |
@@ -47,7 +46,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| claude-opus-4-1 |  | retired | TBD | 🔴 2026-08-05 | claude-opus-5 |
 | claude-haiku-4-5 (1) |  | active | TBD | 🟡 2026-11-15 |  |
 | claude-haiku-4-5 (2) |  | active | TBD | 🟡 2026-11-15 |  |
 | claude-opus-4-5 (1) |  | active | TBD | 🟡 2026-11-24 |  |
@@ -215,6 +213,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
 | Anthropic's Claude 3 Haiku on Google Cloud | Anthropic's Claude 3 Haiku on Google Cloud | retired | 2026-02-23 | 🔴 2026-08-23 |  |
+| Anthropic's Claude Sonnet 4.5 on Google Cloud | Anthropic's Claude Sonnet 4.5 on Google Cloud | deprecated | 2026-09-29 | 🟡 2026-11-30 |  |
 
 <!-- DEPRECATION_TABLE_END -->
 

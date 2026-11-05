@@ -1567,6 +1567,15 @@
   },
   {
     "provider": "Vertex AI",
+    "model_name": "Anthropic's Claude Sonnet 4.5 on Google Cloud",
+    "model_id": "Anthropic's Claude Sonnet 4.5 on Google Cloud",
+    "deprecated_date": "2026-09-29",
+    "shutdown_date": "2026-11-30",
+    "replacement": "",
+    "status": "deprecated"
+  },
+  {
+    "provider": "Vertex AI",
     "model_name": "Anthropic's Claude 3 Haiku on Google Cloud",
     "model_id": "Anthropic's Claude 3 Haiku on Google Cloud",
     "deprecated_date": "2026-02-23",
