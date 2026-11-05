@@ -1,6 +1,15 @@
 [
   {
     "provider": "OpenAI",
+    "model_name": "gpt-5.5-cyber-preview",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-02-01",
+    "replacement": "The most capable cyber model available to you.",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "GPT-4o (gpt-4o-2024-08-06, gpt-4o-2024-11-20)",
     "model_id": "",
     "deprecated_date": "",
@@ -284,7 +293,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
-    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
     "status": "deprecated"
   },
   {
@@ -293,7 +302,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
-    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
     "status": "deprecated"
   },
   {
@@ -302,7 +311,7 @@
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2026-12-01",
-    "replacement": "gpt-image-2.5-sunburst or gpt-image-2.5-flare",
+    "replacement": "gpt-image-2.6-sunburst or gpt-image-2.6-flare",
     "status": "deprecated"
   },
   {
