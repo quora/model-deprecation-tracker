@@ -3,6 +3,23 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-5.5-cyber-preview
+DTSTART;VALUE=DATE:20270201
+DTEND;VALUE=DATE:20270202
+DESCRIPTION:Model: gpt-5.5-cyber-preview\nReplacement: The most capable cy
+ ber model available to you.\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.5-cyber-preview shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-5.5-cyber-preview shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: GPT-4o (gpt-4o-2024-08-06\, gpt-4o-202
  4-11-20)
 DTSTART;VALUE=DATE:20270114
@@ -788,8 +805,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-image-1-mini
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DESCRIPTION:Model: gpt-image-1-mini\nReplacement: gpt-image-2.5-sunburst o
- r gpt-image-2.5-flare\nStatus: deprecated
+DESCRIPTION:Model: gpt-image-1-mini\nReplacement: gpt-image-2.6-sunburst o
+ r gpt-image-2.6-flare\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-image-1-mini shutdown in 7 days
@@ -805,8 +822,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-image-1.5
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DESCRIPTION:Model: gpt-image-1.5\nReplacement: gpt-image-2.5-sunburst or g
- pt-image-2.5-flare\nStatus: deprecated
+DESCRIPTION:Model: gpt-image-1.5\nReplacement: gpt-image-2.6-sunburst or g
+ pt-image-2.6-flare\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-image-1.5 shutdown in 7 days
@@ -822,8 +839,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-image-1.5-2025-12-16
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DESCRIPTION:Model: gpt-image-1.5-2025-12-16\nReplacement: gpt-image-2.5-su
- nburst or gpt-image-2.5-flare\nStatus: deprecated
+DESCRIPTION:Model: gpt-image-1.5-2025-12-16\nReplacement: gpt-image-2.6-su
+ nburst or gpt-image-2.6-flare\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-image-1.5-2025-12-16 shutdown in 7 days
@@ -839,8 +856,8 @@ BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: chatgpt-image-latest
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
-DESCRIPTION:Model: chatgpt-image-latest\nReplacement: gpt-image-2.5-sunbur
- st or gpt-image-2.5-flare\nStatus: deprecated
+DESCRIPTION:Model: chatgpt-image-latest\nReplacement: gpt-image-2.6-sunbur
+ st or gpt-image-2.6-flare\nStatus: deprecated
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:chatgpt-image-latest shutdown in 7 days
