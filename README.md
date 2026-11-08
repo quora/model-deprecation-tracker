@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-07*
+*Last updated: 2026-11-08*
 
 ### Anthropic
 
@@ -85,7 +85,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | o3-mini (2025-01-31) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-terra |
 | o3-pro (2025-06-10) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-sol |
 | o4-mini (2025-04-16) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-terra |
-| gpt-chat-latest (2026-05-28) |  | active | TBD | 2026-12-08 |  |
+| gpt-chat-latest (2026-05-28) |  | active | TBD | 🟡 2026-12-08 |  |
 | gpt-realtime-mini (2025-12-15) |  | active | TBD | 2026-12-15 |  |
 | tts (001) |  | active | TBD | 2026-12-15 |  |
 | tts-hd (001) |  | active | TBD | 2026-12-15 |  |
