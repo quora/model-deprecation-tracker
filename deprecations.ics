@@ -3,6 +3,40 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-image-2
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+DESCRIPTION:Model: gpt-image-2\nReplacement: gpt-image-2.6-sunburst or gpt
+ -image-2.6-flare\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-2 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-2 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: gpt-image-2-2026-04-21
+DTSTART;VALUE=DATE:20270210
+DTEND;VALUE=DATE:20270211
+DESCRIPTION:Model: gpt-image-2-2026-04-21\nReplacement: gpt-image-2.6-sunb
+ urst or gpt-image-2.6-flare\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-2-2026-04-21 shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:gpt-image-2-2026-04-21 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5.5-cyber-preview
 DTSTART;VALUE=DATE:20270201
 DTEND;VALUE=DATE:20270202
