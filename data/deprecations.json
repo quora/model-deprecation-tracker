@@ -1369,6 +1369,24 @@
   },
   {
     "provider": "Anthropic",
+    "model_name": "claude-fable-5-2",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-11-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
+    "model_name": "claude-mythos-5-2",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-11-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Anthropic",
     "model_name": "claude-fable-5-1",
     "model_id": "",
     "deprecated_date": "",

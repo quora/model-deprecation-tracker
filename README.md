@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-08*
+*Last updated: 2026-11-10*
 
 ### Anthropic
 
@@ -41,6 +41,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-opus-5-5 |  | active | TBD | 2027-09-22 |  |
 | claude-sonnet-5-5 |  | active | TBD | 2027-09-28 |  |
 | claude-haiku-5-5 |  | active | TBD | 2027-10-07 |  |
+| claude-fable-5-2 |  | active | TBD | 2027-11-09 |  |
+| claude-mythos-5-2 |  | active | TBD | 2027-11-09 |  |
 
 ### Azure Foundry (Anthropic)
 
@@ -147,8 +149,6 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gpt-5.2-chat-latest |  | deprecated | TBD | 🔴 2026-08-10 | gpt-5.6-sol |
-| gpt-5.3-chat-latest |  | deprecated | TBD | 🔴 2026-08-10 | gpt-5.6-sol |
 | Assistants API |  | deprecated | TBD | 🔴 2026-08-26 | Responses API and Conversations API |
 | Videos API |  | deprecated | TBD | 🔴 2026-09-24 | — |
 | sora-2 |  | deprecated | TBD | 🔴 2026-09-24 | — |
