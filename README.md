@@ -200,6 +200,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-4o-mini-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
 | gpt-4o-mini-transcribe-2025-03-20 |  | deprecated | TBD | 2027-01-20 | gpt-4o-mini-transcribe-2025-12-15 |
 | gpt-5.5-cyber-preview |  | deprecated | TBD | 2027-02-01 | The most capable cyber model available to you. |
+| gpt-image-2 | gpt-image-2-2026-04-21 |  | deprecated | TBD | 2027-02-10 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
 | whisper-1 |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 | gpt-4o-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
 | gpt-4o-mini-transcribe | gpt-4o-mini-transcribe-2025-12-15 |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
