@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-10*
+*Last updated: 2026-11-11*
 
 ### Anthropic
 
@@ -88,18 +88,18 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | gpt-image-1.5 |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
 | gpt-image-1.5-2025-12-16 |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
 | chatgpt-image-latest |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
-| gpt-5 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
-| gpt-5-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
-| gpt-5-mini |  | deprecated | TBD | 2026-12-11 | gpt-5.6-terra |
-| gpt-5-mini-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-terra |
-| gpt-5-nano |  | deprecated | TBD | 2026-12-11 | gpt-5.6-luna |
-| gpt-5-nano-2025-08-07 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-luna |
-| gpt-5-pro |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
-| gpt-5-pro-2025-10-06 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
-| o3 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
-| o3-2025-04-16 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol |
-| o3-pro |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
-| o3-pro-2025-06-10 |  | deprecated | TBD | 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
+| gpt-5 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol |
+| gpt-5-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol |
+| gpt-5-mini |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-terra |
+| gpt-5-mini-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-terra |
+| gpt-5-nano |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-luna |
+| gpt-5-nano-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-luna |
+| gpt-5-pro |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
+| gpt-5-pro-2025-10-06 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
+| o3 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol |
+| o3-2025-04-16 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol |
+| o3-pro |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
+| o3-pro-2025-06-10 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
 | tts-1 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
 | tts-1-hd |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
 | gpt-4o-mini-tts |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
