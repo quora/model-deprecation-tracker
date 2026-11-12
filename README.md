@@ -149,66 +149,69 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| Assistants API |  | deprecated | TBD | 🔴 2026-08-26 | Responses API and Conversations API |
-| Videos API |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| sora-2 |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| sora-2-pro |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| sora-2-2025-10-06 |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| sora-2-2025-12-08 |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| sora-2-pro-2025-10-06 |  | deprecated | TBD | 🔴 2026-09-24 | — |
-| gpt-3.5-turbo-instruct |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
-| babbage-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
-| davinci-002 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
-| gpt-3.5-turbo-1106 |  | deprecated | TBD | 🔴 2026-09-28 | gpt-5.6-terra |
-| gpt-5.4-cyber |  | deprecated | TBD | 🔴 2026-10-01 | The most capable cyber model available to you. |
-| gpt-3.5-turbo-0125 | gpt-3.5-turbo, gpt-3.5-turbo-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
-| gpt-4-0613 | gpt-4, gpt-4-0613-completions, gpt-4-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
-| gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
-| gpt-4-turbo | gpt-4-turbo-2024-04-09, gpt-4-turbo-completions |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
-| gpt-4.1-nano | gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-luna |
-| gpt-4o-2024-05-13 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
-| gpt-image-1 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-image-2.5-sunburst or gpt-image-2.5-flare |
-| o1-2024-12-17 | o1 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
-| o1-pro-2025-03-19 | o1-pro |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol (reasoning.mode: pro) |
-| o3-mini-2025-01-31 | o3-mini |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-sol |
-| ft-o4-mini-2025-04-16 |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
-| o4-mini-2025-04-16 | o4-mini |  | deprecated | TBD | 🔴 2026-10-23 | gpt-5.6-terra |
-| gpt-image-1-mini |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
-| gpt-image-1.5 | gpt-image-1.5-2025-12-16 |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
-| chatgpt-image-latest |  | deprecated | TBD | 🟡 2026-12-01 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
-| gpt-5 | gpt-5-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol |
-| gpt-5-mini | gpt-5-mini-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-terra |
-| gpt-5-nano | gpt-5-nano-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-luna |
-| gpt-5-pro | gpt-5-pro-2025-10-06 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
-| o3 | o3-2025-04-16 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol |
-| o3-pro | o3-pro-2025-06-10 |  | deprecated | TBD | 🟡 2026-12-11 | gpt-5.6-sol (reasoning.mode: pro) |
-| tts-1 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
-| tts-1-hd |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
-| gpt-4o-mini-tts | gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
-| gpt-4o-mini-tts | gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2027-01-06 | gpt-realtime-2.1-mini |
-| GPT-4o (gpt-4o-2024-08-06, gpt-4o-2024-11-20) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
-| GPT-4o mini (gpt-4o-mini-2024-07-18) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
-| GPT-4.1 (gpt-4.1-2025-04-14) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
-| GPT-4.1 mini (gpt-4.1-mini-2025-04-14) |  | deprecated | TBD | 2027-01-14 | gpt-6-luna |
-| gpt-realtime | gpt-realtime-2025-08-28 |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1 |
-| gpt-audio | gpt-audio-2025-08-28 |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
-| gpt-4o-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
-| gpt-4o-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1 |
-| gpt-realtime-mini | gpt-realtime-mini-2025-12-15 |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1-mini |
-| gpt-audio-mini | gpt-audio-mini-2025-12-15 |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
-| gpt-4o-mini-realtime |  | deprecated | TBD | 2027-01-20 | gpt-realtime-2.1-mini |
-| gpt-4o-mini-audio |  | deprecated | TBD | 2027-01-20 | gpt-audio-1.5 |
-| gpt-4o-mini-transcribe-2025-03-20 |  | deprecated | TBD | 2027-01-20 | gpt-4o-mini-transcribe-2025-12-15 |
-| gpt-5.5-cyber-preview |  | deprecated | TBD | 2027-02-01 | The most capable cyber model available to you. |
-| gpt-image-2 | gpt-image-2-2026-04-21 |  | deprecated | TBD | 2027-02-10 | gpt-image-2.6-sunburst or gpt-image-2.6-flare |
-| whisper-1 |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
-| gpt-4o-transcribe |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
-| gpt-4o-mini-transcribe | gpt-4o-mini-transcribe-2025-12-15 |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
-| gpt-4o-transcribe-diarize |  | deprecated | TBD | 2027-02-26 | gpt-live-transcribe or gpt-transcribe |
-| /v1/audio/translations |  | deprecated | TBD | 2027-02-26 | v1/realtime/translations |
-| gpt-5.3-codex |  | deprecated | TBD | 2027-04-01 | gpt-6-sol |
-| gpt-5.4-nano | gpt-5.4-nano-2026-03-17 |  | deprecated | TBD | 2027-04-01 | gpt-6-luna |
-| gpt-5.1 | gpt-5.1-2025-11-13 |  | deprecated | TBD | 2027-04-01 | gpt-6-sol |
+| Assistants API |  | deprecated | TBD | 🔴 2026-08-26 | Aug 26, 2025 |
+| Videos API |  | deprecated | TBD | 🔴 2026-09-24 | Mar 24, 2026 |
+| sora-2 |  | deprecated | TBD | 🔴 2026-09-24 | Mar 24, 2026 |
+| sora-2-pro |  | deprecated | TBD | 🔴 2026-09-24 | Mar 24, 2026 |
+| sora-2-2025-10-06 |  | deprecated | TBD | 🔴 2026-09-24 | Mar 24, 2026 |
+| sora-2-2025-12-08 |  | deprecated | TBD | 🔴 2026-09-24 | Mar 24, 2026 |
+| sora-2-pro-2025-10-06 |  | deprecated | TBD | 🔴 2026-09-24 | Mar 24, 2026 |
+| gpt-3.5-turbo-instruct |  | deprecated | TBD | 🔴 2026-09-28 | Sep 26, 2025 |
+| babbage-002 |  | deprecated | TBD | 🔴 2026-09-28 | Sep 26, 2025 |
+| davinci-002 |  | deprecated | TBD | 🔴 2026-09-28 | Sep 26, 2025 |
+| gpt-3.5-turbo-1106 |  | deprecated | TBD | 🔴 2026-09-28 | Sep 26, 2025 |
+| gpt-5.4-cyber |  | deprecated | TBD | 🔴 2026-10-01 | Sep 11, 2026 |
+| gpt-3.5-turbo-0125, gpt-3.5-turbo, gpt-3.5-turbo-completions |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| gpt-4-0613, gpt-4, gpt-4-0613-completions, gpt-4-completions |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| gpt-4-1106-preview |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| gpt-4-turbo, gpt-4-turbo-2024-04-09, gpt-4-turbo-completions |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| gpt-4.1-nano, gpt-4.1-nano-2025-04-14 |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| gpt-4o-2024-05-13 |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| gpt-image-1 |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| o1-2024-12-17, o1 |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| o1-pro-2025-03-19, o1-pro |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| o3-mini-2025-01-31, o3-mini |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| ft-o4-mini-2025-04-16 |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| o4-mini-2025-04-16, o4-mini |  | deprecated | TBD | 🔴 2026-10-23 | Apr 22, 2026 |
+| /v1/prompts and reusable prompt objects |  | deprecated | TBD | 🟡 2026-11-30 | Jun 3, 2026 |
+| Evals dashboard, API, and graders for eval workflows |  | deprecated | TBD | 🟡 2026-11-30 | Jun 3, 2026 |
+| Agent Builder |  | deprecated | TBD | 🟡 2026-11-30 | Jun 3, 2026 |
+| gpt-image-1-mini |  | deprecated | TBD | 🟡 2026-12-01 | Jun 2, 2026 |
+| gpt-image-1.5, gpt-image-1.5-2025-12-16 |  | deprecated | TBD | 🟡 2026-12-01 | Jun 2, 2026 |
+| chatgpt-image-latest |  | deprecated | TBD | 🟡 2026-12-01 | Jun 2, 2026 |
+| gpt-5, gpt-5-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | Jun 11, 2026 |
+| gpt-5-mini, gpt-5-mini-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | Jun 11, 2026 |
+| gpt-5-nano, gpt-5-nano-2025-08-07 |  | deprecated | TBD | 🟡 2026-12-11 | Jun 11, 2026 |
+| gpt-5-pro, gpt-5-pro-2025-10-06 |  | deprecated | TBD | 🟡 2026-12-11 | Jun 11, 2026 |
+| o3, o3-2025-04-16 |  | deprecated | TBD | 🟡 2026-12-11 | Jun 11, 2026 |
+| o3-pro, o3-pro-2025-06-10 |  | deprecated | TBD | 🟡 2026-12-11 | Jun 11, 2026 |
+| tts-1 |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
+| tts-1-hd |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
+| gpt-4o-mini-tts, gpt-4o-mini-tts-2025-03-20, gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
+| Self-serve fine-tuning job creation |  | deprecated | TBD | 2027-01-06 | May 7, 2026 |
+| GPT-4o (gpt-4o-2024-08-06, gpt-4o-2024-11-20) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
+| GPT-4o mini (gpt-4o-mini-2024-07-18) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
+| GPT-4.1 (gpt-4.1-2025-04-14) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
+| GPT-4.1 mini (gpt-4.1-mini-2025-04-14) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
+| gpt-realtime, gpt-realtime-2025-08-28 |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-audio, gpt-audio-2025-08-28 |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-4o-audio |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-4o-realtime |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-realtime-mini, gpt-realtime-mini-2025-12-15 |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-audio-mini, gpt-audio-mini-2025-12-15 |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-4o-mini-realtime |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-4o-mini-audio |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-4o-mini-transcribe-2025-03-20 |  | deprecated | TBD | 2027-01-20 | Jul 20, 2026 |
+| gpt-5.5-cyber-preview |  | deprecated | TBD | 2027-02-01 | Nov 5, 2026 |
+| gpt-image-2, gpt-image-2-2026-04-21 |  | deprecated | TBD | 2027-02-10 | Nov 10, 2026 |
+| whisper-1 |  | deprecated | TBD | 2027-02-26 | Aug 26, 2026 |
+| gpt-4o-transcribe |  | deprecated | TBD | 2027-02-26 | Aug 26, 2026 |
+| gpt-4o-mini-transcribe, gpt-4o-mini-transcribe-2025-12-15 |  | deprecated | TBD | 2027-02-26 | Aug 26, 2026 |
+| gpt-4o-transcribe-diarize |  | deprecated | TBD | 2027-02-26 | Aug 26, 2026 |
+| /v1/audio/translations |  | deprecated | TBD | 2027-02-26 | Aug 26, 2026 |
+| gpt-5.3-codex |  | deprecated | TBD | 2027-04-01 | Oct 1, 2026 |
+| gpt-5.4-nano, gpt-5.4-nano-2026-03-17 |  | deprecated | TBD | 2027-04-01 | Oct 1, 2026 |
+| gpt-5.1, gpt-5.1-2025-11-13 |  | deprecated | TBD | 2027-04-01 | Oct 1, 2026 |
 
 ### Vertex AI
 
