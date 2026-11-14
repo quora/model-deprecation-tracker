@@ -3,61 +3,6 @@ VERSION:2.0
 PRODID:-//ModelDeprecationTracker//EN
 X-WR-CALNAME:Model Deprecations
 BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: /v1/prompts and reusable prompt object
- s
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Model: /v1/prompts and reusable prompt objects\nReplacement: J
- un 3\, 2026\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:/v1/prompts and reusable prompt objects shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:/v1/prompts and reusable prompt objects shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: Evals dashboard\, API\, and graders fo
- r eval workflows
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Model: Evals dashboard\, API\, and graders for eval workflows
- \nReplacement: Jun 3\, 2026\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Evals dashboard\, API\, and graders for eval workflows shutdow
- n in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Evals dashboard\, API\, and graders for eval workflows shutdow
- n in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: Agent Builder
-DTSTART;VALUE=DATE:20261130
-DTEND;VALUE=DATE:20261201
-DESCRIPTION:Model: Agent Builder\nReplacement: Jun 3\, 2026\nStatus: depre
- cated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Agent Builder shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Agent Builder shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-image-1-mini
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261202
@@ -260,23 +205,6 @@ BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-4o-mini-tts\, gpt-4o-mini-tts-2025-03-20\, gpt-4o-mini-tts
  -2025-12-15 shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: Self-serve fine-tuning job creation
-DTSTART;VALUE=DATE:20270106
-DTEND;VALUE=DATE:20270107
-DESCRIPTION:Model: Self-serve fine-tuning job creation\nReplacement: May 7
- \, 2026\nStatus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Self-serve fine-tuning job creation shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:Self-serve fine-tuning job creation shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
@@ -614,23 +542,6 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:[OpenAI] Model deprecation: /v1/audio/translations
-DTSTART;VALUE=DATE:20270226
-DTEND;VALUE=DATE:20270227
-DESCRIPTION:Model: /v1/audio/translations\nReplacement: Aug 26\, 2026\nSta
- tus: deprecated
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:/v1/audio/translations shutdown in 7 days
-TRIGGER:-P7D
-END:VALARM
-BEGIN:VALARM
-ACTION:DISPLAY
-DESCRIPTION:/v1/audio/translations shutdown in 30 days
-TRIGGER:-P30D
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: gpt-5.3-codex
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
@@ -678,6 +589,95 @@ END:VALARM
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gpt-5.1\, gpt-5.1-2025-11-13 shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/prompts and reusable prompt object
+ s
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Model: /v1/prompts and reusable prompt objects\nReplacement: J
+ un 3\, 2026\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/prompts and reusable prompt objects shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/prompts and reusable prompt objects shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: Evals dashboard\, API\, and graders fo
+ r eval workflows
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Model: Evals dashboard\, API\, and graders for eval workflows
+ \nReplacement: Jun 3\, 2026\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Evals dashboard\, API\, and graders for eval workflows shutdow
+ n in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Evals dashboard\, API\, and graders for eval workflows shutdow
+ n in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: Agent Builder
+DTSTART;VALUE=DATE:20261130
+DTEND;VALUE=DATE:20261201
+DESCRIPTION:Model: Agent Builder\nReplacement: Jun 3\, 2026\nStatus: depre
+ cated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Agent Builder shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Agent Builder shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: Self-serve fine-tuning job creation
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+DESCRIPTION:Model: Self-serve fine-tuning job creation\nReplacement: May 7
+ \, 2026\nStatus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Self-serve fine-tuning job creation shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Self-serve fine-tuning job creation shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: /v1/audio/translations
+DTSTART;VALUE=DATE:20270226
+DTEND;VALUE=DATE:20270227
+DESCRIPTION:Model: /v1/audio/translations\nReplacement: Aug 26\, 2026\nSta
+ tus: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/audio/translations shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:/v1/audio/translations shutdown in 30 days
 TRIGGER:-P30D
 END:VALARM
 END:VEVENT
@@ -4882,9 +4882,10 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Azure Foundry (Anthropic)] Model deprecation: claude-opus-4-5 (1)
-DTSTART;VALUE=DATE:20261124
-DTEND;VALUE=DATE:20261125
-DESCRIPTION:Model: claude-opus-4-5 (1)\nStatus: active
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+DESCRIPTION:Model: claude-opus-4-5 (1)\nReplacement: claude-opus-5-5\nStat
+ us: active
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-opus-4-5 (1) shutdown in 7 days
@@ -4916,9 +4917,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Azure Foundry (Anthropic)] Model deprecation: claude-haiku-4-5 (1
  )
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:Model: claude-haiku-4-5 (1)\nStatus: active
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+DESCRIPTION:Model: claude-haiku-4-5 (1)\nReplacement: claude-haiku-5-5\nSt
+ atus: active
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-haiku-4-5 (1) shutdown in 7 days
@@ -4933,9 +4935,10 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Azure Foundry (Anthropic)] Model deprecation: claude-haiku-4-5 (2
  )
-DTSTART;VALUE=DATE:20261115
-DTEND;VALUE=DATE:20261116
-DESCRIPTION:Model: claude-haiku-4-5 (2)\nStatus: active
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270223
+DESCRIPTION:Model: claude-haiku-4-5 (2)\nReplacement: claude-haiku-5-5\nSt
+ atus: active
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:claude-haiku-4-5 (2) shutdown in 7 days

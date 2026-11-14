@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-12*
+*Last updated: 2026-11-14*
 
 ### Anthropic
 
@@ -48,13 +48,13 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| claude-haiku-4-5 (1) |  | active | TBD | 🟡 2026-11-15 |  |
-| claude-haiku-4-5 (2) |  | active | TBD | 🟡 2026-11-15 |  |
-| claude-opus-4-5 (1) |  | active | TBD | 🟡 2026-11-24 |  |
 | claude-sonnet-4-5 (1) |  | active | TBD | 🟡 2026-11-30 | claude-sonnet-5-5 |
 | claude-opus-5-5-fast (2) |  | active | TBD | 2027-01-15 |  |
 | claude-opus-4-6 (1) |  | active | TBD | 2027-02-02 |  |
 | claude-sonnet-4-6 (1) |  | active | TBD | 2027-02-10 |  |
+| claude-opus-4-5 (1) |  | active | TBD | 2027-02-22 | claude-opus-5-5 |
+| claude-haiku-4-5 (1) |  | active | TBD | 2027-02-22 | claude-haiku-5-5 |
+| claude-haiku-4-5 (2) |  | active | TBD | 2027-02-22 | claude-haiku-5-5 |
 | claude-mythos-preview (gated research preview) |  | active | TBD | 2027-04-02 |  |
 | claude-opus-4-7 (1) |  | active | TBD | 2027-04-06 |  |
 | claude-sonnet-5 (2) |  | active | TBD | 2027-06-30 |  |
