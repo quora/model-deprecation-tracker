@@ -14,7 +14,11 @@ from scraper.bedrock_scraper import (
     _parse_model_card,
     scrape as scrape_bedrock,
 )
-from scraper.gemini_scraper import scrape as scrape_gemini
+from scraper.gemini_scraper import (
+    MARKDOWN_URL as GEMINI_MARKDOWN_URL,
+    URL as GEMINI_URL,
+    scrape as scrape_gemini,
+)
 
 FIXTURES_DIR = Path(__file__).parent / "fixtures"
 
@@ -459,3 +463,135 @@ class TestGeminiScraper:
             replacement="gemini-embedding-001",
             status="retired",
         )
+
+    def test_html_tables_skip_the_markdown_alternate(self, monkeypatch):
+        # A missing key raises KeyError, so this fails if the markdown page is fetched.
+        pages = {GEMINI_URL: _load_fixture("gemini.html")}
+        monkeypatch.setattr("scraper.gemini_scraper.fetch_page", pages.__getitem__)
+        assert len(scrape_gemini()) == 5
+
+    def test_reads_markdown_alternate_when_the_page_has_no_tables(self, monkeypatch):
+        pages = {
+            GEMINI_URL: "<html><body><div id='root'></div></body></html>",
+            GEMINI_MARKDOWN_URL: _load_fixture("gemini.md"),
+        }
+        monkeypatch.setattr("scraper.gemini_scraper.fetch_page", pages.__getitem__)
+        entries = scrape_gemini()
+        assert len(entries) == 6
+        assert {entry.provider for entry in entries} == {"Gemini"}
+
+    def test_markdown_parses_all_entries_and_ignores_text_outside_tables(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        assert [e.model_name for e in entries] == [
+            "gemini-3.8-flash-tts",
+            "gemini-3.7-flash",
+            "gemini-3.1-flash-lite",
+            "embedding-001",
+            "embedding-gecko-001",
+            "veo-3.0-generate-001",
+        ]
+
+    def test_markdown_entry_with_shutdown_date_and_replacement(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        entry = _by_name(entries)["gemini-3.1-flash-lite"]
+        assert entry == DeprecationEntry(
+            provider="Gemini",
+            model_name="gemini-3.1-flash-lite",
+            shutdown_date=datetime.date(2027, 5, 7),
+            replacement="gemini-3.5-flash-lite",
+            status=_status_at(datetime.date(2027, 5, 7), "deprecated"),
+        )
+
+    def test_markdown_retired_entry(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        entry = _by_name(entries)["embedding-001"]
+        assert entry == DeprecationEntry(
+            provider="Gemini",
+            model_name="embedding-001",
+            shutdown_date=datetime.date(2025, 10, 30),
+            replacement="gemini-embedding-2",
+            status="retired",
+        )
+
+    def test_markdown_shutdown_not_announced_stays_active(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        entry = _by_name(entries)["gemini-3.8-flash-tts"]
+        assert entry == DeprecationEntry(
+            provider="Gemini", model_name="gemini-3.8-flash-tts"
+        )
+
+    def test_markdown_na_shutdown_keeps_replacement_without_code_ticks(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        entry = _by_name(entries)["gemini-3.7-flash"]
+        assert entry.shutdown_date == UNKNOWN_DATE
+        assert entry.status == "active"
+        assert entry.replacement == (
+            "gemini-3.8-flash (gemini-3.7-flash is no longer available in Google AI "
+            "Studio; the endpoint is not shutting down and automatically routes API "
+            "requests to gemini-3.8-flash)"
+        )
+
+    def test_markdown_empty_release_cell_keeps_columns_aligned(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        entry = _by_name(entries)["embedding-gecko-001"]
+        assert entry.shutdown_date == datetime.date(2025, 10, 30)
+        assert entry.replacement == "gemini-embedding-2"
+
+    def test_markdown_link_in_replacement_keeps_only_its_text(self):
+        entries = scrape_gemini(markdown=_load_fixture("gemini.md"))
+        entry = _by_name(entries)["veo-3.0-generate-001"]
+        assert entry.replacement == (
+            "gemini-omni-1.1-flash or the GA models on the "
+            "Gemini Enterprise Agent Platform"
+        )
+
+    def test_markdown_cell_continues_on_indented_lines(self):
+        markdown = """{% table %}
+  * Model
+  * Shutdown date
+  * Recommended replacement
+
+  ---
+
+  * `model-a`
+  * May 7, 2027
+  * `model-b` for the long
+    migration notes
+{% /table %}"""
+        entry = scrape_gemini(markdown=markdown)[0]
+        assert entry.shutdown_date == datetime.date(2027, 5, 7)
+        assert entry.replacement == "model-b for the long migration notes"
+
+    def test_markdown_cell_text_is_not_read_as_html(self):
+        markdown = """{% table %}
+  * Model
+  * Shutdown date
+  * Recommended replacement
+
+  ---
+
+  * `model-a`
+  * May 7, 2027
+  * `model-b` & <c> or later
+{% /table %}"""
+        entry = scrape_gemini(markdown=markdown)[0]
+        assert entry.replacement == "model-b & <c> or later"
+
+    def test_markdown_bare_star_is_an_empty_cell(self):
+        markdown = """{% table %}
+  * Model
+  * Release date
+  * Shutdown date
+
+  ---
+
+  * `model-a`
+  *
+  * May 7, 2027
+{% /table %}"""
+        entry = scrape_gemini(markdown=markdown)[0]
+        assert entry.shutdown_date == datetime.date(2027, 5, 7)
+
+    def test_markdown_without_tables_returns_nothing(self):
+        markdown = "# Gemini deprecations\n\nNo tables here.\n"
+        assert scrape_gemini(markdown=markdown) == []

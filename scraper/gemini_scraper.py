@@ -1,4 +1,6 @@
 import datetime
+import re
+from html import escape
 
 from bs4 import BeautifulSoup
 from dateutil.parser import parse as parse_date
@@ -6,6 +8,16 @@ from dateutil.parser import parse as parse_date
 from scraper.base import UNKNOWN_DATE, DeprecationEntry, fetch_page
 
 URL = "https://ai.google.dev/gemini-api/docs/deprecations"
+# The page moved to AI Studio and renders client-side, so its HTML carries no
+# tables. The same tables are published as Markdoc on the markdown alternate.
+MARKDOWN_URL = "https://aistudio.google.com/docs/deprecations.md"
+
+MARKDOC_TABLE_RE = re.compile(
+    r"\{%\s*table\b[^%]*%\}(.*?)\{%\s*/table\s*%\}", re.DOTALL
+)
+MARKDOC_ROW_SEPARATOR_RE = re.compile(r"^\s*---\s*$")
+MARKDOC_CELL_RE = re.compile(r"^\s*\*(?:\s(.*))?$")
+MARKDOWN_LINK_RE = re.compile(r"\[([^\]]*)\]\([^)]*\)")
 
 
 def _parse_date_safe(text: str) -> datetime.date:
@@ -89,14 +101,59 @@ def _parse_table(table: BeautifulSoup) -> list[DeprecationEntry]:
     return entries
 
 
-def scrape(html: str = "") -> list[DeprecationEntry]:
-    if not html:
-        html = fetch_page(URL)
+def _markdoc_cell_text(text: str) -> str:
+    text = MARKDOWN_LINK_RE.sub(r"\1", text)
+    return " ".join(text.replace("`", "").split())
 
+
+def _markdoc_tables_to_html(markdown: str) -> str:
+    """Rewrite Markdoc `{% table %}` blocks as HTML tables for `_parse_table`.
+
+    Rows are separated by `---` lines and each cell is a `*` list item; the
+    first row is the header.
+    """
+    tables: list[str] = []
+
+    for block in MARKDOC_TABLE_RE.findall(markdown):
+        rows: list[list[str]] = [[]]
+        for line in block.splitlines():
+            cell = MARKDOC_CELL_RE.match(line)
+            if cell:
+                rows[-1].append(_markdoc_cell_text(cell.group(1) or ""))
+            elif MARKDOC_ROW_SEPARATOR_RE.match(line):
+                rows.append([])
+            elif line.strip() and rows[-1]:
+                rows[-1][-1] = _markdoc_cell_text(f"{rows[-1][-1]} {line}")
+
+        html_rows = []
+        for i, row in enumerate(r for r in rows if r):
+            tag = "th" if i == 0 else "td"
+            cells = "".join(f"<{tag}>{escape(text)}</{tag}>" for text in row)
+            html_rows.append(f"<tr>{cells}</tr>")
+        tables.append(f"<table>{''.join(html_rows)}</table>")
+
+    return "".join(tables)
+
+
+def _parse_html_tables(html: str) -> list[DeprecationEntry]:
     soup = BeautifulSoup(html, "html.parser")
     entries: list[DeprecationEntry] = []
 
     for table in soup.find_all("table"):
         entries.extend(_parse_table(table))
+
+    return entries
+
+
+def scrape(html: str = "", markdown: str = "") -> list[DeprecationEntry]:
+    fetched = not html and not markdown
+    if fetched:
+        html = fetch_page(URL)
+
+    entries = _parse_html_tables(html)
+    if fetched and not entries:
+        markdown = fetch_page(MARKDOWN_URL)
+    if markdown:
+        entries.extend(_parse_html_tables(_markdoc_tables_to_html(markdown)))
 
     return entries

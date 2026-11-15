@@ -86,10 +86,22 @@ def _preserve_confirmed_history(
 def main() -> None:
     previous_entries = _load_previous_entries()
     all_entries: list[DeprecationEntry] = []
+    empty_providers: list[str] = []
 
-    for _name, scrape_fn in ALL_SCRAPERS:
+    for name, scrape_fn in ALL_SCRAPERS:
         entries = scrape_fn()
+        if not entries:
+            empty_providers.append(name)
         all_entries.extend(entries)
+
+    # A scraper that finds nothing means its source page changed shape, not that
+    # every model was retired. Fail before the previous data is overwritten, for
+    # the history-preserved providers too: their history covers rows that vanish
+    # from a page, not an entirely empty scrape.
+    if empty_providers:
+        raise ValueError(
+            f"Scrapers returned no entries for: {', '.join(empty_providers)}"
+        )
 
     all_entries = _preserve_confirmed_history(all_entries, previous_entries)
     _validate_anthropic_history(all_entries, previous_entries)
