@@ -3349,7 +3349,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: codex-mini (2025-05-16
  )
 DTSTART;VALUE=DATE:20261115
 DTEND;VALUE=DATE:20261116
-DESCRIPTION:Model: codex-mini (2025-05-16)\nStatus: deprecated
+DESCRIPTION:Model: codex-mini (2025-05-16)\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:codex-mini (2025-05-16) shutdown in 7 days
