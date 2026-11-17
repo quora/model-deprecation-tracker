@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-15*
+*Last updated: 2026-11-17*
 
 ### Anthropic
 
@@ -78,8 +78,8 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | sora-2 (2025-12-08) |  | retired | TBD | 🔴 2026-10-15 |  |
 | gpt-image-1 (2025-04-15) |  | retired | TBD | 🔴 2026-10-23 |  |
 | codex-mini (2025-05-16) |  | retired | TBD | 🔴 2026-11-15 |  |
-| gpt-chat-latest (2026-05-05) |  | active | TBD | 🟡 2026-11-17 |  |
-| gpt-chat-latest (2026-06-24) |  | active | TBD | 🟡 2026-11-17 |  |
+| gpt-chat-latest (2026-05-05) |  | retired | TBD | 🔴 2026-11-17 |  |
+| gpt-chat-latest (2026-06-24) |  | retired | TBD | 🔴 2026-11-17 |  |
 | o1 (2024-12-17) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-sol |
 | o1-pro (2025-03-19) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-sol |
 | o3 (2025-04-16) |  | deprecated | TBD | 🟡 2026-11-19 | gpt-5.6-sol |
@@ -92,7 +92,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | tts (001) |  | active | TBD | 🟡 2026-12-15 |  |
 | tts-hd (001) |  | active | TBD | 🟡 2026-12-15 |  |
 | whisper (001) |  | active | TBD | 🟡 2026-12-15 |  |
-| gpt-image-1.5 (2025-12-16) |  | active | TBD | 2026-12-16 |  |
+| gpt-image-1.5 (2025-12-16) |  | active | TBD | 🟡 2026-12-16 |  |
 | gpt-chat-latest (2026-08-06) |  | active | TBD | 2027-01-12 |  |
 | gpt-4o (2024-05-13) |  | deprecated | TBD | 2027-01-14 | gpt-5.1 (2025-11-13) |
 | gpt-realtime-2 (2026-05-06) |  | active | TBD | 2027-01-20 | gpt-realtime-2.1 |

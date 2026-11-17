@@ -2103,7 +2103,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-17",
     "replacement": "",
-    "status": "active"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2121,7 +2121,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-17",
     "replacement": "",
-    "status": "active"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
