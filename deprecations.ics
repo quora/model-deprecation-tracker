@@ -4212,8 +4212,8 @@ END:VEVENT
 BEGIN:VEVENT
 SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: gpt-image-1.5 (2025-12
  -16)
-DTSTART;VALUE=DATE:20261216
-DTEND;VALUE=DATE:20261217
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270617
 DESCRIPTION:Model: gpt-image-1.5 (2025-12-16)\nStatus: active
 BEGIN:VALARM
 ACTION:DISPLAY
@@ -4435,8 +4435,8 @@ BEGIN:VEVENT
 SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o1 (2024-12-17)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DESCRIPTION:Model: o1 (2024-12-17)\nReplacement: gpt-5.6-sol\nStatus: depr
- ecated
+DESCRIPTION:Model: o1 (2024-12-17)\nReplacement: gpt-5.6-sol\nStatus: reti
+ red
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o1 (2024-12-17) shutdown in 7 days
@@ -4453,7 +4453,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o1-pro (2025-03-19)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 DESCRIPTION:Model: o1-pro (2025-03-19)\nReplacement: gpt-5.6-sol\nStatus: 
- deprecated
+ retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o1-pro (2025-03-19) shutdown in 7 days
@@ -4469,8 +4469,8 @@ BEGIN:VEVENT
 SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o3 (2025-04-16)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
-DESCRIPTION:Model: o3 (2025-04-16)\nReplacement: gpt-5.6-sol\nStatus: depr
- ecated
+DESCRIPTION:Model: o3 (2025-04-16)\nReplacement: gpt-5.6-sol\nStatus: reti
+ red
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o3 (2025-04-16) shutdown in 7 days
@@ -4488,7 +4488,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o3-deep-research (2025
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 DESCRIPTION:Model: o3-deep-research (2025-06-26)\nReplacement: gpt-5.6-sol
- \nStatus: deprecated
+ \nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o3-deep-research (2025-06-26) shutdown in 7 days
@@ -4505,7 +4505,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o3-mini (2025-01-31)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 DESCRIPTION:Model: o3-mini (2025-01-31)\nReplacement: gpt-5.6-terra\nStatu
- s: deprecated
+ s: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o3-mini (2025-01-31) shutdown in 7 days
@@ -4522,7 +4522,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o3-pro (2025-06-10)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 DESCRIPTION:Model: o3-pro (2025-06-10)\nReplacement: gpt-5.6-sol\nStatus: 
- deprecated
+ retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o3-pro (2025-06-10) shutdown in 7 days
@@ -4539,7 +4539,7 @@ SUMMARY:[Azure Foundry (OpenAI)] Model deprecation: o4-mini (2025-04-16)
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 DESCRIPTION:Model: o4-mini (2025-04-16)\nReplacement: gpt-5.6-terra\nStatu
- s: deprecated
+ s: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:o4-mini (2025-04-16) shutdown in 7 days

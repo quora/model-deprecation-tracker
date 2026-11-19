@@ -2164,7 +2164,7 @@
     "model_name": "gpt-image-1.5 (2025-12-16)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-12-16",
+    "shutdown_date": "2027-06-16",
     "replacement": "",
     "status": "active"
   },
@@ -2283,7 +2283,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2292,7 +2292,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2301,7 +2301,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2310,7 +2310,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2319,7 +2319,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-terra",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2328,7 +2328,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-sol",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2337,7 +2337,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-terra",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
