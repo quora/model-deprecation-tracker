@@ -18,7 +18,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-18*
+*Last updated: 2026-11-19*
 
 ### Anthropic
 
@@ -109,6 +109,7 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | gpt-4o-mini-tts-2025-03-20 |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
 | gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
 | Self-serve fine-tuning job creation |  | deprecated | TBD | 2027-01-06 | May 7, 2026 |
+| GPT-5.2, GPT-5.4, and GPT-5.4 mini with EU data residency and service_tier: fast or priority |  | deprecated | TBD | 2027-01-11 | Nov 18, 2026 |
 | GPT-4o (gpt-4o-2024-08-06, gpt-4o-2024-11-20) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
 | GPT-4o mini (gpt-4o-mini-2024-07-18) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
 | GPT-4.1 (gpt-4.1-2025-04-14) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
@@ -149,7 +150,7 @@ Note: Slack deprecation alerts disabled since we rely on Bedrock dates.
 | gemini-2.5-pro | gemini-2.5-pro | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash |
 | gemini-2.5-flash | gemini-2.5-flash | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash-lite |
 | gemini-2.5-flash-lite | gemini-2.5-flash-lite | retired | TBD | 🔴 2026-10-20 | gemini-3.8-flash or gemini-3.5-flash-lite or Gemma 4 |
-| gemini-3.6-flash | gemini-3.6-flash | deprecated | TBD | 🟡 2026-11-19 | gemini-3.8-flash |
+| gemini-3.6-flash | gemini-3.6-flash | retired | TBD | 🔴 2026-11-19 | gemini-3.8-flash |
 | Anthropic's Claude Sonnet 4.5 on Google Cloud | Anthropic's Claude Sonnet 4.5 on Google Cloud | deprecated | 2026-09-29 | 🟡 2026-11-30 |  |
 | gemini-live-2.5-flash-native-audio | gemini-live-2.5-flash-native-audio | deprecated | TBD | 🟡 2026-12-13 | gemini-3.8-live |
 | gemini-3.7-flash | gemini-3.7-flash | deprecated | TBD | 2027-01-28 | gemini-3.8-flash |

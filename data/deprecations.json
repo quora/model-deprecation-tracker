@@ -496,6 +496,15 @@
   },
   {
     "provider": "OpenAI",
+    "model_name": "GPT-5.2, GPT-5.4, and GPT-5.4 mini with EU data residency and service_tier: fast or priority",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-11",
+    "replacement": "Nov 18, 2026",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "/v1/audio/translations",
     "model_id": "",
     "deprecated_date": "",
@@ -2058,7 +2067,7 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gemini-3.8-flash",
-    "status": "deprecated"
+    "status": "retired"
   },
   {
     "provider": "Vertex AI",

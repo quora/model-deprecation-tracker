@@ -939,6 +939,27 @@ TRIGGER:-P30D
 END:VALARM
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:[OpenAI] Model deprecation: GPT-5.2\, GPT-5.4\, and GPT-5.4 mini w
+ ith EU data residency and service_tier: fast or priority
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+DESCRIPTION:Model: GPT-5.2\, GPT-5.4\, and GPT-5.4 mini with EU data resid
+ ency and service_tier: fast or priority\nReplacement: Nov 18\, 2026\nStatu
+ s: deprecated
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GPT-5.2\, GPT-5.4\, and GPT-5.4 mini with EU data residency an
+ d service_tier: fast or priority shutdown in 7 days
+TRIGGER:-P7D
+END:VALARM
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:GPT-5.2\, GPT-5.4\, and GPT-5.4 mini with EU data residency an
+ d service_tier: fast or priority shutdown in 30 days
+TRIGGER:-P30D
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:[OpenAI] Model deprecation: /v1/audio/translations
 DTSTART;VALUE=DATE:20270226
 DTEND;VALUE=DATE:20270227
@@ -4004,7 +4025,7 @@ SUMMARY:[Vertex AI] Model deprecation: gemini-3.6-flash
 DTSTART;VALUE=DATE:20261119
 DTEND;VALUE=DATE:20261120
 DESCRIPTION:Model: gemini-3.6-flash\nModel ID: gemini-3.6-flash\nReplaceme
- nt: gemini-3.8-flash\nStatus: deprecated
+ nt: gemini-3.8-flash\nStatus: retired
 BEGIN:VALARM
 ACTION:DISPLAY
 DESCRIPTION:gemini-3.6-flash shutdown in 7 days
