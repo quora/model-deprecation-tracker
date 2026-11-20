@@ -343,6 +343,15 @@
   },
   {
     "provider": "OpenAI",
+    "model_name": "GPT-5.2, GPT-5.4, and GPT-5.4 mini with EU data residency and service_tier: fast or priority",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-01-11",
+    "replacement": "Nov 18, 2026",
+    "status": "deprecated"
+  },
+  {
+    "provider": "OpenAI",
     "model_name": "/v1/audio/translations",
     "model_id": "",
     "deprecated_date": "",
@@ -1705,7 +1714,7 @@
     "model_name": "codex-mini (2025-05-16)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-11-15",
+    "shutdown_date": "2026-11-17",
     "replacement": "",
     "status": "retired"
   },
@@ -1777,9 +1786,9 @@
     "model_name": "gpt-4o-mini-transcribe (2025-03-20)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-15",
+    "shutdown_date": "2027-01-20",
     "replacement": "",
-    "status": "retired"
+    "status": "active"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -1795,9 +1804,9 @@
     "model_name": "gpt-4o-mini-tts (2025-03-20)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-15",
+    "shutdown_date": "2027-01-20",
     "replacement": "",
-    "status": "retired"
+    "status": "active"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -1813,9 +1822,9 @@
     "model_name": "gpt-4o-transcribe (2025-03-20)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-15",
+    "shutdown_date": "2027-02-26",
     "replacement": "",
-    "status": "retired"
+    "status": "active"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -1834,24 +1843,6 @@
     "shutdown_date": "2027-02-09",
     "replacement": "",
     "status": "active"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-5-chat (2025-08-07)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-06-29",
-    "replacement": "gpt-chat-latest",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-5-chat (2025-10-03)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-05-13",
-    "replacement": "gpt-chat-latest",
-    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -1900,15 +1891,6 @@
   },
   {
     "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-5.1-chat (2025-11-13)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-06-29",
-    "replacement": "gpt-chat-latest",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
     "model_name": "gpt-5.1-codex (2025-11-13)",
     "model_id": "",
     "deprecated_date": "",
@@ -1945,39 +1927,12 @@
   },
   {
     "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-5.2-chat (2025-12-11)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-05-13",
-    "replacement": "gpt-chat-latest",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-5.2-chat (2026-02-10)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-06-29",
-    "replacement": "gpt-chat-latest",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
     "model_name": "gpt-5.2-codex (2026-01-14)",
     "model_id": "",
     "deprecated_date": "",
     "shutdown_date": "2027-07-13",
     "replacement": "",
     "status": "active"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-5.3-chat (2026-03-03)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-06-29",
-    "replacement": "gpt-chat-latest",
-    "status": "retired"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
@@ -2062,6 +2017,51 @@
   },
   {
     "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-6-astra (2026-09-03)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2028-01-11",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-6-luna (2026-09-22)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2028-03-11",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-6-sol (2026-09-22)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2028-03-11",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-6.1-sol (2026-09-29)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2028-03-11",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-6.1-terra (2026-10-26)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-10-26",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
     "model_name": "gpt-audio (2025-08-28)",
     "model_id": "",
     "deprecated_date": "",
@@ -2137,7 +2137,7 @@
     "model_name": "gpt-chat-latest (2026-10-07)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-05-18",
+    "shutdown_date": "2027-02-02",
     "replacement": "",
     "status": "active"
   },
@@ -2146,7 +2146,7 @@
     "model_name": "gpt-image-1 (2025-04-15)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-10-23",
+    "shutdown_date": "2026-10-28",
     "replacement": "",
     "status": "retired"
   },
@@ -2197,6 +2197,24 @@
   },
   {
     "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-live-1 (2026-09-10)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2027-09-10",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-live-transcribe (2026-07-28)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2028-02-01",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
     "model_name": "gpt-realtime (2025-08-28)",
     "model_id": "",
     "deprecated_date": "",
@@ -2227,7 +2245,7 @@
     "model_name": "gpt-realtime-2.1 (2026-07-07)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-06-25",
+    "shutdown_date": "2027-07-31",
     "replacement": "",
     "status": "active"
   },
@@ -2236,7 +2254,7 @@
     "model_name": "gpt-realtime-2.1-mini (2026-07-07)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-06-25",
+    "shutdown_date": "2027-07-31",
     "replacement": "",
     "status": "active"
   },
@@ -2260,19 +2278,28 @@
   },
   {
     "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-realtime-mini (2025-10-06)",
+    "model_name": "gpt-realtime-translate (2026-05-06)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-09-21",
+    "shutdown_date": "2027-11-09",
     "replacement": "",
-    "status": "retired"
+    "status": "active"
   },
   {
     "provider": "Azure Foundry (OpenAI)",
-    "model_name": "gpt-realtime-mini (2025-12-15)",
+    "model_name": "gpt-realtime-whisper (2026-05-06)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2026-12-15",
+    "shutdown_date": "2027-11-09",
+    "replacement": "",
+    "status": "active"
+  },
+  {
+    "provider": "Azure Foundry (OpenAI)",
+    "model_name": "gpt-transcribe (2026-07-28)",
+    "model_id": "",
+    "deprecated_date": "",
+    "shutdown_date": "2028-02-01",
     "replacement": "",
     "status": "active"
   },
@@ -2337,24 +2364,6 @@
     "deprecated_date": "",
     "shutdown_date": "2026-11-19",
     "replacement": "gpt-5.6-terra",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
-    "model_name": "sora-2 (2025-10-06)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-07-15",
-    "replacement": "sora-2 (2025-12-08)",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (OpenAI)",
-    "model_name": "sora-2 (2025-12-08)",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-10-15",
-    "replacement": "",
     "status": "retired"
   },
   {
@@ -2530,15 +2539,6 @@
   },
   {
     "provider": "Azure Foundry (Anthropic)",
-    "model_name": "claude-opus-4-1",
-    "model_id": "",
-    "deprecated_date": "",
-    "shutdown_date": "2026-08-05",
-    "replacement": "claude-opus-5",
-    "status": "retired"
-  },
-  {
-    "provider": "Azure Foundry (Anthropic)",
     "model_name": "claude-haiku-4-5 (1)",
     "model_id": "",
     "deprecated_date": "",
@@ -2560,7 +2560,7 @@
     "model_name": "claude-fable-5-1 (1)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-12-05",
+    "shutdown_date": "2027-12-07",
     "replacement": "",
     "status": "active"
   },
@@ -2569,7 +2569,7 @@
     "model_name": "claude-fable-5 (1)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-12-05",
+    "shutdown_date": "2027-12-07",
     "replacement": "",
     "status": "active"
   },
@@ -2578,7 +2578,7 @@
     "model_name": "claude-mythos-5-1 (1)",
     "model_id": "",
     "deprecated_date": "",
-    "shutdown_date": "2027-09-01",
+    "shutdown_date": "2027-12-07",
     "replacement": "",
     "status": "active"
   },

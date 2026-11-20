@@ -19,7 +19,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 
 <!-- DEPRECATION_TABLE_START -->
 
-*Last updated: 2026-11-19*
+*Last updated: 2026-11-20*
 
 ### Anthropic
 
@@ -63,21 +63,16 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | claude-opus-5 (1) |  | active | TBD | 2027-07-08 |  |
 | claude-opus-4-8 (2) |  | active | TBD | 2027-09-01 |  |
 | claude-opus-4-8 (1) |  | active | TBD | 2027-09-01 |  |
-| claude-mythos-5-1 (1) |  | active | TBD | 2027-09-01 |  |
-| claude-fable-5-1 (1) |  | active | TBD | 2027-12-05 |  |
-| claude-fable-5 (1) |  | active | TBD | 2027-12-05 |  |
+| claude-fable-5-1 (1) |  | active | TBD | 2027-12-07 |  |
+| claude-fable-5 (1) |  | active | TBD | 2027-12-07 |  |
+| claude-mythos-5-1 (1) |  | active | TBD | 2027-12-07 |  |
 
 ### Azure Foundry (OpenAI)
 
 | Model | Model ID | Status | Deprecated | Shutdown | Replacement |
 |-------|----------|--------|------------|----------|-------------|
-| gpt-realtime-mini (2025-10-06) |  | retired | TBD | 🔴 2026-09-21 |  |
-| gpt-4o-mini-transcribe (2025-03-20) |  | retired | TBD | 🔴 2026-10-15 |  |
-| gpt-4o-mini-tts (2025-03-20) |  | retired | TBD | 🔴 2026-10-15 |  |
-| gpt-4o-transcribe (2025-03-20) |  | retired | TBD | 🔴 2026-10-15 |  |
-| sora-2 (2025-12-08) |  | retired | TBD | 🔴 2026-10-15 |  |
-| gpt-image-1 (2025-04-15) |  | retired | TBD | 🔴 2026-10-23 |  |
-| codex-mini (2025-05-16) |  | retired | TBD | 🔴 2026-11-15 |  |
+| gpt-image-1 (2025-04-15) |  | retired | TBD | 🔴 2026-10-28 |  |
+| codex-mini (2025-05-16) |  | retired | TBD | 🔴 2026-11-17 |  |
 | gpt-chat-latest (2026-05-05) |  | retired | TBD | 🔴 2026-11-17 |  |
 | gpt-chat-latest (2026-06-24) |  | retired | TBD | 🔴 2026-11-17 |  |
 | o1 (2024-12-17) |  | retired | TBD | 🔴 2026-11-19 | gpt-5.6-sol |
@@ -88,15 +83,18 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | o3-pro (2025-06-10) |  | retired | TBD | 🔴 2026-11-19 | gpt-5.6-sol |
 | o4-mini (2025-04-16) |  | retired | TBD | 🔴 2026-11-19 | gpt-5.6-terra |
 | gpt-chat-latest (2026-05-28) |  | active | TBD | 🟡 2026-12-08 |  |
-| gpt-realtime-mini (2025-12-15) |  | active | TBD | 🟡 2026-12-15 |  |
 | tts (001) |  | active | TBD | 🟡 2026-12-15 |  |
 | tts-hd (001) |  | active | TBD | 🟡 2026-12-15 |  |
 | whisper (001) |  | active | TBD | 🟡 2026-12-15 |  |
 | gpt-chat-latest (2026-08-06) |  | active | TBD | 2027-01-12 |  |
 | gpt-4o (2024-05-13) |  | deprecated | TBD | 2027-01-14 | gpt-5.1 (2025-11-13) |
+| gpt-4o-mini-transcribe (2025-03-20) |  | active | TBD | 2027-01-20 |  |
+| gpt-4o-mini-tts (2025-03-20) |  | active | TBD | 2027-01-20 |  |
 | gpt-realtime-2 (2026-05-06) |  | active | TBD | 2027-01-20 | gpt-realtime-2.1 |
+| gpt-chat-latest (2026-10-07) |  | active | TBD | 2027-02-02 |  |
 | gpt-5 (2025-08-07) |  | active | TBD | 2027-02-09 |  |
 | gpt-5-nano (2025-08-07) |  | active | TBD | 2027-02-09 |  |
+| gpt-4o-transcribe (2025-03-20) |  | active | TBD | 2027-02-26 |  |
 | gpt-audio (2025-08-28) |  | active | TBD | 2027-03-02 |  |
 | gpt-realtime (2025-08-28) |  | active | TBD | 2027-03-02 |  |
 | gpt-5-codex (2025-09-15) |  | active | TBD | 2027-03-17 |  |
@@ -114,18 +112,17 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.1-codex (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex-mini (2025-11-13) |  | active | TBD | 2027-05-15 |  |
 | gpt-5.1-codex-max (2025-12-04) |  | active | TBD | 2027-05-18 |  |
-| gpt-chat-latest (2026-10-07) |  | active | TBD | 2027-05-18 |  |
 | gpt-5.2 (2025-12-11) |  | active | TBD | 2027-06-08 |  |
 | gpt-4o-mini-transcribe (2025-12-15) |  | active | TBD | 2027-06-15 |  |
 | gpt-4o-mini-tts (2025-12-15) |  | active | TBD | 2027-06-15 |  |
 | gpt-audio-mini (2025-12-15) |  | active | TBD | 2027-06-15 |  |
 | gpt-realtime-mini (2025-12-15) |  | active | TBD | 2027-06-15 |  |
 | gpt-image-1.5 (2025-12-16) |  | active | TBD | 2027-06-16 |  |
-| gpt-realtime-2.1 (2026-07-07) |  | active | TBD | 2027-06-25 |  |
-| gpt-realtime-2.1-mini (2026-07-07) |  | active | TBD | 2027-06-25 |  |
 | gpt-5-mini (2025-08-07) |  | active | TBD | 2027-07-13 |  |
 | gpt-5.1 (2025-11-13) |  | active | TBD | 2027-07-13 |  |
 | gpt-5.2-codex (2026-01-14) |  | active | TBD | 2027-07-13 |  |
+| gpt-realtime-2.1 (2026-07-07) |  | active | TBD | 2027-07-31 |  |
+| gpt-realtime-2.1-mini (2026-07-07) |  | active | TBD | 2027-07-31 |  |
 | gpt-5.3-codex (2026-02-24) |  | active | TBD | 2027-08-24 |  |
 | gpt-audio-1.5 (2026-02-23) |  | active | TBD | 2027-08-24 |  |
 | gpt-realtime-1.5 (2026-02-23) |  | active | TBD | 2027-08-24 |  |
@@ -133,17 +130,27 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | gpt-5.4-pro (2026-03-05) |  | active | TBD | 2027-09-07 |  |
 | gpt-image-2.5-flare (2026-09-09) |  | active | TBD | 2027-09-09 |  |
 | gpt-image-2.5-sunburst (2026-09-09) |  | active | TBD | 2027-09-09 |  |
+| gpt-live-1 (2026-09-10) |  | active | TBD | 2027-09-10 |  |
 | gpt-5.4-mini (2026-03-17) |  | active | TBD | 2027-09-21 |  |
 | gpt-5.4-nano (2026-03-17) |  | active | TBD | 2027-09-21 |  |
 | gpt-image-2 (2026-04-21) |  | active | TBD | 2027-10-21 |  |
 | gpt-5.5 (2026-04-24) |  | active | TBD | 2027-10-26 |  |
+| gpt-6.1-terra (2026-10-26) |  | active | TBD | 2027-10-26 |  |
+| gpt-realtime-translate (2026-05-06) |  | active | TBD | 2027-11-09 |  |
+| gpt-realtime-whisper (2026-05-06) |  | active | TBD | 2027-11-09 |  |
 | gpt-5.6-luna (2026-07-09) |  | active | TBD | 2028-01-11 |  |
 | gpt-5.6-sol (2026-07-09) |  | active | TBD | 2028-01-11 |  |
 | gpt-5.6-terra (2026-07-09) |  | active | TBD | 2028-01-11 |  |
+| gpt-6-astra (2026-09-03) |  | active | TBD | 2028-01-11 |  |
+| gpt-live-transcribe (2026-07-28) |  | active | TBD | 2028-02-01 |  |
+| gpt-transcribe (2026-07-28) |  | active | TBD | 2028-02-01 |  |
 | text-embedding-3-large (1) |  | active | TBD | 2028-02-09 |  |
 | text-embedding-3-small (1) |  | active | TBD | 2028-02-09 |  |
 | text-embedding-ada-002 (1) |  | active | TBD | 2028-02-09 |  |
 | text-embedding-ada-002 (2) |  | active | TBD | 2028-02-09 |  |
+| gpt-6-luna (2026-09-22) |  | active | TBD | 2028-03-11 |  |
+| gpt-6-sol (2026-09-22) |  | active | TBD | 2028-03-11 |  |
+| gpt-6.1-sol (2026-09-29) |  | active | TBD | 2028-03-11 |  |
 
 ### OpenAI
 
@@ -189,6 +196,7 @@ Download [deprecations.ics](deprecations.ics) and import it into your calendar a
 | tts-1-hd |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
 | gpt-4o-mini-tts, gpt-4o-mini-tts-2025-03-20, gpt-4o-mini-tts-2025-12-15 |  | deprecated | TBD | 2027-01-06 | Oct 1, 2026 |
 | Self-serve fine-tuning job creation |  | deprecated | TBD | 2027-01-06 | May 7, 2026 |
+| GPT-5.2, GPT-5.4, and GPT-5.4 mini with EU data residency and service_tier: fast or priority |  | deprecated | TBD | 2027-01-11 | Nov 18, 2026 |
 | GPT-4o (gpt-4o-2024-08-06, gpt-4o-2024-11-20) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
 | GPT-4o mini (gpt-4o-mini-2024-07-18) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
 | GPT-4.1 (gpt-4.1-2025-04-14) |  | deprecated | TBD | 2027-01-14 | Oct 14, 2026 |
